@@ -1,0 +1,35 @@
+
+.footer {
+  position:sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 5px;
+  letter-spacing: 2.5px;
+  font-size: 11px;
+  height: auto !important;
+
+  
+}
+
+.disclaimer {
+	margin: 10px;
+	}
+	
+.foot-menu {
+	text-align: center;
+	}
+a:link, a:visited {
+	text-decoration:none;
+    color: #f9fdf7;
+    background-color: transparent;
+}
+a:hover, a:active {
+    text-decoration:none;
+    color:#c4c4c4;
+}
+	

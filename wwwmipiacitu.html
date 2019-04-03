@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--style per timeline-->
+    <style> 
+    .nav-link {
+            margin-right: 15px;
+            }
+
+    .navbar-toggler-icon {
+            background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
+            }
+
+    .dropdown-item {
+            color: #FFFFFF;
+            }
+
+    .card-img-top {
+            width: 100%;
+            height: vh;
+            object-fit: cover;
+            } 
+
+    .footer {
+            position:sticky;
+            left: 0;
+            width: 100%;
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            font-family: Helvetica, Arial, sans-serif;
+            padding: 5px;
+            letter-spacing: 2.5px;
+            font-size: 11px;
+            padding-top: 15px; 
+            
+                }
+
+    .disclaimer {
+            margin: 10px;
+                }
+      
+    .foot-menu {
+            text-align: center;
+                }
+    a:link, a:visited {
+            text-decoration:none;
+            color: #f9fdf7;
+            background-color: transparent;
+    }
+    a:hover, a:active {
+        text-decoration:none;
+        color:#c4c4c4;
+    }
+      
+    /* .section SECTION */
+
+.container {
+  width: 70%; /*lunghezza timeline*/
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif /*per cambiare il font*/
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline {
+  white-space: nowrap; /*per non farli sovrapporre*/
+  overflow-x: hidden;
+}
+
+.timeline ol {
+  font-size: 0px;
+  width: 20px;
+  padding: 70px;
+  transition: all 1s; /*caricamento timeline lento (sfumato)*/
+}
+
+.timeline ol li {
+  position: relative;
+  display: inline-block;
+  width: 80px; /*distanza tra i pallini*/
+  height: 2px; /*spessore linea*/
+  background: black; /*colore linea*/
+  margin-left: 14px;
+}
+
+.timeline ol li:last-child {
+  width: 100px;
+} /*lunghezza ultimo tratto linea*/
+
+
+
+.timeline ol li:not(:last-child)::after { /*per modificare i pallini*/
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 1px);
+  width: 12px;
+  height: 12px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: grey;
+}
+
+.timeline ol li div {
+  position: absolute;
+  left: calc(80% + 7px); /*fa spostare il testo*/
+  width: 20px;
+  padding: 1px;
+  color:black; /*colore testo*/
+  background: white;
+}
+
+.timeline ol li:nth-child(odd) div {
+  top: -16px;
+  transform: translateY(-100%);
+}
+
+.timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+}
+
+
+.timeline time {
+  display: inline-block;
+  font-size: 16px; /*dimensione del testo*/
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000; padding: 5px; font-family: Helvetica, Arial, sans-serif; letter-spacing: 2.5px; font-size: 11px;">
+      <a>
+          <img src="logo.png" width="25px" height="25px">
+        </a>
+      <a class="nav-link" href="#" style=" color: #FFFFFF;">PARALLELS</a>
+        <button class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav">
+          <li class="btn-group" >
+            <button class="btn btn-primary dropdown-toggle mr-4" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #000000; font-family: Helvetica, Arial, sans-serif; letter-spacing: 2.5px; font-size: 11px; border: none; color: #808080; padding-left: 0px; padding-right: 0px">DOCUMENTS</button>
+                <div class="dropdown-menu" style="background-color: #000000; font-size:11px; color: #FFFFFF;">
+                    <a class="dropdown-item" href="#">DOC 1</a>
+                    <a class="dropdown-item" href="#">DOC 2</a>
+                    <a class="dropdown-item" href="#">DOC 3</a>
+                    <a class="dropdown-item" href="#">DOC 4</a>
+                    <a class="dropdown-item" href="#">DOC 5</a>
+                    <a class="dropdown-item" href="#">DOC 6</a>
+                </div></li>
+          <li class="nav-item"><a class="nav-link" href="#" role="button" data-toggle="modal">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" role="button" data-toggle="modal">DISCALIMER</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" role="button" data-toggle="modal">DOCUMENTATION</a></li>
+        </ul>
+      </div>
+
+    </nav>
+     <div class="container">
+
+            <!---------------------------TITOLO----------------------------------->
+            <div class="row"> 
+                <div class="col-md-3"></div>
+                <div class="col-md-6" align="center"><h1>PARALLELS</h1></div>
+                <div class="col-md-3"></div>
+            </div>
+            <!-------------------------TIMELINE--------------------------------------->
+            <div class="row"> 
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <section class="timeline">
+                        <ol>
+                            <li><div><time>1600</time></div></li>
+                            <li><div><time>1800</time></div></li>
+                            <li><div><time>1900-1950 </time></div></li>
+                            <li><div><time>1951-1970</time></div></li>
+                            <li><div><time>1971-2000</time></div></li>
+                            <li><div><time>2019 </time></div></li>
+                            <li><div><time>2040</time></div></li>
+                            <li></li> <!-- elemento vuoto per bloccare la timeline -->
+                        </ol>
+                    </section>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            
+            <!----------------------------------------CARDS------------------------------------------>
+            <div class="container-fluid pt-5">  <!--pt-5 = padding top = $spacer * 3-->
+                <div class="row"> <!--ROW 1-->
+                    <!--CARD 1-->
+                    <div class="col-md-4">
+                        <div class="card mb-4"> <!--mb-4 = margin bottom = $spacer * 1.5-->
+                            <img class="card-img-top" src="https://github.com/LuciaGiagnolini12/TTTT/blob/master/card1.jpg?raw=true" alt="Card image artcile- bloomberg" height="225px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Japan’s Prisons Are a Haven for Elderly Women</h5>
+                                    <p class="card-text">Every aging society faces distinct challenges. But Japan, with the world’s oldest population (27.3 percent of its citizens are 65 or older, almost twice the share in the U.S.), has been dealing with one it didn’t foresee: senior crime. Complaints and arrests involving elderly people, and women in particular, are taking place at rates above those of any other demographic group. Almost 1 in 5 women in Japanese prisons is a senior.
+                  </p>
+                                    <a href="#">Read more</a>
+                                 </div>
+                        </div>
+                    </div> 
+                    
+                    <!--CARD 2-->
+                    <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img class="card-img-top" src="https://github.com/LuciaGiagnolini12/TTTT/blob/master/card2.png?raw=true" alt="Card image article2-Harpers" height="225px" >
+                                    <div class="card-body">
+                                        <h5 class="card-title">As Goes the South, so Goes the Nation</h5>
+                                        <p class="card-text">Mobile Bay is shaped like a baby’s foot, fat and uncallused. The water is murky teal. At the shore, crisp sea oats jut upward, proud. The seaweed lies liquid and listless. The city at the shore is old. In 1702, Mobile was the capital of French Louisiana, later usurped by New Orleans. ­NOLA would also claim Mardi Gras and the reputation for being simultaneously the most European and the most African of US cities. </p>
+                                        <a href="#">Read more</a>
+                                     </div>
+                            </div>
+                    </div>
+                    
+                    <!--CARD 3-->
+                    <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img class="card-img-top" src="https://github.com/LuciaGiagnolini12/TTTT/blob/master/card3.jpg?raw=true" alt="Card image article3-HufftingtonPost" height="225px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jerry and Marge Go Large</h5>
+                    <p class="card-text">Gerald Selbee broke the code of the American breakfast cereal industry because he was bored at work one day, because it was a fun mental challenge, because most things at his job were not fun and because he could—because he happened to be the kind of person who saw puzzles all around him, puzzles that other people don’t realize are puzzles: the little ciphers and patterns that float through the world and stick to the surfaces of everyday things..</p>
+                                        <a href="#">Read more</a>
+                                     </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="row"> <!--ROW 2-->
+                    <!--CARD 4-->
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="https://github.com/LuciaGiagnolini12/TTTT/blob/master/card4.jpg?raw=true" alt="Card image article4-TheCut" height="225px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maybe She Had So Much Money She Just Lost Track of It</h5>
+                                    <p class="card-text">It started with money, as it so often does in New York. A crisp $100 bill slipped across the smooth surface of the mid-century-inspired concierge desk at 11 Howard, the sleek new boutique hotel in Soho. She had a heart-shaped face and pouty lips surrounded by a wild tangle of red hair, her eyes framed by incongruously chunky black glasses that Neff, identified as Céline.</p>
+                                    <a href="#">Read more</a>
+                                 </div>
+                        </div>
+                    </div> 
+                    
+                    <!--CARD 5-->
+                    <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img class="card-img-top" src="https://github.com/LuciaGiagnolini12/TTTT/blob/master/card5.jpg?raw=true" alt="Card image article5-TLS" height="225px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">God is in the machine</h5>
+                                        <p class="card-text">‘I’ll lose my job if anyone knows about this.”
+
+There was a long silence which I didn’t dare to break. I had begged to make this meeting happen. And now the person I had long been trying to meet leaned towards me. “Someone is going to go through your book line by line,” he said, “to try to work out who I am.”
+He’d been a talented researcher, an academic, until his friend started a small technology company.</p>
+                                        <a href="#">Read more</a>
+                                     </div>
+                            </div>
+                    </div>
+                    
+                    <!--CARD 6-->
+                    <div class="col-md-4">
+                            <div class="card mb-4"> 
+                                <img class="card-img-top" src="https://github.com/LuciaGiagnolini12/TTTT/blob/master/card6.jpg?raw=true" alt="logo of euDirective" height="225px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Directive 2009/41/EC of the European parliament and of the council of 6 May 2009
+</h5>
+                                        <p class="card-text">On the contained use of genetically modified micro-organisms. Having regard to the Treaty establishing the European Community, and in particular Article 175 thereof,Having regard to the proposal from the Commission, Having regard to the opinion of the European Economic and Social Committee,Having consulted the Committee of the Regions. </p>
+                                        <a href="#">Read more</a>
+                                     </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="footer">
+            <div>
+                <p class="foot-menu" >  <span class="disclaimer"><a href="#">Disclaimer</a></span>
+        <span><a href="#">Contact us</a></span>
+        </ul>
+            </div>
+            <div>
+              <img src="logo.png" width="25px" height="25px">
+            </div>
+            <div class="-copyright">
+                <p>
+                    © Copyright 2019 Paralles - All Rights Reserved
+                </p>
+            </div>
+        </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
