@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stylesheet.css"> <!--style-->
-    <a name="start"></a> <!--collegament per tornare in alto-->
+    <a id="start"></a> <!--collegament per tornare in alto-->
   </head>
   
   <body>
     <!----------------------------------NAVBAR---------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000; padding: 5px; font-family: Helvetica, Arial, sans-serif; letter-spacing: 2.5px; font-size: 11px;">
-      <a><img src="img/logo.png" width="25px" height="25px"></a>
+      <a><img src="img/logo.png" width="25px" height="25"></a>
       <a class="nav-link" href="#" style=" color: #FFFFFF;">PARALLELS</a>
         <button class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,8 @@
                     <a class="dropdown-item" href="#">DOC 4</a>
                     <a class="dropdown-item" href="#">DOC 5</a>
                     <a class="dropdown-item" href="#">DOC 6</a>
-                </div></li>
+                </div>
+          </li>
           <li class="nav-item"><a class="nav-link" href="#" role="button" data-toggle="modal">ABOUT</a></li>
           <li class="nav-item"><a class="nav-link" href="#" role="button" data-toggle="modal">DISCALIMER</a></li>
           <li class="nav-item"><a class="nav-link" href="#" role="button" data-toggle="modal">DOCUMENTATION</a></li>
@@ -67,90 +68,85 @@
             
             <!-----------------------------CARDS-------------------------------------->
             <div class="container-fluid pt-5">  <!--pt-5 = padding top = $spacer * 3-->
-                <div class="row"> <!--ROW 1-->
-                    <!--CARD 1-->
-                    <div class="col-md-4">
-                        <div class="card mb-4"> <!--mb-4 = margin bottom = $spacer * 1.5-->
-                            <img class="card-img-top" src="img/card1.jpg" alt="Card image artcile- bloomberg" height="225px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Japan’s Prisons Are a Haven for Elderly Women</h5>
-                                    <p class="card-text">Every aging society faces distinct challenges. But Japan, with the world’s oldest population (27.3 percent of its citizens are 65 or older, almost twice the share in the U.S.), has been dealing with one it didn’t foresee: senior crime.</p>
-                                    <p><a href="#">Read more</a></p>
-                                </div>
-                        </div>
-                    </div> 
+              <div class="card-deck"> <!--ROW 1-->
                     
-                    <!--CARD 2-->
-                    <div class="col-md-4">
-                            <div class="card mb-4">
-                                <img class="card-img-top" src="img/card2.png" alt="Card image article2-Harpers" height="225px" >
-                                    <div class="card-body">
-                                        <h5 class="card-title">As Goes the South, so Goes the Nation</h5>
-                                        <p class="card-text">Mobile Bay is shaped like a baby’s foot, fat and uncallused. The water is murky teal. At the shore, crisp sea oats jut upward, proud. The seaweed lies liquid and listless. The city at the shore is old. </p>
-                                        <p><a href="#">Read more</a></p>
-                                     </div>
-                            </div>
-                    </div>
+                <!--CARD 1-->
+                <div class="card mb-4" > <!--mb-4 = margin bottom = $spacer * 1.5-->
+                  <img class="card-img-top" src="img/card1.jpg" alt="Card image artcile- bloomberg" height="225">
+                      <div class="card-body">
+                        <h5 class="card-title">Japan’s Prisons Are a Haven for Elderly Women</h5>
+                        <p class="card-text">Every aging society faces distinct challenges. But Japan, with the world’s oldest population (27.3 percent of its citizens are 65 or older, almost twice the share in the U.S.), has been dealing with one it didn’t foresee: senior crime.</p>
+                        <p><a href="#">Read more</a></p>
+                      </div>
+                </div>
+                  
                     
-                    <!--CARD 3-->
-                    <div class="col-md-4">
-                            <div class="card mb-4">
-                                <img class="card-img-top" src="img/card3.jpg" alt="Card image article3-HufftingtonPost" height="225px">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Jerry and Marge Go Large</h5>
-                                        <p class="card-text">Gerald Selbee broke the code of the American breakfast cereal industry because he was bored at work one day, because it was a fun mental challenge, because most things at his job were not fun and because he could.</p>
-                                        <p><a href="#">Read more</a></p>
-                                     </div>
-                            </div>
+                <!--CARD 2-->
+                <div class="card mb-4">
+                  <img class="card-img-top" src="img/card2.png" alt="Card image article2-Harpers" height="225">
+                    <div class="card-body">
+                      <h5 class="card-title">As Goes the South, so Goes the Nation</h5>
+                      <p class="card-text">Mobile Bay is shaped like a baby’s foot, fat and uncallused. The water is murky teal. At the shore, crisp sea oats jut upward, proud. The seaweed lies liquid and listless. The city at the shore is old. </p>
+                      <p><a href="#">Read more</a></p>
                     </div>
                 </div>
-
-                <div class="row"> <!--ROW 2-->
-                    <!--CARD 4-->
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img class="card-img-top" src="img/card4.jpg" alt="Card image article4-TheCut" height="225px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Maybe she had so much money she just lost track of it</h5>
-                                    <p class="card-text">It started with money, as it so often does in New York. A crisp $100 bill slipped across the smooth surface of the mid-century-inspired concierge desk at 11 Howard, the sleek new boutique hotel in Soho.</p>
-                                    <p><a href="#">Read more</a></p>
-                                 </div>
-                        </div>
-                    </div> 
                     
-                    <!--CARD 5-->
-                    <div class="col-md-4">
-                            <div class="card mb-4">
-                                <img class="card-img-top" src="img/card5.jpg" alt="Card image article5-TLS" height="225px">
-                                    <div class="card-body">
-                                        <h5 class="card-title">God is in the machine</h5>
-                                        <p class="card-text">‘I’ll lose my job if anyone knows about this.” There was a long silence which I didn’t dare to break. I had begged to make this meeting happen. And now the person I had long been trying to meet leaned towards me. </p>
-                                        <p><a href="#">Read more</a></p>
-                                     </div>
-                            </div>
-                    </div>
                     
-                    <!--CARD 6-->
-                    <div class="col-md-4">
-                            <div class="card mb-4"> 
-                                <img class="card-img-top" src="img/card6.jpg" alt="logo of euDirective" height="225px">
-                                    <div class="card-body">
-                                        <h5 class="card-title">EU Directive 2009/41/EC </h5>
-                                        <h6>of 6 May 2009</h6>
-                                        <p class="card-text">On the contained use of genetically modified micro-organisms.</p>
-                                        <p></p><a href="#">Read more</a></p>
-                                     </div>
-                            </div>
+                <!--CARD 3-->
+                <div class="card mb-4">
+                  <img class="card-img-top" src="img/card3.jpg" alt="Card image article3-HufftingtonPost" height="225">
+                    <div class="card-body">
+                      <h5 class="card-title">Jerry and Marge Go Large</h5>
+                      <p class="card-text">Gerald Selbee broke the code of the American breakfast cereal industry because he was bored at work one day, because it was a fun mental challenge, because most things at his job were not fun and because he could.</p>
+                      <p><a href="#">Read more</a></p>
                     </div>
                 </div>
+              
+              </div>
+                    
+              
+              <div class="card-deck">
+              
+                <!--CARD 4-->
+                <div class="card mb-4">
+                  <img class="card-img-top" src="img/card4.jpg" alt="Card image article4-TheCut" height="225">
+                    <div class="card-body">
+                      <h5 class="card-title">Maybe she had so much money she just lost track of it</h5>
+                      <p class="card-text">It started with money, as it so often does in New York. A crisp $100 bill slipped across the smooth surface of the mid-century-inspired concierge desk at 11 Howard, the sleek new boutique hotel in Soho.</p>
+                      <p><a href="#">Read more</a></p>
+                    </div>
+                </div>
+                     
+                <!--CARD 5-->
+                <div class="card mb-4">
+                  <img class="card-img-top" src="img/card5.jpg" alt="Card image article5-TLS" height="225">
+                    <div class="card-body">
+                      <h5 class="card-title">God is in the machine</h5>
+                      <p class="card-text">‘I’ll lose my job if anyone knows about this.” There was a long silence which I didn’t dare to break. I had begged to make this meeting happen. And now the person I had long been trying to meet leaned towards me. </p>
+                      <p><a href="#">Read more</a></p>
+                    </div>
+                </div>
+                    
+                <!--CARD 6-->
+                <div class="card mb-4"> 
+                  <img class="card-img-top" src="img/card6.jpg" alt="logo of euDirective" height="225">
+                    <div class="card-body">
+                      <h5 class="card-title">EU Directive 2009/41/EC </h5>
+                      <h6>of 6 May 2009</h6>
+                      <p class="card-text">On the contained use of genetically modified micro-organisms.</p>
+                      <p><a href="#">Read more</a></p>
+                    </div>
+                </div>
+              
+              </div>
             </div>
-
-        </div>
+    </div>
+  
       
         <!------------------------------------------FOOTER-------------------------------------------->
         <div class="footer">
             <div>
-                <img src="img/logo.png" width="25px" height="25px" align="left">
+                <img src="img/logo.png" width="25px" height="25" align="left">
             </div>
               <div class="foot-menu">  
                   <span class="disclaimer"><a href="#">DISCLAIMER</a></span>
@@ -158,7 +154,7 @@
                   <div class="arrow to top">
                     <a href="#start">
                       <div id="totop">
-                        <img src= "img/totop.png" class="totop" width="20px" height="20px"align= "center">
+                        <img src= "img/totop.png" class="totop" width="20px" height="20" align= "center">
                       </div>
                     </a>
                   </div>
