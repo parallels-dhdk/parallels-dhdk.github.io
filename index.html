@@ -7,142 +7,12 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"> <!--style per timeline-->
-    
-    <style> 
-    .nav-link {
-            margin-right: 15px;
-            }
-
-    .navbar-toggler-icon {
-            background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
-            }
-
-    .dropdown-item {
-            color: #FFFFFF;
-            }
-
-    .card-img-top {
-            width: 100%;
-            height: vh;
-            object-fit: cover;
-            } 
-
-    .footer {
-            position:sticky;
-            left: 0;
-            width: 100%;
-            background-color: #000000;
-            color: white;
-            text-align: center;
-            font-family: Helvetica, Arial, sans-serif;
-            padding: 5px;
-            letter-spacing: 2.5px;
-            font-size: 11px;
-            padding-top: 15px; 
-            
-                }
-
-    .disclaimer {
-            margin: 10px;
-                }
-      
-    .foot-menu {
-            text-align: center;
-                }
-    a:link, a:visited {
-            text-decoration:none;
-            color: #f9fdf7;
-            background-color: transparent;
-    }
-    a:hover, a:active {
-        text-decoration:none;
-        color:#c4c4c4;
-    }
-      
-    /* .section SECTION */
-
-.container {
-  width: 70%; /*lunghezza timeline*/
-  max-width: 800px;
-  margin: auto;
-  text-align: left;
-  font-family: Helvetica, Arial, sans-serif /*per cambiare il font*/
-}
-
-
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.timeline {
-  white-space: nowrap; /*per non farli sovrapporre*/
-  overflow-x: hidden;
-}
-
-.timeline ol {
-  font-size: 0px;
-  width: 20px;
-  padding: 70px;
-  transition: all 1s; /*caricamento timeline lento (sfumato)*/
-}
-
-.timeline ol li {
-  position: relative;
-  display: inline-block;
-  width: 80px; /*distanza tra i pallini*/
-  height: 2px; /*spessore linea*/
-  background: black; /*colore linea*/
-  margin-left: 14px;
-}
-
-.timeline ol li:last-child {
-  width: 100px;
-} /*lunghezza ultimo tratto linea*/
-
-
-
-.timeline ol li:not(:last-child)::after { /*per modificare i pallini*/
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: calc(100% + 1px);
-  width: 12px;
-  height: 12px;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  background: grey;
-}
-
-.timeline ol li div {
-  position: absolute;
-  left: calc(80% + 7px); /*fa spostare il testo*/
-  width: 20px;
-  padding: 1px;
-  color:black; /*colore testo*/
-  background: white;
-}
-
-.timeline ol li:nth-child(odd) div {
-  top: -16px;
-  transform: translateY(-100%);
-}
-
-.timeline ol li:nth-child(even) div {
-  top: calc(100% + 16px);
-}
-
-
-.timeline time {
-  display: inline-block;
-  font-size: 16px; /*dimensione del testo*/
-  font-weight: normal;
-  margin-bottom: 8px;
-}
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"> <!--style-->
+    <a name="start"></a> <!--collegament per tornare in alto-->
   </head>
+  
   <body>
-      <a name="start"></a>
+    <!----------------------------------NAVBAR---------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000; padding: 5px; font-family: Helvetica, Arial, sans-serif; letter-spacing: 2.5px; font-size: 11px;">
       <a><img src="img/logo.png" width="25px" height="25px"></a>
       <a class="nav-link" href="#" style=" color: #FFFFFF;">PARALLELS</a>
@@ -167,9 +37,9 @@
           <li class="nav-item"><a class="nav-link" href="#" role="button" data-toggle="modal">DOCUMENTATION</a></li>
         </ul>
       </div>
-
     </nav>
-     <div class="container">
+     
+    <div class="container"> <!--CONTENUTO MODIFICABILE DAGLI STILI-->
 
             <!---------------------------TITOLO----------------------------------->
             <div class="row"> 
@@ -177,10 +47,9 @@
                 <div class="col-md-6" align="center"><h1>PARALLELS</h1></div>
                 <div class="col-md-3"></div>
             </div>
-            <!-------------------------TIMELINE--------------------------------------->
+            <!--------------------------TIMELINE---------------------------------->
             <div class="row"> 
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <section class="timeline">
                         <ol>
                             <li><div><time>1600</time></div></li>
@@ -194,10 +63,9 @@
                         </ol>
                     </section>
                 </div>
-                <div class="col-md-2"></div>
             </div>
             
-            <!----------------------------------------CARDS------------------------------------------>
+            <!-----------------------------CARDS-------------------------------------->
             <div class="container-fluid pt-5">  <!--pt-5 = padding top = $spacer * 3-->
                 <div class="row"> <!--ROW 1-->
                     <!--CARD 1-->
@@ -278,7 +146,8 @@
             </div>
 
         </div>
-        
+      
+        <!------------------------------------------FOOTER-------------------------------------------->
         <div class="footer">
             <div>
                 <img src="img/logo.png" width="25px" height="25px" align="left">
