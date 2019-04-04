@@ -2,21 +2,21 @@
             margin-right: 15px;
             }
 
-    .navbar-toggler-icon {
+.navbar-toggler-icon {
             background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
             }
 
-    .dropdown-item {
+.dropdown-item {
             color: #FFFFFF;
             }
 
-    .card-img-top {
+.card-img-top {
             width: 100%;
             height: vh;
             object-fit: cover;
             } 
 
-    .footer {
+.footer {
             position:sticky;
             left: 0;
             width: 100%;
@@ -31,36 +31,37 @@
             
                 }
 
-    .disclaimer {
+.disclaimer {
             margin: 10px;
                 }
       
-    .foot-menu {
+.foot-menu {
             text-align: center;
                 }
-    a:link, a:visited {
+
+                a:link, a:visited {
             text-decoration:none;
             color: #f9fdf7;
             background-color: transparent;
     }
-    a:hover, a:active {
+a:hover, a:active {
         text-decoration:none;
         color:#c4c4c4;
     }
       
-    /* .section SECTION */
 
-.container {
+    
+   
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline {
   width: 70%; /*lunghezza timeline*/
   max-width: 800px;
   margin: auto;
   text-align: left;
-  font-family: Helvetica, Arial, sans-serif /*per cambiare il font*/
+  font-family: Helvetica, Arial, sans-serif
 }
 
-
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline {
   white-space: nowrap; /*per non farli sovrapporre*/
