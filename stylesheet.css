@@ -123,3 +123,33 @@ a:hover, a:active {
   font-weight: normal;
   margin-bottom: 8px;
 }
+
+/* DISCLAIMER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.modal-fade {
+ font-family: Helvetica, Arial, sans-serif;
+ 
+}
+
+.modal-footer{
+background-color: transparent;
+
+
+}
+.button {
+font-family: Helvetica, Arial, sans-serif;
+background-color:transparent;
+color: black;
+
+ border: none;
+}
+
+.button:hover{color: #aeb0c8;
+} /*modifica del bottone quando passa il mouse*/
+
+.button:active {
+ color: #aeb0c8;
+ border: transparent;
+ outline: none;
+} 
+} /*modifica del bottone quando si clicca il bottone*/
