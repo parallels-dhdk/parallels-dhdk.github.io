@@ -86,8 +86,6 @@ a:hover, a:active {
   width: 100px;
 } /*lunghezza ultimo tratto linea*/
 
-
-
 .timeline ol li:not(:last-child)::after { /*per modificare i pallini*/
   content: '';
   position: absolute;
