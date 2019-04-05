@@ -40,14 +40,13 @@
 
 a:link, a:visited {
             text-decoration:none;
-            color: #f9fdf7;
+            color: grey;
             background-color: transparent;
     }
 a:hover, a:active {
         text-decoration:none;
-        color:#c4c4c4;
+        color: black;
     }
-      
 
     
    
