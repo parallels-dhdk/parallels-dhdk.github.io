@@ -57,7 +57,7 @@ a:hover, a:active {
   max-width: 800px;
   margin: auto;
   text-align: left;
-  font-family: Helvetica, Arial, sans-serif
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 
@@ -123,3 +123,31 @@ a:hover, a:active {
   font-weight: normal;
   margin-bottom: 8px;
 }
+
+
+/* team
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.card-img-top {
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  margin-left: -45px;
+  width: 90px !important;
+  height: 90px;
+}
+
+  .card {
+  margin-top: 5px;
+  padding-top: 30px;
+  }
+
+.card-deck {
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+
+.card-body{
+  padding-top: 50px;
+  }
+
+
