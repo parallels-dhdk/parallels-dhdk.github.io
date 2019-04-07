@@ -13,6 +13,73 @@
   </head>
   
   <body>
+     <!----------------------------------NAVBAR---------------------------->
+     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000; padding: 5px; font-family: Helvetica, Arial, sans-serif; letter-spacing: 2.5px; font-size: 11px;">
+        <a><img src="img/logo.png" width="25px" height="25"></a>
+        <a class="nav-link" href="#" style=" color: #FFFFFF;">PARALLELS</a>
+          <button class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav">
+            <li class="btn-group" >
+              <button class="btn btn-primary dropdown-toggle mr-4" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #000000; font-family: Helvetica, Arial, sans-serif; letter-spacing: 2.5px; font-size: 11px; border: none; color: #808080; padding-left: 0px; padding-right: 0px">ARTICLES</button>
+                  <div class="dropdown-menu" style="background-color: #000000; font-size:11px; color: #FFFFFF;">
+                      <a class="dropdown-item" href="art/japan/japan.html">Japan's prisons are haven for elderly women</a>
+                      <a class="dropdown-item" href="art/alabama.html">As goes the South, so goes the Nation</a>
+                      <a class="dropdown-item" href="art/lottery/lottery.html">Jerry and Marge go large</a>
+                      <a class="dropdown-item" href="art/delvey/delvey.html">Maybe she had so much money she just lost track of it</a>
+                      <a class="dropdown-item" href="art/machine/machine.html">God is in the machine</a>
+                      <a class="dropdown-item" href="art/eudirective/eueng.html">EU Directive 2009/41/EC</a>
+                  </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="about.html" role="button" data-toggle="modal">ABOUT</a></li>
+             
+            <!-- Button trigger modal -->
+        <li class="nav-item"><a role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter">DISCLAIMER</a>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle" >DISCLAIMER</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+            <div class="modal-body">
+            <p>The purpose of this web site is to explore various types of typographic and layout style for text documents, as an end-of-course project for the "Information Modeling and Web technologies" course of the Master Degree in Digital Humanities and Digital Knowledge of the University of Bologna, under prof. Fabio Vitali.</P>
+            <p>The documents contained in this web site have been selected for their length and complexity among the best picks of 2018 of www.longreads.com. Their publication here is not intended to be an alternative or replace their original locations:</p>
+            <ul>
+            <li>File 1: <a href="https://harpers.org/archive/2018/07/as-goes-the-south-so-goes-the-nation/">Harpers</a></li>
+            <li>File 2: <a href="https://www.thecut.com/2018/05/how-anna-delvey-tricked-new-york.html">The Cut</a></li>
+            <li>File 3: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1552167424995&uri=CELEX:32009L0041">Eur-Lex.Europa</a></li>
+            <li>File 4: <a href="https://www.bloomberg.com/news/features/2018-03-16/japan-s-prisons-are-a-haven-for-elderly-women">Bloomberg</a></li>
+            <li>File 5: <a href="https://highline.huffingtonpost.com/articles/en/lotto-winners/">Huffington Post </a></li>
+            <li>File 6: <a href="https://www.the-tls.co.uk/articles/public/ridiculously-complicated-algorithms/">The Time Literary Supplement</a></li>
+            </ul><br>
+            <div class="copyright">
+            <p> All copyrights and related rights on the content remain with their original owners. All copyright on the typographic and layout choices are 2019@PARALLELS
+            </p></div>
+            </div>
+            <div class="modal-footer">
+              <button role="button" class="button" data-dismiss="modal" >CLOSE</button>
+            </div>
+          </div>
+        </div>
+    </div>
+      </li>
+            <li class="nav-item"><a class="nav-link" href="#" role="button" data-toggle="modal">DOCUMENTATION</a></li>
+          </ul>
+        </div>
+      </nav>
+       
+      <div class="container"> <!--CONTENUTO MODIFICABILE DAGLI STILI-->
+  
+              <!---------------------------ABOUT----------------------------------->
+          
+              
     <div style="padding-left: 70px; padding-right: 70px; padding-top: 50px; text-align: justify;">
       <p style="font-size: 30px;">
         ABOUT
@@ -23,10 +90,8 @@
   </div>
 
   <div style="padding-left: 70px; padding-right: 70px; padding-top: 50px; text-align: justify; font-size: 30px;">
-    <p>
-        TEAM
-      </p>
-      </div>
+    <p>TEAM</p>
+  </div>
 
     <div class="container-fluid pt-5">  <!--pt-5 = padding top = $spacer * 3-->
               <div class="card-deck" style="padding-right: 50px; padding-left: 50px; "> <!--ROW 1-->
@@ -35,8 +100,7 @@
                 <div class="card" > <!--mb-4 = margin bottom = $spacer * 1.5-->
                   <img class="card-img-top img-circle rounded-circle" src="img/sara.jpeg" alt="sara armaroli" height="225" style= "display: block; margin-left: auto; margin-right: auto; width: 80%; margin-top: 25px;">
                       <div class="card-body">
-                             
-            <h5 class="card-title">Sara Armaroli</h5>
+                      <h5 class="card-title">Sara Armaroli</h5>
                         <p class="card-text">Curator of historical periods of the first half and second half of the XX Century. I'm graduated in Philosophy at the University of Bologna and now I'm attending the two-years master in the Digital Humanities and Digital Knowledge at Alma Mater Studiorum-University of Bologna.</p>
                       </div>
                 </div>
@@ -66,6 +130,27 @@
               </div>
           
             </div>
+    </div>
+    
+    <div class="footer">
+        <div>
+            <img src="img/logo.png" width="25px" height="25" align="left">
+        </div>
+          <div class="foot-menu">  
+              <span class="disclaimer"><a href="#">DISCLAIMER</a></span>
+              <span><a href="#">CONTACT US</a></span>
+              <div class="arrow to top">
+                <a href="#start">
+                  <div id="totop">
+                    <img src= "img/totop.png" class="totop" width="20px" height="20" align= "center">
+                  </div>
+                </a>
+              </div>
+          </div>
+      
+        <div class="-copyright">
+            <p>© Copyright 2019 Paralles - All Rights Reserved</p>
+        </div>
     </div>
 
 </body>
