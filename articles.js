@@ -4,7 +4,8 @@ $(document).ready(function() {
 }) //funzione - variabile japan 
 
 function showjapan (){
-    var opened = window.open("");
+    var opened = window.open("articles.html");
     var jap= load("articles.html");
-opened.document.write("<html><head><title>MyTitle</title></head><body>" + jap + "</body></html>");
+    console.log(jap)
+opened.document.write(jap);
 }
