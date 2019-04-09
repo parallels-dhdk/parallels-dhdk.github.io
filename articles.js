@@ -5,5 +5,6 @@ $(document).ready(function() {
 
 function showjapan (){
     var opened = window.open("");
-opened.document.write("<html><head><title>MyTitle</title></head><body>test</body></html>");
+    var jap= load("articles.html");
+opened.document.write("<html><head><title>MyTitle</title></head><body>" + jap + "</body></html>");
 }
