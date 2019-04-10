@@ -165,4 +165,12 @@ color: black;
  border: transparent;
  outline: none;
 } 
+
+#close-button{
+font-family: Helvetica, Arial, sans-serif;
+background-color:transparent;
+color: black; 
+ border: none;
+ font-size: 15px;
+}
 } /*modifica del bottone quando si clicca il bottone*/
