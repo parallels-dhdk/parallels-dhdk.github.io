@@ -11,12 +11,12 @@
             }
 
 .card-img-top {
-  
+
             width: 100%;
             object-fit: cover;
             } 
 
-.footer {cursor: pointer;
+.footer { 
             position:default;
             left: 0;
             width: 100%;
@@ -41,6 +41,11 @@
 background-color:transparent;
 color: white;
  border: none;
+}
+
+.button-form
+{cursor: pointer;
+
 }
 
 
