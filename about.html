@@ -73,28 +73,14 @@
               </div>
           
             </div>
-    </div>
     
-    <div class="footer">
-        <div>
-            <img src="img/logo.png" width="25px" height="25" align="left">
-        </div>
-          <div class="foot-menu">  
-              <span class="disclaimer"><a href="#">DISCLAIMER</a></span>
-              <span><a href="#">CONTACT US</a></span>
-              <div class="arrow to top">
-                <a href="#start">
-                  <div id="totop">
-                    <img src= "img/totop.png" class="totop" width="20px" height="20" align= "center">
-                  </div>
-                </a>
-              </div>
-          </div>
-      
-        <div class="-copyright">
-            <p>© Copyright 2019 Paralles - All Rights Reserved</p>
-        </div>
-    </div>
+    
+    <div id="foot-placeholder"></div>
+    <script>
+      $(function(){
+        $("#foot-placeholder").load("foot.html");
+      });
+      </script>
 
 </body>
 </html>
