@@ -50,23 +50,13 @@
 
 
 /* FORM IN FOOTER*/
-#button-contact-us { /*non prende più questi comandi...anche per quanto riguarda quello del disclaimer... in rete non li vedo come voglioo*/
+#button-contact-us { 
 	font-family: Helvetica, Arial, sans-serif;
 background-color:transparent;
 color: white;
  border: none;
 }
 
-#button-contact-us:visited { /*non prende più questi comandi...anche per quanto riguarda quello del disclaimer... in rete non li vedo come voglioo*/
-            text-decoration:none;
-            color: grey;
-            background-color: transparent;
-    }
-	
-#button-contact-us:active {/*non prende più questi comandi...anche per quanto riguarda quello del disclaimer... in rete non li vedo come voglioo*/
-        text-decoration:none;
-        color: white;
-    }
 
 .footer-end{
 	font-family: Helvetica, Arial, sans-serif;
