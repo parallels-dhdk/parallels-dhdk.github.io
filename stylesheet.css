@@ -33,6 +33,9 @@
             
                 }
 
+.contact-us{cursor: pointer;
+
+}
 
 
 /* FORM IN FOOTER*/
@@ -43,10 +46,7 @@ color: white;
  border: none;
 }
 
-.button-form
-{cursor: pointer;
 
-}
 
 
 .footer-end{
