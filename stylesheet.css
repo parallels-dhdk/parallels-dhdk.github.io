@@ -27,7 +27,8 @@
             letter-spacing: 2.5px;
             font-size: 11px;
             padding-top: 15px; 
-			padding-bottom: 400px;
+			padding-bottom: 3px;
+			height: auto !important; /*capirne il significato*/
             
                 }
 
