@@ -31,22 +31,12 @@
                 <div class="col-md-3"></div>
             </div>
             <!--------------------------TIMELINE---------------------------------->
-            <div class="row"> 
-                <div class="col-md-12">
-                    <section class="timeline">
-                        <ol>
-                            <li><div><time>1600</time></div></li>
-                            <li><div><time>1800</time></div></li>
-                            <li><div><time>1900-1950 </time></div></li>
-                            <li><div><time>1951-1970</time></div></li>
-                            <li><div><time>1971-2000</time></div></li>
-                            <li><div><time>2019 </time></div></li>
-                            <li><div><time>2040</time></div></li>
-                            <li></li> <!-- elemento vuoto per bloccare la timeline -->
-                        </ol>
-                    </section>
-                </div>
-            </div>
+            <div id="timeline-placeholder"></div>
+            <script>
+              $(function(){
+              $("#timeline-placeholder").load("timelinemiki.html");
+              });
+            </script>
             
             <!-----------------------------CARDS-------------------------------------->
             <div class="container-fluid pt-5">  <!--pt-5 = padding top = $spacer * 3-->

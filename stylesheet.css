@@ -30,8 +30,26 @@
             
                 }
 
-/* FORM IN FOOTER
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*TIMELINE*/
+.timeline {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 72%;
+  left: 0;
+  border-top: 1px solid black;
+  background: black;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+
+/* FORM IN FOOTER*/
 .button-form {
 	font-family: Helvetica, Arial, sans-serif;
 background-color:transparent;
@@ -112,82 +130,6 @@ a:hover, a:active {
     
    
 
-    
-   
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.timeline {
-  width: 70%; /*lunghezza timeline*/
-  max-width: 800px;
-  margin: auto;
-  text-align: left;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-
-.timeline {
-  white-space: nowrap; /*per non farli sovrapporre*/
-  overflow-x: hidden;
-}
-
-.timeline ol {
-  font-size: 0px;
-  width: 20px;
-  padding: 70px;
-  transition: all 1s; /*caricamento timeline lento (sfumato)*/
-}
-
-.timeline ol li {
-  position: relative;
-  display: inline-block;
-  width: 80px; /*distanza tra i pallini*/
-  height: 2px; /*spessore linea*/
-  background: black; /*colore linea*/
-  margin-left: 14px;
-}
-
-.timeline ol li:last-child {
-  width: 100px;
-} /*lunghezza ultimo tratto linea*/
-
-.timeline ol li:not(:last-child)::after { /*per modificare i pallini*/
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: calc(100% + 1px);
-  width: 12px;
-  height: 12px;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  background: grey;
-}
-
-.timeline ol li div {
-  position: absolute;
-  left: calc(80% + 7px); /*fa spostare il testo*/
-  width: 20px;
-  padding: 1px;
-  color:black; /*colore testo*/
-  background: white;
-}
-
-.timeline ol li:nth-child(odd) div {
-  top: -16px;
-  transform: translateY(-100%);
-}
-
-.timeline ol li:nth-child(even) div {
-  top: calc(100% + 16px);
-}
-
-
-.timeline time {
-  display: inline-block;
-  font-size: 16px; /*dimensione del testo*/
-  font-weight: normal;
-  margin-bottom: 8px;
-}
-
 
 /* ABOUT
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -224,104 +166,3 @@ color: black;
  outline: none;
 } 
 } /*modifica del bottone quando si clicca il bottone*/
-
-
-
-
-
-
-
-/* timeline prova
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#timeline-wrap{
-  margin:20% 20%;
-  top:100;
-  position:relative;
- 
-}
-
-#timeline{
-  height:1px;
-  width: 100%;
-  background-color: #999999;
-  position:relative;
- 
-}
-
- .marker{
-   z-index:1000;
-   color: #fff;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 1em;
-  text-align: center;
-  position: absolute;
-  margin-left: -25px;
-  background-color: #000000;
-  border-radius: 50%;
-        }
-
- .marker:hover{
-   -moz-transform: scale(1.2);
--webkit-transform: scale(1.2);
--o-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);
-   
-   -webkit-transition: all 300ms ease;
--moz-transition: all 300ms ease;
--ms-transition: all 300ms ease;
--o-transition: all 300ms ease;
-transition: all 300ms ease;
- }
-
-
-.timeline-icon {
-    background-color: #000000 !important;
-}
-
-
-
-
-.mfirst{
-     top:-25px;
-}
-
-.m2{
-     top:-25px;
-      left:16.6%
-}
-
-.m3{
-     top:-25px;
-    left:33.2%
-}
-
-.m4{
-     top:-25px;
-    left:49.8%
-}
-
-.m5{
-  top:-25px;
-    left:66.4%
-  }
-
-
-.m6{
-  top:-25px;
-    left:83%
-  }
-
-
-.mlast{
-     top:-25px;
-    left:100%
-}
-
-
-
-
-
