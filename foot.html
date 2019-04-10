@@ -5,14 +5,14 @@
             </div>
               <div class="foot-menu">  
                  <!-- Button trigger modal -->
-			<button role="button" class="button-form" data-toggle="modal" data-target="#exampleModal">CONTACT US
-			</button>
+			<a  id="button contact us" "class="button-form" data-toggle="modal" data-target="#exampleModal">CONTACT US
+			</a>
 			<!-- Modal -->
 		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 		<div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">CONTACT US</h5>
+        <h5 class="modal-title"  id="exampleModalLabel">CONTACT US</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -21,12 +21,13 @@
        <div class="container">
   <div class="row">
     <div class="column">
-      <form action="/action_page.php"> <!----non so il significato--->
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+       
+	  <form method="POST" action="https://formspree.io/sara.armaroli2@studio.unibo.it">
+		<label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" placeholder="Your e-mail..">
+        <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
         <input type="submit" value="Submit">
       </form>
     </div>
