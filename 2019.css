@@ -3,30 +3,80 @@ font-family: Roboto, sans-serif;
 src: url("https://fonts.googleapis.com/css?family=Roboto:100,400"); /*comprende sia roboto thin (100) che regular(400) che sono i font che volevamo usare*/
 }
 
+
+
 p{
 	font-family: Roboto, sans-serif;
+	text-align: justify;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom:15px;
+	font-size: 16px;
 }
 
 h1{
 	font-family: Roboto, sans-serif;
+	text-align: justify;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom:15px;
 }
 
 h2{ font-family: Roboto, sans-serif;
+	text-align: justify;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom:15px;
 	
 }
 
 h3{
 	font-family: Roboto, sans-serif;
+	text-align: justify;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom:15px;
 }
 
 h4{
 	font-family: Roboto, sans-serif;
+	text-align: justify;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom:15px;
 }
 
 h5{
 	font-family: Roboto, sans-serif;
+	text-align: justify;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom:15px;
+}
+
+h6{
+	font-family: Roboto, sans-serif;
+	text-align: justify;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom:15px;
 }
 
 img{
-	float:
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
+
+figcaption
+{	font-family: Roboto, sans-serif;
+	text-align: justify;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom:15px;
+	font-size: 13px;	
+}
+
+/*da tenere in considerazonwli e ul ol
+*/
