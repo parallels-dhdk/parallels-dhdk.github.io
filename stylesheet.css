@@ -175,14 +175,14 @@ font-size:10px;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #timeline-wrap{
-  margin:5% 5%;
-  top:100;
+  margin-top:5%;
+  margin-left: 25%;
+  margin-right: 25%;
   position:relative;
  
 }
 
 #timeline{
-  text-align: center;
   height:1px;
   width: 100%;
   background-color: #999999;
@@ -192,7 +192,7 @@ font-size:10px;
 
  .marker{
   z-index: initial;
-  line-height: 50px;
+  line-height: 51px;
   font-size: 1em;
   text-align: center;
   position: absolute;
