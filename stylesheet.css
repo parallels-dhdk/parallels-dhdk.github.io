@@ -134,10 +134,8 @@ a:hover, a:active {
 /* button articles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#article-button:active{
+#article-button:focus {outline:0;
 
-outline: none;
- 
 }
 
 
