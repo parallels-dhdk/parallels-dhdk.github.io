@@ -3,7 +3,14 @@ font-family: Roboto, sans-serif;
 src: url("https://fonts.googleapis.com/css?family=Roboto:100,400"); /*comprende sia roboto thin (100) che regular(400) che sono i font che volevamo usare*/
 }
 
-
+span{
+	font-family: Roboto, sans-serif;
+	text-align: justify;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom:15px;
+	font-size: 16px;
+}
 
 p{
 	font-family: Roboto, sans-serif;
