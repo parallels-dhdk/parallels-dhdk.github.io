@@ -134,7 +134,7 @@ a:hover, a:active {
 /* button articles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.btn-btn-primary-dropdown-toggle-mr-4 {
+.btn-btn-primary-dropdown-toggle-mr-4:active{
 
 outline: none;
  
