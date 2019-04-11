@@ -161,6 +161,10 @@ outline: none;
  outline: none;
 } 
 
+.button:focus 
+{ outline:0 !important;
+ }
+
 #close-button{ /*non prende più questi comandi...anche per quanto riguarda quello del disclaimer... in rete non li vedo come voglioo*/
 font-family: Helvetica, Arial, sans-serif;
 background-color:transparent;
