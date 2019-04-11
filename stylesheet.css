@@ -10,6 +10,7 @@
 
 .dropdown-item {
             color: #FFFFFF;
+            z-index: 1;
             }
 
 .card-img-top {
