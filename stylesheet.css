@@ -131,13 +131,6 @@ a:hover, a:active {
 /* ABOUT
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* button articles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#article-button:focus {
-outline:0;
-}
-
 
 /* DISCLAIMER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -155,7 +148,7 @@ background-color: transparent;
 font-family: Helvetica, Arial, sans-serif;
 background-color:transparent;
 color: black;
-
+outline: none;
  border: none;
 }
 
