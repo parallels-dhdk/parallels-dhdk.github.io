@@ -131,7 +131,14 @@ a:hover, a:active {
 /* ABOUT
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* button articles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.btn-btn-primary-dropdown-toggle-mr-4 {
+
+outline: none;
+ 
+}
 
 
 /* DISCLAIMER
