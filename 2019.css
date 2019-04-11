@@ -1,9 +1,28 @@
 @font-face{
-font-family: 'Roboto', sans-serif;
-src: url('https://fonts.googleapis.com/css?family=Roboto:100,400'); /*comprende sia roboto thin (100) che regular(400) che sono i font che volevamo usare*/
+font-family: Roboto, sans-serif;
+src: url("https://fonts.googleapis.com/css?family=Roboto:100,400"); /*comprende sia roboto thin (100) che regular(400) che sono i font che volevamo usare*/
 }
 
 p{
-	font-family: calibri;
+	font-family: Roboto, sans-serif;
+}
+
+h1{
+	font-family: Roboto, sans-serif;
+}
+
+h2{ font-family: Roboto, sans-serif;
 	
+}
+
+h3{
+	font-family: Roboto, sans-serif;
+}
+
+h4{
+	font-family: Roboto, sans-serif;
+}
+
+h5{
+	font-family: Roboto, sans-serif;
 }
