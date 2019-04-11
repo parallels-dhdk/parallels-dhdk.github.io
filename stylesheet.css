@@ -6,9 +6,7 @@
             background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
             }
 
-.dropdown-menu {
-  z-index: 1;
-}
+
 
 .dropdown-item {
             color: #FFFFFF;
