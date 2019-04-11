@@ -1,0 +1,9 @@
+@font-face{
+font-family: 'Roboto', sans-serif;
+src: url('https://fonts.googleapis.com/css?family=Roboto:100,400'); /*comprende sia roboto thin (100) che regular(400) che sono i font che volevamo usare*/
+}
+
+p{
+	font-family: calibri;
+	
+}
