@@ -48,6 +48,16 @@ color:#808080;
  border: none;
 }
 
+.button-form {
+  background-color: #000000; 
+  font-family: Helvetica, Arial, sans-serif; 
+  letter-spacing: 2.5px; 
+  font-size: 11px; 
+  border: none; 
+  color: #808080; 
+  padding-left: 0px; 
+  padding-right: 0px;
+}
 
 .modal-title{
 	font-family: Helvetica, Arial, sans-serif;
