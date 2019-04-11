@@ -42,17 +42,12 @@
 
 /* FORM IN FOOTER*/
 #button-contact-us { 
-	font-family: Helvetica, Arial, sans-serif;
+font-family: Helvetica, Arial, sans-serif;
 background-color:transparent;
-color: white;
+color:#808080;
  border: none;
 }
 
-
-.footer-end{
-	font-family: Helvetica, Arial, sans-serif;
-color: white;
-}
 
 .modal-title{
 	font-family: Helvetica, Arial, sans-serif;
@@ -233,5 +228,14 @@ font-size:10px;
 }
 
 
-
+.copyright {
+  background-color: #000000; 
+  font-family: Helvetica, Arial, sans-serif; 
+  letter-spacing: 2.5px; 
+  font-size: 11px; 
+  border: none; 
+  color: #808080; 
+  padding-left: 0px; 
+  padding-right: 0px"
+}
 
