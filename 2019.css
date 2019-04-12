@@ -82,9 +82,12 @@ figcaption
 	margin-right: 250px;
 	margin-left: 250px;
 	margin-bottom:15px;
-	font-size: 13px;	
+	font-size: 13px;
+	text-align:center;
 }
 
 /*da tenere in considerazone: li e ul ol
-
+div 
+tabelle
+gli h vanno allineati al centro? 
 */
