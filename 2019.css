@@ -86,8 +86,45 @@ figcaption
 	text-align:center;
 }
 
-/*da tenere in considerazone: li e ul ol
-div 
-tabelle
-gli h vanno allineati al centro? 
+/*da tenere in considerazone: 
+-li e ul ol
+-div 
+-tabelle
+-gli h vanno allineati al centro? 
+<pre>: preformatted block,
+– <address>: the author of the page,
+– <blockquote>: long quote
+-<dl>: definitions list, composed of many <dt>
+(definition term) and <dd> (definition data) elements
+-section
+-article 
+-aside
+-link <a>?
+
+per quanto riguarda lo stile:
+-attribuire anche colore? (pensando che alcuni html potrebbero avere impostato un colore diverso dal nero)
+-sempre per lo stesso motivo riguardo a :  padding e border e content
+- font:
+ font-weight: normal | bold | 100 | 200 | ... | 900
+• font-style: normal | italic | oblique
+• font-variant: normal | small-caps
+-text
+text-decoration: none | underline | overline | line-through
+text-indent: length
+line-height: length
+text-align-last: left | center | right | justified
+text-transform: capitalize | uppercase | lowercase | none
+text-shadow: h-distance v-distance color
+font-stretch: normal | wider | narrower
+font-kerning: normal | none
+letter-spacing and word-spacing: length
+white-space: normal | pre | nowrap
+
+-box properties:
+padding: length
+margin: length
+color: color
+background-color: color
+border: length type color
+box-shadow: h-distance v-distance color
 */
