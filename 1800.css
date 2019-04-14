@@ -322,7 +322,7 @@ font-size:10px;
 #timeline{
   height:1px;
   width: 100%;
-  background-color: #999999;
+  background-color: #FFFFFF;
   position:relative;
  
 }
@@ -331,6 +331,7 @@ font-size:10px;
   z-index: initial;
   line-height: 50px;
   font-size: 1em;
+  color: #FFFFFF;
   text-align: center;
   position: absolute;
   margin-left: -20px;
