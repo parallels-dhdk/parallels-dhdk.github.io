@@ -290,8 +290,8 @@ a:hover, a:active {
 /* DISCLAIMER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.modal-content {font-family: myBodoni;
-  
+.modal-content {background-image: "img/newspaper1.png";
+
 }
 
 li {font-family: myBodoni;}
