@@ -77,6 +77,15 @@ p {
   text-indent: 1em;
 }
 
+
+
+p:first-of-type:first-letter {
+  float: left;
+  font-size: 45px;
+  line-height: 35px;
+  padding-right: 4px;
+}
+
 h1 { 
 font-family: myTitle;
 font-size: 100px; 
