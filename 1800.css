@@ -9,6 +9,13 @@
   src: url(font/tt0351m_.ttf);
 }
 
+
+@font-face {
+  font-family: myClaredonBold;
+  src: url(LibreBodoni-Regular.ttf);
+}
+
+
 @font-face {
   font-family: myTitle;
   src: url(font/Engravers_Old_English_Normal.ttf);
@@ -27,7 +34,6 @@ article {
   margin-top: 100px; 
   margin-bottom: 100px;  
   padding: 20px; 
-  font-family: myClaredon;
   font-weight: 100;
   background-image: url("img/newspaper1.png");
   text-align: justify;
@@ -66,8 +72,9 @@ article {
 } }
 
 
-
-
+p {
+  font-family: ;
+}
 h1 { 
 font-family: myTitle;
 font-size: 100px; 
