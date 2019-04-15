@@ -11,7 +11,7 @@
 
 
 @font-face {
-  font-family: myClaredonBold;
+  font-family: myBodoni;
   src: url(LibreBodoni-Regular.ttf);
 }
 
@@ -73,7 +73,7 @@ article {
 
 
 p {
-  font-family: ;
+  font-family: myBodoni;
 }
 h1 { 
 font-family: myTitle;
