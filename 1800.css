@@ -1,21 +1,21 @@
 
 @font-face {
   font-family: myClaredon;
-  src: url(unicode.clarendb.ttf);
+  src: url(font/unicode.clarendb.ttf);
 }
 
 @font-face {
   font-family: myClaredonBold;
-  src: url(tt0351m_.ttf);
+  src: url(font/tt0351m_.ttf);
 }
 
 @font-face {
   font-family: myTitle;
-  src: url(Engravers_Old_English_Normal.ttf);
+  src: url(font/Engravers_Old_English_Normal.ttf);
 }
 
 body {
-  background-image: url("wood.jpg");
+  background-image: url(img/"wood.jpg");
 }
 
 
@@ -29,7 +29,7 @@ article {
   padding: 20px; 
   font-family: myClaredon;
   font-weight: 100;
-  background-image: url("newspaper1.png");
+  background-image: url(img/"newspaper1.png");
   text-align: justify;
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
