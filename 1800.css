@@ -86,7 +86,18 @@ letter-spacing: 7px;
 
 h2 { 
   font-family: myClaredonBold;
+  text-align: left;
 
+}
+
+h3 { 
+  font-family: myClaredonBold;
+  text-align: left;
+}
+
+h4{
+  font-family: myClaredonBold;
+  text-align: left;
 }
 
 h5 { 
