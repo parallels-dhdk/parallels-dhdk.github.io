@@ -22,7 +22,7 @@
 }
 
 body {
-  background-image: url("img/news.jpeg");
+  background-image: url("img/wood.jpeg");
 }
 
 
@@ -88,6 +88,8 @@ letter-spacing: 7px;
 h2 { 
   font-family: myClaredonBold;
   text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
 
 }
 
