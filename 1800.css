@@ -279,7 +279,7 @@ a:hover, a:active {
 /* DISCLAIMER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .modal-fade {
- font-family: Helvetica, Arial, sans-serif;
+ font-family: myBodoni;
  
 }
 
@@ -289,7 +289,7 @@ background-color: transparent;
 
 }
 .button { 
-font-family: Helvetica, Arial, sans-serif;
+font-family: myBodoni;
 background-color:transparent;
 color: black;
 outline: none;
@@ -307,7 +307,7 @@ outline:0 !important;
 } 
 
 #close-button{ /*non prende più questi comandi...anche per quanto riguarda quello del disclaimer... in rete non li vedo come voglioo*/
-font-family: Helvetica, Arial, sans-serif;
+font-family: myBodoni;
 background-color:transparent;
 color: black; 
  border: none;
