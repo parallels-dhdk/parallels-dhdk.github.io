@@ -22,7 +22,7 @@
 }
 
 body {
-  background-image: url("img/wood.jpg");
+  background-image: url("img/news.jpeg");
 }
 
 
@@ -35,7 +35,7 @@ article {
   margin-bottom: 100px;  
   padding: 20px; 
   font-weight: 100;
-  background-image: url("img/news.jpeg");
+  background-image: url("img/newspaper1.png");
   text-align: justify;
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
@@ -87,13 +87,13 @@ letter-spacing: 7px;
 
 h2 { 
   font-family: myClaredonBold;
-  text-align: left;
+  text-align: center;
 
 }
 
 h3 { 
   font-family: myClaredonBold;
-  text-align: left;
+  text-align: center;
 }
 
 h4{
