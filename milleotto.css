@@ -1,0 +1,211 @@
+
+@font-face {
+  font-family: myClaredon;
+  src: url(font/unicode.clarendb.ttf);
+}
+
+@font-face {
+  font-family: myClaredonBold;
+  src: url(font/tt0351m_.ttf);
+}
+
+
+@font-face {
+  font-family: myBodoni;
+  src: url(font/LibreBodoni-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: myTitle;
+  src: url(font/Engravers_Old_English_Normal.ttf);
+}
+
+body {
+  background-image: url("img/wood.jpg");
+}
+
+
+
+
+article { 
+  margin-left: 50px; 
+  margin-right: 50px;
+  margin-top: 100px; 
+  margin-bottom: 100px;  
+  padding: 20px; 
+  font-weight: 100;
+  background-image: url("img/newspaper1.png");
+  text-align: justify;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 20px; /* Firefox */
+  column-gap: 20px;
+  -webkit-column-rule: 1px solid; /* Chrome, Safari, Opera */
+  -moz-column-rule: 1px solid; /* Firefox */
+  column-rule: 1px solid;
+  border-top-style: dotted;
+  border-top-width: 2px;
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  border-top-color: #2b1d0e; 
+  border-bottom-style: dotted;
+  border-bottom-left-radius: 5px; 
+  border-bottom-right-radius: 5px;
+  border-bottom-width: 2px;
+  border-bottom-color: #52402d;   
+}
+
+@media screen and (max-width: 700px) {article { 
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;}}
+
+
+
+@media screen and (max-width: 600px) {article { 
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
+} }
+
+
+p {
+  font-family: myBodoni;
+  text-indent: 1em;
+}
+
+
+
+h1 { 
+font-family: myTitle;
+font-size: 100px; 
+text-align: center; 
+text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
+letter-spacing: 7px;
+}
+
+h2 { 
+  font-family: myClaredonBold;
+  text-align: left;
+  font-style: italic;
+  text-transform: uppercase;
+
+}
+
+h3 { 
+  font-family: myClaredonBold;
+  text-align: left;
+  font-size: 20px;
+}
+
+h4{
+  font-family: myClaredonBold;
+  text-align: left;
+}
+
+h5 { 
+  text-align: left;
+  font-family: myClaredonBold; 
+}
+
+a { margin-right: 5px;
+    color: #000000;
+    font-family: myBodoni;}
+
+img {
+  display: none;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+
+  }
+
+tr{
+  padding: 50px;
+}
+
+td{
+  width: 33.3%;
+  text-align: left;
+  font-family: myBodoni; 
+  letter-spacing: 3px;
+}
+
+
+#subright {text-align: left;}
+#subcenter {text-align: center;}
+#subleft {text-align: right;}
+
+.container{
+  margin-top: 50px;
+  padding-top: 70px;
+  margin-bottom: 50px;
+  background-image: url("img/newspaper1.png");
+  border-top-style: dotted;
+  border-top-width: 2px;
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  border-top-color: #2b1d0e; 
+  border-bottom-style: dotted;
+  border-bottom-left-radius: 5px; 
+  border-bottom-right-radius: 5px;
+  border-bottom-width: 2px;
+  border-bottom-color: #52402d; 
+  }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: url("img/newspaper1.png");
+  padding: 10px;
+
+}
+
+.grid-container > div {
+  padding: 10px;
+  text-align: justify;
+  font-size: 12px;
+  
+}
+
+.item1 { grid-area: 1 / 1 ;
+  border-bottom: 1px solid;
+  border-right: 1px solid; 
+}
+.item2 { grid-area: 1 / 2 ; 
+  border-bottom: 1px solid;
+  border-right: 1px solid; }
+.item3 { grid-area: 1 / 3 ; 
+  border-bottom: 1px solid;
+   }
+.item4 { grid-area: 2 / 1 ; 
+  border-right: 1px solid;}
+.item5 { grid-area: 2 / 2 ;
+border-right: 1px solid; }
+.item6 { grid-area: 2 / 3 ; }
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #000000;}
+
+
+figcaption {display: none;}
+
