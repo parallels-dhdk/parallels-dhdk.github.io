@@ -1,0 +1,99 @@
+@font-face {
+   font-family: hasta grotesk;
+   src: url(hasta grotesk.eot);
+src:local('hasta grotesk'), url('hasta grotesk.ttf') format('truetype');}
+
+@font-face {
+   font-family:Bernhard Antique ;
+   src: url(Bernhard Antique.eot);
+src:local('Bernhard Antique'), url('BernhardAntique.ttf') format('truetype');}
+
+@font-face {
+   font-family:Typo Grotesk Black ;
+   src: url(Typo Grotesk Black Demo.eot);
+src:local('Typo Grotesk Black Demo'), url('Typo Grotesk Black Demo.otf') format('truetype');}
+
+@font-face {
+   font-family:Normande Regular ;
+   src: url(Normande Regular.eot);
+src:local('Normande Regular'), url('Normande Regular.ttf') format('truetype');}
+
+@font-face {
+   font-family:BitstreamIowanOldStyleBoldBT ;
+   src: url(BitstreamIowanOldStyleBoldBT.eot);
+src:local('BitstreamIowanOldStyleBoldBT'), url('BitstreamIowanOldStyleBoldBT.ttf') format('truetype');}
+
+
+
+
+body{background-color:#FFFAFA;
+	text-align:justify;
+	font-size: 15px;
+	margin-left: 300px;
+	margin-right:300px;
+
+}
+h2{
+	font-family:Bernhard Antique;
+	text-transform: uppercase;
+	font-size: 25px;
+	transform:rotate(20deg);
+	-webkit-transform: rotate(20deg); /* Safari and Chrome */
+	-o-transform: rotate(20deg); /* Opera */
+	-moz-transform: rotate(20deg); /* Firefox */
+	-ms-transform: rotate(20deg);
+}	
+
+h1{ font-family:Typo Grotesk Black;
+	text-transform: uppercase;
+	font-size: 50px;
+	border-bottom:7px solid;
+	border-color:red;
+	transform:rotate(20deg);
+	-webkit-transform: rotate(20deg); /* Safari and Chrome */
+	-o-transform: rotate(20deg); /* Opera */
+	-moz-transform: rotate(20deg); /* Firefox */
+	-ms-transform: rotate(20deg);
+	margin-top:100px;
+
+}	
+p{font-family:BitstreamIowanOldStyleBoldBT;
+	font-size:15px;
+	border-right:3px solid;
+	
+}
+
+
+	
+img{
+	height: auto;
+	size:144px;
+	filter: grayscale(100%);
+	transform:rotate(20deg);
+	-webkit-transform: rotate(20deg); /* Safari and Chrome */
+	-o-transform: rotate(20deg); /* Opera */
+	-moz-transform: rotate(20deg); /* Firefox */
+	-ms-transform: rotate(20deg);
+	float:left;
+	margin-top:150px;
+	margin-bottom: 140px;
+	margin-right:20px;
+}
+
+figcaption {font-family: hasta grotesk; 
+text-orientation: upright;
+writing-mode: vertical-rl;
+text-align:center;
+float:top;
+
+
+
+/*cercare di inserire simboli matematici
+più colori diversi
+allungare h2*/
+
+
+}
+
+
+

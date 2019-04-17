@@ -1,0 +1,163 @@
+@font-face {
+   font-family:LibbyHeavy ;
+   src: url(LibbyHeavy.ttf.eot);
+src:local('LibbyHeavy.ttf'), url('LibbyHeavy.ttf') format('truetype');}
+
+@font-face {
+   font-family:Bernhard Antique ;
+   src: url(Bernhard Antique.eot);
+src:local('Bernhard Antique'), url('BernhardAntique.ttf') format('truetype');}
+
+
+@font-face {
+   font-family:Typo Grotesk Black ;
+   src: url(Typo Grotesk Black Demo.eot);
+src:local('Typo Grotesk Black Demo'), url('Typo Grotesk Black Demo.otf') format('truetype');}
+
+@font-face {
+   font-family:futurismo ;
+   src: url(futurismo.eot);
+src:local('futurismo'), url('futurismo.ttf') format('truetype');}
+
+@font-face {
+   font-family:English Gothic Bold Italic ;
+   src: url(English Gothic Bold Italic.eot);
+src:local('English Gothic Bold Italic'), url('English Gothic Bold Italic.ttf') format('truetype');}
+
+
+
+body{background: url("metal background.jpg");
+}
+
+h1{
+	font-family:LibbyHeavy;
+	font-size:100px;
+	text-align:justify;
+	word-break: break-word;
+	margin-left:420px;
+	margin-right:420px;
+	vertical-align: center;
+	text-decoration:underline;
+	padding-top: 30px;
+	color: 	#483D8B;
+	max-width:100%;
+}
+
+tr{border-bottom:solid;}
+table{text-align:center;
+  padding-top;-30%;
+}
+
+#subright{font-family:futurismo;
+font-size:30px;
+color: red;
+}
+
+#subcenter{font-family:futurismo;
+font-size:20px;}
+
+#subleft{font-family:futurismo;
+font-size:20px;}
+
+.container{margin-top: 200px;
+background-color: #FFFAFA;
+border:10px solid;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  margin-top:10%
+
+
+}
+
+
+.grid-container > div{
+	text-align: justify;
+	margin-right: 15px;
+	
+}
+p{font-family:LibbyHeavy;
+font-size:15px;}
+
+
+h3{font-family:English Gothic Bold Italic;
+	font-size: 25px;}
+	
+
+
+a:link{font-family: futurismo; 
+color:black;
+font-size:15px;
+}
+
+a:active {
+color: black;}
+
+a:visited {
+color: red;}
+
+hr{border:5px solid black;}
+
+.item6:after
+{content:url('arrow.png');
+}
+
+.item4:before{content:url('divisione.png'); 
+text-align: center;}
+
+.item1{  grid-area:1/1;
+ border-right:solid;
+ border-right-width: thick;
+}
+ 
+.item2{grid-area:2/1;  
+margin-left:5%;
+ border-top:solid;
+ border-top-width: thick;
+  border-left:solid;
+ border-left-width: thick;
+
+}
+.item3{grid-area: 3/1;
+margin-top:25%; 
+margin-left:5%;
+  margin-bottom: 30%;
+  border-top:solid;
+   border-top-width: thick;
+    border-left:solid;
+ border-left-width: thick;
+} 
+
+
+.item4{ grid-area: 1/2 ;
+margin-top:40%; 
+
+}
+.item5{ grid-area: 2/2 ;
+margin-top:30%;
+margin-left:10%; 
+border-left:solid;
+ border-left-width: thick;
+ border-bottom:solid;
+  border-bottom-width: thick;
+  padding-bottom: 15px;
+ 
+ 
+}
+
+.item6{ grid-area: 3/2;
+margin-top:45%;
+border-top:solid;
+   border-top-width: thick;
+   
+
+}
+
+
+
+
+ 
