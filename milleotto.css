@@ -31,6 +31,7 @@ body {
 }
 
 img {
+filter:sepia(100%);
 padding: 0;
 max-width: 100%;
 height: auto;
@@ -133,6 +134,8 @@ margin-bottom: 10px
 h4{
   font-family: myClaredonBold;
   text-align: left;
+  font-size: 15px;
+  text-align: center;
 }
 
 h5 { 
