@@ -24,17 +24,31 @@ src:local('Normande Regular'), url('Normande Regular.ttf') format('truetype');}
 src:local('BitstreamIowanOldStyleBoldBT'), url('BitstreamIowanOldStyleBoldBT.ttf') format('truetype');}
 
 
+@font-face {
+   font-family:Futura Book font ;
+   src: url(Futura Book font.eot);
+src:local('Futura Book font'), url('Futura Book font.ttf') format('truetype');}
 
+@font-face {
+   font-family:SchmalfetteCPt ;
+   src: url(SchmalfetteCP.eot);
+src:local('SchmalfetteCP'), url('SchmalfetteCP.ttf') format('truetype');}
 
-body{background-color:#FFFAFA;
+@font-face {
+   font-family:Modesto Bold ;
+   src: url(Modesto Bold.eot);
+src:local('Modesto Bold'), url('Modesto Bold.ttf') format('truetype');}
+
+article{background-color:#white; 
 	text-align:justify;
 	font-size: 15px;
 	margin-left: 300px;
 	margin-right:300px;
-
+	margin-top:10%;
 }
 h2{
 	font-family:Bernhard Antique;
+	color:red;
 	text-transform: uppercase;
 	font-size: 25px;
 	transform:rotate(20deg);
@@ -42,6 +56,7 @@ h2{
 	-o-transform: rotate(20deg); /* Opera */
 	-moz-transform: rotate(20deg); /* Firefox */
 	-ms-transform: rotate(20deg);
+
 }	
 
 h1{ font-family:Typo Grotesk Black;
@@ -56,12 +71,31 @@ h1{ font-family:Typo Grotesk Black;
 	-ms-transform: rotate(20deg);
 	margin-top:100px;
 
-}	
-p{font-family:BitstreamIowanOldStyleBoldBT;
-	font-size:15px;
-	border-right:3px solid;
+}	NON L'HO INSERITO
+
+h3 {  font-family:English Gothic Bold Italic;
+	font-size: 25px;}
+  
+}
+
+h4{
+  font-family:Typo Grotesk Black;
+
+}
+
+h5 {  font-family:SchmalfetteCPt;
+  
+}
+
+h6{ font-family:hasta grotesk;
+font-style: bold;
 	
 }
+p{font-family:BitstreamIowanOldStyleBoldBT;  
+	font-size:15px;
+	border-right: solid;
+border-right-width: thick;	
+} NON L'HO INSERITO 
 
 
 	
@@ -77,23 +111,73 @@ img{
 	float:left;
 	margin-top:150px;
 	margin-bottom: 140px;
-	margin-right:20px;
+	margin-right:50%px;
 }
 
+p:after {  
+    content: url('più.jpg');
+
+} NON L'HO INSERITO 
+
+
+table {
+  border-collapse: collapse;
+   margin-top:15%;
+   margin-bottom: 15%;
+   border-left:solid;
+   border-right: solid;
+   border-left-width: thick;
+   border-right-width: thick;
+  } 
+  
+ table, th, td {
+ width:100%;
+
+}
+
+td, th{ padding: 15px;
+border-right: solid;
+ border-left:solid;
+ border-left-width: thick;
+ border-right-width: thick;
+}
+
+
+th{font-family:Modesto;
+font-size: 30px;
+text-decoration: overline;
+transform: rotate(180deg);
+text-transform: uppercase;
+}
+
+td{ font-family: Typo Grotesk Black;
+font-size: 25px;  
+}
+
+
 figcaption {font-family: hasta grotesk; 
-text-orientation: upright;
+	text-orientation: upright;
 writing-mode: vertical-rl;
 text-align:center;
 float:top;
-
-
-
-/*cercare di inserire simboli matematici
-più colori diversi
-allungare h2*/
-
-
 }
+figcaption:after {
+    content: url('uguale.jpg');	
+} 
+hr{border: solid black;}
+
+a:link{font-family: futurismo; 
+color:black;
+font-size:15px;
+}
+
+a:active {
+color: black;}
+
+a:visited {
+color: red;}
+
+
 
 
 
