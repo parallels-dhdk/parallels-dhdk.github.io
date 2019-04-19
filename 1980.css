@@ -1,0 +1,207 @@
+@font-face {
+    font-family: akilines;
+    src:url('font/AkiLines.ttf');
+}
+
+@font-face {
+    font-family: glowworm;
+    src:url('font/glowworm.ttf');
+}
+
+
+.container{
+    margin-top: 50px;
+    padding-top:0px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    padding-left:0px;
+    padding-right: 0px;
+    border: solid black;
+    filter: saturate(120%);
+}
+
+#title {
+    box-sizing: border-box;
+    width: 600px;
+    height: 120px;
+    font-family: akilines;
+    font-size: 115px;
+    text-align: center;
+    color: white;
+    background-color: red ; 
+    border: 5px solid white;
+    position:absolute;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+#table-home-page {
+    /*writing-mode: vertical-rl;*/
+    position: absolute;
+    color: white;
+    margin-left: 15px; 
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    grid-auto-columns: 33.3% 33.3% 33.3%;  
+    
+}
+
+.grid-container p {
+    display: none;
+}
+
+.item1 {
+    grid-area: 1/1;
+    background-image: url("img/japan2.jpg"); 
+    background-size: cover;
+    text-align: left;
+    background-position: center; 
+    height: 800px;
+    border-right: 15px solid yellow;   
+    padding-top:200px;
+}
+
+.item1 h3 {
+    color:pink;
+    font-family: glowworm;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.item2 {
+    grid-area: 2/1;
+    background-image: url("img/alabama1.png"); 
+    background-size: cover;
+    text-align: left;
+    background-position: center; 
+    height: 600px;
+    border-right: 15px solid yellow;   
+    border-top: 15px solid yellow; 
+}
+
+.item2 a {
+    display: block;
+    margin-top:48% !important;
+    text-align: right !important;
+}
+
+.item2 h3 {
+    margin-top: 150px;  
+    color: white;
+    font-family: glowworm;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.item3 {
+    grid-area: 3/1;
+    background-image: url("img/lottery1.jpg");
+    background-size: cover;
+    background-position: center; 
+    border-right: 15px solid yellow;   
+    border-top: 15px solid yellow;
+}
+
+.item3 h3 {
+    color:lightskyblue;
+    font-family: glowworm;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.item4 {
+    grid-area: 1,2/2,3;
+    background-image: url("img/delvey1.jpg"); 
+    background-size: cover;
+    padding-right:0px;
+    width: 200%;
+    height: 200%;
+    background-position: center; 
+    padding-top:200px;
+}
+
+.item4 h3 {
+   
+    margin-left: 50px;
+    margin-right:30px;
+    color:yellow;
+    font-family: glowworm;
+    text-transform: uppercase;
+    font-size: 55px;
+}
+
+.item5 {
+    grid-area: 3/2;
+    background-image: url("img/machine1.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    border-right: 15px solid yellow;   
+    border-top: 15px solid yellow;
+    
+}
+
+.item5 h3 {
+    color:white;
+    font-family: glowworm;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.item6 {
+    grid-area: 3/3;
+    background-image: url("img/eudirective1.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    border-top: 15px solid yellow;
+}
+
+.item6 h3 {
+    color:lightskyblue;
+    font-family: glowworm;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+article { 
+    margin-top: 50px;  
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-weight: 100;
+    text-align: justify;
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+    border: double 7px ; 
+  }
+
+article h2 {
+    column-span: all;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+  
+img {
+      width: 100%;
+      filter: saturate(120%);
+  }
+
+img:first-of-type {
+    width: 200%;
+  }
