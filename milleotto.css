@@ -27,13 +27,31 @@
   src: url(font/bodonicondensed.ttf);
 }
 
+@font-face {
+  font-family: Wanted;
+  src: url(font/HellsRiderDecay.ttf);
+}
+
+@font-face{
+  font-family: Western;
+  src: url(font/WesternWonderment.ttf);
+}
+
+@font-face{
+  font-family: Manero;
+  src: url(font/MarshalManero.otf);
+}
+
+
+
 body {
   background-image: url("img/wood.jpg");
 }
 
 img {
-filter:sepia(100%);
+filter:sepia(80%) opacity(70%);
 padding: 0;
+
 max-width: 100%;
 height: auto;
 }
@@ -57,16 +75,16 @@ article {
   -webkit-column-rule: 1px solid; /* Chrome, Safari, Opera */
   -moz-column-rule: 1px solid; /* Firefox */
   column-rule: 1px solid;
-  border-top-style: dotted;
-  border-top-width: 2px;
   border-top-left-radius: 5px; 
   border-top-right-radius: 5px;
   border-top-color: #2b1d0e; 
   border-bottom-style: dotted;
-  border-bottom-left-radius: 5px; 
-  border-bottom-right-radius: 5px;
   border-bottom-width: 2px;
-  border-bottom-color: #52402d;   
+  border-top-width: 2px;
+  border-bottom-color: #52402d; 
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  
 }
 
 @media screen and (max-width: 700px) {article { 
@@ -88,6 +106,16 @@ p {
   text-indent: 1em;
   font-size: 14px;
 }
+article p:first-child::first-letter {
+  font-size: 40px;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;}
+
+article p:first-child{
+  text-indent: 0em;
+}
 
 
 
@@ -95,21 +123,24 @@ p {
 
 
 
-h1 { 
+h1 {font-size: 10px;}
+
+
+#title { 
 font-family: myTitle;
-font-size: 100px; 
+font-size: 120px; 
 text-align: center; 
 text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
 letter-spacing: 7px;
 }
 
-@media screen and (max-width: 1000px) {h1 { 
-  font-size: 80px;
+@media screen and (max-width: 1000px) {#title { 
+  font-size: 100px;
 } }
 
 
-@media screen and (max-width: 800px) {h1 { 
-  font-size: 70px;
+@media screen and (max-width: 800px) {#title { 
+  font-size: 80px;
 } }
 
 
@@ -145,18 +176,17 @@ h5 {
 
 a { margin-right: 5px;
     color: #000000;
-    font-family: myBodoni;}
+    font-family: myBodoniCondensed;
+    font-size: 14px;}
 
 
 
-
-figcaption { aggiungi altro font }
 
 table {
   border-collapse: collapse;
   width: 100%;
   border-top-style: double;
-  border-bottom: double;
+  border-bottom-style: double; 
 
   }
 
@@ -184,16 +214,15 @@ td{
   padding-top: 70px;
   margin-bottom: 50px;
   background-image: url("img/newspaper1.png");
-  border-top-style: dotted;
   border-top-width: 2px;
   border-top-left-radius: 5px; 
   border-top-right-radius: 5px;
   border-top-color: #2b1d0e; 
   border-bottom-style: dotted;
-  border-bottom-left-radius: 5px; 
-  border-bottom-right-radius: 5px;
   border-bottom-width: 2px;
   border-bottom-color: #52402d; 
+  border-top-style: dotted;
+  border-bottom-style: dotted;
   }
 
 
@@ -211,25 +240,103 @@ td{
 .grid-container > div {
   padding: 10px;
   text-align: justify;
-  font-size: 12px;
-  
 }
 
 .item1 { grid-area: 1 / 1 ;
   border-bottom: 1px solid;
   border-right: 1px solid; 
 }
+
+.item1> p {
+  padding-top: 10px;
+  text-indent: 0em;
+}
+
+.item1 p:first-letter {
+  font-size: 40px;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;}
+
 .item2 { grid-area: 1 / 2 ; 
   border-bottom: 1px solid;
   border-right: 1px solid; }
+
+.item2> p {
+  padding-top: 10px;
+  text-indent: 0em;
+}
+
+.item2 p:first-letter {
+  font-size: 40px;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;}
+
+
 .item3 { grid-area: 1 / 3 ; 
   border-bottom: 1px solid;
    }
+
+.item3> p {
+  padding-top: 10px;
+  text-indent: 0em;
+}
+
+.item3 p:first-letter {
+  font-size: 40px;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;}
+
+
 .item4 { grid-area: 2 / 1 ; 
   border-right: 1px solid;}
+
+.item4> p {
+  padding-top: 10px;
+  text-indent: 0em;
+}
+
+.item4 p:first-letter {
+  font-size: 40px;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;}
+
+
 .item5 { grid-area: 2 / 2 ;
 border-right: 1px solid; }
+
+.item5> p {
+  padding-top: 10px;
+  text-indent: 0em;
+}
+
+.item5 p:first-letter {
+  font-size: 40px;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;}
+
 .item6 { grid-area: 2 / 3 ; }
+
+.item6> p {
+  padding-top: 10px;
+  text-indent: 0em;
+}
+
+.item6 p:first-letter {
+  font-size: 40px;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;}
 
 hr {
   display: block;
@@ -253,3 +360,110 @@ margin-top: 10px;
 margin-bottom: 10px;
 text-align: center;}
 
+#team:before { content: ""; 
+background-image: url("star.png"); 
+background-size: 100% 100%;
+display:inline-block;
+height: 50px;
+width: 50px;
+margin-bottom: 20px;
+margin-right: 20px;
+
+}
+
+
+#team:after { content: ""; 
+background-image: url("star.png"); 
+background-size: 100% 100%;
+display:inline-block;
+height: 50px;
+width: 50px;
+margin-bottom: 20px;
+margin-left: 20px;
+
+}
+
+
+
+#team {
+  font-style:normal;  
+  text-align: center;
+  padding-top: 50px;
+  font-family: Wanted;
+  font-size: 150px;
+  text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
+  letter-spacing: 10px;
+}
+
+#title-about {
+  font-style:normal;  
+  text-align: center;
+  padding-top: 30px;
+  font-family: Wanted; 
+  font-size: 120px;
+  text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+
+
+#text-about{
+  border: solid;
+  margin: 30px;
+  padding:20px;
+  
+}
+
+#text-about p {
+  text-indent: 0em;
+  font-family: Western;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-align: center; 
+
+}
+
+
+
+.card-img-top {
+  border-bottom: solid;
+}
+
+.card {
+  background-image: url("img/newspaper1.png");
+  border:solid;
+
+
+
+}
+
+.card-title {
+  padding-top: 20px;
+  font-family: Manero;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.card-text {
+font-family: Manero;
+font-size: 20px;
+text-indent: 0em;
+word-spacing: 3px;
+letter-spacing: 2px;
+text-align: center;
+}
+
+
+
+.card-deck {
+
+  padding-right: 50px; 
+  padding-left: 50px; 
+  padding-bottom: 50px; 
+}
