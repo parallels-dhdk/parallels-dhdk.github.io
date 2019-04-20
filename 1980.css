@@ -13,7 +13,15 @@
     src:url('font/futuramedium.ttf');
 }
 
+
+body {
+    background-image: url("img/5.jpg");
+    
+    
+}
+
 .container{
+    background-color: white;
     margin-top: 50px;
     padding-top:0px;
     margin-bottom: 50px;
@@ -224,6 +232,7 @@ article {
     border: double 7px ; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
+    background-color: white;
   }
 
 
@@ -232,10 +241,11 @@ article h2 {
     padding-bottom: 20px;
     padding-top: 20px;
     font-family: futura ;
+    color: black;
     text-transform: uppercase;
     font-size: 90pt;
     text-align: right;
-    line-height: 80%;
+    line-height: 90%;
 }
 
 article h3{
@@ -384,6 +394,7 @@ article a {
     border: double 7px ; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
+    background: white;
 }
 .description {
     margin-top: 50px;  
@@ -402,19 +413,21 @@ article a {
     -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
     -moz-column-gap: 30px; /* Firefox */
     column-gap: 30px;
-    border: solid black; 
+    border: solid yellow 15px; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
+    background: white !important;
 }
 
 #title-about {
     margin-right: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
-    font-family: futura ;
+    font-family: Akilines;
+    color: red;
     text-transform: uppercase;
     font-size: 90pt;
-    text-align: right;
+    text-align: center;
 }
 
 #text-about p {
@@ -450,7 +463,7 @@ article a {
     padding-bottom: 20px;
     font-weight: 100;
     text-align: justify;
-    border: solid black; 
+    border: solid yellow 15px; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
 
@@ -459,8 +472,8 @@ article a {
 .card h5 {
     font-family: futuramedium;
   
-    font-size: 20pt;
-    text-align: center;
+    font-size: 16pt;
+    text-align: left;
 }
 
 .card-text {
