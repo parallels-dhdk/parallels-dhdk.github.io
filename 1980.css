@@ -3,11 +3,14 @@
     src:url('font/AkiLines.ttf');
 }
 
-
-
 @font-face {
     font-family: futura;
     src:url('font/FuturaExtraBlack.ttf');
+}
+
+@font-face {
+    font-family: futuramedium;
+    src:url('font/futuramedium.ttf');
 }
 
 .container{
@@ -188,6 +191,7 @@ article {
     -moz-column-gap: 30px; /* Firefox */
     column-gap: 30px;
     border: double 7px ; 
+    font-family: 'Times New Roman', Times, serif;
   }
 
 article h2, h3, h4{
@@ -204,12 +208,45 @@ article h2 {
     line-height: 80%;
 }
 
+article h3{
+    font-family: futuramedium;
+    font-style: italic;
+    font-size: 30pt;
+    text-align: right;
+}
+
+article h4 {
+    font-family: futuramedium;
+    font-style: italic;
+    font-size: 20pt;
+    text-align: center;
+    border-top: solid black;
+    border-bottom:solid black; 
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+span {
+    border-top: solid black;
+    border-bottom: solid black;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-style: italic;
+
+}
+
 article p {
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
   }
-  
+ 
+
 img {
     width: 100%;
     filter: saturate(120%);
@@ -229,11 +266,11 @@ img:nth-of-type(2) {
   }
 
 img:nth-of-type(3) {
-    border: solid black 5px ;
+    border: solid black 8px ;
   }
 
 img:nth-of-type(4) {
-    border: solid black 5px ;
+    border: solid black 8px ;
   }
 
 img:nth-of-type(5) {
@@ -243,11 +280,11 @@ img:nth-of-type(5) {
   }
 
 img:nth-of-type(6) {
-    border: solid black 5px ;
+    border: solid black 8px ;
   }
 
 img:nth-of-type(7) {
-    border: solid black 5px ;
+    border: solid black 8px ;
   }
 
 img:nth-of-type(8) {
