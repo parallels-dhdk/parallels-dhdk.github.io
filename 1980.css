@@ -458,7 +458,7 @@ article a {
 
 .card h5 {
     font-family: futuramedium;
-    font-style: italic;
+  
     font-size: 20pt;
     text-align: center;
 }
@@ -470,6 +470,15 @@ article a {
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
+}
+
+.card h5::first-letter {
+    float: left;
+    font-size: 75pt;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-right: 8px;
+    font-family: futura;
 }
 
 .card-img-top {
@@ -484,3 +493,19 @@ article a {
 
 
 /*DOCUMENTATION*/
+
+.container-documentation {
+    margin-top: 50px;  
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-weight: 100;
+    text-align: justify;
+    border: double 7px ; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
