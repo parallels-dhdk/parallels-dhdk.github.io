@@ -190,7 +190,7 @@ article {
     border: double 7px ; 
   }
 
-article h2 {
+article h2, h3, h4{
     column-span: all;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -203,5 +203,5 @@ img {
   }
 
 img:first-of-type {
-    width: 200%;
+    width: 150%;
   }
