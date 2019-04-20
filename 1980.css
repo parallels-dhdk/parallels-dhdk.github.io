@@ -58,8 +58,12 @@
 }
 
 .grid-container a {
-    color: yellow;
-    margin-top: 200px;
+    color: black;
+    padding-right: 10px;
+    width:100%;
+    text-align: right;
+    display: block;
+    
 }
 
 .item1 {
@@ -77,7 +81,10 @@
     font-family: futura;
     text-transform: uppercase;
     font-size: 25pt;
-    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: right;
 }
 
 .item2 {
@@ -90,11 +97,6 @@
     border-top: 15px solid yellow; 
 }
 
-/*.item2 a {
-    display: block;
-    margin-top:48% !important;
-    text-align: right !important;
-}*/
 
 .item2 h3 {
     margin-top: 310px;  
@@ -102,7 +104,10 @@
     font-family: futura;
     text-transform: uppercase;
     font-size: 25pt;
-    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: right;
 }
 
 .item3 {
@@ -121,6 +126,8 @@
     font-size: 25pt;
     margin-right: 10px;
     text-align: right;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .item4 {
@@ -133,6 +140,7 @@
     background-position: center; 
     padding-top:200px;
     border-right: 15px solid yellow;   
+    
 }
 
 .item4 h3 {
@@ -142,6 +150,16 @@
     font-family: futura;
     text-transform: uppercase;
     font-size: 40pt;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.item4 a {
+    color: black;
+    padding-left: 20px;
+    width:100%;
+    text-align: left;
+    display: block;
 }
 
 .item5 {
@@ -151,6 +169,7 @@
     background-position: center; 
     border-right: 15px solid yellow;   
     border-top: 15px solid yellow;  
+    
 }
 
 .item5 h3 {
@@ -160,6 +179,8 @@
     font-size: 25pt;
     margin-right: 10px;
     text-align: right;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .item6 {
@@ -177,6 +198,8 @@
     font-size: 25pt;
     margin-right: 10px;
     text-align: right;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -203,13 +226,11 @@ article {
     font-size: 14pt;
   }
 
-article h2, h3, h4{
+
+article h2 {
     column-span: all;
     padding-bottom: 20px;
     padding-top: 20px;
-}
-
-article h2 {
     font-family: futura ;
     text-transform: uppercase;
     font-size: 90pt;
@@ -218,6 +239,9 @@ article h2 {
 }
 
 article h3{
+    column-span: all;
+    padding-bottom: 20px;
+    padding-top: 20px;
     font-family: futuramedium;
     font-style: italic;
     font-size: 30pt;
@@ -225,6 +249,9 @@ article h3{
 }
 
 article h4 {
+    column-span: all;
+    padding-bottom: 20px;
+    padding-top: 20px;
     font-family: futuramedium;
     font-style: italic;
     font-size: 20pt;
