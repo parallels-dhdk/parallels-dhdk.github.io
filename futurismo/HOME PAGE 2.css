@@ -29,7 +29,7 @@ src:local('English Gothic Bold Italic'), url('English Gothic Bold Italic.ttf') f
 body{background: url("metal background.jpg");
 }
 
-h1{
+h1{ /*da cambiare su file*/
 	font-family:LibbyHeavy;
 	font-size:100px;
 	text-align:justify;
@@ -60,8 +60,9 @@ font-size:20px;}
 font-size:20px;}
 
 .container{margin-top: 200px;
-background-color: #FFFAFA;
+background: url('carta2.png');
 border:10px solid;
+
 
 }
 
@@ -118,7 +119,9 @@ text-align: center;}
 margin-left:5%;
  border-top:solid;
  border-top-width: thick;
-  border-left:solid;
+  border-bottom:solid;
+ border-bottom-width: thick;
+   border-left:solid;
  border-left-width: thick;
 
 }
@@ -135,7 +138,6 @@ margin-left:5%;
 
 .item4{ grid-area: 1/2 ;
 margin-top:40%; 
-
 }
 .item5{ grid-area: 2/2 ;
 margin-top:30%;

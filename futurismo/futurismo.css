@@ -45,7 +45,7 @@ article{background-color:#white;
 	margin-left: 300px;
 	margin-right:300px;
 	margin-top:10%;
-}
+}  
 h2{
 	font-family:Bernhard Antique;
 	color:red;
@@ -71,7 +71,7 @@ h1{ font-family:Typo Grotesk Black;
 	-ms-transform: rotate(20deg);
 	margin-top:100px;
 
-}	NON L'HO INSERITO
+}
 
 h3 {  font-family:English Gothic Bold Italic;
 	font-size: 25px;}
@@ -95,7 +95,7 @@ p{font-family:BitstreamIowanOldStyleBoldBT;
 	font-size:15px;
 	border-right: solid;
 border-right-width: thick;	
-} NON L'HO INSERITO 
+}
 
 
 	
@@ -116,8 +116,7 @@ img{
 
 p:after {  
     content: url('più.jpg');
-
-} NON L'HO INSERITO 
+}
 
 
 table {
