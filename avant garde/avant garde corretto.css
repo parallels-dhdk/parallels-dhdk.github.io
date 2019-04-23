@@ -1,0 +1,59 @@
+@font-face 
+{font-family: ITC Avant Garde Gothic LT Bold;
+    src: url("ITC Avant Garde Gothic LT Bold.otf");
+}
+
+
+@font-face 
+{font-family: SchmalfetteCP;
+    src: url("SchmalfetteCP.ttf");
+}
+@font-face 
+{font-family: Futura Book font;
+    src: url("Futura Book font.ttf");
+}
+body{
+	background-color:#FCE2C9;
+column-count:4;
+column-width: 100px; 
+}
+#title{ font-family:ITC Avant Garde Gothic LT Bold;
+    font-size:90px;
+    text-transform: uppercase;
+    float:right;
+    text-align: right;
+    margin-left: 40px;
+	color: blue;
+}
+	 
+
+h2{ font-family:ITC Avant Garde Gothic LT Bold;
+	text-align:left;
+	margin-left: 100px;
+	letter-spacing: -1px;
+	 font-stretch: expanded;
+	 padding-top:0px;
+}
+
+p:first-letter{
+  color: red;
+  font-size: 4em;
+  font-family: SchmalfetteCP;
+ 
+}
+
+p{ font-family: "Times New Roman", Times, serif;
+font-size: 12px;
+margin-top:2px;
+}
+
+img {
+    width: 100%;
+	 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+figcaption{
+	font-family:Futura Book font;
+	font-size: 11px;
+}
