@@ -16,8 +16,6 @@
 
 body {
     background-image: url("img/5.jpg");
-    
-    
 }
 
 .container{
@@ -58,7 +56,6 @@ body {
     display: grid;
     grid-template-rows: 33.3% 33.3% 33.3%;
     grid-auto-columns: 33.3% 33.3% 33.3%;  
-    
 }
 
 .grid-container p {
