@@ -37,7 +37,7 @@
  
  <!---------------------------TITOLO----------------------------------->
             <h1 id="title">Paralles</h1>
-            <<div id="table-home-page">
+            <div id="table-home-page">
               <p id="subleft">First Edition</p>
               <p id="subcenter">Bologna, May 3, 2019</p> 
               <p id="subright">n. 1</p>
@@ -85,7 +85,30 @@
 </div>
 
 
+<script>
+  
 
+  var caller = $(".item1 a");
+  var container = $(".item1");
+  
+  function foo()
+  {
+      var randX = Math.floor(Math.random() * (container[0].offsetWidth - 150));
+      var randY = Math.floor(Math.random() * -(container[0].offsetHeight - 100));
+      console.log([randX, randY]);
+      caller.stop().animate({"left": randX + "px", "top": randY + "px"});
+  }
+  
+  $(document).ready(function() {
+      
+      caller.on('mouseenter', foo);
+      caller.on('click', function(){
+          alert('clicked!');
+      });
+      
+  })
+
+  </script>
 
 
 

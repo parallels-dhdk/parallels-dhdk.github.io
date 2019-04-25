@@ -1,4 +1,5 @@
-script>
+<script>
+$( document ).ready(function() {
 var caller = $(".item1 a");
 var container = $(".grid-container");
 
@@ -17,5 +18,6 @@ $(document).ready(function() {
         alert('clicked!');
     });
     
-});
+})
+})
 </script>
