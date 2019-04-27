@@ -32,7 +32,23 @@ function art6(){
 function index(){
     $("#mainbody").html("")
     $("#mainbody").load('index-text.html')
-    crazybutton
+    item1 = $(".item1 a");
+    container1 = $(".item1");
+
+     item2 = $(".item2 a");
+     container2 = $(".item2");
+
+     item3 = $(".item3 a");
+     container3 = $(".item3");
+
+     item4 = $(".item4 a");
+     container4 = $(".item4");
+
+     item5 = $(".item5 a");
+     container5 = $(".item5");
+
+     item6 = $(".item6 a");
+     container6 = $(".item6");
 }
 
 function about(){
@@ -86,8 +102,6 @@ $("#2040").click(function() {
     $("#css").html("")
     $("#css").load('2040.css')
 })    
-crazybutton
-})
 
 
 
@@ -97,7 +111,7 @@ crazybutton
 
 
 
-function crazybutton (){
+
 var item1 = $(".item1 a");
 var container1 = $(".item1");
 
@@ -161,4 +175,5 @@ var container6 = $(".item6");
         foo(item6, container6);
         }
     })
-}
+
+})
