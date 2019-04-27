@@ -69,7 +69,9 @@ body{background-image: url("img/cassette.jpg");
 		padding-bottom: 50px;
 }
 
-
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {.container{margin-right:50px;}}
 
 #title{ font-family:  ITC Avant Garde Gothic LT Book Regular;
 font-size: 200px;
