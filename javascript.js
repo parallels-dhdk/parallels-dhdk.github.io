@@ -1,9 +1,9 @@
 $(document).ready(function () 
 { 
-function art1(){
+$("#art1").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('japan.html')
-}
+})
 
 function art2(){
     $("#mainbody").html("")
