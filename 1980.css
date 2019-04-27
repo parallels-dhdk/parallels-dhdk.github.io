@@ -45,12 +45,30 @@ body {
     margin-top: 25px;
 }
 
-#table-home-page {
-    /*writing-mode: vertical-rl;*/
-    position: absolute;
-    color: white;
-    margin-left: 15px; 
-}
+
+#table-home-page {overflow: hidden;
+    width: 30%;
+  display: table;
+  
+  }
+  
+  #subright {
+    display: table-cell; 
+    width: 33.3%; 
+    text-align: right;
+    letter-spacing: 3px;
+    }
+  
+  #subcenter {
+    letter-spacing: 3px;
+    text-align: center;
+    width: 33.3%;  
+    display: table-cell;}
+  
+  #subleft { 
+  display: table-cell;
+  width: 33.3%; 
+  letter-spacing: 3px;}
 
 .grid-container{
     display: grid;
