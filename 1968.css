@@ -283,6 +283,11 @@ margin-right:10px;
 margin-left:10px;
 }}	
 
+/* smaller phone viewpoints */
+@media (min-width: 320px) {h2 { font-size:40px;
+
+}}
+
 h4{font-family: Windsor-Bold;
  margin-left:20px;
 	 margin-right: 20px;
