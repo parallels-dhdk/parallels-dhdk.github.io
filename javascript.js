@@ -49,6 +49,7 @@ function documentation(){
 
 $(document).ready(function () 
 { 
+$("#css").load('1560.css')
 $("#1560").click(function() {
     quaranta=false
     $("#css").html("")
