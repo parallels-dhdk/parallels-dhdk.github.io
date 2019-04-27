@@ -98,24 +98,40 @@ $("#2040").click(function() {
 
 
 if (quaranta) {
-var caller = $(".item1 a");
-console.log(caller)
-  var container = $(".item1");
-  
-  function foo()
+var item1 = $(".item1 a");
+var container1 = $(".item1");
+
+var item2 = $(".item2 a");
+var container2 = $(".item2");
+
+var item3 = $(".item3 a");
+var container3 = $(".item3");
+
+var item4 = $(".item4 a");
+var container4 = $(".item4");
+
+var item5 = $(".item5 a");
+var container5 = $(".item5");
+
+var item6 = $(".item6 a");
+var container6 = $(".item6");
+
+  function foo(item, container)
   {
       var randX = Math.floor(Math.random() * (container[0].offsetWidth - 150));
       var randY = Math.floor(Math.random() * -(container[0].offsetHeight - 100));
       console.log([randX, randY]);
-      caller.stop().animate({"left": randX + "px", "top": randY + "px"});
+      item.stop().animate({"left": randX + "px", "top": randY + "px"});
   }
   
   
       
-      caller.on('mouseenter', foo);
-      caller.on('click', function(){
-          alert('clicked!');
-      });
+      item1.on('mouseenter', foo(item1, container1));
+      item2.on('mouseenter', foo(item2, container2));
+      item3.on('mouseenter', foo(item3, container3));
+      item4.on('mouseenter', foo(item4, container4));
+      item5.on('mouseenter', foo(item5, container5));
+      item6.on('mouseenter', foo(item6, container6));
     }  
 
 })
