@@ -1,36 +1,36 @@
 $(document).ready(function () 
 { 
-$("#art1").click(function() {
+$(".button-art1").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('japan.html')
 })
 
-$("#art2").click(function() {
+$(".button-art2").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('alabama.html')
 })
 
-$("#art3").click(function() {
+$(".button-art3").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('lottery.html')
 })
 
-$("#art4").click(function() {
+$(".button-art4").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('delvey.html')
 })
 
-$("#art5").click(function() {
+$(".button-art5").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('machine.html')
 })
 
-$("#art6").click(function() {
+$(".button-art6").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('eudirective.html')
 })
 
-$("#index-button").click(function() {
+$(".index-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('index-text.html')
     item1 = $(".item1 a");
@@ -52,12 +52,12 @@ $("#index-button").click(function() {
      container6 = $(".item6");
 })
 
-$("#about-button").click(function() {
+$(".about-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('about.html')
 })
 
-$("#documentation-button").click(function() {
+$(".documentation-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('documentation.html')
 })
