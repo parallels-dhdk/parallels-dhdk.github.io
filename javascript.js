@@ -43,6 +43,7 @@ $(".index-button").click(function() {
     var newindex = $("#mainbody").load('index-text.html')
     $.when(newindex).done(function(){
     art1 = $(".button-art1")
+    console.log(art1)
     art2 = $(".button-art2")
     art3 = $(".button-art3")
     art4 = $(".button-art4")
