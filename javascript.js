@@ -1,5 +1,5 @@
 
-var quaranta=false
+
 
 function art1(){
     $("#mainbody").html("")
@@ -49,6 +49,7 @@ function documentation(){
 
 $(document).ready(function () 
 { 
+var quaranta=false
 $("#css").load('1560.css')
 $("#1560").click(function() {
     quaranta=false
@@ -96,7 +97,7 @@ $("#2040").click(function() {
 
 
 
-if (quaranta===true) {
+if (quaranta) {
 var caller = $(".item1 a");
 console.log(caller)
   var container = $(".item1");
