@@ -97,7 +97,7 @@ $("#2040").click(function() {
 
 
 
-if (quaranta) {
+
 var item1 = $(".item1 a");
 var container1 = $(".item1");
 
@@ -132,6 +132,6 @@ var container6 = $(".item6");
       item4.on('mouseenter', foo(item4, container4));
       item5.on('mouseenter', foo(item5, container5));
       item6.on('mouseenter', foo(item6, container6));
-    }  
+    
 
 })
