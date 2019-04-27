@@ -59,16 +59,13 @@ body{background-image: url("img/cassette.jpg");
 .container{margin-top: 100px;
 		margin-bottom:100px;
 		background-image:url("img/sfondo2.png");
-		
 		text-align:justif;
 		font-size: 15px;
 		margin-left:90px;
 		margin-right:90px;
-		
-		
-		
-
+		height: auto;
 }
+
 
 
 #title{ font-family:  ITC Avant Garde Gothic LT Book Regular;
@@ -199,7 +196,7 @@ article{
 		-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
 		-moz-column-gap: 20px; /* Firefox */
 		column-gap: 20px;
-		
+		height:auto;
 		
 
   }		
@@ -339,7 +336,7 @@ h6{font-family:Koch Regular;
 .container-about{margin-top: 100px;
 		margin-bottom:100px;
 		background-image:url("img/sfondo2.png");
-	
+		height:auto;
 		text-align:justif;
 		font-size: 15px;
 		margin-left:90px;
@@ -462,6 +459,7 @@ column-count:2;
 		-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
 		-moz-column-gap: 20px; /* Firefox */
 		column-gap: 20px;
+		height:auto;
 	}
 	
 @media screen and (max-width: 700px) {.description { 

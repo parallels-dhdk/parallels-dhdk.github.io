@@ -46,7 +46,7 @@
 }
 
 body {
-    background-image: url("img/MqR.gif");    
+    background-image: url("img/pixel.gif");    
 }
 
 .container{
@@ -60,6 +60,11 @@ body {
     height:auto;
     overflow: hidden;
     cursor: url("img/target.png"), auto;
+}
+
+
+#timeline-wrap {
+background-color:white !important;
 }
 
 .grid-container p {
@@ -81,9 +86,9 @@ font-size: 50pt;
 
 
  /* Apply animation to this element */	
- -moz-animation: title 2s linear infinite ;
- -webkit-animation: title 2s linear infinite ;
- animation: title 2s linear infinite ;
+ -moz-animation: title 1s linear infinite ;
+ -webkit-animation: title 1s linear infinite ;
+ animation: title 1s linear infinite ;
 }
 /* Move it (define the animation) */
 @-moz-keyframes title {
@@ -120,8 +125,7 @@ font-size: 50pt;
     position: relative;
     z-index: 99; 
     background-color: white;
-    color: black;
-    
+    color: black;  
 }
 
 .item1 {
@@ -161,6 +165,14 @@ font-size: 50pt;
     padding-bottom: 20px;
 }
 
+.item2 a {
+    display: inline-block;
+    position: relative;
+    z-index: 99; 
+    background-color: white;
+    color: black;  
+}
+
 .item3 {
     
     background-color:#ff6666;
@@ -181,6 +193,14 @@ font-size: 50pt;
     padding-bottom: 30px;
 }
 
+.item3 a {
+    display: inline-block;
+    position: relative;
+    z-index: 99; 
+    background-color: white;
+    color: black;  
+}
+
 .item4 {
     
     background-color:#cc66cc;
@@ -197,6 +217,14 @@ font-size: 50pt;
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.item4 a {
+    display: inline-block;
+    position: relative;
+    z-index: 99; 
+    background-color: white;
+    color: black;  
 }
 
 .item5 {
@@ -217,6 +245,14 @@ font-size: 50pt;
     padding-bottom: 10px;
 }
 
+.item5 a {
+    display: inline-block;
+    position: relative;
+    z-index: 99; 
+    background-color: white;
+    color: black;  
+}
+
 .item6 {
     background-color:orangered;
     text-align: left;
@@ -235,7 +271,13 @@ font-size: 50pt;
     padding-bottom: 10px;
 }
 
-
+.item6 a {
+    display: inline-block;
+    position: relative;
+    z-index: 99; 
+    background-color: white;
+    color: black;  
+}
 
 
 article { 
@@ -285,7 +327,7 @@ article h4 {
     color: red;
 }
 
-article p{
+article section{
 font-family: comicsans;
 line-height: 5em;
 text-align: center;
@@ -418,5 +460,5 @@ article span:hover {
     text-align: center;
     font-family: comicsans;
     font-size: 14pt;
-
     color:yellow;
+} 

@@ -46,29 +46,11 @@ body {
 }
 
 
-#table-home-page {overflow: hidden;
-    width: 80%;
-  display: table;
-  
+#table-home-page{
+   display:none;
   }
   
-  #subright {
-    display: table-cell; 
-    width: 33.3%; 
-    text-align: right;
-    }
   
-  #subcenter {
-    
-    text-align: center;
-    width: 33.3%;  
-    display: table-cell;
-    }
-  
-  #subleft { 
-  display: table-cell;
-  width: 33.3%; 
-  }
 
 .grid-container{
     display: grid;
