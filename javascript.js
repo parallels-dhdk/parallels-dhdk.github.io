@@ -8,27 +8,27 @@ $("#art1").click(function() {
 $("#art2").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('alabama.html')
-}
+})
 
 $("#art3").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('lottery.html')
-}
+})
 
 $("#art4").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('delvey.html')
-}
+})
 
 $("#art5").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('machine.html')
-}
+})
 
 $("#art6").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('eudirective.html')
-}
+})
 
 $("#index-button").click(function() {
     $("#mainbody").html("")
@@ -50,17 +50,17 @@ $("#index-button").click(function() {
 
      item6 = $(".item6 a");
      container6 = $(".item6");
-}
+})
 
 $("#about-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('about.html')
-}
+})
 
 $("#documentation-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('documentation.html')
-}
+})
 
 
 var quaranta= false
