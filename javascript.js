@@ -1,3 +1,5 @@
+$(document).ready(function () 
+{ 
 function art1(){
     $("#mainbody").html("")
     $("#mainbody").load('japan.html')
@@ -61,8 +63,7 @@ function documentation(){
     $("#mainbody").load('documentation.html')
 }
 
-$(document).ready(function () 
-{ 
+
 var quaranta= false
 $("#css").load('1560.css')
 $("#1560").click(function() {
