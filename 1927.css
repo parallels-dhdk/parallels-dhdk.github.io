@@ -699,7 +699,7 @@ hr{border: solid black;}
 }
 	
 #title-about{font-family:FatCow-Italic;
-	font-size: 260px;
+	font-size: 250px;
 	color:black;
 	transform:none;
 	-webkit-transform: none;
@@ -719,8 +719,8 @@ hr{border: solid black;}
 
 @media screen and (max-width: 1200px) {#title-about{ font-size: 80px;
 
-margin-left:340px;
-  margin-right:340px;
+margin-left:350px;
+  margin-right:350px;
 }}
 
 
