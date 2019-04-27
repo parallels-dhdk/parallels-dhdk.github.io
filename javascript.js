@@ -1,5 +1,5 @@
 
-
+var quaranta=false
 function art1(){
     $("#mainbody").html("")
     $("#mainbody").load('japan.html')
@@ -49,39 +49,39 @@ function documentation(){
 $(document).ready(function () 
 { 
 $("#1560").click(function() {
-    
+    quaranta=false
     $("#css").html("")
     $("#css").load('1560.css')
 })
       
     
 $("#1860").click(function() {
-    
+    quaranta=false
     $("#css").html("")
     $("#css").load('1860.css')
 })
 
 $("#1927").click(function() {
-    
+    quaranta=false
     $("#css").html("")
     $("#css").load('1927.css')
 })     
 
 $("#1968").click(function() {
-    
+    quaranta=false
     $("#css").html("")
     $("#css").load('1968.css')
 })  
       
        
 $("#1980").click(function() {
-    
+    quaranta=false
     $("#css").html("")
     $("#css").load('1980.css')
 })
     
 $("#2040").click(function() {
-    
+    quaranta= true
     $("#css").html("")
     $("#css").load('2040.css')
 })    
@@ -95,7 +95,7 @@ $("#2040").click(function() {
 
 
 
-
+if (quaranta=true) {
 var caller = $(".item1 a");
   var container = $(".item1");
   
@@ -113,4 +113,4 @@ var caller = $(".item1 a");
       caller.on('click', function(){
           alert('clicked!');
       });
-      
+    }  
