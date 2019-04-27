@@ -1,23 +1,16 @@
 $(document).ready(function () 
 { 
     var art1 = $(".button-art1")
-    var container1 = $(".item1");
+    var art2 = $(".button-art2")
+    var art3 = $(".button-art3")
+    var art4 = $(".button-art4")
+    var art5 = $(".button-art5")
+    var art6 = $(".button-art6")
     
-    var art2 = $(".item2 a");
-    var container2 = $(".item2");
     
-    var art3 = $(".item3 a");
-    var container3 = $(".item3");
     
-    var art4 = $(".item4 a");
-    var container4 = $(".item4");
     
-    var art5 = $(".item5 a");
-    var container5 = $(".item5");
-    
-    var art6 = $(".item6 a");
-    var container6 = $(".item6"); 
-    
+   
     art1.click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('japan.html')
