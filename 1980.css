@@ -52,18 +52,14 @@ body {
   position: absolute;
     color: white;
     margin-left: 15px; 
-  
   }
   
   #subright {
     display: table-cell; 
     width: 33.3%; 
-    text-align: right;
     }
   
   #subcenter {
-    
-    text-align: center;
     width: 33.3%;  
     display: table-cell;
     }
