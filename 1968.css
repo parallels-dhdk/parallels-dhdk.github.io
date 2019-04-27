@@ -196,7 +196,7 @@ article{
 		-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
 		-moz-column-gap: 20px; /* Firefox */
 		column-gap: 20px;
-		
+		height:auto;
 		
 
   }		
