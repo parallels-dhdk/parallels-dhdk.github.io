@@ -30,8 +30,7 @@ $("#art6").click(function() {
     $("#mainbody").load('eudirective.html')
 }
 
-
-function index(){
+$("#index-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('index-text.html')
     item1 = $(".item1 a");
@@ -53,12 +52,12 @@ function index(){
      container6 = $(".item6");
 }
 
-function about(){
+$("#about-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('about.html')
 }
 
-function documentation(){
+$("#documentation-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('documentation.html')
 }
