@@ -259,7 +259,7 @@ h2{ font-family:Windsor-Bold;
 	 text-align: center;
 	 margin-left:10px;
 	 margin-right: 20px;
-	 margin-top: 10px;
+	 margin-top: 5px;
 	   line-height: -100; 
 }
 
@@ -422,25 +422,26 @@ background-image :url("img/sfondo2.png");
 .card-img-sara{ display: block;
 				margin-left: auto; 
 				margin-right: auto; 
-				width: 80%; }
+				width: 80%;
+-webkit-filter: blur(0px) brightness(1.1) contrast(1.4) grayscale(0.39) hue-rotate(250deg) invert(0.1) opacity(100%) saturate(8.8) sepia(0.5) drop-shadow(0px 0px 5px #000);				}
 				
 .card-img-lucia{ display: block;
 				margin-left: auto; 
 				margin-right: auto; 
-				width: 80%; }
+				width: 80%; 
+				-webkit-filter: blur(0px) brightness(1.1) contrast(1.4) grayscale(0.39) hue-rotate(250deg) invert(0.1) opacity(100%) saturate(8.8) sepia(0.5) drop-shadow(0px 0px 5px #000);}
 				
 .card-img-michela{ display: block;
 				margin-left: auto; 
 				margin-right: auto; 
-				width: 80%; }
+				width: 80%; 
+				-webkit-filter: blur(0px) brightness(1.1) contrast(1.4) grayscale(0.39) hue-rotate(250deg) invert(0.1) opacity(100%) saturate(8.8) sepia(0.5) drop-shadow(0px 0px 5px #000);}
 				
 .card-text {font-family: Futura Book font;
 text-transform: uppercase;
 text-align:center;
 
 }
-
-.card-img-top-1{-webkit-filter: blur(0px) brightness(1.1) contrast(1.4) grayscale(0.39) hue-rotate(250deg) invert(0.1) opacity(100%) saturate(8.8) sepia(0.5) drop-shadow(0px 0px 5px #000);}
 
 
 /*documentation*/
