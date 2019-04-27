@@ -432,6 +432,8 @@ padding-top: 200px;
   column-count: 1;
 } }
 
+
+
 @media screen and (max-width: 100px) {article { 
   -webkit-column-count: 1; /* Chrome, Safari, Opera */
   -moz-column-count: 1; /* Firefox */
