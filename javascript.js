@@ -5,27 +5,27 @@ $("#art1").click(function() {
     $("#mainbody").load('japan.html')
 })
 
-function art2(){
+$("#art2").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('alabama.html')
 }
 
-function art3(){
+$("#art3").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('lottery.html')
 }
 
-function art4(){
+$("#art4").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('delvey.html')
 }
 
-function art5(){
+$("#art5").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('machine.html')
 }
 
-function art6(){
+$("#art6").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('eudirective.html')
 }
