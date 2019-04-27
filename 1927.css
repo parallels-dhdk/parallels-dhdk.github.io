@@ -131,18 +131,24 @@ color: red;
 #subright:after{display: none;}
 #subleft:after{display: none;}
 
-.container{margin-top: 100px;
+.container{margin-top: 50px;
 		margin-bottom: 70px;
 		border: 20px outset black;
 		text-align:justify;
 		font-size: 15px;
 		background-image:url("img/sfondo puntini.png");
-		margin-left: 100px;
-		margin-right:100px;
+		 padding-top:0px;
+		padding-left:0px;
+		padding-right: 0px;
+		height:auto;
+		overflow: hidden;
 }
 
 
 	
+		
+    
+   
 		
 		
 		
