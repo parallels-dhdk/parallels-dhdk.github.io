@@ -47,9 +47,7 @@ body {
 
 
 #table-home-page p{
-    writing-mode: vertical-rl;
-text-orientation: mixed;
-text-align: right;
+   display:none;
   }
   
   
