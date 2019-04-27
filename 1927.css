@@ -130,7 +130,7 @@ color: red;
 #subright:after{display: none;}
 #subleft:after{display: none;}
 
-.container{{margin-top: 50px;
+.container{margin-top: 50px;
 		margin-bottom: 50px;
 		border: 20px outset black;
 		text-align:justify;
@@ -691,7 +691,6 @@ hr{border: solid black;}
 		margin-right:50px;
 		background-image:url("img/sfondo puntini.png");
 		height:auto;
-
 }
 	
 #title-about{font-family:FatCow-Italic;
@@ -803,7 +802,7 @@ border-radius: 70%;}
 		margin-left:50px;
 		margin-right:50px;
 		background-image:url("img/sfondo puntini.png");
-		height:auto;
+	height:auto;
 
 }
 
