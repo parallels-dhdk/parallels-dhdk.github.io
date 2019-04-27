@@ -139,13 +139,15 @@ color: red;
 		margin-right:50px;
 		background-image:url("img/sfondo puntini.png");
 		height:auto;	
+		
 }
 
 
 .grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
-
+margin-left:100px;
+		margin-right:100px;
   }
 
 
