@@ -47,7 +47,7 @@ body {
 
 
 #table-home-page {overflow: hidden;
-    width: 50%;
+    width: 80%;
   display: table;
   
   }
@@ -56,19 +56,19 @@ body {
     display: table-cell; 
     width: 33.3%; 
     text-align: right;
-    letter-spacing: 3px;
     }
   
   #subcenter {
-    letter-spacing: 3px;
+    
     text-align: center;
     width: 33.3%;  
-    display: table-cell;}
+    display: table-cell;
+    }
   
   #subleft { 
   display: table-cell;
   width: 33.3%; 
-  letter-spacing: 3px;}
+  }
 
 .grid-container{
     display: grid;
