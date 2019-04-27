@@ -85,14 +85,6 @@ $("#2040").click(function() {
     $("#css").html("")
     $("#css").load('2040.css')
 })    
-
-var caller = $(".item1 a");
-caller.on('mouseenter', foo(caller));
-      caller.on('click', function(){
-          alert('clicked!');
-      });
-
-      
 })
 
 
@@ -104,12 +96,11 @@ caller.on('mouseenter', foo(caller));
 
 
 
-
+var caller = $(".item1 a");
+  var container = $(".item1");
   
-  
-  function foo(caller)
+  function foo()
   {
-        var container = $(".item1");
       var randX = Math.floor(Math.random() * (container[0].offsetWidth - 150));
       var randY = Math.floor(Math.random() * -(container[0].offsetHeight - 100));
       console.log([randX, randY]);
@@ -117,3 +108,9 @@ caller.on('mouseenter', foo(caller));
   }
   
   
+      
+      caller.on('mouseenter', foo);
+      caller.on('click', function(){
+          alert('clicked!');
+      });
+      
