@@ -86,8 +86,8 @@ $("#2040").click(function() {
     $("#css").load('2040.css')
 })    
 
-
-caller.on('mouseenter', foo);
+var caller = $(".item1 a");
+caller.on('mouseenter', foo(caller));
       caller.on('click', function(){
           alert('clicked!');
       });
@@ -104,11 +104,12 @@ caller.on('mouseenter', foo);
 
 
 
-var caller = $(".item1 a");
-  var container = $(".item1");
+
   
-  function foo()
+  
+  function foo(caller)
   {
+        var container = $(".item1");
       var randX = Math.floor(Math.random() * (container[0].offsetWidth - 150));
       var randY = Math.floor(Math.random() * -(container[0].offsetHeight - 100));
       console.log([randX, randY]);
