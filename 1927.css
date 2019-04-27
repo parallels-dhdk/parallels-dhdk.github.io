@@ -169,9 +169,23 @@ margin-top: 20px;
 margin-left:20px;
 margin-right:20px;
 }
+section{font-family:LibbyHeavy;
+font-size: 10px;
+border-right:none;
+margin-top: 20px;
+margin-left:20px;
+margin-right:20px;}
+
 
 li{font-family: hasta grotesk;}
+
+
 @media screen and (max-width: 1000px) { p { font-size: 7px;
+
+
+}}
+
+@media screen and (max-width: 1000px) { section { font-size: 7px;
 
 
 }}
@@ -612,7 +626,7 @@ margin-left:10px;
 
 }
 figcaption:before {
-    content: url('uguale.jpg');	
+    content: url('img/uguale.jpg');	
 } 
 
 @media screen and (max-width: 1200px) {figcaption{ 
