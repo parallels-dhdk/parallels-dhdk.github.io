@@ -32,6 +32,7 @@ function art6(){
 function index(){
     $("#mainbody").html("")
     $("#mainbody").load('index-text.html')
+    crazybutton
 }
 
 function about(){
@@ -85,6 +86,8 @@ $("#2040").click(function() {
     $("#css").html("")
     $("#css").load('2040.css')
 })    
+crazybutton
+})
 
 
 
@@ -94,7 +97,7 @@ $("#2040").click(function() {
 
 
 
-
+function crazybutton (){
 var item1 = $(".item1 a");
 var container1 = $(".item1");
 
@@ -158,5 +161,4 @@ var container6 = $(".item6");
         foo(item6, container6);
         }
     })
-
-})
+}
