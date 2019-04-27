@@ -770,21 +770,28 @@ margin-left: 100px;
 }}
 
 .card{border-color: #FFFFFF;
-display: block;
+}
+
+.card-img-top-1 { display: block;
 				margin-left: auto; 
 				margin-right: auto; 
 				width: 50%; 
-}
-
-.card-img-sara{ 
-border-color: #FFFFFF;
+border-radius: 70%;}
+.card-img-sara{ display: block;
+				margin-left: auto; 
+				margin-right: auto; 
+				width: 50%; 
 border-radius: 70%;}
 
-.card-img-lucia{ 
-border-color: #FFFFFF;
+.card-img-lucia{ display: block;
+				margin-left: auto; 
+				margin-right: auto; 
+				width: 50%; 
 border-radius: 70%;}
-.card-img-michela{ 
-border-color: #FFFFFF;
+.card-img-michela{ display: block;
+				margin-left: auto; 
+				margin-right: auto; 
+				width: 50%; 
 border-radius: 70%;}
 
 /*documentation*/
