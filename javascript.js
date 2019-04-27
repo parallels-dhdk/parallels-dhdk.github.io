@@ -41,7 +41,7 @@ $(document).ready(function ()
 $(".index-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('index-text.html')
-    art1 = $(".button-art1")
+    art1 = document.getElementsByClassName("button-art1")
     console.log(art1)
     art2 = $(".button-art2")
     art3 = $(".button-art3")
