@@ -1,16 +1,4 @@
 
-
-@font-face {
-  font-family: myClaredon;
-  src: url(font/unicode.clarendb.ttf);
-}
-
-@font-face {
-  font-family: myClaredonBold;
-  src: url(font/tt0351m_.ttf);
-}
-
-
 @font-face {
   font-family: myBodoni;
   src: url(font/LibreBodoni-Regular.ttf);
@@ -361,7 +349,7 @@ margin-bottom: 10px;
 text-align: center;}
 
 #team:before { content: ""; 
-background-image: url("star.png"); 
+background-image: url("img/star.png"); 
 background-size: 100% 100%;
 display:inline-block;
 height: 50px;
@@ -373,7 +361,7 @@ margin-right: 20px;
 
 
 #team:after { content: ""; 
-background-image: url("star.png"); 
+background-image: url("img/star.png"); 
 background-size: 100% 100%;
 display:inline-block;
 height: 50px;
