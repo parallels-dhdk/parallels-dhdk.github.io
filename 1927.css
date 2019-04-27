@@ -153,9 +153,7 @@ color: red;
 
 
 .grid-container > div{
-
 	text-align: justify;
-	
    float: left;
    margin: 40px;
 }
@@ -793,9 +791,8 @@ border-radius: 70%;}
 
 /*documentation*/
 
- .container-documentation{margin-top: 50px;
+.container-documentation{margin-top: 50px;
 		margin-bottom: 50px;
-		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
 		font-size: 15px;
@@ -803,7 +800,6 @@ border-radius: 70%;}
 		margin-right:50px;
 		background-image:url("img/sfondo puntini.png");
 	height:auto;
-
 }
 
 	
