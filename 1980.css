@@ -246,7 +246,7 @@ article h2 {
 }
 
 article h3{
-    column-span: all;
+   
     padding-bottom: 20px;
     padding-top: 20px;
     font-family: futuramedium;
@@ -256,7 +256,7 @@ article h3{
 }
 
 article h4 {
-    column-span: all;
+    
     padding-bottom: 20px;
     padding-top: 20px;
     font-family: futuramedium;
