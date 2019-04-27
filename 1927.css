@@ -555,7 +555,7 @@ width: 300px;
 }}
 
 p:after {  
-    content: url('parentesi.jpg');
+    content: url('img/parentesi.jpg');
 	margin-top: 10px;
 }
 
@@ -697,7 +697,7 @@ hr{border: solid black;}
 }
 	
 #title-about{font-family:FatCow-Italic;
-	font-size: 250px;
+	font-size: 260px;
 	color:black;
 	transform:none;
 	-webkit-transform: none;
@@ -705,8 +705,8 @@ hr{border: solid black;}
 	-moz-transform: none;
 	margin-top:10%;
 	word-break: break-word;
-	margin-left:400px;
-	margin-right:400px;
+	margin-left:470px;
+	margin-right:470px;
 	vertical-align: center;
 	text-decoration:underline;
 	border-bottom:7px solid;
@@ -717,8 +717,8 @@ hr{border: solid black;}
 
 @media screen and (max-width: 1200px) {#title-about{ font-size: 80px;
 
-margin-left:365px;
-  margin-right:365px;
+margin-left:340px;
+  margin-right:340px;
 }}
 
 
@@ -726,6 +726,11 @@ margin-left:365px;
 @media screen and (max-width: 1000px) {#title-about { font-size: 70px;
 
 margin-left:200px;
+  margin-right:165px;
+}}
+@media screen and (max-width: 1000px) {#title-about { font-size: 70px;
+
+margin-left:180px;
   margin-right:165px;
 }}
 
@@ -810,7 +815,7 @@ border-radius: 70%;}
 
 	
 #title-documentation{font-family:LibbyHeavy;
-	font-size:80px;
+	font-size:85px;
 	color:	#006400;
 	transform:none;
 	-webkit-transform: none;
@@ -818,8 +823,8 @@ border-radius: 70%;}
 	-moz-transform: none;
 	margin-top:10%;
 	word-break: break-word;
-	margin-left:460px;
-	margin-right:460px;
+	margin-left:480px;
+	margin-right:480px;
 	vertical-align: center;
 	border-bottom:none;
 	border-color:none;
