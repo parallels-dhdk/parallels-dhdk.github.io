@@ -85,7 +85,6 @@ $("#2040").click(function() {
     $("#css").html("")
     $("#css").load('2040.css')
 })    
-})
 
 
 
@@ -115,3 +114,5 @@ console.log(caller)
           alert('clicked!');
       });
     }  
+
+})
