@@ -81,8 +81,26 @@ body{background-image: url("img/metal background.jpg");
 	padding-top:10%;
 }
 
+@media screen and (max-width: 1200px) {#title{ font-size: 100px;
+
+margin-left:300px;
+  margin-right:300px;
+}}
 
 
+
+@media screen and (max-width: 1000px) {#title { font-size: 80px;
+
+margin-left:200px;
+  margin-right:200px;
+}}
+
+
+@media screen and (max-width: 700px) {#title{ font-size: 120px;
+
+margin-left: 180px;
+  margin-right:180px;
+}}
 
 
 #table-home-page{display: inline-block;
