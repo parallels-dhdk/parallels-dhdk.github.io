@@ -1,11 +1,11 @@
 $(document).ready(function () 
 { 
-    var art1 = $(".button-art1")
-    var art2 = $(".button-art2")
-    var art3 = $(".button-art3")
-    var art4 = $(".button-art4")
-    var art5 = $(".button-art5")
-    var art6 = $(".button-art6")
+    var art1 = $("#button-art1")
+    var art2 = $("#button-art2")
+    var art3 = $("#button-art3")
+    var art4 = $("#button-art4")
+    var art5 = $("#button-art5")
+    var art6 = $("#button-art6")
     
     
     art1.click(function() {
@@ -38,17 +38,51 @@ $(document).ready(function ()
     $("#mainbody").load('eudirective.html')
 })
 
+
+
+    item1.click(function() {
+    $("#mainbody").html("")
+    $("#mainbody").load('japan.html')
+})
+
+    item2.click(function() {
+    $("#mainbody").html("")
+    $("#mainbody").load('alabama.html')
+})
+
+    item3.click(function() {
+    $("#mainbody").html("")
+    $("#mainbody").load('lottery.html')
+})
+
+    item4.click(function() {
+    $("#mainbody").html("")
+    $("#mainbody").load('delvey.html')
+})
+
+    item5.click(function() {
+    $("#mainbody").html("")
+    $("#mainbody").load('machine.html')
+})
+
+    item6.click(function() {
+    $("#mainbody").html("")
+    $("#mainbody").load('eudirective.html')
+})
+
+
+
+
+
+
+
+
 $(".index-button").click(function() {
     $("#mainbody").html("")
-    var newindex = $("#mainbody").load('index-text.html')
-    $.when(newindex).done(function(){
-    art1 = $(".button-art1")
-    console.log(art1)
-    art2 = $(".button-art2")
-    art3 = $(".button-art3")
-    art4 = $(".button-art4")
-    art5 = $(".button-art5")
-    art6 = $(".button-art6")
+     $("#mainbody").load('index-text.html')
+    
+     
+
     item1 = $(".item1 a");
     container1 = $(".item1");
 
