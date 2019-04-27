@@ -770,13 +770,8 @@ margin-left: 100px;
 }}
 
 .card{border-color: #FFFFFF;
+background-image:url("img/sfondo puntini.png");
 }
-
-.card-img-top-1 { display: block;
-				margin-left: auto; 
-				margin-right: auto; 
-				width: 50%; 
-border-radius: 70%;}
 
 .card-img-sara{ display: block;
 				margin-left: auto; 
