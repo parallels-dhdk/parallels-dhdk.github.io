@@ -6,7 +6,11 @@
             background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
             }
 
-
+.logo {
+	width: 25px;
+	heigh: 25;
+	border-style: none	
+}
 
 .dropdown-item {
             color: #FFFFFF;
@@ -186,7 +190,7 @@ font-size:10px;
 #timeline{
   height:1px;
   width: 100%;
-  background-color: #999999;
+  background-color: grey !important;
   position:relative;
  
 }
