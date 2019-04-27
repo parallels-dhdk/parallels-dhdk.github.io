@@ -46,7 +46,7 @@ function documentation(){
 
 $(document).ready(function () 
 { 
-var quaranta= new Boolean("false")
+var quaranta= false
 $("#css").load('1560.css')
 $("#1560").click(function() {
     quaranta=false
@@ -124,7 +124,9 @@ var container6 = $(".item6");
   
       
       item1.on('mouseenter', function(){ 
+          if (quaranta) {
           foo(item1, container1);
+          }
       })
 
       item2.on('mouseenter', function(){ 
