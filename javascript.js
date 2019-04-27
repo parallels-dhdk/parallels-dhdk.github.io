@@ -100,7 +100,7 @@ $(".index-button").click(function() {
 
      item6 = $(".item6 a");
      container6 = $(".item6");
-    })
+    
 })
 
 $(".about-button").click(function() {
