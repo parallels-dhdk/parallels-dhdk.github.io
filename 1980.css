@@ -46,27 +46,13 @@ body {
 }
 
 
-#table-home-page {
-    width: 5%;
-  display: table;
-  position: relative;
-    margin-left: 15px; 
+#table-home-page p{
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+text-align: right;
   }
   
-  #subright {
-    display: table-cell; 
-    width: 33.3%; 
-    }
   
-  #subcenter {
-    width: 33.3%;  
-    display: table-cell;
-    }
-  
-  #subleft { 
-  display: table-cell;
-  width: 33.3%; 
-  }
 
 .grid-container{
     display: grid;
