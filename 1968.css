@@ -51,14 +51,14 @@ src: url('font/Koch Regular.ttf') format('truetype');}
 src:url('font/Art Gothic Bold.ttf') format('truetype');}
 
 	
-body{background-image: url("cassette.jpg");
+body{background-image: url("img/cassette.jpg");
 
 
 }
 
 .container{margin-top: 100px;
 		margin-bottom:100px;
-		background-image:url("sfondo2.png");
+		background-image:url("img/sfondo2.png");
 		
 		text-align:justif;
 		font-size: 15px;
@@ -185,7 +185,7 @@ article{
 		margin-bottom:100px;
 		margin-left:90px;
 		margin-right:90px;
-		background-image:url("sfondo2.png");
+		background-image:url("img/sfondo2.png");
 		text-align:justify;
 		font-size: 15px;
 		padding-right:50px;
@@ -334,7 +334,7 @@ h6{font-family:Koch Regular;
 
 .container-about{margin-top: 100px;
 		margin-bottom:100px;
-		background-image:url("sfondo2.png");
+		background-image:url("img/sfondo2.png");
 	
 		text-align:justif;
 		font-size: 15px;
@@ -412,10 +412,20 @@ border-width: thin;}
 .card{
 border-bottom:40%;
 border: none;
-background-image :url("sfondo2.png");
+background-image :url("img/sfondo2.png");
 }
 
-.card-img-top-1{ display: block;
+.card-img-sara{ display: block;
+				margin-left: auto; 
+				margin-right: auto; 
+				width: 80%; }
+				
+.card-img-lucia{ display: block;
+				margin-left: auto; 
+				margin-right: auto; 
+				width: 80%; }
+				
+.card-img-michela{ display: block;
 				margin-left: auto; 
 				margin-right: auto; 
 				width: 80%; }
@@ -435,7 +445,7 @@ text-align:center;
 padding-bottom: 50px;
 padding-top: 50px;
 		margin-bottom:100px;
-		background-image:url("sfondo2.png");
+		background-image:url("img/sfondo2.png");
 		text-align:justify;
 		font-size: 15px;
 		margin-left:90px;
