@@ -288,14 +288,7 @@ article p {
             hyphens: auto;
   }
 
-article p:nth-of-type(1)::first-letter {
-    float: left;
-    font-size: 75pt;
-    line-height: 40px;
-    padding-top: 20px;
-    padding-right: 8px;
-    font-family: futura;
-}
+
 
 article img {
     width: 100%;
@@ -484,14 +477,7 @@ article a {
             hyphens: auto;
 }
 
-.card h5::first-letter {
-    float: left;
-    font-size: 75pt;
-    line-height: 40px;
-    padding-top: 20px;
-    padding-right: 8px;
-    font-family: futura;
-}
+
 
 .card-img-top {
     border-radius: 50%;
