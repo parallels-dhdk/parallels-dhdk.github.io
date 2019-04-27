@@ -68,11 +68,7 @@ body{background-image: url("img/cassette.jpg");
 		padding-left: 50px;
 		padding-bottom: 50px;
 }
- 
-   
-    
-    
-  
+
 
 
 #title{ font-family:  ITC Avant Garde Gothic LT Book Regular;
@@ -166,7 +162,7 @@ margin-top:10px;
 margin-bottom:10px;
 }
   
- a:link{font-family: Futura Book font; 
+ a{font-family: Futura Book font; 
 color:black;
 font-size:15px;
 padding-bottom:10px;
