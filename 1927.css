@@ -130,25 +130,24 @@ color: red;
 #subright:after{display: none;}
 #subleft:after{display: none;}
 
-.container{margin-top: 50px;
+.container{{margin-top: 50px;
 		margin-bottom: 50px;
-		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
 		font-size: 15px;
+		margin-left:50px;
+		margin-right:50px;
 		background-image:url("img/sfondo puntini.png");
-		height:auto;
-		padding-top:0px;
-		 padding-bottom: 0px;
-		padding-left:0px;
-		padding-right: 0px;
+		height:auto;	
+		
 }
 
 
 .grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
-
+margin-left:100px;
+		margin-right:100px;
   }
 
 
@@ -681,14 +680,14 @@ hr{border: solid black;}
 
 
 /*about*/
-.container-about{margin-top: 100px;
-		margin-bottom: 70px;
+.container-about{margin-top: 50px;
+		margin-bottom: 50px;
 		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
 		font-size: 15px;
-		margin-left: 100px;
-		margin-right:100px;
+		margin-left: 50px;
+		margin-right:50px;
 		background-image:url("img/sfondo puntini.png");
 		height:auto;
 
@@ -794,14 +793,14 @@ border-radius: 70%;}
 
 /*documentation*/
 
- .container-documentation{margin-top: 100px;
-		margin-bottom: 70px;
+ .container-documentation{margin-top: 50px;
+		margin-bottom: 50px;
 		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
 		font-size: 15px;
-		margin-left: 100px;
-		margin-right:100px;
+		margin-left:50px;
+		margin-right:50px;
 		background-image:url("img/sfondo puntini.png");
 		height:auto;
 
@@ -827,7 +826,7 @@ border-radius: 70%;}
 
 @media screen and (max-width: 1200px) {#title-documentation{ font-size: 45px;
 
-margin-left:px;
+margin-left:100px;
   margin-right:265px;
 }}
 
