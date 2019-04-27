@@ -555,7 +555,7 @@ width: 300px;
 }}
 
 p:after {  
-    content: url('parentesi.jpg');
+    content: url('img/parentesi.jpg');
 	margin-top: 10px;
 }
 
