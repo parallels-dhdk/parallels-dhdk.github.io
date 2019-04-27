@@ -45,7 +45,7 @@
     src:url('font/Share-TechMono.ttf');
 }
 
-#mainbody {
+body {
     background-image: url("img/cubes.gif");    
 }
 
