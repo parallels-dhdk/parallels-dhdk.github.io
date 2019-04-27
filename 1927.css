@@ -130,7 +130,7 @@ color: red;
 #subright:after{display: none;}
 #subleft:after{display: none;}
 
-.container{{margin-top: 50px;
+.container{margin-top: 50px;
 		margin-bottom: 50px;
 		border: 20px outset black;
 		text-align:justify;
@@ -691,7 +691,6 @@ hr{border: solid black;}
 		margin-right:50px;
 		background-image:url("img/sfondo puntini.png");
 		height:auto;
-
 }
 	
 #title-about{font-family:FatCow-Italic;
@@ -703,8 +702,8 @@ hr{border: solid black;}
 	-moz-transform: none;
 	margin-top:10%;
 	word-break: break-word;
-	margin-left:400px;
-	margin-right:400px;
+	margin-left:450px;
+	margin-right:450px;
 	vertical-align: center;
 	text-decoration:underline;
 	border-bottom:7px solid;
@@ -803,7 +802,7 @@ border-radius: 70%;}
 		margin-left:50px;
 		margin-right:50px;
 		background-image:url("img/sfondo puntini.png");
-		height:auto;
+	height:auto;
 
 }
 
@@ -817,8 +816,8 @@ border-radius: 70%;}
 	-moz-transform: none;
 	margin-top:10%;
 	word-break: break-word;
-	margin-left:420px;
-	margin-right:420px;
+	margin-left:460px;
+	margin-right:460px;
 	vertical-align: center;
 	border-bottom:none;
 	border-color:none;
