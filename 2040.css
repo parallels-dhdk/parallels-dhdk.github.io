@@ -62,6 +62,11 @@ body {
     cursor: url("img/target.png"), auto;
 }
 
+
+#timeline-wrap {
+background-color:white !important;
+}
+
 .grid-container p {
     display: none;
 }
