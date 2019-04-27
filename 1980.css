@@ -46,10 +46,8 @@ body {
 }
 
 
-#table-home-page p{
-    writing-mode: vertical-rl;
-text-orientation: mixed;
-text-align: right;
+#table-home-page{
+   display:none;
   }
   
   
