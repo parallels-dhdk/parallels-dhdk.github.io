@@ -40,9 +40,9 @@ $(document).ready(function ()
 
 $(".index-button").click(function() {
     $("#mainbody").html("")
-    $("#mainbody").load('index-text.html')
-    art1 = document.getElementsByClassName("button-art1")
-    console.log(art1)
+    var newindex = $("#mainbody").load('index-text.html')
+    $.when(newindex).done(function(){
+    art1 = $(".button-art1")
     art2 = $(".button-art2")
     art3 = $(".button-art3")
     art4 = $(".button-art4")
@@ -65,6 +65,7 @@ $(".index-button").click(function() {
 
      item6 = $(".item6 a");
      container6 = $(".item6");
+    })
 })
 
 $(".about-button").click(function() {
