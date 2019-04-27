@@ -1,5 +1,6 @@
 
 var quaranta=false
+
 function art1(){
     $("#mainbody").html("")
     $("#mainbody").load('japan.html')
@@ -94,7 +95,7 @@ $("#2040").click(function() {
 
 
 
-if (quaranta==true) {
+if (quaranta) {
 var caller = $(".item1 a");
 console.log(caller)
   var container = $(".item1");
