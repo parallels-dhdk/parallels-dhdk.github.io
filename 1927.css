@@ -62,7 +62,7 @@ src:url('font/FatCow-Italic.ttf') format('truetype');}
 
 
 
-body{background-image: url("metal background.jpg");
+body{background-image: url("img/metal background.jpg");
 }
 
 
@@ -139,7 +139,7 @@ margin:0;
 		font-size: 15px;
 		margin-left: 100px;
 		margin-right:100px;
-		background-image:url("sfondo puntini.png");
+		background-image:url("img/sfondo puntini.png");
 
 }
 
@@ -392,7 +392,7 @@ padding-top: 200px;
 		font-size: 15px;
 		margin-left: 100px;
 		margin-right:100px;
-		background-image:url("sfondo puntini.png");
+		background-image:url("img/sfondo puntini.png");
 		column-count: 2;
 		-webkit-column-count: 2; /* Chrome, Safari, Opera */
 		-moz-column-count: 2; /* Firefox */
@@ -655,8 +655,8 @@ hr{border: solid black;}
 
 @media screen and (max-width: 800px) {.row { 
  
-  margin-left:20px; 
-  margin-right:20px;}}
+  margin-left:40px; 
+  margin-right:40px;}}
 
 
 @media screen and (max-width: 1000px) {.row { 
@@ -674,7 +674,7 @@ hr{border: solid black;}
 		font-size: 15px;
 		margin-left: 100px;
 		margin-right:100px;
-		background-image:url("sfondo puntini.png");
+		background-image:url("img/sfondo puntini.png");
 
 }
 	
@@ -775,7 +775,7 @@ border-radius: 50%;}
 		font-size: 15px;
 		margin-left: 100px;
 		margin-right:100px;
-		background-image:url("sfondo puntini.png");
+		background-image:url("img/sfondo puntini.png");
 
 }
 
