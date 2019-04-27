@@ -49,7 +49,7 @@ function documentation(){
 
 $(document).ready(function () 
 { 
-var quaranta=false
+var quaranta= new Boolean("false")
 $("#css").load('1560.css')
 $("#1560").click(function() {
     quaranta=false
