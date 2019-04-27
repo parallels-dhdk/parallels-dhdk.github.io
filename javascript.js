@@ -8,9 +8,6 @@ $(document).ready(function ()
     var art6 = $(".button-art6")
     
     
-    
-    
-   
     art1.click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('japan.html')
@@ -44,6 +41,12 @@ $(document).ready(function ()
 $(".index-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('index-text.html')
+    art1 = $(".button-art1")
+    art2 = $(".button-art2")
+    art3 = $(".button-art3")
+    art4 = $(".button-art4")
+    art5 = $(".button-art5")
+    art6 = $(".button-art6")
     item1 = $(".item1 a");
     container1 = $(".item1");
 
