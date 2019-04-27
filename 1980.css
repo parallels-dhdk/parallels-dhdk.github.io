@@ -47,8 +47,11 @@ body {
 
 
 #table-home-page {overflow: hidden;
-    width: 80%;
+    width: 30%;
   display: table;
+  position: absolute;
+    color: white;
+    margin-left: 15px; 
   
   }
   
