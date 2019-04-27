@@ -49,7 +49,7 @@ body {
 #table-home-page {
     width: 5%;
   display: table;
-  position: absolute;
+  position: relative;
     margin-left: 15px; 
   }
   
