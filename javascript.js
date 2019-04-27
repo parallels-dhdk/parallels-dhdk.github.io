@@ -85,6 +85,14 @@ $("#2040").click(function() {
     $("#css").html("")
     $("#css").load('2040.css')
 })    
+
+
+caller.on('mouseenter', foo);
+      caller.on('click', function(){
+          alert('clicked!');
+      });
+
+      
 })
 
 
@@ -107,11 +115,4 @@ var caller = $(".item1 a");
       caller.stop().animate({"left": randX + "px", "top": randY + "px"});
   }
   
-  $(document).ready(function() {
-      
-      caller.on('mouseenter', foo);
-      caller.on('click', function(){
-          alert('clicked!');
-      });
-      
-  })
+  
