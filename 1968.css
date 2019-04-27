@@ -56,21 +56,17 @@ body{background-image: url("img/cassette.jpg");
 
 }
 
-.container{margin-top: 100px;
-		margin-bottom:100px;
+.container{margin-top: 500px;
+		margin-bottom:50px;
 		background-image:url("img/sfondo2.png");
-		
 		text-align:justif;
 		font-size: 15px;
 		margin-left:90px;
 		margin-right:90px;
+		height: auto;
 }
 
-@media screen and (max-height: 800px) { .container { margin-left:50px;
-margin-right:50px;
 
-
-}}
 
 #title{ font-family:  ITC Avant Garde Gothic LT Book Regular;
 font-size: 200px;
