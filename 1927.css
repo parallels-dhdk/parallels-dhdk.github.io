@@ -770,23 +770,18 @@ margin-left: 100px;
 }}
 
 .card{border-color: #FFFFFF;
+display: block;
+				margin-left: auto; 
+				margin-right: auto; 
+				width: 50%; 
 }
 
-.card-img-sara{ display: block;
-				margin-left: auto; 
-				margin-right: auto; 
-				width: 50%; 
+.card-img-sara{ 
 border-radius: 70%;}
 
-.card-img-lucia{ display: block;
-				margin-left: auto; 
-				margin-right: auto; 
-				width: 50%; 
+.card-img-lucia{ 
 border-radius: 70%;}
-.card-img-michela{ display: block;
-				margin-left: auto; 
-				margin-right: auto; 
-				width: 50%; 
+.card-img-michela{ 
 border-radius: 70%;}
 
 /*documentation*/
