@@ -133,17 +133,19 @@ color: red;
 
 .container{margin-top: 100px;
 		margin-bottom: 70px;
-		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
 		font-size: 15px;
-		
-		
 		background-image:url("img/sfondo puntini.png");
-
+		margin-left: 100px;
+		margin-right:100px;
 }
 
 
+	
+		
+		
+		
 .grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
