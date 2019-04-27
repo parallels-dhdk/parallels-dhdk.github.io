@@ -439,10 +439,7 @@ article{
   -moz-column-count: 1; /* Firefox */
   column-count: 1;
 } }
-@media screen and (max-width: 1000px) {article { 
-  margin-left:50px; 
-  margin-right:50px;
-} }
+
 h3{
 	font-family: FatCow-Italic;
 	font-size:40px;
