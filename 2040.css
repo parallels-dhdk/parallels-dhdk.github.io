@@ -45,8 +45,8 @@
     src:url('font/Share-TechMono.ttf');
 }
 
-body {
-    background-image: url("img/MqR.gif");    
+.mainbody {
+    background-image: url("img/pixel.gif");    
 }
 
 .container{
@@ -81,9 +81,9 @@ font-size: 50pt;
 
 
  /* Apply animation to this element */	
- -moz-animation: title 2s linear infinite ;
- -webkit-animation: title 2s linear infinite ;
- animation: title 2s linear infinite ;
+ -moz-animation: title 1s linear infinite ;
+ -webkit-animation: title 1s linear infinite ;
+ animation: title 1s linear infinite ;
 }
 /* Move it (define the animation) */
 @-moz-keyframes title {
