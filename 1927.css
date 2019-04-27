@@ -84,7 +84,7 @@ body{background-image: url("img/metal background.jpg");
 @media screen and (max-width: 1200px) {#title{ font-size: 100px;
 
 margin-left:300px;
-  margin-right:300px;
+  margin-right:350px;
 }}
 
 
@@ -652,7 +652,7 @@ margin-right:90px;
 margin-right:90px;
 }}
 
-@media screen and (max-width: 600px) {figcaption { font-size: 6px;
+@media screen and (max-width: 600px) {figcaption { font-size: 7px;
 margin-right:90px;
 }}
 
