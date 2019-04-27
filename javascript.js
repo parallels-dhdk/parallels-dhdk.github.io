@@ -1,6 +1,3 @@
-
-
-
 function art1(){
     $("#mainbody").html("")
     $("#mainbody").load('japan.html')
@@ -126,12 +123,28 @@ var container6 = $(".item6");
   
   
       
-      item1.on('mouseenter', foo(item1, container1));
-      item2.on('mouseenter', foo(item2, container2));
-      item3.on('mouseenter', foo(item3, container3));
-      item4.on('mouseenter', foo(item4, container4));
-      item5.on('mouseenter', foo(item5, container5));
-      item6.on('mouseenter', foo(item6, container6));
-    
+      item1.on('mouseenter', function(){ 
+          foo(item1, container1);
+      })
+
+      item2.on('mouseenter', function(){ 
+        foo(item2, container2);
+    })
+
+    item3.on('mouseenter', function(){ 
+        foo(item3, container3);
+    })
+
+    item4.on('mouseenter', function(){ 
+        foo(item4, container4);
+    })
+
+    item5.on('mouseenter', function(){ 
+        foo(item5, container5);
+    })
+
+    item6.on('mouseenter', function(){ 
+        foo(item6, container6);
+    })
 
 })
