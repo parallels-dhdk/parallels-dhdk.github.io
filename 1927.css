@@ -648,12 +648,14 @@ margin-right:90px;
 }}
 
 
-@media screen and (max-width: 800px) {figcaption { font-size: 6.5px;
+@media screen and (max-width: 800px) {figcaption { font-size: 7px;
 margin-right:90px;
+column-count:2;
 }}
 
 @media screen and (max-width: 600px) {figcaption { font-size: 7px;
 margin-right:90px;
+column-count:2;
 }}
 
 
