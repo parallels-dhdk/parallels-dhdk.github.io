@@ -1,31 +1,49 @@
 $(document).ready(function () 
 { 
-$(".button-art1").click(function() {
+    var art1 = $(".button-art1")
+    var container1 = $(".item1");
+    
+    var art2 = $(".item2 a");
+    var container2 = $(".item2");
+    
+    var art3 = $(".item3 a");
+    var container3 = $(".item3");
+    
+    var art4 = $(".item4 a");
+    var container4 = $(".item4");
+    
+    var art5 = $(".item5 a");
+    var container5 = $(".item5");
+    
+    var art6 = $(".item6 a");
+    var container6 = $(".item6"); 
+    
+    art1.click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('japan.html')
 })
 
-$(".button-art2").click(function() {
+    art2.click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('alabama.html')
 })
 
-$(".button-art3").click(function() {
+    art3.click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('lottery.html')
 })
 
-$(".button-art4").click(function() {
+    art4.click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('delvey.html')
 })
 
-$(".button-art5").click(function() {
+    art5.click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('machine.html')
 })
 
-$(".button-art6").click(function() {
+    art6.click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('eudirective.html')
 })
