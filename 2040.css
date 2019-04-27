@@ -62,6 +62,11 @@ body {
     cursor: url("img/target.png"), auto;
 }
 
+
+#timeline-wrap {
+background-color:white !important;
+}
+
 .grid-container p {
     display: none;
 }
@@ -322,7 +327,7 @@ article h4 {
     color: red;
 }
 
-article p{
+article section{
 font-family: comicsans;
 line-height: 5em;
 text-align: center;
