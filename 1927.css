@@ -92,14 +92,14 @@ margin-left:300px;
 @media screen and (max-width: 1000px) {#title { font-size: 80px;
 
 margin-left:200px;
-  margin-right:200px;
+  margin-right:250px;
 }}
 
 
 @media screen and (max-width: 700px) {#title{ font-size: 120px;
 
 margin-left: 180px;
-  margin-right:180px;
+  margin-right:200px;
 }}
 
 
