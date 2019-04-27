@@ -297,11 +297,13 @@ transform: rotate(-40deg);
 
 @media screen and (min-width: 100px) {
   div.item1 {
+	 margin-top:30%;
     margin-right:200%;
-	margin-left: -30px;
+	margin-left: -10px;
 
   }
 }
+
 @media screen and (max-width: 600px) {
 div.item2{
 	padding-top:0px;
@@ -313,12 +315,11 @@ div.item2{
 }}
 
 
-
 @media screen and (min-width: 100px) {
   div.item3 {
   margin-top: 100px;
   margin-bottom: 650px;
-
+margin-left:20%;
   }
 }
 
