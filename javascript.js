@@ -33,7 +33,7 @@ function art6(){
 
 function index(){
     $("#mainbody").html("")
-    $("#mainbody").load('index.html')
+    $("#mainbody").load('index-text.html')
 }
 
 function about(){
