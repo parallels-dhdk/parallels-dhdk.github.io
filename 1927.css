@@ -705,8 +705,8 @@ hr{border: solid black;}
 	-moz-transform: none;
 	margin-top:10%;
 	word-break: break-word;
-	margin-left:420px;
-	margin-right:420px;
+	margin-left:470px;
+	margin-right:470px;
 	vertical-align: center;
 	text-decoration:underline;
 	border-bottom:7px solid;
@@ -726,6 +726,11 @@ margin-left:340px;
 @media screen and (max-width: 1000px) {#title-about { font-size: 70px;
 
 margin-left:200px;
+  margin-right:165px;
+}}
+@media screen and (max-width: 1000px) {#title-about { font-size: 70px;
+
+margin-left:180px;
   margin-right:165px;
 }}
 
