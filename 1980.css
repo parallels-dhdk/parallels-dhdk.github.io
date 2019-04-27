@@ -46,11 +46,10 @@ body {
 }
 
 
-#table-home-page {overflow: hidden;
-    width: 30%;
+#table-home-page {
+    width: 5%;
   display: table;
-  position: absolute;
-    color: white;
+  position: relative;
     margin-left: 15px; 
   }
   
