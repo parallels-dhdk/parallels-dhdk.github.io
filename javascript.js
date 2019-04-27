@@ -94,7 +94,7 @@ $("#2040").click(function() {
 
 
 
-if (quaranta=true) {
+if (quaranta==true) {
 var caller = $(".item1 a");
 console.log(caller)
   var container = $(".item1");
