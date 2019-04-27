@@ -1,21 +1,12 @@
 
 @font-face {
-  font-family: myClaredon;
-  src: url(font/unicode.clarendb.ttf);
-}
-
-@font-face {
-  font-family: myClaredonBold;
-  src: url(font/tt0351m_.ttf);
-}
-
-
-@font-face {
   font-family: myBodoni;
   src: url(font/LibreBodoni-Regular.ttf);
 }
-
-
+@font-face {
+  font-family: myClaredonBold;
+  src: url(font/unicode.clarendb.ttf);
+}
 @font-face {
   font-family: myTitle;
   src: url(font/Engravers_Old_English_Normal.ttf);
@@ -61,7 +52,7 @@ article {
   margin-right: 50px;
   margin-top: 100px; 
   margin-bottom: 100px;  
-  padding: 20px; 
+  padding: 30px; 
   background-image: url("img/newspaper1.png");
   text-align: justify;
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -85,6 +76,11 @@ article {
   
 }
 
+section {
+font-family: myBodoni;
+  font-size: 14px;  
+}
+
 @media screen and (max-width: 700px) {article { 
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
@@ -102,6 +98,7 @@ article {
 p {
   font-family: myBodoni;
   font-size: 14px;
+  margin-top: 10px;
 }
 article p::first-letter {
   font-size: 40px;
@@ -112,7 +109,8 @@ article p::first-letter {
 }
 
 
-h1 {font-size: 10px;}
+h1 {font-size: 10px;
+}
 
 
 #title { 
@@ -156,6 +154,7 @@ margin-bottom: 10px
 h4{
   font-family: myClaredonBold;
   text-align: left;
+  font-size: 15px;
 }
 
 h5 { 
@@ -174,21 +173,27 @@ a { margin-right: 5px;
 table {
   border-collapse: collapse;
   width: 100%;
-  border-top-style: double;
-  border-bottom-style: double; 
+  border: 1px solid;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 10px;
 
   }
-tr{
-  padding: 50px;
+
+
+th {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px;
 }
 
 td{
-  padding-top: 5px; 
+  border: 1px solid;
+  padding: 5px; 
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 10px;
   width: 33.3%;
   text-align: left;
-  font-family: myBodoni; 
   letter-spacing: 3px;
 }
 
@@ -233,6 +238,56 @@ letter-spacing: 3px;}
   border-bottom-style: dotted;
   }
 
+
+.container-about{
+  margin-left: 50px; 
+  margin-right: 50px;
+  margin-top: 100px; 
+  margin-bottom: 100px;  
+  padding: 30px; 
+  background-image: url("img/newspaper1.png");
+  border-top-width: 2px;
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  border-top-color: #2b1d0e; 
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  border-bottom-color: #52402d; 
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+
+
+
+
+.container-documentation{
+  margin-left: 50px; 
+  margin-right: 50px;
+  margin-top: 100px; 
+  margin-bottom: 100px;  
+  padding: 30px; 
+  background-image: url("img/newspaper1.png");
+  border-top-width: 2px;
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  border-top-color: #2b1d0e; 
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  border-bottom-color: #52402d; 
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+.container-documentation p:first-letter {font-size: 40px;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;}
 
 .grid-container {
   display: grid;
@@ -510,5 +565,12 @@ text-align: center;
   border-top-style: dotted;
   border-bottom-style: dotted;
   }
+
+span {
+  margin-right: 5px;
+    color: #000000;
+    font-family: myBodoniCondensed;
+    font-size: 14px;}
+}
 
 
