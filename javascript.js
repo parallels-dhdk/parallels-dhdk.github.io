@@ -25,7 +25,45 @@
 
      item6 = $(".item6 a");
      container6 = $(".item6");
+
+     item1.on('mouseenter', function(){ 
+        if (quaranta) {
+        foo(item1, container1);
+        }
     })
+
+    item2.on('mouseenter', function(){ 
+      if (quaranta) {
+      foo(item2, container2);
+      }
+  })
+
+  item3.on('mouseenter', function(){ 
+      if (quaranta) {
+      foo(item3, container3);
+      }
+  })
+
+  item4.on('mouseenter', function(){ 
+      if (quaranta) {
+      foo(item4, container4);
+      }
+  })
+
+  item5.on('mouseenter', function(){ 
+      if (quaranta) {
+      foo(item5, container5);
+      }
+  })
+
+  item6.on('mouseenter', function(){ 
+      if (quaranta) {
+      foo(item6, container6);
+      }
+  }) 
+    })
+
+
 })
 
     $(".about-button").click(function() {
