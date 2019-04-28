@@ -47,6 +47,12 @@ font-size: 11px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.modal-body a{
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+
 /* FORM IN FOOTER*/
 #button-contact-us { 
 font-family: Helvetica, Arial, sans-serif;
