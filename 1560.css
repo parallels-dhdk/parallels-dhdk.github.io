@@ -281,6 +281,23 @@ h6{font-family:  myHultogCoursive;
 }
 
 
+.flex-container{
+    width: 80%;
+    min-height: 400px;
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+	text-align:justify;
+	
+}
+.flex-container .col.ing{
+ padding: 15px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
+
 
 #table-home-page {
 display: table;
@@ -466,12 +483,6 @@ margin-bottom: 20px;
 	.card-title-sara:before {
 	height: 120px;
 	width: 100px;}
-	.container-fluid {
-	margin-top: 30px;
-	margin-bottom: 30px;}
-	#text-about {
-	margin-left: 100px;
-	padding: 25px;}
 	h2 {font-size: 25px;
 	padding: 15px;
 	letter-spacing: 5px;}
