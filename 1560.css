@@ -159,7 +159,6 @@ background-color: black;
 .container {
 	font-family: myHultog;
 	color: #4a433e;
-	background-color: black;
 	background-image: url("img/book.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -408,7 +407,7 @@ h6{font-family:  myHultogCoursive;
 #table-home-page {
 display: table;
 font-size: 25px;
-margin-left: 15%;
+padding-left: 65%;
 }
 
 #subright {
@@ -447,7 +446,8 @@ display: table-row;}
 
 }
 
-
+#title {padding-left: 55%;}
+}
 
 #text-about {
 grid-area: 1 / 1 ;
@@ -545,11 +545,11 @@ margin-bottom: 20px;
 
 @media screen and (max-width: 1200px) {
 	.item1:before {
-	margin-left: 15%;
-	}
-	#table-home-page {
 	margin-left: 10%;
 	}
+	#table-home-page {
+	padding-left: 60%;}
+	
 }
 
 
@@ -647,7 +647,6 @@ margin-bottom: 20px;
 	font-size: 20px;}
 	#title{
 		font-size: 40px;
-		margin-right: 5%
 	}
 	.item1:before {
 	height: 220px;
@@ -655,8 +654,7 @@ margin-bottom: 20px;
 	margin-left: 18%;
 	}
 	#table-home-page {
-	margin-left: 15%;
-	}
+	padding-left: 65%;}
 }
  
 
@@ -678,7 +676,6 @@ margin-bottom: 20px;
 	}
 	#table-home-page {
 	font-size: 25px;
-	margin-left: 25%;
 	}
 	#subright {
 	font-size: 18px;}
@@ -694,8 +691,10 @@ margin-bottom: 20px;
 	margin-left: 15%;
 	}
 	#table-home-page {
-	margin-left: 15%;
+	padding-left: 60%;
 	}
+
+	
 }
 
 
@@ -769,10 +768,7 @@ margin-bottom: 20px;
 	font-size: 40px;
 	letter-spacing: 5px;}
 	.item1:before {
-	margin-left: 20%;
-	}
-	#table-home-page {
-	margin-left: 20%;
+	margin-left: 10%;
 	}
 	
 }
@@ -781,9 +777,6 @@ margin-bottom: 20px;
 @media screen and (max-width: 900px) {
 	.item1:before {
 	margin-left: 20%;
-	}
-	#table-home-page {
-	margin-left: 15%;
 	}
 	.grid-container {
 	padding-left: 20px;}
@@ -864,7 +857,6 @@ margin-bottom: 20px;
 	width: 160px;
 	margin-top: 12px;
 	margin-bottom: 12px
-	padding-left: 15%;
 	}
 	h1{font-size: 30px;
 	letter-spacing: 2px;}
@@ -880,15 +872,10 @@ margin-bottom: 20px;
 	padding-left: 60px;
 	padding-right: 20px;
 	}
-	#title{font-size: 30px;
-	}
 	.item1:before {
 	height: 200px;
 	width: 180px;
 	margin-left: 20%;
-	}
-	#table-home-page {
-	margin-left: 25%;
 	}
 	#title{
 		font-size: 30px;
@@ -898,18 +885,18 @@ margin-bottom: 20px;
 	
 }
 
-
-
 @media screen and (max-width: 770px) {
 	.item1:before {
-	margin-left: 20%;
 	height: 120px;
 	width: 110px;
 	}
-	#table-home-page {
-	margin-left: 10%;
 	}
-}
+
+@media screen and (max-width: 750px) {
+	.item1:before {
+	margin-left: 20%;
+	}
+	}
 
 
 @media screen and (max-width: 650px) {
@@ -999,10 +986,10 @@ margin-bottom: 20px;
 	.grid-container {
 	padding-left: 20px;}
 	#title{
-	font-size: 20px;}
-	#table-home-page {
-	margin-left: 15%;
-	}
+	font-size: 20px;
+	padding-left: 60%;
+	 }
+	
 
 	
 }

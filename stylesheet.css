@@ -53,9 +53,47 @@
             font-size: 11px;
             padding-top: 15px; 
             padding-bottom: 3px;
-            height: auto !important; /*capirne il significato*/
-            
+            height: auto !important; 
                 }
+          
+
+          /*logo to index in footer*/
+          .toindex {
+            max-width: 100%;
+            height: auto;
+            width:50px;
+            filter:none;
+            transform: rotate(0deg);
+            margin-top:0px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+            margin-left: 0px; 
+            padding: 0px;
+            border: none;
+          } 
+          
+          /*arrow to top*/
+          .totop {
+            max-width: 100%;
+            height: auto;
+            width:50px;
+            
+            transform: rotate(0deg);
+            filter: none;
+           }
+
+
+           .copyright {
+            background-color: #000000; 
+            font-family: Helvetica, Arial, sans-serif; 
+            letter-spacing: 2.5px; 
+            font-size: 11px; 
+            border: none; 
+            color: #808080; 
+            padding-left: 0px; 
+            padding-right: 0px;
+          }
+
 
           .foot-menu {
             cursor: pointer;
@@ -174,17 +212,7 @@ a:hover, a:active {
         color: white;
     }
 
-    
- #totop img {
-  width: 20px;
-  height: 20px;
-  transform: rotate(0deg);
-  filter: none;
- }
 
-
-/* ABOUT
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
 /* DISCLAIMER
@@ -226,8 +254,14 @@ font-size:10px;
 }
 } /*modifica del bottone quando si clicca il bottone*/
 
-/* timeline 
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+/* timeline –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #timeline-wrap{
   margin-top:5%;
@@ -288,16 +322,7 @@ font-size:10px;
 }
 
 
-.copyright {
-  background-color: #000000; 
-  font-family: Helvetica, Arial, sans-serif; 
-  letter-spacing: 2.5px; 
-  font-size: 11px; 
-  border: none; 
-  color: #808080; 
-  padding-left: 0px; 
-  padding-right: 0px;
-}
+
 
 .dropdown-divider {background-color: #808080; }
 
