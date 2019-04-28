@@ -1,9 +1,8 @@
 
-
-
-function index(){
+    $(".index-button").click(function() {
     $("#mainbody").html("")
-    $("#mainbody").load('index-text.html')
+     $("#mainbody").load('index-text.html')
+
     item1 = $(".item1 a");
     container1 = $(".item1");
 
@@ -21,7 +20,7 @@ function index(){
 
      item6 = $(".item6 a");
      container6 = $(".item6");
-}
+})
 
 function about(){
     $("#mainbody").html("")
