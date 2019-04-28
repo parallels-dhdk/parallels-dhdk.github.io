@@ -185,10 +185,13 @@ margin-right:20px;}
 li{font-family: hasta grotesk;}
 
 
-@media screen and (max-width: 1000px) { p { font-size: 7px;
 
+
+
+@media screen and (max-width: 1000px) { .container-about p { font-size: 7px;
 
 }}
+
 
 @media screen and (max-width: 1000px) { section { font-size: 7px;
 
@@ -429,6 +432,10 @@ padding-top: 200px;
 		-moz-column-gap: 20px; /* Firefox */
 		column-gap: 20px;
 }
+
+@media screen and (max-width: 1000px) { article p { font-size: 7px;
+
+}}
 
 @media screen and (max-width: 800px) {article { 
   -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -838,6 +845,9 @@ border-radius: 70%;}
 		background-image:url("img/sfondo puntini.png");
 
 }
+@media screen and (max-width: 1000px)  {.container-documentation p { font-size: 7px;
+
+}}
 .container-documentation p:after {  
     content: url('img/parentesi.jpg');
 	margin-top: 10px;
@@ -929,3 +939,7 @@ margin-top: 20px;
 margin-left:20px;
 margin-right:20px;
 }
+
+@media screen and (max-width: 1000px) { .container-eu p { font-size: 7px;
+
+}}
