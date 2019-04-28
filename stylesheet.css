@@ -53,9 +53,13 @@
             font-size: 11px;
             padding-top: 15px; 
             padding-bottom: 3px;
-            height: auto !important; /*capirne il significato*/
-            
+            height: auto !important; 
                 }
+
+          .toindex {
+            max-width:100%;
+            height:auto;
+          }   
 
           .foot-menu {
             cursor: pointer;
