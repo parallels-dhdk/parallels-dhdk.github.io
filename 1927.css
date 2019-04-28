@@ -186,13 +186,6 @@ li{font-family: hasta grotesk;}
 
 
 
-
-
-@media screen and (max-width: 1000px) { .container-about p { font-size: 7px;
-
-}}
-
-
 @media screen and (max-width: 1000px) { section { font-size: 7px;
 
 
@@ -413,6 +406,12 @@ margin-top: 20px;
 margin-left:20px;
 margin-right:20px;
 } 
+
+@media screen and (max-width: 1000px) { .container-about p { font-size: 7px;
+
+}}
+
+
 article{
 margin-top: 100px;
 padding-top: 200px;
