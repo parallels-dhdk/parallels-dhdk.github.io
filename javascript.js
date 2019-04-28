@@ -1,4 +1,6 @@
 
+    $(document).ready(function () 
+    { 
     $(".index-button").click(function() {
     $("#mainbody").html("")
      $("#mainbody").load('index-text.html')
@@ -22,18 +24,17 @@
      container6 = $(".item6");
 })
 
-function about(){
+    $(".about-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('about.html')
 }
 
-function documentation(){
+    $(".documentation-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('documentation.html')
 }
 
-$(document).ready(function () 
-{ 
+
 var quaranta= false
 $("#css").load('1560.css')
 $("#1560").click(function() {
