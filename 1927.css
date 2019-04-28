@@ -149,9 +149,6 @@ color: red;
 
   }
 
-
-
-
 .grid-container > div{
 
 	text-align: justify;
@@ -209,15 +206,16 @@ h3{font-family:English Gothic Bold Italic;
 
 }}
 
-a{font-family: Futurismo; 
+.container a{font-family: Futurismo; 
 color:black;
 font-size:15px;
 }
 
-a:active {
+.container a:active {
 color: black;}
 
-a:visited {
+
+.container a:visited {
 color: red;}
 
 hr{border:5px solid black;}
@@ -407,10 +405,16 @@ margin-left:20px;
 margin-right:20px;
 } 
 
-@media screen and (max-width: 1000px) { .container-about p { font-size: 7px;
+article a{font-family: Futurismo; 
+color:black;
+font-size:15px;
+}
 
-}}
+article a:active {
+color: black;}
 
+article a:visited {
+color: red;}
 
 article{
 margin-top: 100px;
@@ -737,6 +741,10 @@ margin-top: 20px;
 margin-left:20px;
 margin-right:20px;
 }
+
+@media screen and (max-width: 1000px) { .container-about p { font-size: 7px;
+
+}}
 #title-about{font-family:FatCow-Italic;
 	font-size: 240px;
 	color:black;
