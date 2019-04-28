@@ -14,7 +14,6 @@
 
 
 .index-button {
-  margin-left: 5px;
   color: #FFFFFF;
 }
 
@@ -29,7 +28,7 @@
   color: #FFFFFF;
 }
 
-.button {
+#article-button {
   background-color: #000000; 
   font-family: Helvetica, Arial, sans-serif; 
   letter-spacing: 2.5px; 
@@ -77,6 +76,9 @@
 
 }
 
+#contact-us {
+
+}
 
 /* FORM IN FOOTER*/
 #button-contact-us { 
