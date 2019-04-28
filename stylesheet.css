@@ -66,22 +66,17 @@
             transform: rotate(0deg);
             margin-top:0px;
             margin-bottom: 0px;
-            margin-right: 0px;
-            margin-left: 0px; 
+            
             padding: 0px;
             border: none;
+            
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align:center;
           } 
           
-          /*arrow to top*/
-          .totop {
-            max-width: 100%;
-            height: auto;
-            width:50px;
-            
-            transform: rotate(0deg);
-            filter: none;
-           }
-
+          
 
            .copyright {
             background-color: #000000; 
