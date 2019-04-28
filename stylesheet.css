@@ -61,22 +61,21 @@
           .toindex {
             max-width: 100%;
             height: auto;
-            width:50px;
-            filter:none;
-            transform: rotate(0deg);
+            width:30px;
             margin-top:0px;
-            margin-bottom: 0px;
-            
-            padding: 0px;
+            margin-bottom: 10px;
+            filter: none;
             border: none;
-            
             display: inline-block;
-            margin-left: auto;
-            margin-right: auto;
-            text-align:center;
+            margin-left: 20px;
+            margin-right: 20px;
+            
           } 
           
-          
+          #logos{
+            text-align: center;
+          }
+
 
            .copyright {
             background-color: #000000; 
