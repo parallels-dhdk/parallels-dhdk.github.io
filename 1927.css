@@ -926,7 +926,7 @@ margin-left: 100px;
     flex: 1; /* Standard syntax */
 }
 
-.container-eu{{margin-top: 50px;
+.container-eu{margin-top: 50px;
 		margin-bottom:70px;
 		background-image:url("img/sfondo puntini.png");
 		border: 20px outset black;
@@ -938,7 +938,7 @@ margin-left: 100px;
 		padding-left:0px;
 		padding-right: 0px;
 		height:auto;
-overflow: hidden;}}
+overflow: hidden;}
 		
 
 		
