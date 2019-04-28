@@ -237,6 +237,8 @@ letter-spacing: 3px;}
 .index-container{
   padding-top: 70px;
    margin-bottom: 50px;
+   margin-right: 70px;
+   margin-left: 70px;
   background-image: url("img/newspaper1.png");
   border-top-width: 2px;
   border-top-left-radius: 5px; 
