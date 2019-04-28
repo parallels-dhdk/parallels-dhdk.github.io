@@ -531,7 +531,7 @@ font-style: bold;
 
 
 
-img{
+article img{
 	height: auto;
 	filter: grayscale(100%);
 	transform:rotate(20deg);
@@ -547,7 +547,7 @@ img{
 	border: 5px solid;
 
 }
-@media screen and (max-width: 1200px) {img{ 
+@media screen and (max-width: 1200px) {article img{ 
 
 width: 300px;
 margin-right:10%;
@@ -555,13 +555,13 @@ margin-right:10%;
 }}
 
 
-@media screen and (max-width: 1000px) {img{ 
+@media screen and (max-width: 1000px) {article img{ 
 width:330px;
 margin-left: 10%
 }}
 
 
-@media screen and (max-width: 700px) {img{ width:100px;
+@media screen and (max-width: 700px) {article img{ width:100px;
 transform:none;
 width: 300px;
 
@@ -572,10 +572,6 @@ article p:after{content: url('img/parentesi.jpg');
 
 
 
-.container-documentation p:after {  
-    content: url('img/parentesi.jpg');
-	margin-top: 10px;
-}
 
 /*table*/
 table {
