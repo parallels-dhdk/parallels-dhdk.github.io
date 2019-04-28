@@ -81,7 +81,7 @@ nav img {
   filter: none;
   width: 25px;
   height: 25px;
-  transform: none;
+  transform: rotate(0deg);
 }
 
 
@@ -145,7 +145,12 @@ a:hover, a:active {
     }
 
     
-   
+ .footer img  {
+  width: 20px;
+  height: 20px;
+  transform: rotate(0deg);
+  
+ }
 
 
 /* ABOUT
