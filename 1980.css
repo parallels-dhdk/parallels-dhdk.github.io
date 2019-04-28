@@ -51,7 +51,7 @@ body {
     font-family:futuramedium;
     display:inline-block;
     color: white;
-    margin:0;
+    position: absolute;
 
  }
  
@@ -59,7 +59,7 @@ body {
     font-family:futuramedium;
     display:inline-block;
     color: white;
-    margin: 0;
+    position: absolute;
   }
  
  
@@ -67,7 +67,7 @@ body {
     font-family:futuramedium;
     display:inline-block;
     color: white;
-    margin:0;
+    position: absolute;
  }
 
 
