@@ -107,6 +107,11 @@ color: black;
 }
 
 
+.dropdown-item {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
 
 .logo {
   width: 25px; 
