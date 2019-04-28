@@ -831,7 +831,7 @@ margin-left: 100px;
 background-image:url("img/sfondo puntini.png");
 }
 
-.card-img-top-1{ display: block;
+.card-img-top{ display: block;
 				margin-left: auto; 
 				margin-right: auto; 
 				width: 50%; 
@@ -938,7 +938,7 @@ margin-left: 100px;
 		padding-left:0px;
 		padding-right: 0px;
 		height:auto;
-overflow: hidden;}
+		overflow: hidden;}
 		
 .container-eu h2{font-size:60px;}
 		
