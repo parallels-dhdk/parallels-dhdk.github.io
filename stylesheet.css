@@ -269,6 +269,7 @@ font-size:10px;
   margin-left: 10%;
   margin-right: 10%;
   position:relative;
+  
  
 }
 
@@ -278,6 +279,10 @@ font-size:10px;
   background-color: #999999;
   position:relative;
  
+}
+
+#timeline-wrap p {
+  color: white;
 }
 
  .marker{
