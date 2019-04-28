@@ -209,6 +209,11 @@ body {
     margin-bottom: 0px;
 }
 
+.item6 a{
+    color: #ff3399;
+    font-family: futuramedium;
+}
+
 /*ARTICLE*/
 
 article { 
