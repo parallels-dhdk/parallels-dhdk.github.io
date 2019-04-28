@@ -1,17 +1,11 @@
-$(document).ready(function () 
-{ 
 
 
 
-$(".index-button").click(function() {
+function index(){
     $("#mainbody").html("")
-     $("#mainbody").load('index-text.html')
-    
-     
-
+    $("#mainbody").load('index-text.html')
     item1 = $(".item1 a");
     container1 = $(".item1");
-    console.log(item1)
 
      item2 = $(".item2 a");
      container2 = $(".item2");
@@ -27,20 +21,20 @@ $(".index-button").click(function() {
 
      item6 = $(".item6 a");
      container6 = $(".item6");
-    
-})
+}
 
-$(".about-button").click(function() {
+function about(){
     $("#mainbody").html("")
     $("#mainbody").load('about.html')
-})
+}
 
-$(".documentation-button").click(function() {
+function documentation(){
     $("#mainbody").html("")
     $("#mainbody").load('documentation.html')
-})
+}
 
-
+$(document).ready(function () 
+{ 
 var quaranta= false
 $("#css").load('1560.css')
 $("#1560").click(function() {
@@ -82,7 +76,10 @@ $("#2040").click(function() {
 })    
 
 
-   
+
+
+
+
 
 
 
@@ -104,14 +101,6 @@ var container5 = $(".item5");
 
 var item6 = $(".item6 a");
 var container6 = $(".item6");
-
-
-
-
-
-
-
-
 
   function foo(item, container)
   {
