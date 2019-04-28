@@ -957,3 +957,14 @@ margin-right:20px;
 @media screen and (max-width: 1000px) { .container-eu p { font-size: 7px;
 
 }}
+
+.container-eu a{font-family: Futurismo; 
+color:black;
+font-size:15px;
+}
+
+.container-eu a:active {
+color: black;}
+
+.container-eu a:visited {
+color: red;}
