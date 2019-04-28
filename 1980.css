@@ -85,7 +85,7 @@ body {
 }
 
 .grid-container a {
-    color: #ff5050;
+    color: #ff5050 !important;
     font-family: futuramedium;
     
     padding-right: 10px;
