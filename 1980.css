@@ -314,7 +314,7 @@ section:nth-of-type(2) p::first-letter {
     font-family: futura;
 }
 
-span {
+article span {
     border-top: solid black;
     border-bottom: solid black;
     display: inline-block;
@@ -489,7 +489,7 @@ article a {
     text-align: center;
 }
 
-.card {
+#mainbody .card {
     margin-top: 50px;  
     margin-bottom: 50px;
     margin-left: 50px;
@@ -506,14 +506,14 @@ article a {
 
 }
 
-.card h5 {
+#mainbody .card h5 {
     font-family: futuramedium;
   
     font-size: 16pt;
     text-align: left;
 }
 
-.card-text {
+#mainbody .card-text {
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
@@ -524,7 +524,7 @@ article a {
 
 
 
-.card-img-top {
+#mainbody .card-img-top {
     border-radius: 50%;
     display: block;
     margin-left: auto;
