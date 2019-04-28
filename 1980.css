@@ -48,24 +48,27 @@ body {
 }
 
 #subright { 
-    font-family:futuramedium;
-    display:inline;
+    font-family: futuramedium;
+    display: inline-block;
+    margin-left: 280px;
     color: white;
     position: absolute;
 
  }
  
  #subcenter { 
-    font-family:futuramedium;
-    display:inline;
+    font-family: futuramedium;
+    display: inline-block;
+    margin-left: 110px;
     color: white;
     position: absolute;
   }
  
  
   #subleft { 
-    font-family:futuramedium;
-    display:inline;
+    font-family: futuramedium;
+    margin-left: 15px;
+    display: inline-block;
     color: white;
     position: absolute;
  }
