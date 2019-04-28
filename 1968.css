@@ -627,3 +627,17 @@ margin-right: 50px;
 margin-left: -10px;
 word-break: break-word;
 }}
+
+  .container-eu a{font-family: Futura Book font; 
+color:black;
+font-size:15px;
+padding-bottom:10px;
+margin-left: 30px;
+display: block;
+text-align: left;
+}
+.container-eu  a:active {
+color: black;}
+
+.container-eu  a:visited {
+color: black;}

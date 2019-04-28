@@ -926,17 +926,21 @@ margin-left: 100px;
     flex: 1; /* Standard syntax */
 }
 
-.container-eu{margin-top: 100px;
-		margin-bottom: 70px;
-		background-color: #FFFAFA;
+.container-eu{margin-top: 50px;
+		margin-bottom:70px;
+		background-image:url("img/sfondo puntini.png");
 		border: 20px outset black;
 		text-align:justify;
 		font-size: 15px;
-		margin-left: 100px;
-		margin-right:100px;
-		background-image:url("img/sfondo puntini.png"}
+		margin-left:90px;
+		margin-right:90px;
+		 padding-top:0px;
+		padding-left:0px;
+		padding-right: 0px;
+		height:auto;
+overflow: hidden;}
 		
-
+.container-eu h2{font-size:60px;}
 		
 .container-eu p:after {  
     content: url('img/parentesi.jpg');
@@ -953,3 +957,14 @@ margin-right:20px;
 @media screen and (max-width: 1000px) { .container-eu p { font-size: 7px;
 
 }}
+
+.container-eu a{font-family: Futurismo; 
+color:black;
+font-size:15px;
+}
+
+.container-eu a:active {
+color: black;}
+
+.container-eu a:visited {
+color: red;}
