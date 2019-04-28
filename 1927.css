@@ -917,7 +917,7 @@ margin-left: 100px;
 	}
 
 .flex-container .col.ing{
-
+padding: 30px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
@@ -925,7 +925,7 @@ margin-left: 100px;
 
 }
 .flex-container .col.ita{
- padding: 15px;
+ padding: 30px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */

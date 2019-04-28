@@ -578,12 +578,17 @@ letter-spacing: -1px;
 	}
 
 .flex-container .col.ing{
- 
+ padding: 15px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 }
-
+.flex-container .col.ita{
+ padding: 15px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
 .container-eu{margin-top: 100px;
 		margin-bottom:100px;
 		background-image:url("img/sfondo2.png");
