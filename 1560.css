@@ -351,27 +351,31 @@ font-family: myHultogCoursive;
 padding: 10px;
 display: table-row;}
 
+
+#title {padding-left: 55%;}
+
+
 .container-about {
 	display: grid;
 	background-size: 100% 100%;
 	background-image: url("img/book.png");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
 	color: #4a433e;
-
+	margin-top: 150px;
+	margin-bottom: 80px;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	padding-right: 90px; 
+	padding-left: 130px;
 }
 
-#title {padding-left: 55%;}
+
 
 
 #text-about {
 grid-area: 1 / 1 ;
-padding: 30px;
-margin-left: 120px;
-width: 30%;
-margin-bottom: 70px;
-margin-top: 70px;
-
+background-color: red;
+padding-right: 60px;
 }
 
 #text-about p {
@@ -384,14 +388,10 @@ margin-top: 70px;
 
 .container-fluid{
   grid-area: 1 / 2; 
-  width: 80%;
-margin-right: 150px;
-margin-left: 100px;
-padding: 60px;
-margin-top: 50px;
-margin-bottom: 50px;
-
+  background-color: green;
+  padding-left: 60px;
 }
+
 
 .card-text{
 	font-size: 16px;
