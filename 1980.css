@@ -256,7 +256,6 @@ article h3{
 }
 
 article h4 {
-    
     padding-bottom: 20px;
     padding-top: 20px;
     font-family: futuramedium;
@@ -268,6 +267,16 @@ article h4 {
     box-sizing: border-box;
     display: inline-block;
     width: 100%;
+}
+
+
+article section:nth-of-type(2)::first-letter {
+    float: left;
+    font-size: 75pt;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-right: 8px;
+    font-family: futura;
 }
 
 span {
