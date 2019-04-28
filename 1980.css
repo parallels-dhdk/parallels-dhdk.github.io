@@ -94,6 +94,11 @@ body {
     text-align: right;
 }
 
+.item1 a{
+    color: #ff5050;
+    font-family: futuramedium;
+}
+
 .item2 {
     grid-area: 2/3;
     background-image: url("img/alabama1.png"); 
@@ -117,6 +122,11 @@ body {
     text-align: right;
 }
 
+.item2 a{
+    color: #ff5050;
+    font-family: futuramedium;
+}
+
 .item3 {
     grid-area: 3/1;
     background-image: url("img/lottery1.jpg");
@@ -137,6 +147,11 @@ body {
     margin-bottom: 0px;
 }
 
+.item3 a{
+    color: #ff5050;
+    font-family: futuramedium;
+}
+
 .item4 {
     grid-area: 1,1/2,1;
     background-image: url("img/delvey1.jpg"); 
@@ -147,7 +162,6 @@ body {
     background-position: center; 
     padding-top:200px;
     border-right: 15px solid yellow;   
-    
 }
 
 .item4 h3 {
@@ -162,11 +176,12 @@ body {
 }
 
 .item4 a {
-    color: black;
     padding-left: 20px;
     width:100%;
     text-align: left;
     display: block;
+    color: #ff5050;
+    font-family: futuramedium;
 }
 
 .item5 {
@@ -190,6 +205,11 @@ body {
     margin-bottom: 0px;
 }
 
+.item5 a{
+    color: #ff5050;
+    font-family: futuramedium;
+}
+
 .item6 {
     grid-area: 3/3;
     background-image: url("img/eudirective1.jpg"); 
@@ -210,7 +230,7 @@ body {
 }
 
 .item6 a{
-    color: #ff3399;
+    color: #ff5050;
     font-family: futuramedium;
 }
 
