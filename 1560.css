@@ -464,9 +464,6 @@ margin-bottom: 20px;
 	.item1:before {
 	margin-left: 15%;
 	}
-	#table-home-page {
-	margin-left: 10%;
-	}
 }
 
 
@@ -571,9 +568,6 @@ margin-bottom: 20px;
 	width: 200px;
 	margin-left: 18%;
 	}
-	#table-home-page {
-	margin-left: 15%;
-	}
 }
  
 
@@ -593,10 +587,6 @@ margin-bottom: 20px;
 	width: 180px;
 	margin-left: 25%;
 	}
-	#table-home-page {
-	font-size: 25px;
-	margin-left: 25%;
-	}
 	#subright {
 	font-size: 18px;}
 	#subleft {
@@ -608,9 +598,6 @@ margin-bottom: 20px;
 
 @media screen and (max-width: 995px) {
 	.item1:before {
-	margin-left: 15%;
-	}
-	#table-home-page {
 	margin-left: 15%;
 	}
 }
@@ -687,9 +674,6 @@ margin-bottom: 20px;
 	.item1:before {
 	margin-left: 20%;
 	}
-	#table-home-page {
-	margin-left: 20%;
-	}
 	
 }
 
@@ -697,9 +681,6 @@ margin-bottom: 20px;
 @media screen and (max-width: 900px) {
 	.item1:before {
 	margin-left: 20%;
-	}
-	#table-home-page {
-	margin-left: 15%;
 	}
 	.grid-container {
 	padding-left: 20px;}
@@ -803,9 +784,6 @@ margin-bottom: 20px;
 	width: 180px;
 	margin-left: 20%;
 	}
-	#table-home-page {
-	margin-left: 25%;
-	}
 	#title{
 		font-size: 30px;
 		margin-right: 5%
@@ -821,9 +799,6 @@ margin-bottom: 20px;
 	margin-left: 20%;
 	height: 120px;
 	width: 110px;
-	}
-	#table-home-page {
-	margin-left: 10%;
 	}
 }
 
@@ -916,8 +891,7 @@ margin-bottom: 20px;
 	padding-left: 20px;}
 	#title{
 	font-size: 20px;}
-	#table-home-page {
-	margin-left: 15%;
+	
 	}
 
 	
