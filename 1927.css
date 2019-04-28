@@ -160,7 +160,8 @@ color: red;
    margin: 40px;
 }
 
- p{font-family:LibbyHeavy;
+ 
+.container p {font-family:LibbyHeavy;
 font-size: 10px;
 border-right:none;
 margin-top: 20px;
@@ -168,6 +169,10 @@ margin-left:20px;
 margin-right:20px;
 }
 
+.container p:after {  
+    content: url('img/parentesi.jpg');
+	margin-top: 10px;
+}
 
 section{font-family:LibbyHeavy;
 font-size: 10px;
@@ -221,7 +226,7 @@ color: red;}
 
 hr{border:5px solid black;}
 
-span{
+article span{
 	border-top:solid;
 	border-bottom: solid;
 	font-family: English Gothic Bold Italic;
@@ -229,6 +234,7 @@ span{
 	font-size:15px;
 	margin-left:10px;
 	} 
+
 
 .item1{ 
 grid-column-end: span 2;
@@ -397,7 +403,13 @@ padding-left:20%;
 	margin-top: -100px;
 margin-left: 10px;
 }
-
+article p{font-family:LibbyHeavy;
+font-size: 10px;
+border-right:none;
+margin-top: 20px;
+margin-left:20px;
+margin-right:20px;
+} 
 article{
 margin-top: 100px;
 padding-top: 200px;
@@ -554,16 +566,11 @@ transform:none;
 width: 300px;
 
 }}
+article p:after{content: url('img/parentesi.jpg');
+	margin-top: 10px;}
+	
 
-.container p:after {  
-    content: url('img/parentesi.jpg');
-	margin-top: 10px;
-}
 
-.container-about p:after {  
-    content: url('img/parentesi.jpg');
-	margin-top: 10px;
-}
 
 .container-documentation p:after {  
     content: url('img/parentesi.jpg');
@@ -720,9 +727,19 @@ hr{border: solid black;}
 		background-image:url("img/sfondo puntini.png");
 
 }
-	
+.container-about p:after {  
+    content: url('img/parentesi.jpg');
+	margin-top: 10px;
+}
+.container-about p {font-family:LibbyHeavy;
+font-size: 10px;
+border-right:none;
+margin-top: 20px;
+margin-left:20px;
+margin-right:20px;
+}
 #title-about{font-family:FatCow-Italic;
-	font-size: 280px;
+	font-size: 240px;
 	color:black;
 	transform:none;
 	-webkit-transform: none;
@@ -828,7 +845,17 @@ border-radius: 70%;}
 		background-image:url("img/sfondo puntini.png");
 
 }
-
+.container-documentation p:after {  
+    content: url('img/parentesi.jpg');
+	margin-top: 10px;
+}
+.container-documentation p {font-family:LibbyHeavy;
+font-size: 10px;
+border-right:none;
+margin-top: 20px;
+margin-left:20px;
+margin-right:20px;
+}
 	
 #title-documentation{font-family:LibbyHeavy;
 	font-size:85px;
@@ -872,4 +899,40 @@ margin-left: 100px;
 }
 
 
+/*eudirective*/
 
+.flex-container{
+    width: 80%;
+    min-height: 400px;
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+	}
+
+.flex-container .col.ing{
+ padding: 15px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
+.container-eu{margin-top: 100px;
+		margin-bottom:100px;
+		background-image:url("img/sfondo2.png");
+		
+		text-align:justif;
+		font-size: 15px;
+		margin-left:90px;
+		margin-right:90px;}
+		
+.container-eu p:after {  
+    content: url('img/parentesi.jpg');
+	margin-top: 10px;
+}
+.container-eu p {font-family:LibbyHeavy;
+font-size: 10px;
+border-right:none;
+margin-top: 20px;
+margin-left:20px;
+margin-right:20px;
+}
