@@ -3,9 +3,12 @@
     { 
     $(".index-button").click(function() {
     $("#mainbody").html("")
-     $("#mainbody").load('index-text.html')
+    $("#mainbody").load('index-text.html', function(){ //callback function
+
+     
 
     item1 = $(".item1 a");
+    console.log(item1)
     container1 = $(".item1");
 
      item2 = $(".item2 a");
@@ -22,6 +25,7 @@
 
      item6 = $(".item6 a");
      container6 = $(".item6");
+    })
 })
 
     $(".about-button").click(function() {
