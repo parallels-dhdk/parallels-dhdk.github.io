@@ -1,54 +1,17 @@
 $(document).ready(function () 
 { 
-    var art1 = $(".button-art1")
-    var art2 = $(".button-art2")
-    var art3 = $(".button-art3")
-    var art4 = $(".button-art4")
-    var art5 = $(".button-art5")
-    var art6 = $(".button-art6")
-    
-    
-    art1.click(function() {
-    $("#mainbody").html("")
-    $("#mainbody").load('japan.html')
-})
 
-    art2.click(function() {
-    $("#mainbody").html("")
-    $("#mainbody").load('alabama.html')
-})
 
-    art3.click(function() {
-    $("#mainbody").html("")
-    $("#mainbody").load('lottery.html')
-})
-
-    art4.click(function() {
-    $("#mainbody").html("")
-    $("#mainbody").load('delvey.html')
-})
-
-    art5.click(function() {
-    $("#mainbody").html("")
-    $("#mainbody").load('machine.html')
-})
-
-    art6.click(function() {
-    $("#mainbody").html("")
-    $("#mainbody").load('eudirective.html')
-})
 
 $(".index-button").click(function() {
     $("#mainbody").html("")
-    $("#mainbody").load('index-text.html')
-    art1 = $(".button-art1")
-    art2 = $(".button-art2")
-    art3 = $(".button-art3")
-    art4 = $(".button-art4")
-    art5 = $(".button-art5")
-    art6 = $(".button-art6")
+     $("#mainbody").load('index-text.html')
+    
+     
+
     item1 = $(".item1 a");
     container1 = $(".item1");
+    console.log(item1)
 
      item2 = $(".item2 a");
      container2 = $(".item2");
@@ -64,6 +27,7 @@ $(".index-button").click(function() {
 
      item6 = $(".item6 a");
      container6 = $(".item6");
+    
 })
 
 $(".about-button").click(function() {
@@ -118,10 +82,7 @@ $("#2040").click(function() {
 })    
 
 
-
-
-
-
+   
 
 
 
@@ -143,6 +104,14 @@ var container5 = $(".item5");
 
 var item6 = $(".item6 a");
 var container6 = $(".item6");
+
+
+
+
+
+
+
+
 
   function foo(item, container)
   {
