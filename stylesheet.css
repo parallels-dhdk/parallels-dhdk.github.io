@@ -52,6 +52,9 @@ font-size: 11px;
   color: black;
 }
 
+.modal-body li{
+  font-family: Helvetica, Arial, sans-serif;
+}
 
 /* FORM IN FOOTER*/
 #button-contact-us { 
