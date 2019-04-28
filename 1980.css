@@ -616,11 +616,10 @@ article a {
 
 @media screen and (max-width: 900px) {
     #title {
-        width: 380px;
-        height: 80px;
+        
         font-size: 55pt;
         margin-left: 15px;
-        margin-top: 15px;
+        margin-top: 25px;
        }
          .item1 h3 {
             font-size: 25pt;
@@ -698,7 +697,7 @@ article a {
             padding-top: 5px;
             font-size: 20pt;
         }
-        span { /*DA SISTEMARE*/
+        #mainbody span { /*DA SISTEMARE*/
             margin-top: 15px;
             margin-bottom: 20px;
         }
@@ -735,11 +734,10 @@ article a {
 
 @media screen and (max-width: 750px) {
     #title {
-        width: 320px;
-        height: 65px;
+        
         font-size: 44pt;
         margin-left: 15px;
-        margin-top: 15px;
+        margin-top: 25px;
        }
         .item1 h3 {
             font-size: 22pt;
@@ -810,7 +808,7 @@ article a {
             padding-top: 5px;
             font-size: 18pt;
         }
-        span { /*DA SISTEMARE*/
+        #mainbody span { /*DA SISTEMARE*/
             margin-top: 15px;
             margin-bottom: 20px;
         }
@@ -851,11 +849,10 @@ article a {
 
 @media screen and (max-width: 650px){
     #title {
-    width: 280px;
-    height: 60px;
+    
     font-size: 44pt;
     margin-left: 5px;
-    margin-top: 15px;
+    margin-top: 25px;
    }
      .item1 h3 {
         font-size: 20pt;
@@ -923,7 +920,7 @@ article a {
         padding-top: 5px;
         font-size: 16pt;
     }
-    span {
+    #mainbody span {
         margin-top: 15px;
         margin-bottom: 20px;
     }
