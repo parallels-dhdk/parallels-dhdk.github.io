@@ -6,7 +6,7 @@
     $("#mainbody").load('index-text.html', function(){ //callback function
 
      
-
+    console.log(item1)
     item1 = $(".item1 a");
     console.log(item1)
     container1 = $(".item1");
