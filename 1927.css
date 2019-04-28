@@ -160,8 +160,23 @@ color: red;
    margin: 40px;
 }
 
+.container p{font-family:LibbyHeavy;
+font-size: 10px;
+border-right:none;
+margin-top: 20px;
+margin-left:20px;
+margin-right:20px;
+}
 
-p{font-family:LibbyHeavy;
+.container-about p{font-family:LibbyHeavy;
+font-size: 10px;
+border-right:none;
+margin-top: 20px;
+margin-left:20px;
+margin-right:20px;
+}
+
+.container-documentation p{font-family:LibbyHeavy;
 font-size: 10px;
 border-right:none;
 margin-top: 20px;
