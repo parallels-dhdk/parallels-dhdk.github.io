@@ -46,91 +46,6 @@ background-color: black;
 }
 
 	
-.A {padding-top: 70px;
-	padding-left: 70px;
-	padding-right: 70px;
-	height: 2700px;}
-	
-.B	{padding-left: 70px;
-	padding-right: 70px;
-	height: 650px;}
-
-.C {padding-left: 70px;
-	padding-right: 70px;
-	height: 350px;}
-
-.D{padding-left: 70px;
-	padding-right: 70px;
-	height: 750px;}
-
-.E{padding-left: 70px;
-	padding-right: 70px;
-	height: 300px;}	
-
-
-.F{padding-left: 70px;
-	padding-right: 70px;
-	height: 150px;}	
-
-.G{padding-left: 70px;
-	padding-right: 70px;
-	height: 150px;}	
-
-.H{padding-left: 70px;
-	padding-right: 70px;
-	height: 350px;}	
-	
-.I {padding-left: 70px;
-	padding-right: 70px;
-	height: 300px;}	
-
-.L{padding-left: 70px;
-	padding-right: 70px;
-	height: 550px;}	
-
-.M{padding-left: 70px;
-	padding-right: 70px;
-	height: 200px;}	
-
-.N{padding-left: 70px;
-	padding-right: 70px;
-	height: 400px;}	
-
-.O{padding-left: 70px;
-	padding-right: 70px;
-	height: 400px;}	
-
-.P{padding-left: 70px;
-	padding-right: 70px;
-	height: 350px;}	
-
-.Q{padding-left: 70px;
-	padding-right: 70px;
-	height: 100px;}	
-
-.R{padding-left: 70px;
-	padding-right: 70px;
-	height: 300px;}	
-
-.S{padding-left: 70px;
-	padding-right: 70px;
-	height: 500px;}	
-
-.T{padding-left: 70px;
-	padding-right: 70px;
-	height: 150px;}	
-
-.U{padding-left: 70px;
-	padding-right: 70px;
-	height: 250px;}	
-
-.V{padding-left: 70px;
-	padding-right: 70px;
-	height: 200px;}	
-
-.Z{padding-left: 70px;
-	padding-right: 70px;
-	height: 200px;}	
 
 
 .row p:first-letter {
@@ -159,7 +74,6 @@ background-color: black;
 .container {
 	font-family: myHultog;
 	color: #4a433e;
-	background-image: url("img/book.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position: center;
@@ -453,7 +367,7 @@ display: table-row;}
 grid-area: 1 / 1 ;
 padding: 30px;
 margin-left: 120px;
-width: 90%;
+width: 30%;
 margin-bottom: 70px;
 margin-top: 70px;
 
