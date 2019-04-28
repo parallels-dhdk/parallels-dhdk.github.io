@@ -7,6 +7,9 @@
             margin-top: 0px;
             margin-left:0px;
             margin-right:0px;
+            margin-bottom: 0px;
+            padding-bottom:0px;
+            text-align: left;
             }
 
 .navbar-toggler-icon {
@@ -95,6 +98,7 @@ nav img {
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 0px; 
+  padding: 0px;
   border: none;
   max-width: 100%;
 }
