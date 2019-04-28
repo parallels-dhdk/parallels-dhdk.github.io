@@ -47,13 +47,28 @@ body {
     margin-top: 25px;
 }
 
-#table-home-page {
-    /*writing-mode: vertical-rl;*/
+#subright { 
+    font-family:futuramedium;
+    display:inline;
+    color: white;
     position: absolute;
-    display:inline-block;
-    color: black;
-    margin-left: 15px; 
-}
+
+ }
+ 
+ #subcenter { 
+    font-family:futuramedium;
+    display:inline;
+    color: white;
+    position: absolute;
+  }
+ 
+ 
+  #subleft { 
+    font-family:futuramedium;
+    display:inline;
+    color: white;
+    position: absolute;
+ }
 
 
   
