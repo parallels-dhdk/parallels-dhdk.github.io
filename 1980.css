@@ -33,9 +33,7 @@ body {
 }
 
 #title {
-    box-sizing: border-box;
-    width: 600px;
-    height: 120px;
+    
     font-family: akilines;
     font-size: 88pt;
     text-align: center;
@@ -44,7 +42,7 @@ body {
     border: 5px solid white;
     position:absolute;
     margin-left: 15px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 #subright { 
