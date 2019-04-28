@@ -640,7 +640,6 @@ font-size:15px;
 figcaption {font-family: hasta grotesk; 
 text-orientation: upright;
 writing-mode: vertical-lr; 
-
 font-size:8px;
 margin-right:90px;
 column-count:3;
@@ -693,29 +692,6 @@ margin-right:90px;
 }}
 
 hr{border: solid black;}
-
-/*eudirective*/
-
-.row{padding-top:10%;
-	margin-top: 90px;
-    margin-bottom: 70px;
-	background-color: #FFFAFA;
-	border: 10px outset black;
-	text-align:justify;
-	font-size: 15px;
-	margin-left: 100px;
-	margin-right:100px;}
-
-@media screen and (max-width: 800px) {.row { 
- 
-  margin-left:40px; 
-  margin-right:40px;}}
-
-
-@media screen and (max-width: 1000px) {.row { 
-  margin-left:20px; 
-  margin-right:20px;
-} }
 
 
 /*about*/
@@ -933,8 +909,8 @@ margin-left: 100px;
     flex: 1; /* Standard syntax */
 }
 
-.container-eu{margin-top: 100px;
-		margin-bottom:100px;
+.container-eu{margin-top: 50px;
+		margin-bottom:70px;
 		background-image:url("img/sfondo puntini.png");
 		border: 20px outset black;
 		text-align:justify;
@@ -943,7 +919,9 @@ margin-left: 100px;
 		margin-right:90px;
 		 padding-top:0px;
 		padding-left:0px;
-		padding-right: 0px;}
+		padding-right: 0px;
+		height:auto;
+		overflow:hidden;}
 		
 .container-eu h2{font-size:60px;}
 		
