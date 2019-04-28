@@ -569,7 +569,17 @@ width: 300px;
 
 }}
 
-p:after {  
+.container p:after {  
+    content: url('img/parentesi.jpg');
+	margin-top: 10px;
+}
+
+.container-about p:after {  
+    content: url('img/parentesi.jpg');
+	margin-top: 10px;
+}
+
+.container-documentation p:after {  
     content: url('img/parentesi.jpg');
 	margin-top: 10px;
 }
