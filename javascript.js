@@ -40,7 +40,8 @@ $(".index-button").click(function() {
 
     item1 = $(".item1 a");
     container1 = $(".item1");
-
+    console.log(item1)
+    
      item2 = $(".item2 a");
      container2 = $(".item2");
 
