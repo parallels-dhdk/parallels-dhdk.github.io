@@ -1,3 +1,6 @@
+              
+              
+              /*NAVBAR STYLE */
 .nav-link { cursor: pointer;
             margin-right: 15px;
             font-family: Helvetica, Arial, sans-serif;
@@ -25,12 +28,19 @@
             }
 
 .card-img-top {
-
             width: 100%;
             object-fit: cover;
             } 
 
-.footer { 
+
+
+
+
+
+            /*FOOTER STYLE*/
+          
+          
+          .footer { 
             position:default;
             left: 0;
             width: 100%;
@@ -42,28 +52,29 @@
             letter-spacing: 2.5px;
             font-size: 11px;
             padding-top: 15px; 
-      padding-bottom: 3px;
-      height: auto !important; /*capirne il significato*/
+            padding-bottom: 3px;
+            height: auto !important; /*capirne il significato*/
             
                 }
 
-.foot-menu {cursor: pointer;
-font-size: 11px;
-}
+          .foot-menu {
+            cursor: pointer;
+            font-size: 11px;
+          }
 
 
-.modal-body p{
-  font-family: Helvetica, Arial, sans-serif;
-}
+        .modal-body p{
+          font-family: Helvetica, Arial, sans-serif;
+        }
 
-.modal-body a{
-  font-family: Helvetica, Arial, sans-serif;
-  color: black;
-}
+        .modal-body a{
+          font-family: Helvetica, Arial, sans-serif;
+          color: black;
+        }
 
-.modal-body li{
-  font-family: Helvetica, Arial, sans-serif;
-}
+        .modal-body li{
+          font-family: Helvetica, Arial, sans-serif;
+        }
 
 /* FORM IN FOOTER*/
 #button-contact-us { 
