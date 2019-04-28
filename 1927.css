@@ -804,7 +804,8 @@ margin-left: 100px;
 }}
 
 .card{border-color: #FFFFFF;
-background-image:url("img/sfondo puntini.png");
+background-image:url("img/sfondo puntini.png")
+padding-top:10px;
 }
 
 .card-img-top{ display: block;
