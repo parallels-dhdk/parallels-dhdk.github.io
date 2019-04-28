@@ -67,10 +67,9 @@
             filter: none;
             border: none;
             display: inline-block;
-            margin-left: auto;
-            margin-right: auto;
-            padding-left: 10px;
-            padding-right:10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            
           } 
           
           #logos{
