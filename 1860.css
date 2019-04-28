@@ -223,9 +223,8 @@ width: 33.3%;
 letter-spacing: 3px;}
 
 .container{
-  margin-top: 50px;
+  margin: 50px;
   padding-top: 70px;
-  margin-bottom: 50px;
   background-image: url("img/newspaper1.png");
   border-top-width: 2px;
   border-top-left-radius: 5px; 
