@@ -38,12 +38,18 @@ body {
   background-image: url("img/wood.jpg");
 }
 
-img {
+article img {
 filter:sepia(80%) opacity(70%);
 padding: 0px;
 max-width: 100%;
 }
 
+
+.container-about img{
+filter:sepia(80%) opacity(70%);
+padding: 0px;
+max-width: 100%;
+}
 
 article { 
   margin-left: 50px; 
