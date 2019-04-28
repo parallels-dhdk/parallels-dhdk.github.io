@@ -841,7 +841,8 @@ filter: grayscale(100%);
 	-webkit-transform: rotate(20deg); /* Safari and Chrome */
 	-o-transform: rotate(20deg); /* Opera */
 	-moz-transform: rotate(20deg); /* Firefox */
-	-ms-transform: rotate(20deg);}
+	-ms-transform: rotate(20deg);
+	border: 5px solid;}
 
 
 
