@@ -105,6 +105,20 @@ color: black;
 }
 
 
+
+.toindex {
+  width: 25px; 
+  height: 25px; 
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border:none;
+  filter: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  transform: none;
+}
+
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
