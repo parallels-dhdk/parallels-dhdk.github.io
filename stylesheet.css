@@ -61,12 +61,10 @@
           .toindex {
             max-width: 100%;
             height: auto;
-            width:50px;
-            
+            width:30px;
             margin-top:0px;
-            margin-bottom: 0px;
-            
-            
+            margin-bottom: 10px;
+            filter: none;
             border: none;
             display: inline-block;
             margin-left: auto;
