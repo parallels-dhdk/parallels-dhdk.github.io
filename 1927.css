@@ -909,6 +909,7 @@ margin-left: 100px;
 /*eudirective*/
 
 .flex-container{
+	
     width: 80%;
     min-height: 400px;
     margin: 0 auto;
@@ -917,11 +918,20 @@ margin-left: 100px;
 	}
 
 .flex-container .col.ing{
- padding: 15px;
+margin-top: 100px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 }
+
+}
+.flex-container .col.ita{
+ margin-top: 80px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
 .container-eu{margin-top: 50px;
 		margin-bottom:70px;
 		background-image:url("img/sfondo puntini.png");
@@ -930,7 +940,7 @@ margin-left: 100px;
 		font-size: 15px;
 		margin-left:90px;
 		margin-right:90px;
-		 padding-top:0px;
+		 padding-top:20px;
 		padding-left:0px;
 		padding-right: 0px;
 		height:auto;
