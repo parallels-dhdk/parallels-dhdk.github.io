@@ -57,8 +57,9 @@
                 }
 
           .toindex {
-            max-width:100%;
-            height:auto;
+            max-width: 100%;
+            height: auto;
+            width:30px;
           }   
 
           .foot-menu {
