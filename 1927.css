@@ -927,13 +927,16 @@ margin-left: 100px;
 }
 
 .container-eu{margin-top: 100px;
-		margin-bottom:100px;
-		background-image:url("img/sfondo2.png");
-		
-		text-align:justif;
+		margin-bottom: 70px;
+		background-color: #FFFAFA;
+		border: 20px outset black;
+		text-align:justify;
 		font-size: 15px;
-		margin-left:90px;
-		margin-right:90px;}
+		margin-left: 100px;
+		margin-right:100px;
+		background-image:url("img/sfondo puntini.png"}
+		
+
 		
 .container-eu p:after {  
     content: url('img/parentesi.jpg');
