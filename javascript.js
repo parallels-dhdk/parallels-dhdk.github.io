@@ -27,12 +27,12 @@
     $(".about-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('about.html')
-}
+})
 
     $(".documentation-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('documentation.html')
-}
+})
 
 
 var quaranta= false
