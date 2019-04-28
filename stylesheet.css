@@ -194,15 +194,7 @@ input[type=submit]:hover {
   }
       
       
-a:link, a:visited {
-            text-decoration:none;
-            color: grey;
-            background-color: transparent;
-    }
-a:hover, a:active {
-        text-decoration:none;
-        color: white;
-    }
+
 
 
 
