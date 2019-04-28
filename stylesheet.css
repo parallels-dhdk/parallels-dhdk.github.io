@@ -197,10 +197,14 @@ a:hover, a:active {
 }
 
 .modal-footer{
-background-color: transparent;
+background-color: transparent;}
 
 
+.modal-body {
+font-family: Helvetica, Arial, sans-serif;
 }
+
+
 .button { 
 font-family: Helvetica, Arial, sans-serif;
 background-color:transparent;
