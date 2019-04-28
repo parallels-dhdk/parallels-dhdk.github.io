@@ -6,9 +6,9 @@
     $("#mainbody").load('index-text.html', function(){ //callback function
 
      
-    console.log(item1)
+    console.log("secondo step " + item1)
     item1 = $(".item1 a");
-    console.log(item1)
+    console.log("terzo step " + item1)
     container1 = $(".item1");
 
      item2 = $(".item2 a");
@@ -89,6 +89,7 @@ $("#2040").click(function() {
 
 
 var item1 = $(".item1 a");
+console.log("primo step " + item1)
 var container1 = $(".item1");
 
 var item2 = $(".item2 a");
@@ -110,7 +111,7 @@ var container6 = $(".item6");
   {
       var randX = Math.floor(Math.random() * (container[0].offsetWidth - 150));
       var randY = Math.floor(Math.random() * -(container[0].offsetHeight - 100));
-      console.log([randX, randY]);
+      //console.log([randX, randY]);
       item.stop().animate({"left": randX + "px", "top": randY + "px"});
   }
   
