@@ -47,6 +47,12 @@ font-size: 11px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.modal-body a{
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+
 /* FORM IN FOOTER*/
 #button-contact-us { 
 font-family: Helvetica, Arial, sans-serif;
@@ -75,7 +81,9 @@ nav img {
   filter: none;
   width: 25px;
   height: 25px;
+  transform: none;
 }
+
 
 /* Style inputs */
 input[type=text], select, textarea {
