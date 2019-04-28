@@ -37,9 +37,13 @@
                 }
 
 .foot-menu {cursor: pointer;
-
+font-size: 11px;
 }
 
+
+.modal-body{
+  font-family: Helvetica, Arial, sans-serif;
+}
 
 /* FORM IN FOOTER*/
 #button-contact-us { 
