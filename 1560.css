@@ -374,7 +374,6 @@ display: table-row;}
 
 #text-about {
 grid-area: 1 / 1 ;
-background-color: red;
 padding-right: 60px;
 }
 
@@ -388,7 +387,6 @@ padding-right: 60px;
 
 .container-fluid{
   grid-area: 1 / 2; 
-  background-color: green;
   padding-left: 60px;
 }
 
