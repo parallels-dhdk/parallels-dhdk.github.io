@@ -70,6 +70,11 @@ color:#808080;
 color: black;
 }
 
+nav img {
+  filter: none;
+  width: 25px;
+  height: 25px;
+}
 
 /* Style inputs */
 input[type=text], select, textarea {
