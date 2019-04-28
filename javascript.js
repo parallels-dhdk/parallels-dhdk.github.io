@@ -1,34 +1,5 @@
 $(document).ready(function () 
 { 
-    
-
-
-
-
-var item1 = $(".item1 a");
-var container1 = $(".item1");
-
-var item2 = $(".item2 a");
-var container2 = $(".item2");
-
-var item3 = $(".item3 a");
-var container3 = $(".item3");
-
-var item4 = $(".item4 a");
-var container4 = $(".item4");
-
-var item5 = $(".item5 a");
-var container5 = $(".item5");
-
-var item6 = $(".item6 a");
-var container6 = $(".item6");
-
-    
-
-
-
-
-
 
 
 
@@ -41,7 +12,7 @@ $(".index-button").click(function() {
     item1 = $(".item1 a");
     container1 = $(".item1");
     console.log(item1)
-    
+
      item2 = $(".item2 a");
      container2 = $(".item2");
 
