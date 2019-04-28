@@ -270,7 +270,7 @@ article h4 {
 }
 
 
-article section:nth-of-type(2)::first-letter {
+section:nth-of-type(2) p::first-letter {
     float: left;
     font-size: 75pt;
     line-height: 40px;
