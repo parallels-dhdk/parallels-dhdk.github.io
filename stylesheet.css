@@ -81,7 +81,9 @@ nav img {
   filter: none;
   width: 25px;
   height: 25px;
+  transform: none;
 }
+
 
 /* Style inputs */
 input[type=text], select, textarea {
