@@ -1,11 +1,5 @@
 .nav-link { cursor: pointer;
             margin-right: 15px;
-            font-family: Helvetica, Arial, sans-serif;
-            letter-spacing: 2.5px; 
-            font-size: 11px; border: none; 
-            color: #808080; 
-            padding-left: 0px;
-            padding-right: 0px
             }
 
 .navbar-toggler-icon {
@@ -13,37 +7,6 @@
             }
 
 
-.index-button {
-  color: #FFFFFF;
-}
-
-.close{
-  background-color: #FFFFFF;
-}
-
-
-.dropdown-menu {
-  background-color: #000000; 
-  font-size:11px; 
-  color: #FFFFFF;
-}
-
-#article-button {
-  background-color: #000000; 
-  font-family: Helvetica, Arial, sans-serif; 
-  letter-spacing: 2.5px; 
-  font-size: 11px; 
-  border: none; 
-  color: #808080; 
-  padding-left: 0px; 
-  padding-right: 0px;
-}
-
-.logo {
-	width: 25px;
-	height: 25px;
-	border-style: none	
-}
 
 .dropdown-item {
             color: #FFFFFF;
@@ -77,11 +40,6 @@
 }
 
 
-
-.copyright {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
 /* FORM IN FOOTER*/
 #button-contact-us { 
 font-family: Helvetica, Arial, sans-serif;
@@ -106,24 +64,6 @@ color:#808080;
 color: black;
 }
 
-
-.dropdown-item {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-
-
-.logo {
-  width: 25px; 
-  height: 25px; 
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border:none;
-  filter: none;
-  margin-left: 0px;
-  margin-right: 0px;
-  transform: none;
-}
 
 /* Style inputs */
 input[type=text], select, textarea {
@@ -188,6 +128,9 @@ a:hover, a:active {
    
 
 
+/* ABOUT
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 /* DISCLAIMER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -197,14 +140,10 @@ a:hover, a:active {
 }
 
 .modal-footer{
-background-color: transparent;}
+background-color: transparent;
 
 
-.modal-body {
-font-family: Helvetica, Arial, sans-serif;
 }
-
-
 .button { 
 font-family: Helvetica, Arial, sans-serif;
 background-color:transparent;
@@ -230,18 +169,7 @@ color: black;
  border: none;
 font-size:10px;
 }
-
-.totop{width:20px;
-  height: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border:none;
-  filter: none;
-  margin-left: 0px;
-  margin-right: 0px;
-  transform: none;}
-
- /*modifica del bottone quando si clicca il bottone*}
+} /*modifica del bottone quando si clicca il bottone*/
 
 /* timeline 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -256,10 +184,9 @@ font-size:10px;
 }
 
 #timeline{
-  font-family: Helvetica, Arial, sans-serif;
   height:1px;
   width: 100%;
-  background-color: grey !important;
+  background-color: #999999;
   position:relative;
  
 }
@@ -273,10 +200,7 @@ font-size:10px;
   margin-left: -20px;
         }
 
- .year {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px; 
- }
+ 
 
 .mfirst{
      top:-25px;
