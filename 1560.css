@@ -159,6 +159,7 @@ background-color: black;
 .container {
 	font-family: myHultog;
 	color: #4a433e;
+	background-color: black;
 	background-image: url("img/book.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
