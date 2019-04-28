@@ -3,15 +3,17 @@
             font-family: Helvetica, Arial, sans-serif;
             font-size: 11px;
             letter-spacing: 2.5px;
+            color: white;
+            margin-top: 0px;
+            margin-left:0px;
+            margin-right:0px;
             }
 
 .navbar-toggler-icon {
             background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
             }
 
-.index-button{
-  color: white;
-}
+
 
 .dropdown-item {
             color: #FFFFFF;
