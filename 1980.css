@@ -85,7 +85,9 @@ body {
 }
 
 .grid-container a {
-    color: black;
+    color: #ff5050;
+    font-family: futuramedium;
+    
     padding-right: 10px;
     width:100%;
     text-align: right;
@@ -114,10 +116,7 @@ body {
     text-align: right;
 }
 
-.item1 a{
-    color: #ff5050 !important;
-    font-family: futuramedium;
-}
+
 
 .item2 {
     grid-area: 2/3;
@@ -142,10 +141,7 @@ body {
     text-align: right;
 }
 
-.item2 a{
-    color: #ff5050 !important;
-    font-family: futuramedium;
-}
+
 
 .item3 {
     grid-area: 3/1;
@@ -167,10 +163,7 @@ body {
     margin-bottom: 0px;
 }
 
-.item3 a{
-    color: #ff5050 !important;
-    font-family: futuramedium;
-}
+
 
 .item4 {
     grid-area: 1,1/2,1;
@@ -225,10 +218,7 @@ body {
     margin-bottom: 0px;
 }
 
-.item5 a{
-    color: #ff5050 !important;
-    font-family: futuramedium;
-}
+
 
 .item6 {
     grid-area: 3/3;
@@ -249,10 +239,7 @@ body {
     margin-bottom: 0px;
 }
 
-.item6 a{
-    color: #ff5050 !important;
-    font-family: futuramedium;
-}
+
 
 /*ARTICLE*/
 
