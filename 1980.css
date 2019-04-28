@@ -515,3 +515,421 @@ article a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
 }
+
+
+
+
+
+
+
+/*MEDIA QUERIESSSSSSSS*/
+
+@media screen and (max-width: 1100px) {
+    #title {
+        width: 420px;
+        height: 85px;
+        font-size: 60pt;
+        margin-left: 15px;
+        margin-top: 15px;
+       }
+         
+        
+        
+        article {    
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            -moz-column-gap: 30px; /* Firefox */
+            column-gap: 30px;
+    
+          }
+        article h2 {
+            font-size: 60pt;
+            line-height: 92%;
+        }
+        article h3{
+            font-size: 30pt;
+           
+        }
+        article h4 {
+            padding-bottom: 5px;
+            padding-top: 5px;
+            font-size: 20pt;
+        }
+        
+        .container-about {
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        #title-about { 
+            font-size: 85pt; 
+        }
+        #text-about p {
+            margin-top: 5px;  
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 14pt;
+        }
+        #team {
+            font-size: 80pt;    
+        }
+        
+}
+}
+
+@media screen and (max-width: 900px) {
+    #title {
+        width: 380px;
+        height: 80px;
+        font-size: 55pt;
+        margin-left: 15px;
+        margin-top: 15px;
+       }
+         .item1 h3 {
+            font-size: 25pt;
+            margin-right: 5px;   
+        }
+        .item2 {
+            border-top: 12px solid yellow; 
+        }
+        .item2 h3 {
+            margin-top: 300px;   
+            font-size: 25pt;
+            margin-right: 5px;
+        }
+        .item3 {
+            border-right: 12px solid yellow;   
+            border-top: 12px solid yellow;
+        }
+        .item3 h3 {
+            font-size: 25pt;
+            margin-right: 5px;
+        }
+        .item4 {
+            padding-top:200px;
+            border-right: 12px solid yellow;   
+        }
+        .item4 h3 {
+            margin-left: 20px;
+            margin-right:10px;
+            font-size: 40pt;
+        }
+        .item5 {
+            border-right: 12px solid yellow;   
+            border-top: 12px solid yellow;   
+        }
+        .item5 h3 {
+            font-size: 25pt;
+            margin-right: 8px;
+        }
+        .item6 {
+            border-top: 12px solid yellow;
+        }
+        .item6 h3 {
+            font-size: 23pt;
+            padding-left: 2px;
+            margin-right: 5px;   
+        }
+        article {    
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            -moz-column-gap: 30px; /* Firefox */
+            column-gap: 30px;
+    
+          }
+        article h2 {
+            font-size: 60pt;
+            line-height: 92%;
+
+            column-span: all;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            font-family: futura ;
+            color: black;
+            text-transform: uppercase;
+            font-size: 90pt;
+            text-align: right;
+            line-height: 90%;
+        }
+        article h3{
+            font-size: 30pt; 
+        }
+        article h4 {
+            padding-bottom: 5px;
+            padding-top: 5px;
+            font-size: 20pt;
+        }
+        span { /*DA SISTEMARE*/
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        .container-about {
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .description {
+            border: solid yellow 12px;   
+        }
+        #title-about { 
+            font-size: 85pt; 
+        }
+        #text-about p {
+            margin-top: 5px;  
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 14pt;
+        }
+        #team {
+            font-size: 70pt;    
+        }
+        .card {
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            border: solid yellow 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #title {
+        width: 320px;
+        height: 65px;
+        font-size: 44pt;
+        margin-left: 15px;
+        margin-top: 15px;
+       }
+        .item1 h3 {
+            font-size: 22pt;
+            margin-right: 5px;   
+        }
+        .item2 {
+            border-top: 9px solid yellow; 
+        }
+        .item2 h3 {
+            margin-top: 300px;   
+            font-size: 22pt;
+            margin-right: 5px;
+        }
+        .item3 {
+            border-right: 9px solid yellow;   
+            border-top: 9px solid yellow;
+        }
+        .item3 h3 {
+            font-size: 22pt;
+            margin-right: 5px;
+        }
+        .item4 {
+            padding-top:200px;
+            border-right: 9px solid yellow;   
+        }
+        .item4 h3 {
+            margin-left: 20px;
+            margin-right:10px;
+            font-size: 35pt;
+        }
+        .item5 {
+            border-right: 9px solid yellow;   
+            border-top: 9px solid yellow;   
+        }
+        .item5 h3 {
+            font-size: 22pt;
+            margin-right: 8px;
+        }
+        .item6 {
+            border-top: 9px solid yellow;
+        }
+        .item6 h3 {
+            font-size: 20pt;
+            padding-left: 2px;
+            margin-right: 5px;   
+        }
+        article {    
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            -webkit-column-count: 2; /* Chrome, Safari, Opera */
+            -moz-column-count: 2; /* Firefox */
+            column-count: 2;
+            -moz-column-gap: 30px; /* Firefox */
+            column-gap: 30px;
+          }
+        article h2 {
+            font-size: 50pt;
+            line-height: 90%;
+        }
+        article h3{
+            font-size: 25pt;
+            text-align: right;
+        }
+        article h4 {
+            padding-bottom: 5px;
+            padding-top: 5px;
+            font-size: 18pt;
+        }
+        span { /*DA SISTEMARE*/
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        .container-about {
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .description {
+            border: solid yellow 9px;   
+        }
+        #title-about { 
+            padding-bottom: 10px;
+            padding-top: 20px;
+            font-size: 80pt; 
+        }
+        #text-about p {
+            margin-top: 5px;  
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 14pt;
+        }
+        #team {
+            padding-top: 30px;
+            font-size: 60pt;    
+        }
+        .card {
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            border: solid yellow 9px;
+        }
+    }
+
+@media screen and (max-width: 650px){
+    #title {
+    width: 280px;
+    height: 60px;
+    font-size: 44pt;
+    margin-left: 5px;
+    margin-top: 15px;
+   }
+     .item1 h3 {
+        font-size: 20pt;
+        margin-right: 5px;   
+    }
+    .item2 {
+        border-top: 7px solid yellow; 
+    }
+    .item2 h3 {
+        margin-top: 320px;   
+        font-size: 20pt;
+        margin-right: 5px;
+    }
+    .item3 {
+        border-right: 7px solid yellow;   
+        border-top: 7px solid yellow;
+    }
+    .item3 h3 {
+        font-size: 20pt;
+        margin-right: 5px;
+    }
+    .item4 {
+        padding-top:200px;
+        border-right: 7px solid yellow;   
+    }
+    .item4 h3 {
+        margin-left: 20px;
+        margin-right:10px;
+        font-size: 30pt;
+    }
+    .item5 {
+        border-right: 7px solid yellow;   
+        border-top: 7px solid yellow;   
+    }
+    .item5 h3 {
+        font-size: 20pt;
+        margin-right: 10px;
+    }
+    .item6 {
+        border-top: 7px solid yellow;
+    }
+    .item6 h3 {
+        font-size: 18pt;
+        padding-left: 2px;   
+    }
+    article {    
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+      }
+    article h2 {
+        font-size: 35pt;
+        line-height: 95%;
+    }
+    article h3{
+        font-size: 20pt;
+        text-align: right;
+    }
+    article h4 {
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 16pt;
+    }
+    span {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .container-about {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .description {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+        border: solid yellow 7px;   
+    }
+    #title-about { 
+        padding-bottom: 10px;
+        padding-top: 20px;
+        font-size: 45pt; 
+    }
+    #text-about p {
+        margin-top: 5px;  
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 14pt;
+    }
+    #team {
+        padding-top: 30px;
+        font-size: 35pt;    
+    }
+    .card {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        border: solid yellow 7px;
+    }
+  
+}
