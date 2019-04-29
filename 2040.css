@@ -433,7 +433,7 @@ article span:hover {
     }
 
   article table {
-      line-height:0em;
+      line-height:1em;
   }
 
   article th {
@@ -534,7 +534,7 @@ article span:hover {
 .flex-container h2 {
     text-transform: uppercase;
 	font-size: 60pt;
-    width:100%;
+    width:50%;
 	text-align: center;
 	color: yellow;
 	background-color: black;
@@ -834,3 +834,9 @@ article span:hover {
         }
 
 
+        /*phones*/
+    @media (min-width: 576px) {
+        #mainbody th, td{
+            font-size: 8pt;
+        }
+    }
