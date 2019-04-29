@@ -190,6 +190,8 @@ section a { margin-right: 5px;
 
 
 table {
+  margin-top:15px;
+  margin-bottom:15px;
   font-family: myBodoniCondensed;
   border-collapse: collapse;
   width: 100%;
@@ -220,14 +222,13 @@ td{
 }
 
 #table-home-page {overflow: hidden;
-width: 100%;
+width: 95%;
 border-top: double;
 border-bottom: double;
 border-color: #241B12;
 display: table;
 padding: 5px;
-margin-left: 40px;
-margin-right: 80px;
+margin-left: 2.5%;
 }
 
 #subright {
@@ -606,8 +607,18 @@ text-align: center;
   border-bottom-style: dotted;
 }
 
-.container-eu span {
+.container-eu h2{
+  padding: 20px;
+}
+
+.container-eu a {
   color: #241B12;}
+
+.container-eu span {
+
+  font-family: myClaredonBold;
+
+  }
 
 .flex-container{
 
