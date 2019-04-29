@@ -512,8 +512,8 @@ article a {
 
 #team {
     column-span: all;
-    padding-top: 20px;
-    padding-right: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
     font-family: futuramedium;
     font-style: italic;
     font-size: 70pt;
