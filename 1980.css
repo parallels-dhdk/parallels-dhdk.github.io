@@ -419,8 +419,7 @@ article a {
     width: 100%;
     border: 1px solid black;
     border-collapse: collapse;
-    font-family: 
-    font-size: 14pt;
+    font-size: 12pt;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 10px;
@@ -429,6 +428,8 @@ article a {
 
 #mainbody th {
     background-color:black;
+    font-family:futura;
+    font-size: 12pt;
     color:white;
   }
 
