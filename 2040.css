@@ -431,9 +431,18 @@ article span:hover {
     margin-bottom: 15px;
     margin-right: 10px;
     }
+
   article table {
-      line-height:3em;
+      line-height:0em;
   }
+
+  article th {
+      font-size:14pt;
+  }
+
+  article td {
+    font-size:14pt;
+}
   
     #mainbody th {
     font-size: 10pt;
@@ -550,7 +559,6 @@ article span:hover {
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
-    overflow-x:auto;
    }
 
 .flex-container .col-ita{
@@ -625,8 +633,11 @@ article span:hover {
     to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
   }
 
+ .flex-container ol, ul {
+     text-align:left;
+ }
 
-
+ 
 
   /*--------------ABOUT-------------*/
   .container-about {
@@ -638,6 +649,8 @@ article span:hover {
     padding-right: 20px;
     padding-top: 0px;
     padding-bottom: 20px;
+    border:solid black;
+    cursor: url("img/handcursor.png"), auto;
     background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
     background-size: 800% 800%;
     -webkit-animation: transition 8s ease infinite;
@@ -694,6 +707,7 @@ article span:hover {
 
 .card {
     background-color:blue;
+    overflow: hidden;
 }
 
 .card-title {
@@ -709,3 +723,44 @@ article span:hover {
     font-size: 14pt;
     color:yellow;
 } 
+
+.card h5 {
+    font-family: comicsans;
+    text-transform: uppercase;
+    font-size: 15pt;
+     position: relative;
+     width: 100%;
+     
+     margin:0;
+     text-align:left;
+     
+    
+
+     -moz-animation: title 3s linear infinite ;
+     -webkit-animation: title 3s linear infinite ;
+     animation: title 3s linear infinite ;
+    }
+
+    /* Move it (define the animation) */
+    @-moz-keyframes title {
+     0%   { -moz-transform: translateX(70%); }
+     100% { -moz-transform: translateX(0%); }
+    }
+    
+    @-webkit-keyframes title {
+        0%   { -webkit-transform: translateX(70%); }
+        100% { -webkit-transform: translateX(0%); }
+       }
+    
+    @keyframes title {
+     0%   { 
+     -moz-transform: translateX(70%); /* Firefox bug fix */
+     -webkit-transform: translateX(70%); /* Firefox bug fix */
+     transform: translateX(70%); 		
+     }
+     100% { 
+     -moz-transform: translateX(0%); /* Firefox bug fix */
+     -webkit-transform: translateX(0%); /* Firefox bug fix */
+     transform: translateX(0%); 
+     }
+    }
