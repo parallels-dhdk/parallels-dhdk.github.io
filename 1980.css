@@ -22,6 +22,8 @@ body {
     background-color: white;
     margin-top: 50px;
     padding-top:0px;
+    margin-left: 50px;
+    margin-right:50px;
     margin-bottom: 50px;
     padding-bottom: 0px;
     padding-left:0px;
@@ -31,9 +33,7 @@ body {
 }
 
 #title {
-    box-sizing: border-box;
-    width: 600px;
-    height: 120px;
+    
     font-family: akilines;
     font-size: 88pt;
     text-align: center;
@@ -42,13 +42,36 @@ body {
     border: 5px solid white;
     position:absolute;
     margin-left: 15px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
+#subright { 
+    font-family: futuramedium;
+    display: inline-block;
+    margin-left: 280px;
+    color: white;
+    position: absolute;
 
-#table-home-page{
-   display:none;
+ }
+ 
+ #subcenter { 
+    font-family: futuramedium;
+    display: inline-block;
+    margin-left: 110px;
+    color: white;
+    position: absolute;
   }
+ 
+ 
+  #subleft { 
+    font-family: futuramedium;
+    margin-left: 15px;
+    display: inline-block;
+    color: white;
+    position: absolute;
+ }
+
+
   
   
 
@@ -63,7 +86,9 @@ body {
 }
 
 .grid-container a {
-    color: black;
+    color: #ff5050 !important;
+    font-family: futuramedium;
+    
     padding-right: 10px;
     width:100%;
     text-align: right;
@@ -92,6 +117,8 @@ body {
     text-align: right;
 }
 
+
+
 .item2 {
     grid-area: 2/3;
     background-image: url("img/alabama1.png"); 
@@ -115,6 +142,8 @@ body {
     text-align: right;
 }
 
+
+
 .item3 {
     grid-area: 3/1;
     background-image: url("img/lottery1.jpg");
@@ -125,7 +154,7 @@ body {
 }
 
 .item3 h3 {
-    color: #00b300;
+    color: #4d004d;
     font-family: futura;
     text-transform: uppercase;
     font-size: 25pt;
@@ -134,6 +163,8 @@ body {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
+
+
 
 .item4 {
     grid-area: 1,1/2,1;
@@ -145,7 +176,6 @@ body {
     background-position: center; 
     padding-top:200px;
     border-right: 15px solid yellow;   
-    
 }
 
 .item4 h3 {
@@ -160,11 +190,12 @@ body {
 }
 
 .item4 a {
-    color: black;
     padding-left: 20px;
     width:100%;
     text-align: left;
     display: block;
+    color: #ff5050 !important;
+    font-family: futuramedium;
 }
 
 .item5 {
@@ -188,6 +219,8 @@ body {
     margin-bottom: 0px;
 }
 
+
+
 .item6 {
     grid-area: 3/3;
     background-image: url("img/eudirective1.jpg"); 
@@ -207,6 +240,8 @@ body {
     margin-bottom: 0px;
 }
 
+
+
 /*ARTICLE*/
 
 article { 
@@ -214,8 +249,8 @@ article {
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 0px;
     padding-bottom: 20px;
     font-weight: 100;
@@ -249,6 +284,7 @@ article h3{
    
     padding-bottom: 20px;
     padding-top: 20px;
+    padding-right:10px;
     font-family: futuramedium;
     font-style: italic;
     font-size: 30pt;
@@ -270,7 +306,7 @@ article h4 {
 }
 
 
-section:nth-of-type(2) p::first-letter {
+section:nth-of-type(2)::first-letter {
     float: left;
     font-size: 75pt;
     line-height: 40px;
@@ -279,7 +315,7 @@ section:nth-of-type(2) p::first-letter {
     font-family: futura;
 }
 
-span {
+article span {
     border-top: solid black;
     border-bottom: solid black;
     display: inline-block;
@@ -423,8 +459,8 @@ article a {
 
 #title-about {
     margin-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
     font-family: Akilines;
     color: red;
     text-transform: uppercase;
@@ -454,7 +490,7 @@ article a {
     text-align: center;
 }
 
-.card {
+#mainbody .card {
     margin-top: 50px;  
     margin-bottom: 50px;
     margin-left: 50px;
@@ -471,14 +507,14 @@ article a {
 
 }
 
-.card h5 {
+#mainbody .card h5 {
     font-family: futuramedium;
   
     font-size: 16pt;
     text-align: left;
 }
 
-.card-text {
+#mainbody .card-text {
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
@@ -489,7 +525,7 @@ article a {
 
 
 
-.card-img-top {
+#mainbody .card-img-top {
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -521,16 +557,13 @@ article a {
 
 
 
-
 /*MEDIA QUERIESSSSSSSS*/
 
 @media screen and (max-width: 1100px) {
     #title {
-        width: 420px;
-        height: 85px;
         font-size: 60pt;
         margin-left: 15px;
-        margin-top: 15px;
+        margin-top: 25px;
        }
          
         
@@ -584,11 +617,10 @@ article a {
 
 @media screen and (max-width: 900px) {
     #title {
-        width: 380px;
-        height: 80px;
+        
         font-size: 55pt;
         margin-left: 15px;
-        margin-top: 15px;
+        margin-top: 25px;
        }
          .item1 h3 {
             font-size: 25pt;
@@ -666,7 +698,7 @@ article a {
             padding-top: 5px;
             font-size: 20pt;
         }
-        span { /*DA SISTEMARE*/
+        #mainbody span { /*DA SISTEMARE*/
             margin-top: 15px;
             margin-bottom: 20px;
         }
@@ -703,11 +735,10 @@ article a {
 
 @media screen and (max-width: 750px) {
     #title {
-        width: 320px;
-        height: 65px;
+        
         font-size: 44pt;
         margin-left: 15px;
-        margin-top: 15px;
+        margin-top: 25px;
        }
         .item1 h3 {
             font-size: 22pt;
@@ -778,7 +809,7 @@ article a {
             padding-top: 5px;
             font-size: 18pt;
         }
-        span { /*DA SISTEMARE*/
+        #mainbody span { /*DA SISTEMARE*/
             margin-top: 15px;
             margin-bottom: 20px;
         }
@@ -819,11 +850,10 @@ article a {
 
 @media screen and (max-width: 650px){
     #title {
-    width: 280px;
-    height: 60px;
+    
     font-size: 44pt;
     margin-left: 5px;
-    margin-top: 15px;
+    margin-top: 25px;
    }
      .item1 h3 {
         font-size: 20pt;
@@ -891,7 +921,7 @@ article a {
         padding-top: 5px;
         font-size: 16pt;
     }
-    span {
+    #mainbody span {
         margin-top: 15px;
         margin-bottom: 20px;
     }
