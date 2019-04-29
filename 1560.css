@@ -29,7 +29,66 @@ background-color: black;
 
 	
 
+.container-eu {
+	margin-top: 150px;
+	font-family: myHultog;
+	font-size: 12px;
+	margin-bottom: 100px;
+}
 
+
+.flex-container{
+
+    width: 100%;
+    min-height: 400px; 
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+	text-align:justify;
+	}
+
+
+.col-ing{
+
+	margin-right: 15px;
+	margin-left: 15px;
+	padding: 50px;
+	background-image: url("img/pergamena.png");
+	background-repeat: repeat-y;
+	background-size: 100%;
+	background-position: center;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
+
+.col-ita{
+	margin-right: 15px;
+	margin-left: 15px;
+	padding: 50px;
+	background-image: url("img/pergamena.png");
+	background-repeat: repeat-y;
+	background-size: 100%;
+	background-position: center;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
+
+.container-eu h2:before {
+	content: "";
+	background-image: url("img/fregio2.png");
+	background-size: 100% 100%;
+	display: block;
+	height: 40px;
+	width: 300px;
+	margin-top: 10%;
+	margin-left: 18%;
+	margin-bottom: 5%
+
+}
 
 
 
