@@ -108,8 +108,7 @@ border-width: thin;}
 }
 
 #table-home-page{display: inline-block;
- margin-left:25px;
- padding-left:30px;
+ 
 			}
 
 
@@ -117,9 +116,9 @@ border-width: thin;}
 #subright{ font-family:ITC Avant Garde Gothic LT Book Regular;
    font-style: oblique;
    display:inline-block;
- 
+   margin-left:30px;
   color: #2E8B57;
-  margin:0;
+
 }
 
 #subcenter{font-family:ITC Avant Garde Gothic LT Book Regular;
