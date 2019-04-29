@@ -292,17 +292,39 @@ article {
     padding-bottom: 20px;
     border: solid black ; 
     font-size: 14pt;
-    background-color: purple;
     cursor: url("img/hand-cursor.png"), auto;
     overflow: hidden;
-  }
+    background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
+    background-size: 800% 800%;
+    
+    -webkit-animation: transition 8s ease infinite;
+    -moz-animation: transition 8s ease infinite;
+    animation: transition 8s ease infinite;
+}
+    
+    @-webkit-keyframes transition {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes transition {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes transition { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
 
 article h2 {
 	text-transform: uppercase;
 	font-size: 80pt;
     width:100%;
 	text-align: center;
-	color: purple;
+	color: yellow;
 	background-color: black;
     font-family: techmono;
     font-weight: bold;
@@ -414,11 +436,33 @@ article span:hover {
     padding-top: 0px;
     padding-bottom: 20px;
     border: solid black ; 
-    font-size: 10pt;
-    background-color: purple;
+    font-size: 14pt;
     cursor: url("img/hand-cursor.png"), auto;
     overflow: hidden;
+
+    background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
+    background-size: 800% 800%;
+    -webkit-animation: transition 8s ease infinite;
+    -moz-animation: transition 8s ease infinite;
+    animation: transition 8s ease infinite;
 }
+    
+    @-webkit-keyframes transition {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes transition {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes transition { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
 
 .flex-container{
     width: 100%;
@@ -434,7 +478,7 @@ article span:hover {
 	font-size: 60pt;
     width:100%;
 	text-align: center;
-	color: purple;
+	color: yellow;
 	background-color: black;
     font-family: techmono;
     font-weight: bold;
@@ -448,23 +492,23 @@ article span:hover {
     background-color: black;
 }
 
-.flex-container .col.ing{
+.flex-container .col-ing{
     width:100%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 15px;
-    padding-right:15px;
+    padding-left: 10px;
+    padding-right:10px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
    }
 
-.flex-container .col.ita{
+.flex-container .col-ita{
     width:100%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 15px;
-    padding-right:15px;
+    padding-left: 10px;
+    padding-right:10px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
@@ -472,7 +516,8 @@ article span:hover {
 
 .flex-container p {
         font-family: comicsans;
-        line-height: 5em;
+        line-height: 3em;
+        font-size:14pt;
         text-align: center;
         color: yellow;
 }   
@@ -491,6 +536,43 @@ article span:hover {
     cursor: url("img/arrow-cursor.png"), auto;
 }
 
+.flex-container span {
+    text-align: center;
+    font-family:comicsans;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+  
+.flex-container span:hover {
+    color: #FF1177;
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+  }
+  
+  /*glow for webkit*/
+  @-webkit-keyframes neon1 {
+    from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;}
+    to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
+  }
+    
+  /*glow for mozilla*/
+  @-moz-keyframes neon1 {
+    from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;}
+    to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
+  }
+  
+  /*glow*/
+  @keyframes neon1 {
+    from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;}
+    to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
+  }
 
 
 
@@ -505,12 +587,34 @@ article span:hover {
     padding-right: 20px;
     padding-top: 0px;
     padding-bottom: 20px;
-    font-weight: 100;
-    background: purple;
+    background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
+    background-size: 800% 800%;
+    -webkit-animation: transition 8s ease infinite;
+    -moz-animation: transition 8s ease infinite;
+    animation: transition 8s ease infinite;
 }
+    
+    @-webkit-keyframes transition {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes transition {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes transition { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+
 .description{
     text-align:center;
     font-family: comicsans;
+    font-size:14pt;
     color: yellow;
     line-height: 5em;
     margin: 10px; 
