@@ -503,7 +503,7 @@ article span:hover {
        flex: 1; /* Standard syntax */
    }
 
-.flex-container .col.ita{
+.flex-container .col-ita{
     width:100%;
     padding-top:15px;
     padding-bottom:15px;
@@ -535,7 +535,22 @@ article span:hover {
     cursor: url("img/arrow-cursor.png"), auto;
 }
 
-.flex-container span {
+.col-ita span {
+    font-family: comicsans;
+    text-transform:uppercase;
+    color: yellowgreen;
+  white-space: nowrap;/*Evitar saltos de línea*/
+  overflow: hidden;
+  width: 30em;
+  animation: keyframes 5s steps(500) infinite; 
+}
+
+@keyframes keyframes{ 
+  from{ width: 0px;} 
+}
+
+
+.col-ing span {
     font-family: comicsans;
     text-transform:uppercase;
     color: yellowgreen;
