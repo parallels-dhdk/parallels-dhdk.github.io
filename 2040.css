@@ -431,9 +431,18 @@ article span:hover {
     margin-bottom: 15px;
     margin-right: 10px;
     }
+
   article table {
-      line-height:3em;
+      line-height:0em;
   }
+
+  article th {
+      font-size:14pt;
+  }
+
+  article td {
+    font-size:14pt;
+}
   
     #mainbody th {
     font-size: 10pt;
