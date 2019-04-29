@@ -722,8 +722,14 @@ hr{border: solid black;}
 		margin-left: 100px;
 		margin-right:100px;
 		background-image:url("img/sfondo puntini.png");
+padding-left:10px;
+padding-right:10px;
+		
 
 }
+
+.card-deck{margin-top:100px;}
+
 	
 .container-about p:after {content:"...}";
 font-family:English Gothic Bold Italic;
@@ -741,7 +747,7 @@ margin-right:20px;}
 
 }}	
 	
-	
+.description{margin-top:30px;}
 	
 #title-about{font-family:FatCow-Italic;
 	font-size: 260px;
@@ -790,8 +796,6 @@ margin-left: 100px;
 }}
 
 
-
-
 #team{font-family:FatCow-Italic;
 	font-size: 150px;
 	color:black;
@@ -800,11 +804,10 @@ margin-left: 100px;
 	-webkit-transform: none;
 	-o-transform: none;
 	-moz-transform: none;
-	margin-top:20%;
+	margin-top:10px;
 	margin-bottom:10%;
 	margin-left:10%;
 }
-	
 @media screen and (max-width: 1200px) {#team{ font-size: 60px;
 
 margin-left:500px;
@@ -826,8 +829,12 @@ margin-left: 100px;
   margin-right:100px;
 }}
 
+.card-deck{margin-bottom:30px;
+margin-top:30px;}
+
 .card{border-color:transparent;
 background-image:url("img/sfondo puntini.png");
+margin-top:30px;
 }
 
 .card-img-top{ display: block;
@@ -842,6 +849,10 @@ filter: grayscale(100%);
 	-moz-transform: rotate(20deg); /* Firefox */
 	-ms-transform: rotate(20deg);
 	border: 5px solid;}
+
+.card-text{margin-top:20px;}
+
+
 
 
 
@@ -919,7 +930,6 @@ margin-left: 100px;
 /*eudirective*/
 
 .flex-container{
-	
     width: 80%;
     min-height: 400px;
     margin: 0 auto;
@@ -928,18 +938,16 @@ margin-left: 100px;
 	}
 
 .flex-container .col.ing{
-margin-top: 100px;
+margin-top: 30px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 }
 
-}
+
 .flex-container .col.ita{
- margin-top: 80px;
-    -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
-    flex: 1; /* Standard syntax */
+ margin-top: 30px;
+ 
 }
 
 .container-eu{margin-top: 50px;
@@ -956,7 +964,6 @@ margin-top: 100px;
 		height:auto;
 overflow: hidden;}
 
-.container-eu h2{font-size:60px;}
 		
 .container-eu p:after{content:"...}";
 font-family:English Gothic Bold Italic;
@@ -995,3 +1002,6 @@ color: red;}
 	font-size:15px;
 	margin-left:10px;
 	}
+
+.container-eu h2{margin-top:20px;
+font-size:60px;}
