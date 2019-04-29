@@ -632,7 +632,7 @@ article a {
 }
 
 .flex-container .col.ing{
-    width:100%;
+    width:50%;
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 15px;
@@ -643,13 +643,12 @@ article a {
    }
 
 .flex-container .col.ita{
-    width:100%;
+    width:50%;
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 50px;
     padding-right:15;
-    +
-       -webkit-flex: 1; /* Safari */
+        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
    }
