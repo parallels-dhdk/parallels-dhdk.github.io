@@ -816,6 +816,13 @@ article span:hover {
                 font-family: techmono;
                 font-weight: bold;
         }
+        .container-documentation h3 {
+            font-family: techmono;
+            text-align: center;
+            font-size:30pt;
+            color: #FFF;
+            background-color: black;
+        }
 
         .container-documentation p{
             font-family: comicsans;
