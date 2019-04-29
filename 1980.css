@@ -415,6 +415,32 @@ article a {
     text-decoration: underline;
 }
 
+#mainbody table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    word-break: break-word;
+}
+
+#mainbody th {
+    background-color:black;
+    color:white;
+  }
+
+#mainbody tr:nth-of-type(odd) {
+    background-color:lightblue;
+    color:black;
+  }
+  
+  #mainbody tr:nth-of-type(even) {
+    background-color:white;
+    color:black;
+  }
 
 /*ABOUT*/
 
