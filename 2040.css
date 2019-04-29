@@ -304,7 +304,7 @@ article {
 	animation: article 15s ease infinite;
 }
 
-@-webkit-keyframes Gradient {
+@-webkit-keyframes article {
 	0% {
 		background-position: 0% 50%
 	}
@@ -316,7 +316,7 @@ article {
 	}
 }
 
-@-moz-keyframes Gradient {
+@-moz-keyframes article {
 	0% {
 		background-position: 0% 50%
 	}
@@ -328,7 +328,7 @@ article {
 	}
 }
 
-@keyframes Gradient {
+@keyframes article {
 	0% {
 		background-position: 0% 50%
 	}
