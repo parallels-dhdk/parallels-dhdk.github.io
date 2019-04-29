@@ -707,6 +707,7 @@ article span:hover {
 
 .card {
     background-color:blue;
+    overflow: hidden;
 }
 
 .card-title {
@@ -726,14 +727,13 @@ article span:hover {
 .card h5 {
     font-family: comicsans;
     text-transform: uppercase;
-    font-size: 20pt;
+    font-size: 15pt;
      position: relative;
      width: 100%;
-     height: 100%;
+     
      margin:0;
      text-align:left;
-     padding-top: 10px;
-     padding-bottom:10px;
+     
     
 
      -moz-animation: title 1s linear infinite ;
