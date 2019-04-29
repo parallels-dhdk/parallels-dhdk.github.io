@@ -108,7 +108,8 @@ border-width: thin;}
 }
 
 #table-home-page{display: inline-block;
-margin-left:25px;
+ margin-left:25px;
+ padding-left:30px;
 			}
 
 
