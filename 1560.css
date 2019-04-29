@@ -481,6 +481,9 @@ background-position: center;
 margin-bottom: 20px;
 }
 
+section > p {
+	margin-top: 15px;
+}
 
 @media screen and (min-width: 1400px) {
 	section{
