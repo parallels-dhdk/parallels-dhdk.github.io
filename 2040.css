@@ -634,7 +634,7 @@ article span:hover {
   }
 
  .flex-container ol, ul {
-     text-align:left;
+     text-align:left !important;
  }
 
  
@@ -832,3 +832,5 @@ article span:hover {
             margin: 10px;
             font-size: 14pt;
         }
+
+
