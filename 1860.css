@@ -36,6 +36,7 @@
 
 body {
   background-image: url("img/wood.jpg");
+  color: #241B12
 }
 
 
@@ -189,20 +190,21 @@ section a { margin-right: 5px;
 
 
 table {
+  font-family: myBodoniCondensed;
   border-collapse: collapse;
   width: 100%;
   border: 1px solid;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-right: 10px;
+  word-break: break-word;
+  margin-left: auto;
+  margin-right: auto;
 
   }
 
 
-th {
+th {border: 1px solid;
   font-size: 20px;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 5px;
 }
 
 td{
@@ -210,7 +212,6 @@ td{
   padding: 5px; 
   text-transform: uppercase;
   font-size: 10px;
-  width: 33.3%;
   text-align: left;
   letter-spacing: 3px;
 }
@@ -591,18 +592,18 @@ text-align: center;
 
 .flex-container{
 
-    width: 100%;
-    min-height: 400px; 
+    width: 100%; 
     margin: 0 auto;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
   text-align:justify;
+  line-height: 1;
   }
 
 
 .col-ing{
-  padding: 50px;
-  background-size: 100%;
+  border-right: 1px solid;
+  padding: 25px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
@@ -610,12 +611,11 @@ text-align: center;
 
 
 .col-ita{
-  padding: 50px;
+  padding: 25px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 }
-
 
 
 
