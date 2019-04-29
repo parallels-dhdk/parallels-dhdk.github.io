@@ -36,6 +36,7 @@
 
 body {
   background-image: url("img/wood.jpg");
+  color: #241B12
 }
 
 
@@ -58,8 +59,8 @@ max-width: 100%;
 }
 
 article { 
-  margin-left: 50px; 
-  margin-right: 50px;
+  margin-left: 70px; 
+  margin-right: 70px;
   margin-top: 100px; 
   margin-bottom: 100px;  
   padding: 30px; 
@@ -104,6 +105,10 @@ article {
 section > p  {
   text-indent: 1em;
 }
+
+
+section:nth-of-type(2) > p:nth-of-type(1){text-indent: 0em;}
+
 
 section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
   font-size: 40px;
@@ -185,20 +190,21 @@ section a { margin-right: 5px;
 
 
 table {
+  font-family: myBodoniCondensed;
   border-collapse: collapse;
   width: 100%;
   border: 1px solid;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-right: 10px;
+  word-break: break-word;
+  margin-left: auto;
+  margin-right: auto;
 
   }
 
 
-th {
+th {border: 1px solid;
   font-size: 20px;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 5px;
 }
 
 td{
@@ -206,7 +212,6 @@ td{
   padding: 5px; 
   text-transform: uppercase;
   font-size: 10px;
-  width: 33.3%;
   text-align: left;
   letter-spacing: 3px;
 }
@@ -272,8 +277,6 @@ letter-spacing: 3px;}
   border-bottom-color: #52402d; 
   border-top-style: dotted;
   border-bottom-style: dotted;
-  margin-left: 20px;
-  margin-right: 20px;
   }
 
 
@@ -281,8 +284,8 @@ letter-spacing: 3px;}
 
 
 .container-documentation{
-  margin-left: 50px; 
-  margin-right: 50px;
+  margin-left: 70px; 
+  margin-right: 70px;
   margin-top: 100px; 
   margin-bottom: 100px;  
   padding: 30px; 
@@ -296,8 +299,6 @@ letter-spacing: 3px;}
   border-bottom-color: #52402d; 
   border-top-style: dotted;
   border-bottom-style: dotted;
-  margin-left: 20px;
-  margin-right: 20px;
   }
 
 .container-documentation p:first-letter {font-size: 40px;
@@ -571,8 +572,51 @@ text-align: center;
 }
 
 .container-eu {
+  margin-left: 70px; 
+  margin-right: 70px;
+  margin-top: 100px; 
+  margin-bottom: 100px;  
+  padding: 30px; 
   background-image: url("img/newspaper1.png");
+  border-top-width: 2px;
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  border-top-color: #2b1d0e; 
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  border-bottom-color: #52402d; 
+  border-top-style: dotted;
+  border-bottom-style: dotted;
 }
+
+
+.flex-container{
+
+    width: 100%; 
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+  text-align:justify;
+  line-height: 1;
+  }
+
+
+.col-ing{
+  border-right: 1px solid;
+  padding: 25px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
+
+.col-ita{
+  padding: 25px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
 
 
 article span {
