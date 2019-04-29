@@ -552,6 +552,7 @@ article a {
     font-size: 14pt;
 }
 
+/*EU-DIRECTIVE*/
 .container-eu {
     margin-top: 50px;  
     margin-bottom: 50px;
@@ -578,19 +579,72 @@ article a {
     text-align:justify;
 }
 
+.flex-container h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: futura ;
+    color: black;
+    text-transform: uppercase;
+    font-size: 70pt;
+    text-align: right;
+    line-height: 90%;
+}
+
+.flex-container h3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right:10px;
+    font-family: futuramedium;
+    font-style: italic;
+    font-size: 30pt;
+    text-align: right;
+}
+
 .flex-container .col.ing{
-    padding: 15px;
+    width:100%;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 15px;
+    padding-right:50;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
    }
 
 .flex-container .col.ita{
-    padding: 15px;
+    width:100%;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 50px;
+    padding-right:15;
+    +
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
    }
+
+.flex-container span {
+    border-top: solid black;
+    border-bottom: solid black;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-style: italic;
+
+}
+
+.flex-container p {
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+            hyphens: auto;
+  }
+
+.flex-container a {
+    color: black;
+    text-decoration: underline;
+}  
 
 
 
