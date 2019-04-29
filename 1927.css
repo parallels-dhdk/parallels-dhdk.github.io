@@ -758,9 +758,7 @@ margin-right:20px;}
 	-moz-transform: none;
 	margin-top:10%;
 	word-break: break-word;
-	margin-left:390px;
-	margin-right:390px;
-	vertical-align: center;
+	text-align:center
 	text-decoration:underline;
 	border-bottom:7px solid;
 	border-color:red;
@@ -949,7 +947,9 @@ margin-top: 30px;
 
 .flex-container .col-ita{
  margin-top: 30px;
- 
+   -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
 }
 
 .container-eu{margin-top: 50px;

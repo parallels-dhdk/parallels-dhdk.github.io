@@ -423,6 +423,53 @@ article span:hover {
   }
 
 
+#mainbody table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    overflow-x:auto;
+    }
+  
+  
+    #mainbody th {
+    font-size: 14pt;
+    font-family:comicsans;
+    text-align: middle;
+    letter-spacing: 3px;
+    border: 1px solid;
+    padding: 5px;
+  }
+  
+  #mainbody td{
+    border: 1px solid;
+    padding: 5px; 
+    font-size: 14pt;
+    font-family:comicsans;
+    width: 33.3%;
+    text-align: middle;
+    letter-spacing: 3px;
+  }
+  
+  #mainbody tr:nth-of-type(odd) {
+    background-color:blue;
+    color:red;
+  }
+  
+  #mainbody tr:nth-of-type(even) {
+    background-color:red;
+    color:blue;
+  }
+  
+  #mainbody tr:hover {
+    background-color: #00ff00;
+  }
+
+
+
+
 
 
 /*----------EU-DIRECTIVE------------*/  
