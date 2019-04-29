@@ -642,37 +642,39 @@ article span:hover {
   /*--------------ABOUT-------------*/
   .container-about {
     margin-top: 50px;  
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-    border:solid black;
-    cursor: url("img/handcursor.png"), auto;
-    background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
-    background-size: 800% 800%;
-    -webkit-animation: transition 8s ease infinite;
-    -moz-animation: transition 8s ease infinite;
-    animation: transition 8s ease infinite;
-}
-    
-    @-webkit-keyframes transition {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        border: solid black ; 
+        cursor: url("img/hand-cursor.png"), auto;
+        overflow: hidden;
+        background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
+        background-size: 800% 800%;
+        
+        -webkit-animation: transition 8s ease infinite;
+        -moz-animation: transition 8s ease infinite;
+        animation: transition 8s ease infinite;
     }
-    @-moz-keyframes transition {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-    }
-    @keyframes transition { 
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-    }
+        
+        @-webkit-keyframes transition {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes transition {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes transition { 
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
 
 
 .description{
