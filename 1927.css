@@ -315,25 +315,12 @@ div.item2{
 
 
 
+@media screen and (min-width: 100px) {
+.item3 p {
+font-size:7.5px;
 
-
-/* smaller phone viewpoints */
-@media (min-width: 320px)  { div.item3 {
-  margin-top: 80px;
-  margin-bottom: 650px;
-margin-left:20%;
   }
 }
-
-/* small devices and most phones */
-@media (min-width: 480px) {figcaption { font-size:11px;
-margin-right:70px;
-column-count:3;
-margin-left:20px;
-}}
- 
-
-
 
 @media screen and (min-width: 100px) {
   div.item3 {
