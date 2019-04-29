@@ -58,8 +58,8 @@ max-width: 100%;
 }
 
 article { 
-  margin-left: 50px; 
-  margin-right: 50px;
+  margin-left: 70px; 
+  margin-right: 70px;
   margin-top: 100px; 
   margin-bottom: 100px;  
   padding: 30px; 
@@ -104,6 +104,10 @@ article {
 section > p  {
   text-indent: 1em;
 }
+
+
+section:nth-of-type(2) > p:nth-of-type(1){text-indent: 0em;}
+
 
 section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
   font-size: 40px;
@@ -272,8 +276,6 @@ letter-spacing: 3px;}
   border-bottom-color: #52402d; 
   border-top-style: dotted;
   border-bottom-style: dotted;
-  margin-left: 20px;
-  margin-right: 20px;
   }
 
 
@@ -281,8 +283,8 @@ letter-spacing: 3px;}
 
 
 .container-documentation{
-  margin-left: 50px; 
-  margin-right: 50px;
+  margin-left: 70px; 
+  margin-right: 70px;
   margin-top: 100px; 
   margin-bottom: 100px;  
   padding: 30px; 
@@ -296,8 +298,6 @@ letter-spacing: 3px;}
   border-bottom-color: #52402d; 
   border-top-style: dotted;
   border-bottom-style: dotted;
-  margin-left: 20px;
-  margin-right: 20px;
   }
 
 .container-documentation p:first-letter {font-size: 40px;
@@ -571,8 +571,52 @@ text-align: center;
 }
 
 .container-eu {
+  margin-left: 70px; 
+  margin-right: 70px;
+  margin-top: 100px; 
+  margin-bottom: 100px;  
+  padding: 30px; 
   background-image: url("img/newspaper1.png");
+  border-top-width: 2px;
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  border-top-color: #2b1d0e; 
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  border-bottom-color: #52402d; 
+  border-top-style: dotted;
+  border-bottom-style: dotted;
 }
+
+
+.flex-container{
+
+    width: 100%;
+    min-height: 400px; 
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+  text-align:justify;
+  }
+
+
+.col-ing{
+  padding: 50px;
+  background-size: 100%;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
+
+.col-ita{
+  padding: 50px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
+
 
 
 article span {
