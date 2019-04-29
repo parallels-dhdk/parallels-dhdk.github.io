@@ -661,6 +661,8 @@ article a {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right:10px;
     font-style: italic;
 
 }
