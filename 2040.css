@@ -299,9 +299,9 @@ article {
 
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: auto;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	-webkit-animation: article 15s ease infinite;
+	-moz-animation: article 15s ease infinite;
+	animation: article 15s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
