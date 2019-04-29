@@ -436,7 +436,7 @@ article span:hover {
     padding-top: 0px;
     padding-bottom: 20px;
     border: solid black ; 
-    font-size: 10pt;
+    font-size: 14pt;
     cursor: url("img/hand-cursor.png"), auto;
     overflow: hidden;
 
@@ -496,7 +496,7 @@ article span:hover {
     width:100%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right:10px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
@@ -508,7 +508,7 @@ article span:hover {
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 10px;
-    padding-right:15px;
+    padding-right:10px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
@@ -516,7 +516,8 @@ article span:hover {
 
 .flex-container p {
         font-family: comicsans;
-        line-height: 5em;
+        line-height: 3em;
+        font-size:14pt;
         text-align: center;
         color: yellow;
 }   
@@ -586,12 +587,34 @@ article span:hover {
     padding-right: 20px;
     padding-top: 0px;
     padding-bottom: 20px;
-    font-weight: 100;
-    background: purple;
+    background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
+    background-size: 800% 800%;
+    -webkit-animation: transition 8s ease infinite;
+    -moz-animation: transition 8s ease infinite;
+    animation: transition 8s ease infinite;
 }
+    
+    @-webkit-keyframes transition {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes transition {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes transition { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+
 .description{
     text-align:center;
     font-family: comicsans;
+    font-size:14pt;
     color: yellow;
     line-height: 5em;
     margin: 10px; 
