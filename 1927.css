@@ -455,10 +455,6 @@ padding-top: 200px;
 
 article p{font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;
 } 
 
 article a{font-family: Futurismo; 
@@ -724,10 +720,6 @@ hr{border: solid black;}
 }
 .container-about p {font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;
 }
 
 @media screen and (max-width: 1000px) { .container-about p { font-size: 7px;
@@ -860,10 +852,7 @@ filter: grayscale(100%);
 }
 .container-documentation p {font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;
+
 }
 	
 #title-documentation{font-family:LibbyHeavy;
@@ -955,10 +944,6 @@ overflow: hidden;}
 }
 .container-eu p {font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;
 }
 
 @media screen and (max-width: 1000px) { .container-eu p { font-size: 7px;
