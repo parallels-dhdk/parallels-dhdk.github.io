@@ -306,7 +306,7 @@ article h4 {
 }
 
 
-section:nth-of-type(2)::first-letter {
+article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
     float: left;
     font-size: 75pt;
     line-height: 40px;
@@ -552,8 +552,45 @@ article a {
     font-size: 14pt;
 }
 
+.container-eu {
+    margin-top: 50px;  
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-weight: 100;
+    text-align: justify;
+    border: double 7px ; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    background-color: white;
+}
 
+.flex-container{
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+    text-align:justify;
+}
 
+.flex-container .col.ing{
+    padding: 15px;
+       -webkit-flex: 1; /* Safari */
+       -ms-flex: 1; /* IE 10 */
+       flex: 1; /* Standard syntax */
+   }
+
+.flex-container .col.ita{
+    padding: 15px;
+       -webkit-flex: 1; /* Safari */
+       -ms-flex: 1; /* IE 10 */
+       flex: 1; /* Standard syntax */
+   }
 
 
 
@@ -963,3 +1000,5 @@ article a {
     }
   
 }
+
+

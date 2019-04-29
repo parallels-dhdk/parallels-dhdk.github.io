@@ -56,7 +56,7 @@ body{background-image: url("img/cassette3.jpg");
 
 }
 
-.container{
+.index-container{
 		margin-bottom:50px;
 		background-image:url("img/sfondo2.png");
     margin-top: 50px;
@@ -163,7 +163,7 @@ margin-bottom:10px;
   
 
 
-.container a{font-family: Futura Book font; 
+.index-container a{font-family: Futura Book font; 
 color:black;
 font-size:15px;
 padding-bottom:10px;
@@ -173,10 +173,10 @@ text-align: left;
 }
 
 
-.container a:active {
+.index-container a:active {
 color: black;}
 
-.container a:visited {
+.index-container a:visited {
 color: black;}
 
 
@@ -306,12 +306,13 @@ article p{	margin-top: 30px;
 	}
 	
 
-section{margin-top: 30px;
+section p{margin-top: 30px;
 	font-family: Book Antiqua;}
 	
 	
 li{font-family: Book Antiqua;}
-span{font-family: Book Antiqua;
+
+article span{font-family: Book Antiqua;
   font-style: oblique;} 
 		
 article p:first-letter{
@@ -614,6 +615,9 @@ color: black;}
 
 .container-eu  a:visited {
 color: black;}
+
+.container-eu span{font-family: Book Antiqua;
+  font-style: oblique;}
 
 /*table*/
 table{margin-left:auto;
