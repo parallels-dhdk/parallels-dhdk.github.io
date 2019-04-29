@@ -636,7 +636,7 @@ article a {
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 10px;
-    padding-right:50px;
+    padding-right:10px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
@@ -646,7 +646,7 @@ article a {
     width:50%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 50px;
+    padding-left: 10px;
     padding-right:10px;
         -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
@@ -661,13 +661,15 @@ article a {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 40px;
-    padding-left: 10px;
-    padding-right:10px;
+    padding-left: 20px;
+    padding-right:20px;
     font-style: italic;
 
 }
 
 .flex-container p {
+    padding-left:20px;
+    padding-right:20px;
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
