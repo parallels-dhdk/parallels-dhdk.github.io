@@ -547,19 +547,20 @@ letter-spacing: -1px;
 }}
 #title-documentation{font-family:Art Gothic Bold;
 	float:left;
-	font-size: 90px;
+	font-size: 85px;
 	font-weight:bold;
 	letter-spacing: -10px;
 	 word-break: break-word;
 	 text-align: center;
-	 margin-left:20px;
-	 margin-right:20px;
+	 margin-left:15px;
+	 margin-right:15px;
   column-span: all;
 	 margin-bottom:20px;
 	   line-height: -100;
 	   margin-top:10%;
 	   color: #003366;
 	   border-bottom: solid}
+
 
 
  @media screen and (max-width: 1200px) {#title-documentation{ font-size: 90px;
