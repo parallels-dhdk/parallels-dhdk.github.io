@@ -212,6 +212,8 @@ border-top: double;
 border-bottom: double;
 display: table;
 padding: 5px;
+margin-left: 40px;
+shape-margin: 40px;
 }
 
 #subright {display: table-cell; 
