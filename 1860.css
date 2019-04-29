@@ -288,7 +288,10 @@ text-align: left;}
   }
 
 
-
+h6 {
+  text-align: left;
+  font-family: myClaredonBold; 
+}
 
 
 .container-documentation{
