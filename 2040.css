@@ -414,7 +414,7 @@ article span:hover {
     padding-top: 0px;
     padding-bottom: 20px;
     border: solid black ; 
-    font-size: 14pt;
+    font-size: 10pt;
     background-color: purple;
     cursor: url("img/hand-cursor.png"), auto;
     overflow: hidden;
@@ -453,7 +453,7 @@ article span:hover {
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 15px;
-    padding-right:30;
+    padding-right:15px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
@@ -463,19 +463,19 @@ article span:hover {
     width:100%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 30px;
-    padding-right:15;
-    +
+    padding-left: 15px;
+    padding-right:15px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
    }
 
-
-.flex-container a {
-    color: black;
-    text-decoration: underline;
-}  
+.flex-container p {
+        font-family: comicsans;
+        line-height: 5em;
+        text-align: center;
+        color: yellow;
+}   
 
 .flex-container a {
     max-height: 6em;
@@ -496,7 +496,7 @@ article span:hover {
 }
 
 .flex-container span {
-    width: 100%;
+    width: 50%;
     white-space: nowrap;
     display: inline-block;
     padding-left: 100%;
