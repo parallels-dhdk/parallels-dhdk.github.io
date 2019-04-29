@@ -722,6 +722,8 @@ hr{border: solid black;}
 		margin-left: 100px;
 		margin-right:100px;
 		background-image:url("img/sfondo puntini.png");
+		padding-left:10px;
+		padding-right:10px;
 
 }
 	
