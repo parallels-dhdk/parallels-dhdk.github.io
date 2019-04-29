@@ -512,13 +512,15 @@ article a {
 
 #team {
     column-span: all;
-    
     padding-top: 20px;
     padding-right: 20px;
     font-family: futuramedium;
     font-style: italic;
     font-size: 70pt;
     text-align: center;
+    color:red;
+    border-top: solid black;
+    border-bottom: solid black;  
 }
 
 #mainbody .card {
@@ -737,9 +739,7 @@ article a {
         }
         #team {
             font-size: 80pt;  
-            color:red;
-            border-top: solid black;
-            border-bottom: solid black;  
+            
         }
         
 }
