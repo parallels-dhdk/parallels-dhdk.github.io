@@ -222,14 +222,13 @@ td{
 }
 
 #table-home-page {overflow: hidden;
-width: 100%;
+width: 95%;
 border-top: double;
 border-bottom: double;
 border-color: #241B12;
 display: table;
 padding: 5px;
-margin-left: 40px;
-margin-right: 80px;
+margin-left: 2.5%;
 }
 
 #subright {
