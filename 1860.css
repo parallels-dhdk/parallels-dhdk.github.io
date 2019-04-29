@@ -101,7 +101,7 @@ article {
   margin-top: 10px;
 }
 
-section > p:first-letter {
+section > p  {
   text-indent: 1em;
 }
 
@@ -352,7 +352,6 @@ letter-spacing: 3px;}
 
 .item2> p {
   padding-top: 10px;
-  text-indent: 0em;
 }
 
 .item2 p:first-letter {
@@ -369,7 +368,6 @@ letter-spacing: 3px;}
 
 .item3> p {
   padding-top: 10px;
-  text-indent: 0em;
 }
 
 .item3 p:first-letter {
@@ -385,7 +383,6 @@ letter-spacing: 3px;}
 
 .item4> p {
   padding-top: 10px;
-  text-indent: 0em;
 }
 
 .item4 p:first-letter {
@@ -401,7 +398,6 @@ border-right: 1px solid; }
 
 .item5> p {
   padding-top: 10px;
-  text-indent: 0em;
 }
 
 .item5 p:first-letter {
@@ -415,7 +411,6 @@ border-right: 1px solid; }
 
 .item6> p {
   padding-top: 10px;
-  text-indent: 0em;
 }
 
 .item6 p:first-letter {
