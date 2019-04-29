@@ -430,12 +430,13 @@ article span:hover {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 10px;
-    overflow-x:auto;
     }
-  
+  article table {
+      line-height:3em;
+  }
   
     #mainbody th {
-    font-size: 14pt;
+    font-size: 10pt;
     font-family:comicsans;
     text-align: middle;
     border: 1px solid;
@@ -443,7 +444,7 @@ article span:hover {
   }
   
   #mainbody td{
-    font-size: 14pt;
+    font-size: 10pt;
     font-family:comicsans;
     text-align: middle;
     border: 1px solid;
@@ -541,7 +542,7 @@ article span:hover {
 }
 
 .flex-container .col-ing{
-    width:100%;
+    width:50%;
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 10px;
@@ -549,10 +550,11 @@ article span:hover {
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
+    overflow-x:auto;
    }
 
 .flex-container .col-ita{
-    width:100%;
+    width:50%;
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 10px;
@@ -560,6 +562,7 @@ article span:hover {
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
+    overflow-x:auto;
    }
 
 .flex-container p {
