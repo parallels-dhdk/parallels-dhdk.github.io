@@ -429,6 +429,7 @@ article a {
 #mainbody th {
     background-color:black;
     font-family:futura;
+    text-transform: uppercase;
     font-size: 14pt !important;
     color:white;
     text-align: center;
