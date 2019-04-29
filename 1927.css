@@ -126,7 +126,7 @@ body{background-image: url("img/metal.jpg");
 #subright:after{display: none;}
 #subleft:after{display: none;}
 
-.index-container{margin-top: 50px;
+.index-container{margin-top: 100px;
 		margin-bottom: 70px;
 		border: 20px outset black;
 		text-align:justify;
