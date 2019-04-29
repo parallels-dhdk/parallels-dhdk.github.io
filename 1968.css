@@ -106,8 +106,10 @@ margin-right:20%;
 tr{border-top:solid;
 border-width: thin;}
 }
-#table-home-page  { display: inline-block;
-}
+
+#table-home-page{display: inline-block;
+margin-left:25px;
+			}
 
 
 

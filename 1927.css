@@ -104,8 +104,8 @@ margin-left: 180px;
 
 
 #table-home-page{display: inline-block;
+margin-left:25px;
 			}
-
 #subright{font-family:futurismo;
 font-size:20px;
  display:inline-block;
@@ -170,10 +170,10 @@ margin-left:20px;
 margin-right:20px;
 }
 
-.index-container p:after {  
-    content: url('img/parentesi.jpg');
+.index-container p:after {content:"...}";
+font-family:English Gothic Bold Italic;
 	margin-top: 10px;
-}
+	font-size:35px;}
 
 
 section{font-family:LibbyHeavy;
@@ -591,9 +591,10 @@ transform:none;
 width: 300px;
 
 }}
-article p:after{content: url('img/parentesi.jpg');
-	margin-top: 10px;}
-	
+article p:after{content:"...}";
+font-family:English Gothic Bold Italic;
+	margin-top: 10px;
+	font-size:25px;}
 
 /*table*/
 table {
@@ -724,10 +725,11 @@ hr{border: solid black;}
 
 }
 	
-.container-about p:after {  
-    content: url('img/parentesi.jpg');
+.container-about p:after {content:"...}";
+font-family:English Gothic Bold Italic;
 	margin-top: 10px;
-}
+	font-size:25px;}
+	
 .container-about {font-family:LibbyHeavy;
 font-size: 10px;
 border-right:none;
@@ -859,10 +861,11 @@ filter: grayscale(100%);
 @media screen and (max-width: 1000px)  {.container-documentation p { font-size: 7px;
 
 }}
-.container-documentation p:after {  
-    content: url('img/parentesi.jpg');
+.container-documentation p:after {content:"...}";
+font-family:English Gothic Bold Italic;
 	margin-top: 10px;
-}
+	font-size:25px;}
+	
 .container-documentation p {font-family:LibbyHeavy;
 font-size: 10px;
 border-right:none;
@@ -955,10 +958,12 @@ overflow: hidden;}
 
 .container-eu h2{font-size:60px;}
 		
-.container-eu p:after {  
-    content: url('img/parentesi.jpg');
+.container-eu p:after{content:"...}";
+font-family:English Gothic Bold Italic;
 	margin-top: 10px;
-}
+	font-size:20px;}
+	
+	
 .container-eu p {font-family:LibbyHeavy;
 font-size: 10px;
 border-right:none;
