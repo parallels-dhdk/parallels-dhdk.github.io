@@ -404,10 +404,12 @@ margin-left: 10px;
 }
 
 article{
-margin-top: 100px;
-padding-top: 200px;
+		margin-top: 100px;
+		padding-top: 200px;
 		margin-bottom: 70px;
 		padding-bottom: 80px;
+		padding-left:20px;
+		padding-right:20px;
 		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
@@ -422,6 +424,7 @@ padding-top: 200px;
 		-moz-column-gap: 20px; /* Firefox */
 		column-gap: 20px;
 }
+
 
 @media screen and (max-width: 800px) {article { 
   -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -452,10 +455,6 @@ padding-top: 200px;
 
 article p{font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;
 } 
 
 article a{font-family: Futurismo; 
