@@ -249,6 +249,7 @@ letter-spacing: 3px;}
 
 .index-container{
   padding-top: 70px;
+  padding-bottom: 70px;
    margin-bottom: 50px;
    margin-right: 100px;
    margin-left: 100px;
@@ -603,6 +604,8 @@ text-align: center;
   border-bottom-style: dotted;
 }
 
+.container-eu span {
+  color: #241B12;}
 
 .flex-container{
 
