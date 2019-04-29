@@ -429,8 +429,10 @@ article a {
 #mainbody th {
     background-color:black;
     font-family:futura;
-    font-size: 12pt;
+    font-size: 14pt !important;
     color:white;
+    text-align: center;
+    letter-spacing: 3px;
   }
 
 #mainbody tr:nth-of-type(odd) {
