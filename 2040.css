@@ -497,7 +497,7 @@ article span:hover {
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 15px;
-    padding-right:15px;
+    padding-right:10px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
@@ -507,7 +507,7 @@ article span:hover {
     width:100%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right:15px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
@@ -541,7 +541,7 @@ article span:hover {
     color: yellowgreen;
   white-space: nowrap;/*Evitar saltos de línea*/
   overflow: hidden;
-  width: 30em;
+  
   animation: keyframes 5s steps(500) infinite; 
 }
 
@@ -556,7 +556,7 @@ article span:hover {
     color: yellowgreen;
   white-space: nowrap;/*Evitar saltos de línea*/
   overflow: hidden;
-  width: 30em;
+  
   animation: keyframes 5s steps(500) infinite; 
 }
 
