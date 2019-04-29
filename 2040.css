@@ -430,7 +430,7 @@ article span:hover {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 10px;
-    word-break: break-word;
+    word-break: break-all;
     }
 
   article table {
