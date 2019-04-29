@@ -100,7 +100,7 @@ font-family: myBodoni;
 } }
 
 
-article p {
+ section {
   font-family: myBodoni;
   font-size: 14px;
   margin-top: 10px;
@@ -312,6 +312,13 @@ letter-spacing: 3px;}
   padding: 10px;
 
 }
+
+.grid-container p {
+  font-family: myBodoni;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 
 .grid-container > div {
   padding: 10px;
