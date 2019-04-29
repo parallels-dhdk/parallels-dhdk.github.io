@@ -129,7 +129,7 @@ color: red;
 #subright:after{display: none;}
 #subleft:after{display: none;}
 
-.container{margin-top: 50px;
+.index-container{margin-top: 50px;
 		margin-bottom: 70px;
 		border: 20px outset black;
 		text-align:justify;
@@ -160,7 +160,7 @@ color: red;
    margin: 40px;
 }
 
-.container p {font-family:LibbyHeavy;
+.index-container p {font-family:LibbyHeavy;
 font-size: 10px;
 border-right:none;
 margin-top: 20px;
@@ -168,7 +168,7 @@ margin-left:20px;
 margin-right:20px;
 }
 
-.container p:after {  
+.index-container p:after {  
     content: url('img/parentesi.jpg');
 	margin-top: 10px;
 }
@@ -176,10 +176,7 @@ margin-right:20px;
 
 section{font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;}
+}
 
 
 li{font-family: hasta grotesk;}
@@ -213,22 +210,22 @@ h3{font-family:English Gothic Bold Italic;
 
 }}
 
-.container a{font-family: Futurismo; 
+.index-container a{font-family: Futurismo; 
 color:black;
 font-size:15px;
 }
 
-.container a:active {
+.index-container a:active {
 color: black;}
 
 
-.container a:visited {
+.index-container a:visited {
 color: red;}
 
 
 hr{border:5px solid black;}
 
-span{
+article span{
 	border-top:solid;
 	border-bottom: solid;
 	font-family: English Gothic Bold Italic;
@@ -236,6 +233,7 @@ span{
 	font-size:15px;
 	margin-left:10px;
 	} 
+	
 
 .item1{ 
 grid-column-end: span 2;
@@ -454,10 +452,6 @@ padding-top: 200px;
 
 article p{font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;
 } 
 
 article a{font-family: Futurismo; 
@@ -723,10 +717,6 @@ hr{border: solid black;}
 }
 .container-about p {font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;
 }
 
 @media screen and (max-width: 1000px) { .container-about p { font-size: 7px;
@@ -859,10 +849,7 @@ filter: grayscale(100%);
 }
 .container-documentation p {font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;
+
 }
 	
 #title-documentation{font-family:LibbyHeavy;
@@ -954,10 +941,6 @@ overflow: hidden;}
 }
 .container-eu p {font-family:LibbyHeavy;
 font-size: 10px;
-border-right:none;
-margin-top: 20px;
-margin-left:20px;
-margin-right:20px;
 }
 
 @media screen and (max-width: 1000px) { .container-eu p { font-size: 7px;
@@ -975,3 +958,11 @@ color: black;}
 .container-eu a:visited {
 color: red;}
 
+.container-eu span {
+	border-top:solid;
+	border-bottom: solid;
+	font-family: English Gothic Bold Italic;
+	text-align:center; 
+	font-size:15px;
+	margin-left:10px;
+	}
