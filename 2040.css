@@ -430,6 +430,7 @@ article span:hover {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 10px;
+    word-break: break-word;
     }
 
   article table {
@@ -842,8 +843,7 @@ article span:hover {
     @media (min-width: 576px) {
         #mainbody tr, th, td{
             font-size: 8pt;
-            word-wrap: break-word;         
-    overflow-wrap: break-word; 
+            
         }
 
         .flex-container h2 {
