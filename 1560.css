@@ -35,12 +35,15 @@ background-color: black;
 	font-family: myHultog;
 	font-size: 12px;
 	margin-bottom: 100px;
+	height:auto;
+	overflow: hidden;
 }
 
 
 .flex-container{
     width: 100%;
-    display: -webkit-flex; /* Safari */     
+    display: -webkit-flex; 
+    margin: 0 auto;/* Safari */     
     display: flex; /* Standard syntax */
 	text-align:justify;
 	}
