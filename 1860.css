@@ -81,10 +81,7 @@ article {
   
 }
 
-section {
-font-family: myBodoni;
-  font-size: 14px;  
-}
+
 
 @media screen and (max-width: 700px) {article { 
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -174,10 +171,17 @@ h5 {
   font-family: myClaredonBold; 
 }
 
-a { margin-right: 5px;
+section a { margin-right: 5px;
     color: #000000;
     font-family: myBodoniCondensed;
     font-size: 14px;}
+
+.index-container a { margin-right: 5px;
+    color: #000000;
+    font-family: myBodoniCondensed;
+    font-size: 14px;
+}
+
 
 
 
