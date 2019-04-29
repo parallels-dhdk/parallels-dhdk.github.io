@@ -491,40 +491,6 @@ article span:hover {
     cursor: url("img/arrow-cursor.png"), auto;
 }
 
-.flex-container span a {
-    display: inline;
-}
-
-.flex-container span {
-    width: 50%;
-    white-space: nowrap;
-    display: inline-block;
-    padding-left: 100%;
-    padding-right: 100%;
-    /* show the marquee just outside the paragraph */
-    animation: span 20s linear infinite ;
-    font-family:comicsans;
-    text-transform: uppercase;  
-  }
-  
-.flex-container span:hover {
-    animation-play-state: paused;
-    color:yellowgreen;
-    display:inline-block;
-  }
-  
-  /* Make it move */
-  @keyframes span {
-    0% {
-      transform: translate(0, 0);
-    }
-    100% {
-      transform: translate(-100%, 0);
-    }
-  }
-
-
-
 
 
 
