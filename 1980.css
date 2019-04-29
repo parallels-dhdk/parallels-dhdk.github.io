@@ -616,9 +616,9 @@ article a {
     font-family: futura ;
     color: black;
     text-transform: uppercase;
-    font-size: 70pt;
+    font-size: 50pt;
     text-align: right;
-    line-height: 90%;
+    line-height: 70%;
 }
 
 .flex-container h3{
@@ -627,7 +627,7 @@ article a {
     padding-right:10px;
     font-family: futuramedium;
     font-style: italic;
-    font-size: 30pt;
+    font-size: 25pt;
     text-align: right;
 }
 
