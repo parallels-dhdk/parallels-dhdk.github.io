@@ -325,37 +325,13 @@ margin-left:20%;
   }
 }
 
-/* mall devices and most phones */
+/* small devices and most phones */
 @media (min-width: 480px) {figcaption { font-size:11px;
 margin-right:70px;
 column-count:3;
 margin-left:20px;
 }}
  
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {figcaption { font-size:10px;
-margin-right:70px;
-column-count:3;
-margin-left:20px;
-}}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {figcaption { font-size: 10px;
-margin-right:90px;
-column-count:3;
-}}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {figcaption{ 
-overflow:hidden;
-font-size: 11px;
-margin-right:90px;
-
-}}
-
-
 
 
 
