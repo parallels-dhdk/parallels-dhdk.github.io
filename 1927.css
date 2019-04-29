@@ -452,6 +452,10 @@ padding-top: 200px;
 
 article p{font-family:LibbyHeavy;
 font-size: 10px;
+border-right:none;
+margin-top: 20px;
+margin-left:20px;
+margin-right:20px;
 } 
 
 article a{font-family: Futurismo; 
