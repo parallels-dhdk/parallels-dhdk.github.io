@@ -732,7 +732,10 @@ article a {
             font-size: 14pt;
         }
         #team {
-            font-size: 80pt;    
+            font-size: 80pt;  
+            color:red;
+            border-top: solid black;
+            border-bottom: solid black;  
         }
         
 }
