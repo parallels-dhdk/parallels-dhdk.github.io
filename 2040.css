@@ -292,10 +292,33 @@ article {
     padding-bottom: 20px;
     border: solid black ; 
     font-size: 14pt;
-    background-color: purple;
     cursor: url("img/hand-cursor.png"), auto;
     overflow: hidden;
+
+
+    background: linear-gradient(0deg, #122cdc, #79208f, #b62735, #ed2dd0);
+    
+-webkit-animation: transition 10s ease infinite;
+-moz-animation: transition 10s ease infinite;
+animation: transition 10s ease infinite;
+
+@-webkit-keyframes transition {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes transition {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes transition { 
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
   }
+
 
 article h2 {
 	text-transform: uppercase;
