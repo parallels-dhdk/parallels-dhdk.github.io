@@ -230,7 +230,8 @@ margin-left: 40px;
 margin-right: 40px;
 }
 
-#subright {display: table-cell; 
+#subright {
+  display: table-cell; 
   width: 33.3%; 
   text-align: right;
   letter-spacing: 3px;
@@ -245,7 +246,8 @@ display: table-cell;}
 #subleft { 
 display: table-cell;
 width: 33.3%; 
-letter-spacing: 3px;}
+letter-spacing: 3px;
+text-align: left;}
 
 .index-container{
   padding-top: 70px;
