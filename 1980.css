@@ -635,8 +635,8 @@ article a {
     width:50%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 15px;
-    padding-right:50;
+    padding-left: 10px;
+    padding-right:10px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
@@ -646,8 +646,8 @@ article a {
     width:50%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 50px;
-    padding-right:15;
+    padding-left: 10px;
+    padding-right:10px;
         -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
