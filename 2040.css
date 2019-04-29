@@ -297,7 +297,7 @@ article {
 
 
     background: linear-gradient(144deg, #122cdc, #79208f, #b62735, #ed2dd0);
-background-size: 800% 800%;
+background-size: auto;
 
 -webkit-animation: transition 15s ease infinite;
 -moz-animation: transition 15s ease infinite;
