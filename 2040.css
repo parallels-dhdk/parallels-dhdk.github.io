@@ -837,7 +837,9 @@ article span:hover {
         /*phones*/
     @media (min-width: 576px) {
         #mainbody th, td{
-            font-size: 8pt;
+            font-size: 7pt;
+            word-wrap: break-word;         
+    overflow-wrap: break-word; 
         }
 
         .flex-container h2 {
