@@ -736,9 +736,9 @@ article span:hover {
      
     
 
-     -moz-animation: title 1s linear infinite ;
-     -webkit-animation: title 1s linear infinite ;
-     animation: title 1s linear infinite ;
+     -moz-animation: title 3s linear infinite ;
+     -webkit-animation: title 3s linear infinite ;
+     animation: title 3s linear infinite ;
     }
 
     /* Move it (define the animation) */
