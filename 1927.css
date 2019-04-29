@@ -140,6 +140,8 @@ color: red;
 		padding-right: 0px;
 		height:auto;
 		overflow: hidden;
+		margin-right: 100px;
+   margin-left: 100px;
 }
 
 		
@@ -404,10 +406,12 @@ margin-left: 10px;
 }
 
 article{
-margin-top: 100px;
-padding-top: 200px;
+		margin-top: 100px;
+		padding-top: 200px;
 		margin-bottom: 70px;
 		padding-bottom: 80px;
+		padding-left:20px;
+		padding-right:20px;
 		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
@@ -422,6 +426,7 @@ padding-top: 200px;
 		-moz-column-gap: 20px; /* Firefox */
 		column-gap: 20px;
 }
+
 
 @media screen and (max-width: 800px) {article { 
   -webkit-column-count: 1; /* Chrome, Safari, Opera */

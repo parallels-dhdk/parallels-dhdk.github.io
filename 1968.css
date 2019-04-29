@@ -60,12 +60,14 @@ body{background-image: url("img/cassette3.jpg");
 		margin-bottom:50px;
 		background-image:url("img/sfondo2.png");
     margin-top: 50px;
-    padding-top:0px;
+    padding-top:50px;
     margin-bottom: 50px; 
     padding-left:0px;
     padding-right: 0px;
     height:auto;
     overflow: hidden;
+	margin-right: 100px;
+   margin-left: 100px;
     
 }
 
@@ -306,7 +308,7 @@ article p{	margin-top: 30px;
 	}
 	
 
-section p{margin-top: 30px;
+section {margin-top: 30px;
 	font-family: Book Antiqua;}
 	
 	
