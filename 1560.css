@@ -30,6 +30,8 @@ background-color: black;
 	
 
 .container-eu {
+	margin-left: 30px; 
+  	margin-right: 30px;
 	color: #241B12;
 	margin-top: 150px;
 	font-family: myHultog;
@@ -48,8 +50,7 @@ background-color: black;
 	text-align:justify;
 	}
 
-
-.flex-container .col-ing{
+ .col-ing{
 
 	margin-right: 15px;
 	margin-left: 15px;
@@ -65,7 +66,7 @@ background-color: black;
 
 
 
-.flex-container .col-ita{
+.col-ita{
 	margin-right: 15px;
 	margin-left: 15px;
 	padding: 50px;
