@@ -672,9 +672,23 @@ article span:hover {
 }
 
 #title-about {  
+    text-transform: uppercase;
+	font-size: 80pt;
+    width:100%;
+	text-align: center;
+	color: yellow;
+	background-color: black;
+    font-family: techmono;
+    font-weight: bold;
 }
+        
 
 #team {
+    font-family: techmono;
+    text-align: center;
+    font-size:30pt;
+    color: #FFF;
+    background-color: black;
 }
 
 
