@@ -579,7 +579,8 @@ text-align: center;
   border-bottom-style: dotted;
   }
 
-span {
+
+article span {
   margin-right: 5px;
     color: #000000;
     font-family: myBodoniCondensed;
