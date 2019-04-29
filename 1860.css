@@ -190,6 +190,8 @@ section a { margin-right: 5px;
 
 
 table {
+  margin-top:15px;
+  margin-bottom:15px;
   font-family: myBodoniCondensed;
   border-collapse: collapse;
   width: 100%;
@@ -612,6 +614,12 @@ text-align: center;
 
 .container-eu a {
   color: #241B12;}
+
+.container-eu span {
+
+  font-family: myClaredonBold;
+
+  }
 
 .flex-container{
 
