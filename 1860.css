@@ -650,7 +650,7 @@ text-align: center;
 
 
 
-article > span {
+section > span {
     margin-right: 5px;
     font-family: myBodoniCondensed;
     font-size: 14px;}
