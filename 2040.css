@@ -296,29 +296,53 @@ article {
     overflow: hidden;
 
 
-    background: linear-gradient(144deg, #122cdc, #79208f, #b62735, #ed2dd0);
-background-size: auto;
 
--webkit-animation: transition 15s ease infinite;
--moz-animation: transition 15s ease infinite;
-animation: transition 15s ease infinite;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: auto;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
 
-@-webkit-keyframes transition {
-    0%{background-position:20% 0%}
-    50%{background-position:81% 100%}
-    100%{background-position:20% 0%}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
-@-moz-keyframes transition {
-    0%{background-position:20% 0%}
-    50%{background-position:81% 100%}
-    100%{background-position:20% 0%}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
-@keyframes transition { 
-    0%{background-position:20% 0%}
-    50%{background-position:81% 100%}
-    100%{background-position:20% 0%}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
-  }
+
+
+
+   
 
   
 article h2 {
