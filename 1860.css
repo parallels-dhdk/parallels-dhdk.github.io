@@ -90,21 +90,19 @@ article {
 
 
 
- section {
-  font-family: myBodoni;
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-
 .index-container p {
   font-family: myBodoni;
   font-size: 14px;
   margin-top: 10px;
+ line-height: 1;
 }
 
 section > p  {
+  font-family: myBodoni;
+  font-size: 14px;
+  margin-top: 10px;
   text-indent: 1em;
+  line-height: 1;
 }
 
 
