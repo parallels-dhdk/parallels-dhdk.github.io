@@ -39,7 +39,6 @@ background-color: black;
 
 
 .flex-container{
-	margin: 0 auto;
     width: 100%;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
@@ -47,7 +46,7 @@ background-color: black;
 	}
 
 
-.col-ing{
+.flex-container .col-ing{
 
 	margin-right: 15px;
 	margin-left: 15px;
@@ -62,7 +61,8 @@ background-color: black;
 }
 
 
-.col-ita{
+
+.flex-container .col-ita{
 	margin-right: 15px;
 	margin-left: 15px;
 	padding: 50px;
