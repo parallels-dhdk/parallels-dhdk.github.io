@@ -606,7 +606,11 @@ text-align: center;
   border-bottom-style: dotted;
 }
 
-.container-eu span {
+.container-eu h2{
+  padding: 20px;
+}
+
+.container-eu a {
   color: #241B12;}
 
 .flex-container{
