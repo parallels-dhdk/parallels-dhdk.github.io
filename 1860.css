@@ -83,20 +83,6 @@ article {
 
 
 
-@media screen and (max-width: 700px) {article { 
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
-  column-count: 2;}}
-
-
-
-@media screen and (max-width: 600px) {article { 
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
-  column-count: 1;
-} }
-
-
  section {
   font-family: myBodoni;
   font-size: 14px;
@@ -598,4 +584,18 @@ article span {
     font-size: 14px;}
 }
 
+
+
+@media screen and (max-width: 700px) {article { 
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;}}
+
+
+
+@media screen and (max-width: 600px) {article { 
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
+} }
 
