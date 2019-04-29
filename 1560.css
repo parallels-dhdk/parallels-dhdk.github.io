@@ -232,6 +232,7 @@ section p:first-letter {
 	padding-right: 6px;
 	padding-bottom: 6px;
 	line-height: 1;
+	-webkit-font-smoothing: antialiased;
 }
 
 figcaption {
