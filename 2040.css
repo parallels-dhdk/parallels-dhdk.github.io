@@ -438,19 +438,16 @@ article span:hover {
     font-size: 14pt;
     font-family:comicsans;
     text-align: middle;
-    letter-spacing: 3px;
     border: 1px solid;
-    padding: 5px;
+    width: 33.3%;
   }
   
   #mainbody td{
-    border: 1px solid;
-    padding: 5px; 
     font-size: 14pt;
     font-family:comicsans;
-    width: 33.3%;
     text-align: middle;
-    letter-spacing: 3px;
+    border: 1px solid;
+    width: 33.3%;
   }
   
   #mainbody tr:nth-of-type(odd) {
@@ -463,7 +460,11 @@ article span:hover {
     color:blue;
   }
   
-  #mainbody tr:hover {
+  #mainbody th:hover {
+    background-color: #00ff00;
+  }
+
+  #mainbody td:hover {
     background-color: #00ff00;
   }
 
