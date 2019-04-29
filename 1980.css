@@ -416,10 +416,10 @@ article a {
 }
 
 #mainbody table {
-    border-collapse: collapse;
     width: 100%;
     border: 1px solid black;
-    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    font-family: 
     font-size: 14pt;
     margin-top: 15px;
     margin-bottom: 15px;
