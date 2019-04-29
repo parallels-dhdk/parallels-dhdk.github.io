@@ -609,30 +609,30 @@ article a {
     margin: 0 auto;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
-    text-align:justify;
+    text-align:center;
+    
 }
 
 .flex-container h2 {
-    padding-bottom: 20px;
-    padding-top: 20px;
     font-family: futura ;
     color: black;
     text-transform: uppercase;
+    width:100%;
     font-size: 55pt;
     text-align: right;
     line-height: 80%;
     padding-right:20px;
-    padding-right:20px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
 }
 
 .flex-container h3{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right:20px;
     font-family: futuramedium;
     font-style: italic;
     font-size: 30pt;
-    text-align: right;
+    text-align: center;
 }
 
 .flex-container .col.ing{
@@ -657,6 +657,20 @@ article a {
        flex: 1; /* Standard syntax */
    }
 
+   .flex-container p {
+    padding-left:20px;
+    padding-right:20px;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+            hyphens: auto;
+  }
+
+  .flex-container a {
+    color: black;
+    text-decoration: underline;
+}  
+
+
 .flex-container span {
     border-top: solid black;
     border-bottom: solid black;
@@ -668,21 +682,11 @@ article a {
     padding-left: 20px;
     padding-right:20px;
     font-style: italic;
-
 }
 
-.flex-container p {
-    padding-left:20px;
-    padding-right:20px;
-    -webkit-hyphens: auto;
-       -moz-hyphens: auto;
-            hyphens: auto;
-  }
 
-.flex-container a {
-    color: black;
-    text-decoration: underline;
-}  
+
+
 
 
 
