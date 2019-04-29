@@ -535,6 +535,19 @@ article span:hover {
     cursor: url("img/arrow-cursor.png"), auto;
 }
 
+.flex-container span {
+    font-family: comicsans;
+    text-transform:uppercase;
+    color: yellowgreen;
+  white-space: nowrap;/*Evitar saltos de línea*/
+  overflow: hidden;
+  width: 30em;
+  animation: keyframes 5s steps(500) infinite; 
+}
+
+@keyframes keyframes{ 
+  from{ width: 0px;} 
+}
 
 
 
