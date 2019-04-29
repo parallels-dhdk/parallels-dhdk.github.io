@@ -49,6 +49,8 @@ body {
     background-image: url("img/pixel.gif");    
 }
 
+
+/*----------HOMAPGE-------------*/
 .index-container{
     background-color: white;
     margin-top: 50px;
@@ -65,13 +67,9 @@ body {
     cursor: url("img/target.png"), auto;
 }
 
-
-
-
 .grid-container p {
     display: none;
 }
-
 
 #title {
 font-family: capture;
@@ -281,6 +279,8 @@ font-size: 50pt;
 }
 
 
+
+/*-----------------ARTICLES--------------*/
 article { 
     margin-top: 50px;  
     margin-bottom: 50px;
@@ -290,16 +290,12 @@ article {
     padding-right: 20px;
     padding-top: 0px;
     padding-bottom: 20px;
-    font-weight: 100;
-    text-align: justify;
     border: solid black ; 
-    font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     background-color: purple;
     cursor: url("img/hand-cursor.png"), auto;
     overflow: hidden;
   }
-
 
 article h2 {
 	text-transform: uppercase;
@@ -310,7 +306,6 @@ article h2 {
 	background-color: black;
     font-family: techmono;
     font-weight: bold;
-    
 }
 
 article h3 {
@@ -334,7 +329,6 @@ line-height: 5em;
 text-align: center;
 color: yellow;
 margin: 10px;
-
 }
 
 article img {
@@ -349,28 +343,6 @@ article img:hover {
     transform: scale(3.5);
 }
 
-article a {
-    max-height: 6em;
-    margin: 0 auto;
-    max-width: 100%;
-    position:relative;
-    
-    color: blue;
-    display: inline-block;
-    
-}
-
-article a:hover {
-    transform: scale(3.5);
-    cursor: url("img/arrow-cursor.png"), auto;
-}
-
-article span a {
-    display: inline;
-}
-
-
-
 
 figcaption{
     background-color:pink;
@@ -382,10 +354,24 @@ figcaption{
    margin-bottom: 10px;
 }
 
+article a {
+    max-height: 6em;
+    margin: 0 auto;
+    max-width: 100%;
+    position:relative;
+    color: blue;
+    display: inline-block;  
+}
 
+article a:hover {
+    transform: scale(3.5);
+    cursor: url("img/arrow-cursor.png"), auto;
+}
 
+article span a {
+    display: inline;
+}
 
-  
 article span {
     width: 100%;
     white-space: nowrap;
@@ -404,9 +390,7 @@ article span:hover {
     display:inline-block;
   }
   
-  
   /* Make it move */
-  
   @keyframes span {
     0% {
       transform: translate(0, 0);
@@ -416,8 +400,136 @@ article span:hover {
     }
   }
 
-  /*ABOUT*/
 
+
+
+/*----------EU-DIRECTIVE------------*/  
+  .container-eu {
+    margin-top: 50px;  
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    border: solid black ; 
+    font-size: 14pt;
+    background-color: purple;
+    cursor: url("img/hand-cursor.png"), auto;
+    overflow: hidden;
+}
+
+.flex-container{
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+    text-align:center;
+}
+
+.flex-container h2 {
+    text-transform: uppercase;
+	font-size: 60pt;
+    width:100%;
+	text-align: center;
+	color: purple;
+	background-color: black;
+    font-family: techmono;
+    font-weight: bold;
+}
+
+.flex-container h3{
+    font-family: techmono;
+    text-align: center;
+    font-size:30pt;
+    color: #FFF;
+    background-color: black;
+}
+
+.flex-container .col.ing{
+    width:100%;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 15px;
+    padding-right:30;
+       -webkit-flex: 1; /* Safari */
+       -ms-flex: 1; /* IE 10 */
+       flex: 1; /* Standard syntax */
+   }
+
+.flex-container .col.ita{
+    width:100%;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 30px;
+    padding-right:15;
+    +
+       -webkit-flex: 1; /* Safari */
+       -ms-flex: 1; /* IE 10 */
+       flex: 1; /* Standard syntax */
+   }
+
+
+.flex-container a {
+    color: black;
+    text-decoration: underline;
+}  
+
+.flex-container a {
+    max-height: 6em;
+    margin: 0 auto;
+    max-width: 100%;
+    position:relative;
+    color: blue;
+    display: inline-block;  
+}
+
+.flex-container a:hover {
+    transform: scale(3.5);
+    cursor: url("img/arrow-cursor.png"), auto;
+}
+
+.flex-container span a {
+    display: inline;
+}
+
+.flex-container span {
+    width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    padding-left: 100%;
+    padding-right: 100%;
+    /* show the marquee just outside the paragraph */
+    animation: span 20s linear infinite ;
+    font-family:comicsans;
+    text-transform: uppercase;  
+  }
+  
+.flex-container span:hover {
+    animation-play-state: paused;
+    color:yellowgreen;
+    display:inline-block;
+  }
+  
+  /* Make it move */
+  @keyframes span {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+
+
+
+
+
+
+  /*--------------ABOUT-------------*/
   .container-about {
     margin-top: 50px;  
     margin-bottom: 50px;
@@ -437,7 +549,6 @@ article span:hover {
     line-height: 5em;
     margin: 10px; 
 }
-
 
 #title-about {  
 }
