@@ -750,9 +750,7 @@ article span:hover {
 
      
         color: #FF1177;
-        -webkit-animation: none;
-        -moz-animation: none;
-        animation: none;
+        
       }
       
       /*glow for webkit*/
