@@ -525,6 +525,21 @@ font-size: 17px;
 
 
 @media screen and (max-width: 1100px) {
+	.container-about h2{
+	font-size: 45px;
+	}
+	#text-about p {font-size: 12px;}
+	.card-title-michela:before {
+	height: 180px;
+	width: 150px;}
+	.card-title-lucia:before {
+	height: 180px;
+	width: 160px;}
+	.card-title-sara:before {
+	height: 180px;
+	width: 160px;}
+	.card-text {
+	font-size: 16px;}
 	.container-documentation {
 	margin: 25px;
 	padding-top: 130px;
@@ -605,12 +620,14 @@ font-size: 17px;
 	}
 	.container-eu h2:before {
 	margin-left: 10%;
-}
-section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
-    font-size: 110px;
-    line-height: 55px;
-    padding-top: 15px;
-}
+	}
+	section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
+	font-size: 110px;
+	line-height: 55px;
+	padding-top: 15px;
+	}
+	.container-about h5{
+	font-size: 18px;}
 	}
  
 
@@ -645,6 +662,12 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 	width: 200px;
 	margin-bottom: 50px;
 	margin-left: 18%;}
+	.card-title-michela:before {
+	margin-left: 20%;}
+	.card-title-lucia:before {
+	margin-left: 20%;}
+	.card-title-sara:before {
+	margin-left: 20%;}
 	
 }
 
@@ -656,15 +679,17 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 
 
 @media screen and (max-width: 950px) {
+	.container-about h2{
+	font-size: 35px;}
 	.card-title-michela:before {
-	height: 100px;
-	width: 85px;}
+	height: 160px;
+	width: 140px;}
 	.card-title-lucia:before {
-	height: 100px;
-	width: 85px;}
+	height: 160px;
+	width: 140px;}
 	.card-title-sara:before {
-	height: 100px;
-	width: 85px;}
+	height: 160px;
+	width: 140px;}
 	.container-documentation {
 	margin: 20px;
 	padding-top: 110px;
@@ -678,7 +703,7 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 	font-size: 60px;
 	height: 40px;}
 	#text-about p {
-	font-size: 16px;}
+	font-size: 11px;}
 	.container-documentation p {
 	font-size: 12px;}
 	#title-documentation:before {
@@ -698,18 +723,16 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 	font-size: 10px;}
 	h2 {
 	font-size: 18px;
-	padding: 10px
-	}
+	padding: 10px}
 	h3{
 	padding-top: 0px;
 	padding-bottom: 5px;
 	font-size: 12px;}
 	h4{
-	font-size: 8px;
-	}
+	font-size: 8px;}
 	figcaption {
 	font-size: 8px;}
-	span {
+	article span {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	font-size: 13px;}
@@ -718,20 +741,19 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 	h1{
 	font-size: 40px;
 	letter-spacing: 5px;}
-	.container-about{
-	padding-right: 60px; 
-	padding-left: 100px;
-	}
-	#text-about{
-	padding-right: 40px;
-	}
-	.container-fluid{
-	padding-left: 40px;	
-	}
 	section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
     line-height: 65px;
-    padding-top: 15px;
-}
+    padding-top: 15px;}
+	.container-eu {
+	font-size: 10px;}
+	section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
+  	font-family: myCaps;
+	float: left;
+    font-size: 100px;
+    line-height: 65px;
+    padding-top: 15px;}
+	.container-about h5{
+	font-size: 16px;}
 }
 
 
@@ -741,15 +763,19 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 
 
 @media screen and (max-width: 800px) {
+	.container-about p {
+	font-size: 10px;}
+	.container-about h2{
+	font-size: 25px;}
 	.card-title-michela:before {
-	height: 80px;
-	width: 65px;}
+	height: 140px;
+	width: 120px;}
 	.card-title-lucia:before {
-	height: 80px;
-	width: 65px;}
+	height: 140px;
+	width: 120px;}
 	.card-title-sara:before {
-	height: 80px;
-	width: 65px;}
+	height: 140px;
+	width: 120px;}
 	.container-documentation {
 	margin: 15px;
 	padding-top: 90px;
@@ -813,10 +839,9 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 	padding-top: 90px;
 	padding-bottom: 40px;
 	padding-left: 40px;
-	padding-right: 40px;
-	}
+	padding-right: 40px;}
 	#title{
-		font-size: 30px;}
+	font-size: 30px;}
 	#table-home-page {
 	padding-left: 67%;
 	font-size: 10px;}
@@ -826,9 +851,9 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 	margin-bottom: 50px;
 	margin-left: 15%;}
 	.container-eu {
-			font-size: 8px;
-	}
-
+	font-size: 8px;}
+	.container-about h5{
+	font-size: 14px;}
 	
 }
 
@@ -839,6 +864,16 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 
 
 @media screen and (max-width: 650px) {
+	.card-title-michela:before {
+	margin-left: 12%;}
+	.card-title-lucia:before {
+	margin-left: 12%;}
+	.card-title-sara:before {
+	margin-left: 12%;}
+	#text-about p {
+	font-size: 8px;}
+	.container-about h2{
+	font-size: 15px;}
 	.container-documentation p:first-letter {
 	font-size: 20px;
 	height: 10px;}
@@ -864,7 +899,7 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 	-moz-column-gap: 70px; /* Firefox */
 	column-gap: 70px;}	
 	.card-text {
-	font-size: 10px;}
+	font-size: 12px;}
 	h2 {
 	font-size: 12px;
 	padding: 5px
@@ -921,12 +956,13 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 	section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
     font-size: 80px;
     line-height: 55px;
-    padding-top: 10px;
-}
+    padding-top: 10px;}
 	.container-eu h2:before {
-		margin-bottom: 30px;
+	margin-bottom: 30px;
 	height: 15px;
-width: 130px;}
+	width: 130px;}
+	.container-about h5{
+	font-size: 12px;}
 
 	
 }
