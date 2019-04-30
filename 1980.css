@@ -623,7 +623,7 @@ article a {
     color: black;
     text-transform: uppercase;
     width:100%;
-    font-size: 55pt;
+    font-size: 70pt;
     text-align: right;
     line-height: 80%;
     padding-right:20px;
@@ -651,15 +651,17 @@ article a {
 
 .flex-container .col-ita{
     width:50%;
-    
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 20px;
+    padding-right:20px;
         -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
    }
 
    .flex-container p {
-    padding-left:20px;
-    padding-right:20px;
+    
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
