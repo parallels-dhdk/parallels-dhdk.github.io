@@ -301,8 +301,10 @@ section p:first-letter {
 	padding-right: 6px;
 	padding-bottom: 6px;
 	line-height: 1;
-	-webkit-font-smoothing: antialiased;
+	
 }
+
+
 
 figcaption {
 	font-family: myHultogCoursive;
@@ -478,7 +480,7 @@ margin-bottom: 20px;
 }
 
 section > p {
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 @media screen and (min-width: 1400px) {
