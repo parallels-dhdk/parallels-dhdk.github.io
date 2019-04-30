@@ -1018,12 +1018,12 @@ article a {
         }
     }
 
-@media screen and (max-width: 650px){
-    #title {
+    @media (min-width: 576px){
     
-    font-size: 44pt;
-    margin-left: 5px;
-    margin-top: 25px;
+        #title {
+        font-size: 44pt;
+        margin-left: 5px;
+        margin-top: 25px;
    }
      .item1 h3 {
         font-size: 20pt;
@@ -1131,6 +1131,11 @@ article a {
         padding-bottom: 5px;
         border: solid yellow 7px;
     }
+
+    .container-documentation h2 {
+        font-size: 70pt;
+    }
+
   
 }
 
