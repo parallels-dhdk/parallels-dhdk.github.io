@@ -1,5 +1,5 @@
  #mainbody {
-   min-height:100%;
+   height:100% !important;
  }             
               
 /*------------NAVBAR STYLE------------------------*/
@@ -162,8 +162,9 @@
 /*-----------------FOOTER STYLE-----------------*/
           
           .footer { 
-            position:default;
+            position:absolute;
             left: 0;
+			bottom:0;
             width: 100%;
             background-color: #000000;
             color: white;
