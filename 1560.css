@@ -395,11 +395,6 @@ display: table-row;}
 
 
 
-#text-about {
-grid-area: 1 / 1 ;
-padding-right: 60px;
-}
-
 #text-about p {
 	font-size: 22px;
 	font-family: myHultogCoursive;
@@ -407,11 +402,6 @@ padding-right: 60px;
   letter-spacing: 2px;
 }
 
-
-.container-fluid{
-  grid-area: 1 / 2; 
-  padding-left: 60px;
-}
 
 
 .card-text{
