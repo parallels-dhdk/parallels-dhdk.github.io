@@ -508,6 +508,7 @@ font-size: 17px;
 }
 
 .card {
+	background: transparent;
   	text-align: center;
 	border: none;
 	margin: 0px !important;}
