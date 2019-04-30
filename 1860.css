@@ -44,7 +44,7 @@ body {
 
 
 
-article img {
+section img {
 filter:sepia(90%) opacity(70%);
 padding: 0px;
 margin-top:5px;
