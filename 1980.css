@@ -640,7 +640,7 @@ article a {
     text-align: justify;
 }
 
-.flex-container .col.ing{
+.flex-container .col-ing{
     width:50%;
     padding-top:15px;
     padding-bottom:15px;
@@ -651,7 +651,7 @@ article a {
        flex: 1; /* Standard syntax */
    }
 
-.flex-container .col.ita{
+.flex-container .col-ita{
     width:50%;
     padding-top:15px;
     padding-bottom:15px;
