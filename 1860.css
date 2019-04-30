@@ -597,8 +597,9 @@ text-align: center;
   margin-left: 70px; 
   margin-right: 70px;
   margin-top: 100px; 
-  margin-bottom: 100px;  
-  padding: 30px; 
+  margin-bottom: 100px; 
+  padding-top: 50px;
+  padding-bottom: 50px;  
   background-image: url("img/newspaper1.png");
   border-top-width: 2px;
   border-top-left-radius: 5px; 
@@ -638,7 +639,7 @@ text-align: center;
 .col-ing{
   border-right: 1px solid;
   border-color: #241B12;
-  padding: 25px;
+  padding: 30px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
@@ -646,7 +647,7 @@ text-align: center;
 
 
 .col-ita{
-  padding: 25px;
+ padding: 30px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
