@@ -268,11 +268,11 @@ article span {
 }
 
 
-a {
+article a {
   color:#4a433e;
 }
 
-a:hover { 
+article a:hover { 
   color: #4a433e;
   font-family: myHultog; 
 }
