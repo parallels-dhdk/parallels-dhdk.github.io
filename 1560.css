@@ -279,7 +279,7 @@ section {
 	-webkit-column-gap: 150px; /* Chrome, Safari, Opera */
 	-moz-column-gap: 150px; /* Firefox */
 	column-gap: 150px;	
-	line-height: 1;
+	line-height: 1.5;
 }
 
 section:first-of-type{
