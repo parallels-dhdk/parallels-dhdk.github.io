@@ -99,12 +99,15 @@ article {
  line-height: 1;
 }
 
-section > p{
+section {
   font-family: myBodoni;
   font-size: 14px;
-  margin-top: 10px;
   text-indent: 1em;
   line-height: 1;
+}
+
+section > p{
+  margin-top: 10px;
 }
 
 
