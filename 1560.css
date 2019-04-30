@@ -438,7 +438,7 @@ font-size: 17px;
 	-webkit-column-count: 1; /* Chrome, Safari, Opera */
 	-moz-column-count: 1; /* Firefox */
 	column-count: 1;
-	padding-left: 60%;
+	padding-left: 55%;
 	padding-bottom: 15%;
 	padding-top: 15%;
 
@@ -505,7 +505,7 @@ display: block;
 height: 200px;
 width: 180px;
 margin-bottom: 30px;
-margin-left: 18%;
+margin-left: 15%;
 }
 
 
