@@ -432,6 +432,11 @@ article a {
     font-family: calibri;
 }
 
+#mainbody td {
+    border-right: solid 1px black; 
+    border-left: solid 1px black;
+  }
+
 #mainbody th {
     background-color:black;
     font-family:futura;
