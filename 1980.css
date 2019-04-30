@@ -708,7 +708,7 @@ article a {
     padding-right: 5px;
     font-family: futuramedium;
     font-style: italic;
-    font-size: 70pt;
+    font-size: 60pt;
     text-align: center;
     color:red;
     border-top: solid black;
@@ -716,6 +716,8 @@ article a {
 }
 
 .container-documentation p{
+    margin-top:10px;
+    margin-bottom:10px;
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
