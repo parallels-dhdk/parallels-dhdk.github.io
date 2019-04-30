@@ -13,6 +13,11 @@
     src:url('font/futuramedium.ttf');
 }
 
+@font-face {
+    font-family: calibri;
+    src:url('font/Calibri.ttf');
+}
+
 
 body {
     background-image: url("img/5.jpg");
@@ -424,7 +429,7 @@ article a {
     margin-bottom: 15px;
     margin-right: 10px;
     word-break: break-word;
-    font-family: futuramedium;
+    font-family: calibri;
 }
 
 #mainbody th {
@@ -609,7 +614,7 @@ article a {
     margin: 0 auto;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
-    text-align:center;
+    text-align:justify;
     
 }
 
@@ -619,7 +624,7 @@ article a {
     text-transform: uppercase;
     width:100%;
     font-size: 55pt;
-    text-align: right;
+    text-align: justify;
     line-height: 80%;
     padding-right:20px;
     padding-left:20px;
@@ -632,7 +637,7 @@ article a {
     font-family: futuramedium;
     font-style: italic;
     font-size: 30pt;
-    text-align: center;
+    text-align: justify;
 }
 
 .flex-container .col.ing{

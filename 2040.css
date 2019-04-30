@@ -430,6 +430,9 @@ article span:hover {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 10px;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+            hyphens: auto;
     }
 
   article table {
@@ -462,7 +465,7 @@ article span:hover {
     text-align: middle;
     border: 1px solid;
     width: 33.3%;
-    word-wrap:break-word;
+
   }
   
   #mainbody tr:nth-of-type(odd) {
