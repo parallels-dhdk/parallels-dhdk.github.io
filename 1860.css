@@ -179,14 +179,15 @@ h5 {
 
 
 
-section a { margin-right: 5px;
-  color: #241B12;
+section a { 
+    margin-right: 5px;
+    color: #241B12;
     font-family: myBodoni;
-  font-style: italic;
     font-size: 14px;}
 
 
 section a:hover {
+  color: #241B12;
   font-style: italic;
 }
 
