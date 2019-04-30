@@ -381,11 +381,11 @@ article h5{font-family:Koch Regular;
 
 h6{font-family:Koch Regular;
 }
-
+/*about*/
 
 .container-about{margin-top: 100px;
 		margin-bottom:100px;
-		background-image:url("img/sfondo2.png");
+		background-image:url("img/sfondo nero.png");
 		height:auto;
 		text-align:justify;
 		font-size: 15px;
@@ -394,22 +394,24 @@ h6{font-family:Koch Regular;
 		}
 
 
-#title-about{font-family:Koch Regular;
-			text-transform:uppercase;
-			font-size: 90px;
-			letter-spacing:none;
-			word-break: none;
-			text-align: center;
-			margin-left:20px;
-			margin-right:50px;
-			margin-top:110px;
-			padding-top:100px;
-			line-height:none;
-			letter-spacing:-15px;}
+#title-about{font-family:Cooper Std Black;
+
+	font-size: 130px;
+	letter-spacing:none;
+	word-break: none;
+	text-align: center;
+	margin-left:50px;
+	margin-right: 20px;
+	margin-top:110px;
+	padding-top:100px;
+	line-height:none;
+	color:#f7e8c3;
+	 }
 	   
 
 	   
 .description{ 
+	color:#f7e8c3;
 	font-family: Book Antiqua;
 	padding-top:25px;
 	margin-top:50px;
@@ -417,11 +419,11 @@ h6{font-family:Koch Regular;
 	margin-left:60px;
 	margin-right:60px;
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-		-moz-column-count: 3; /* Firefox */
-		column-count: 3;
-		-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-		-moz-column-gap: 20px; /* Firefox */
-		column-gap: 20px;
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+	-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 20px; /* Firefox */
+	column-gap: 20px;	
 	}
 	
 @media screen and (max-width: 700px) {.description { 
@@ -445,42 +447,46 @@ h6{font-family:Koch Regular;
 	font-family: SchmalfetteCP;
 }
 
-#team{font-family:Koch Regular;
-	text-transform:uppercase;
-	font-size: 80px;
+#team{font-family:Cooper Std Black;
+	color:#f7e8c3;
+	font-size: 100px;
 	letter-spacing:none;
-	 word-break: none;
-	 text-align: center;
-	 margin-left:20px;
-	 margin-right: 20px;
-	 margin-top:80px;
-	 padding-top:30px;
-	 line-height:none;
-	 letter-spacing:-8px;}
+	word-break: none;
+	text-align: center;
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top:80px;
+	padding-top:30px;
+	line-height:none;
+	letter-spacing:-8px;
+	}
 	   
 .card-title-sara{font-family:Koch Regular;
-				text-transform:uppercase;
-				text-align:center;
-				border-bottom: solid;
-				border-width: thin;}
+	text-transform:uppercase;
+	text-align:center;
+	border-bottom: solid;
+	border-width: thin;
+	color:#f7e8c3;}
 
 .card-title-lucia{font-family:Koch Regular;
-				text-transform:uppercase;
-				text-align:center;
-				border-bottom: solid;
-				border-width: thin;}
+	text-transform:uppercase;
+	text-align:center;
+	border-bottom: solid;
+	border-width: thin;
+	color:#f7e8c3;}
 
 .card-title-michela{font-family:Koch Regular;
-					text-transform:uppercase;
-					text-align:center;
-					border-bottom: solid;
-					border-width: thin;}
+	text-transform:uppercase;
+	text-align:center;
+	border-bottom: solid;
+	border-width: thin;
+	color:#f7e8c3;}
 
 
 .card{
 	border-bottom:40%;
 	border: none;
-	background-image :url("img/sfondo2.png");
+	background-image :url("img/sfondo nero.png");
 }
 
 .card-img-top-1{ display: block;
@@ -492,13 +498,14 @@ h6{font-family:Koch Regular;
 
 				
 .card-text {font-family: ITC Avant Garde Gothic LT Book Regular;
-			text-transform: uppercase;
-			text-align:center;
+	text-transform: uppercase;
+	text-align:center;
+	color:#f7e8c3;
 }
 
 .card-deck{padding-right:20px;
-			padding-left:20px;
-			padding-bottom:60px;
+	padding-left:20px;
+	padding-bottom:60px;
 }
 
 
@@ -539,7 +546,7 @@ h6{font-family:Koch Regular;
   column-count: 1;
 } }
 
-.container-documentation p{ padding: 10px;
+.container-documentation p{ padding: 30px;
 							border-top: 10%;
 							margin-top: 5%;
 							margin-left:40px;
