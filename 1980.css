@@ -692,6 +692,11 @@ article a {
     background: white;
 }
 
+.container-documentation div {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 .container-documentation h2 {
     margin-right: 20px;
     padding-bottom: 10px;
@@ -716,8 +721,6 @@ article a {
 }
 
 .container-documentation p{
-    margin-top:10px;
-    margin-bottom:10px;
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
