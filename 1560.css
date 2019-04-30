@@ -192,6 +192,7 @@ article {
 
 
 section {
+	font-family: myHultogCoursive;
 	margin-left: 30px;
 	margin-right: 30px;
 	font-size: 17px;
@@ -296,9 +297,6 @@ td {
 }
 
 
-section > p {
-	font-family: myHultogCoursive;
-}
 
 /*---------EU-DIRECTIVE----------*/
 
