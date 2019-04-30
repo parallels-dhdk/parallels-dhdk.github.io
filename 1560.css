@@ -516,6 +516,9 @@ font-size: 17px;
 	#table-home-page {
 	padding-left: 65%;;
 	}
+	.container-eu h2:before {
+	margin-left: 15%;
+}
 
 
 
@@ -599,6 +602,9 @@ font-size: 17px;
 	#title{
 		font-size: 40px;
 	}
+	.container-eu h2:before {
+	margin-left: 10%;
+}
 	}
  
 
@@ -628,6 +634,14 @@ font-size: 17px;
 	font-size: 18px;}
 	#subcenter {
 	font-size: 18px;}
+	.container-eu h2:before {
+	height: 30px;
+	width: 200px;
+	margin-bottom: 50px;
+	margin-left: 18%;}
+	
+}
+
 }
 
 
@@ -815,8 +829,10 @@ font-size: 17px;
 	
 }
 
-
-
+@media screen and (max-width: 750px) {
+.container-eu h2:before {
+	margin-left: 10%;}
+}
 
 
 @media screen and (max-width: 650px) {
@@ -906,7 +922,10 @@ font-size: 17px;
     line-height: 55px;
     padding-top: 10px;
 }
-	
+	.container-eu h2:before {
+		margin-bottom: 30px;
+	height: 15px;
+width: 130px;}
 
 	
 }
