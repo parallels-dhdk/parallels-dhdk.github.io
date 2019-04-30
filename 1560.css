@@ -96,7 +96,7 @@ background-color: black;
 
 
 .eu-directive span {
-font-style: italic;
+font-size: 17px;
 }
 
 .index-container {
@@ -799,11 +799,13 @@ section > p {
 	padding-left: 67%;
 	font-size: 10px;}
 	.container-eu h2:before {
-	height: 25px;
-	width: 180px;
+	height: 20px;
+	width: 170px;
 	margin-bottom: 50px;
 	margin-left: 15%;}
-
+	.container-eu {
+			font-size: 8px;
+	}
 
 	
 }
