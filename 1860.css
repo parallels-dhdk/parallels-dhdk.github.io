@@ -149,8 +149,9 @@ h2 {
 }
 
 h3 { 
-  font-family: myClaredonBold;
+  font-family: myBodoniCondensed;
   text-align: center;
+  font-style: italic;
   font-size: 20px;
   border-top: 1px solid;
 border-bottom: 1px solid;
