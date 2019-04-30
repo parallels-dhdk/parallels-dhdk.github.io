@@ -49,7 +49,7 @@ filter:sepia(90%) opacity(70%);
 padding: 0px;
 margin-top:5px;
 margin-bottom:5px;
-width: 100%;
+max-width: 100%;
 height: auto;
 }
 
