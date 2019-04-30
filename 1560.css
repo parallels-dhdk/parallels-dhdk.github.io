@@ -382,10 +382,6 @@ font-size: 17px;
 .container-documentation {
 	color: #4a433e;
 	font-family: myHultog;
-	background-image: url("img/book.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position: center;
 	font-size: 17px;
 	margin: 30px;
 	padding-top: 150px;
