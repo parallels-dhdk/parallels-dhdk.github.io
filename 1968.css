@@ -593,10 +593,12 @@ font-weight: bold;
 }
 
 
+
 /*eudirective*/
 .flex-container{
-    width: 80%;
-    margin-top:30px
+    width: 100%;
+    margin-top:50px;
+	padding-top:30px;
     margin: 0 auto;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
@@ -604,18 +606,28 @@ font-weight: bold;
 
 	}
 
-.flex-container .col.ing{
-	padding: 15px;
+.flex-container .col-ing{
+
+	padding-top: 15px;
+	padding-bottom:15px;
+	padding-left:30px;
+	padding-right:30px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
+	
 
 }
-.flex-container .col.ita{
-	padding: 15px;
+.flex-container .col-ita{
+	
+	padding-top: 15px;
+	padding-bottom:15px;
+	padding-left:30px;
+	padding-right:30px;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
+	
 
 }
 .container-eu{margin-top: 100px;
