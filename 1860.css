@@ -49,15 +49,18 @@ filter:sepia(90%) opacity(70%);
 padding: 0px;
 margin-top:5px;
 margin-bottom:5px;
-width: 100%;
-height: 100%;
+max-width: 100%;
+height: auto;
+margin-right: 5px;
 }
 
-
-.container-about img{
-filter:sepia(80%) opacity(70%);
-padding: 0px;
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    filter:sepia(80%) opacity(70%);
 }
+
 
 article { 
   margin-left: 70px; 
