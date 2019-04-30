@@ -47,7 +47,8 @@ body {
 section img {
 filter:sepia(90%) opacity(70%);
 padding: 0px;
-margin:5px;
+margin-top:5px;
+margin-bottom:5px;
 width: 100%;
 height: 100%;
 }
