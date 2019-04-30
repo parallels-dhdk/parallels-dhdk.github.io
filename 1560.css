@@ -36,7 +36,7 @@ body {
 	background-size: 100% 100%;
 	background-position: center;
 	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-bottom: 40%;
 	margin-left: 30px;
 	margin-right: 30px;
 	padding-top: 150px;
@@ -194,7 +194,6 @@ article {
 section {
 	margin-left: 30px;
 	margin-right: 30px;
-	font-family: myHultog;
 	font-size: 17px;
 	background-image: url("img/book.png");
 	background-position: center;
@@ -242,8 +241,8 @@ section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
   	font-family: myCaps;
 	float: left;
     font-size: 120px;
-    line-height: 60px;
-    padding-top: 30px;
+    line-height: 65px;
+    padding-top: 20px;
     padding-right: 6px;
 }
 
