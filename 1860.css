@@ -126,7 +126,7 @@ h1 {font-size: 10px;
 font-family: myTitle;
 font-size: 120px; 
 text-align: center; 
-text-firstshadow: 2px 2px #f5e1bf, 3px 3px #000000;
+text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
 letter-spacing: 7px;
 }
 
