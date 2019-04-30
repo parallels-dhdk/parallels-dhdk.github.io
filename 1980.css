@@ -431,6 +431,14 @@ article a {
     word-break: break-word;
     font-family: calibri;
 }
+#mainbody tr {
+    border:none;
+}
+
+#mainbody td {
+    border-right: solid 1px black; 
+    border-left: solid 1px black;
+  }
 
 #mainbody th {
     background-color:black;
@@ -692,6 +700,11 @@ article a {
     background: white;
 }
 
+.container-documentation div {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 .container-documentation h2 {
     margin-right: 20px;
     padding-bottom: 10px;
@@ -716,8 +729,7 @@ article a {
 }
 
 .container-documentation p{
-    margin-top:10px;
-    margin-bottom:10px;
+    
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
@@ -960,9 +972,6 @@ article a {
             margin-right: 20px;
             padding-left: 20px;
             padding-right: 20px;
-            -webkit-column-count: 2; /* Chrome, Safari, Opera */
-            -moz-column-count: 2; /* Firefox */
-            column-count: 2;
             -moz-column-gap: 30px; /* Firefox */
             column-gap: 30px;
           }
@@ -1018,12 +1027,12 @@ article a {
         }
     }
 
-@media screen and (max-width: 650px){
-    #title {
+    @media (min-width: 576px){
     
-    font-size: 44pt;
-    margin-left: 5px;
-    margin-top: 25px;
+        #title {
+        font-size: 44pt;
+        margin-left: 5px;
+        margin-top: 25px;
    }
      .item1 h3 {
         font-size: 20pt;
@@ -1131,6 +1140,11 @@ article a {
         padding-bottom: 5px;
         border: solid yellow 7px;
     }
+
+    .container-documentation h2 {
+        font-size: 70pt;
+    }
+
   
 }
 
