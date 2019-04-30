@@ -57,6 +57,8 @@ height: auto;
 .container-about img{
 filter:sepia(80%) opacity(70%);
 padding: 0px;
+max-width: 100%;
+height: auto;
 }
 
 article { 
