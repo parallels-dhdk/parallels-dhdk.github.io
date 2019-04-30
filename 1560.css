@@ -484,6 +484,7 @@ font-size: 17px;
 .card {
   text-align: justify;
 	border: none;
+	background: transparent;
 	}
 
 .container-about h5 {
@@ -517,7 +518,7 @@ height: 200px;
 width: 180px;
 background-position: center;
 margin-bottom: 30px;
-margin-left: 23%;
+margin-left: 20%;
 }
 
 
@@ -530,7 +531,7 @@ height: 210px;
 width: 180px;
 align-content: center;
 margin-bottom: 30px;
-margin-left: 23%;
+margin-left: 20%;
 }
 
 
