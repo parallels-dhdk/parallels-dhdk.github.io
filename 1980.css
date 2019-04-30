@@ -721,6 +721,7 @@ article a {
 }
 
 .container-documentation p{
+    
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
@@ -731,7 +732,7 @@ article a {
 
 /*MEDIA QUERIESSSSSSSS*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
     #title {
         font-size: 60pt;
         margin-left: 15px;
@@ -788,7 +789,7 @@ article a {
 }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 900px) {
     #title {
         
         font-size: 55pt;
