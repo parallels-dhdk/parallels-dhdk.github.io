@@ -716,8 +716,6 @@ article a {
 }
 
 .container-documentation p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size:14pt;
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
