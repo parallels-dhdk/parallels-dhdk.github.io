@@ -293,15 +293,15 @@ section:first-of-type{
 }
 
 
+
 section p:first-letter {
 	font-family: myCaps;
-	font-size: 100px;
-	float:left;
-	height: 70px;
-	padding-right: 6px;
-	padding-bottom: 6px;
-	line-height: 1;
-	
+	float: left;
+    font-size: 80px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-right: 5px;
+
 }
 
 
