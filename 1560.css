@@ -606,6 +606,11 @@ font-size: 17px;
 	.container-eu h2:before {
 	margin-left: 10%;
 }
+section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
+    font-size: 110px;
+    line-height: 55px;
+    padding-top: 15px;
+}
 	}
  
 
@@ -724,9 +729,6 @@ font-size: 17px;
 	padding-left: 40px;	
 	}
 	section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
-  	font-family: myCaps;
-	float: left;
-    font-size: 100px;
     line-height: 65px;
     padding-top: 15px;
 }
@@ -917,8 +919,6 @@ font-size: 17px;
 	font-size: 10px;
 	}
 	section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
-  	font-family: myCaps;
-	float: left;
     font-size: 80px;
     line-height: 55px;
     padding-top: 10px;
