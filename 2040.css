@@ -430,6 +430,9 @@ article span:hover {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 10px;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+            hyphens: auto;
     }
 
   article table {
@@ -451,7 +454,7 @@ article span:hover {
     #mainbody th {
     font-size: 10pt;
     font-family:comicsans;
-    text-align: middle;
+    text-align: justify;
     border: 1px solid;
     width: 33.3%;
   }
@@ -459,10 +462,10 @@ article span:hover {
   #mainbody td{
     font-size: 10pt;
     font-family:comicsans;
-    text-align: middle;
+    text-align: justify;
     border: 1px solid;
     width: 33.3%;
-    word-wrap:break-word;
+
   }
   
   #mainbody tr:nth-of-type(odd) {
