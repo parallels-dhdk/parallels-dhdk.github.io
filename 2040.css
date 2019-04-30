@@ -772,7 +772,6 @@ article span:hover {
             animation: pulse 3s infinite;
             margin: 0 auto;
             display: table;
-            margin-top: 50px;
             animation-direction: alternate;
             -webkit-animation-name: pulse;
             animation-name: pulse;
