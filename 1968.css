@@ -600,6 +600,7 @@ font-weight: bold;
     margin: 0 auto;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
+	 text-align:justify;
 
 	}
 
@@ -632,8 +633,6 @@ font-weight: bold;
 
 .container-eu p{margin-top: 30px;
 	font-family: Book Antiqua;
-			padding-left:40px;
-	padding-right:40px;
 		
 	}
 
@@ -656,7 +655,6 @@ color: black;}
 
   
 .container-eu table{margin-left:10px;
-	margin-right:50px;
 	word-break: break-word;
 	margin-top:5%; 
 }
