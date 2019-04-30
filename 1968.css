@@ -55,7 +55,11 @@ src:url('font/Art Gothic Bold.ttf') format('truetype');}
    src: url(VikingStencil.eot);
 src:url('font/VikingStencil	.ttf') format('truetype');}
 
-
+@font-face {
+   font-family:Cooper Std Black;
+   src: url(Cooper Std Black.eot);
+src:url('font/Cooper Std Black.otf') format('truetype');}
+	
 	
 body{background-image: url("img/cassette3.jpg");
 
@@ -356,13 +360,7 @@ article img{
 	max-width: 100%;
 	-webkit-filter: blur(0px) brightness(1.1) contrast(1.4) grayscale(0.39) hue-rotate(250deg) invert(0.1) opacity(100%) saturate(8.8) sepia(0.5) drop-shadow(0px 0px 5px #000);
 }
-.container-about img{
-	height: auto;
-	margin-top:150px;
-	margin-bottom: 10px;
-	max-width: 100%;
-	-webkit-filter: blur(0px) brightness(1.1) contrast(1.4) grayscale(0.39) hue-rotate(250deg) invert(0.1) opacity(100%) saturate(8.8) sepia(0.5) drop-shadow(0px 0px 5px #000);
-}
+
 
 
 figcaption{font-family: geometric 231 bt;
@@ -392,7 +390,13 @@ h6{font-family:Koch Regular;
 		margin-left:90px;
 		margin-right:90px;
 		}
-
+.container-about img{
+	height: auto;
+	margin-top:150px;
+	margin-bottom: 10px;
+	max-width: 100%;
+	-webkit-filter: blur(0px) brightness(1.1) contrast(1.4) grayscale(0.39) hue-rotate(250deg) invert(0.1) opacity(100%) saturate(8.8) sepia(0.5) drop-shadow(0px 0px 5px #000);
+}
 
 #title-about{font-family:Cooper Std Black;
 
