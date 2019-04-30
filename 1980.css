@@ -431,6 +431,9 @@ article a {
     word-break: break-word;
     font-family: calibri;
 }
+#mainbody tr {
+    border:none;
+}
 
 #mainbody td {
     border-right: solid 1px black; 
