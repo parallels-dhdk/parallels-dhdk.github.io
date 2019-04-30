@@ -458,9 +458,6 @@ font-size: 17px;
 
 
 
-#text-about {
-background-color: green;
-}
 
 #text-about p {
 	font-size: 15px;
@@ -485,7 +482,6 @@ background-color: green;
 }
 
 .card {
-	background-color: green;
   text-align: justify;
 	border: none;
 	}
