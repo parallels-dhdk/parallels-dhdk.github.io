@@ -273,29 +273,32 @@ a {
 }
 
 
-table {
-	border: double;
-	margin-bottom: 25px;
-	margin-top: 25px;
-	border-color: #4a433e;
-	color: #4a433e;
-}
-
-
-th {
-	border: double;
-	font-size: 25px;
+th {border: 1px solid #4a433e;
+	font-size: 20px;
 	text-transform: uppercase;
 	padding: 10px;
+
 }
 
 
-td {
+td {border: 1px solid #4a433e;
 	padding: 10px;
-	border: double;
-	border-color: #4a433e;
 }
 
+
+tr{
+	border: 1px solid #4a433e;
+}
+
+
+table {border: 3px solid;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	word-break: break-word;
+	margin-left: auto;
+	margin-right: auto;
+	color: #4a433e;
+}
 
 
 /*---------EU-DIRECTIVE----------*/
