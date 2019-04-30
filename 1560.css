@@ -534,7 +534,9 @@ font-size: 17px;
 
 }
 
-
+.container-fluid {
+	margin-right: 5px;
+}
 
 .card-body {
 	padding: 3px !important;
