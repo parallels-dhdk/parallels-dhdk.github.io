@@ -272,6 +272,10 @@ a {
   color:#4a433e;
 }
 
+a:hover { 
+  color: #4a433e;
+  font-family: myHultog; 
+}
 
 th {border: 1px solid #4a433e;
 	font-size: 20px;
