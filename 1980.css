@@ -797,9 +797,8 @@ article a {
 }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 992px) {
     #title {
-        
         font-size: 55pt;
         margin-left: 15px;
         margin-top: 25px;
@@ -915,7 +914,7 @@ article a {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 768px) {
     #title {
         
         font-size: 44pt;
