@@ -854,7 +854,7 @@ article a {
         }
     }
 
-    @media (max-width: 576px){
+    @media (max-width: 768px){
     
         #title {
         font-size: 44pt;
