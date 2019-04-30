@@ -415,6 +415,37 @@ article a {
     text-decoration: underline;
 }
 
+#mainbody table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    word-break: break-word;
+    font-family: futuramedium;
+}
+
+#mainbody th {
+    background-color:black;
+    font-family:futura;
+    text-transform: uppercase;
+    font-size: 12pt !important;
+    color:white;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+#mainbody tr:nth-of-type(odd) {
+    background-color:lightblue;
+    color:black;
+  }
+  
+  #mainbody tr:nth-of-type(even) {
+    background-color:white;
+    color:black;
+  }
 
 /*ABOUT*/
 
@@ -481,13 +512,15 @@ article a {
 
 #team {
     column-span: all;
-    
-    padding-top: 20px;
-    padding-right: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
     font-family: futuramedium;
     font-style: italic;
     font-size: 70pt;
     text-align: center;
+    color:red;
+    border-top: solid black;
+    border-bottom: solid black;  
 }
 
 #mainbody .card {
@@ -576,75 +609,84 @@ article a {
     margin: 0 auto;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
-    text-align:justify;
+    text-align:center;
+    
 }
 
 .flex-container h2 {
-    padding-bottom: 20px;
-    padding-top: 20px;
     font-family: futura ;
     color: black;
     text-transform: uppercase;
-    font-size: 70pt;
+    width:100%;
+    font-size: 55pt;
     text-align: right;
-    line-height: 90%;
+    line-height: 80%;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
 }
 
 .flex-container h3{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right:10px;
     font-family: futuramedium;
     font-style: italic;
     font-size: 30pt;
-    text-align: right;
+    text-align: center;
 }
 
 .flex-container .col.ing{
-    width:100%;
+    width:50%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 15px;
-    padding-right:50;
+    padding-left: 10px;
+    padding-right:10px;
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
    }
 
 .flex-container .col.ita{
-    width:100%;
+    width:50%;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 50px;
-    padding-right:15;
-    +
-       -webkit-flex: 1; /* Safari */
+    padding-left: 10px;
+    padding-right:10px;
+        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
    }
+
+   .flex-container p {
+    padding-left:20px;
+    padding-right:20px;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+            hyphens: auto;
+  }
+
+  .flex-container a {
+    color: black;
+    text-decoration: underline;
+}  
+
 
 .flex-container span {
     border-top: solid black;
     border-bottom: solid black;
     display: inline-block;
     text-align: center;
-    width: 100%;
+    width: 80%;
     margin-top: 30px;
     margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right:20px;
     font-style: italic;
-
 }
 
-.flex-container p {
-    -webkit-hyphens: auto;
-       -moz-hyphens: auto;
-            hyphens: auto;
-  }
 
-.flex-container a {
-    color: black;
-    text-decoration: underline;
-}  
+
+
 
 
 
@@ -700,7 +742,8 @@ article a {
             font-size: 14pt;
         }
         #team {
-            font-size: 80pt;    
+            font-size: 80pt;  
+            
         }
         
 }

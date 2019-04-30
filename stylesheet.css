@@ -1,4 +1,6 @@
-              
+ #mainbody {
+   min-height:100%;
+ }             
               
 /*------------NAVBAR STYLE------------------------*/
         .nav-link { 

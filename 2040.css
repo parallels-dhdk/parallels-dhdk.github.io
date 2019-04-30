@@ -430,12 +430,26 @@ article span:hover {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 10px;
-    overflow-x:auto;
+    }
+
+  article table {
+      line-height:1em;
+  }
+
+  article th {
+      font-size:14pt;
+  }
+
+  article tr {
+    font-size:14pt;
+}
+
+  article td {
+    font-size:14pt;
     }
   
-  
     #mainbody th {
-    font-size: 14pt;
+    font-size: 10pt;
     font-family:comicsans;
     text-align: middle;
     border: 1px solid;
@@ -443,11 +457,12 @@ article span:hover {
   }
   
   #mainbody td{
-    font-size: 14pt;
+    font-size: 10pt;
     font-family:comicsans;
     text-align: middle;
     border: 1px solid;
     width: 33.3%;
+    word-wrap:break-word;
   }
   
   #mainbody tr:nth-of-type(odd) {
@@ -541,7 +556,7 @@ article span:hover {
 }
 
 .flex-container .col-ing{
-    width:100%;
+    width:50%;
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 10px;
@@ -552,7 +567,7 @@ article span:hover {
    }
 
 .flex-container .col-ita{
-    width:100%;
+    width:50%;
     padding-top:15px;
     padding-bottom:15px;
     padding-left: 10px;
@@ -560,6 +575,7 @@ article span:hover {
        -webkit-flex: 1; /* Safari */
        -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
+    overflow-x:auto;
    }
 
 .flex-container p {
@@ -622,41 +638,48 @@ article span:hover {
     to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
   }
 
+ .flex-container ol,ul p {
+     text-align:left !important;
+ }
 
-
+ 
 
   /*--------------ABOUT-------------*/
   .container-about {
     margin-top: 50px;  
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-    background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
-    background-size: 800% 800%;
-    -webkit-animation: transition 8s ease infinite;
-    -moz-animation: transition 8s ease infinite;
-    animation: transition 8s ease infinite;
-}
-    
-    @-webkit-keyframes transition {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        border: solid black ; 
+        cursor: url("img/hand-cursor.png"), auto;
+        overflow: hidden;
+        background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
+        background-size: 800% 800%;
+        
+        -webkit-animation: transition 8s ease infinite;
+        -moz-animation: transition 8s ease infinite;
+        animation: transition 8s ease infinite;
     }
-    @-moz-keyframes transition {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-    }
-    @keyframes transition { 
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-    }
+        
+        @-webkit-keyframes transition {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes transition {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes transition { 
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
 
 
 .description{
@@ -669,14 +692,29 @@ article span:hover {
 }
 
 #title-about {  
+    text-transform: uppercase;
+	font-size: 80pt;
+    width:100%;
+	text-align: center;
+	color: yellow;
+	background-color: black;
+    font-family: techmono;
+    font-weight: bold;
 }
+        
 
 #team {
+    font-family: techmono;
+    text-align: center;
+    font-size:30pt;
+    color: #FFF;
+    background-color: black;
 }
 
 
 .card {
     background-color:blue;
+    overflow: hidden;
 }
 
 .card-title {
@@ -692,3 +730,130 @@ article span:hover {
     font-size: 14pt;
     color:yellow;
 } 
+
+.card h5 {
+    font-family: comicsans;
+    text-transform: uppercase;
+    font-size: 15pt;
+     position: relative;
+     width: 100%;
+     
+     margin:0;
+     text-align:left;
+     
+    
+
+     -moz-animation: title 3s linear infinite ;
+     -webkit-animation: title 3s linear infinite ;
+     animation: title 3s linear infinite ;
+    }
+
+    /* Move it (define the animation) */
+    @-moz-keyframes title {
+     0%   { -moz-transform: translateX(70%); }
+     100% { -moz-transform: translateX(0%); }
+    }
+    
+    @-webkit-keyframes title {
+        0%   { -webkit-transform: translateX(70%); }
+        100% { -webkit-transform: translateX(0%); }
+       }
+    
+    @keyframes title {
+     0%   { 
+     -moz-transform: translateX(70%); /* Firefox bug fix */
+     -webkit-transform: translateX(70%); /* Firefox bug fix */
+     transform: translateX(70%); 		
+     }
+     100% { 
+     -moz-transform: translateX(0%); /* Firefox bug fix */
+     -webkit-transform: translateX(0%); /* Firefox bug fix */
+     transform: translateX(0%); 
+     }
+    }
+
+
+    /*-------DOCUMENTATION--------*/
+
+    .container-documentation { 
+        margin-top: 50px;  
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        border: solid black ; 
+        cursor: url("img/hand-cursor.png"), auto;
+        overflow: hidden;
+        background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
+        background-size: 800% 800%;
+        
+        -webkit-animation: transition 8s ease infinite;
+        -moz-animation: transition 8s ease infinite;
+        animation: transition 8s ease infinite;
+    }
+        
+        @-webkit-keyframes transition {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes transition {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes transition { 
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+
+        .container-documentation h2 {
+                text-transform: uppercase;
+                font-size: 80pt;
+                width:100%;
+                text-align: center;
+                color: yellow;
+                background-color: black;
+                font-family: techmono;
+                font-weight: bold;
+        }
+        .container-documentation h3 {
+            font-family: techmono;
+            text-align: center;
+            font-size:30pt;
+            color: #FFF;
+            background-color: black;
+        }
+
+        .container-documentation p{
+            font-family: comicsans;
+            line-height: 5em;
+            text-align: center;
+            color: yellow;
+            margin: 10px;
+            font-size: 14pt;
+        }
+
+
+        /*phones*/
+    @media (min-width: 576px) {
+        #mainbody tr, th, td{
+            font-size: 8pt;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            hyphens: auto;
+            
+        }
+
+        .flex-container h2 {
+            font-size: 40pt;
+        }
+        
+        .flex-container h3{
+            font-size:20pt;
+        }
+    }
