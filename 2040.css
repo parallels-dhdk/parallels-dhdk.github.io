@@ -720,12 +720,7 @@ article span:hover {
     overflow: hidden;
 }
 
-.card-title {
-    text-align: center;
-    color: yellowgreen;
-    font-family: comicsans;
-    text-transform: uppercase;
-}
+
 
 .card-text {
     text-align: center;
