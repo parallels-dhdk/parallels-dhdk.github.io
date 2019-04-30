@@ -532,8 +532,7 @@ article span:hover {
 
 .flex-container{
     width: 100%;
-    min-height: 400px;
-    margin: 0 auto;
+    margin: 30px;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
     text-align:center;
