@@ -851,7 +851,8 @@ margin-left: 100px;
 
 
 /*documentation*/
-.container-documentation{margin-top: 100px;
+
+ .container-documentation{margin-top: 100px;
 		margin-bottom: 65px;
 		background-color: #FFFAFA;
 		border: 20px outset black;
@@ -868,18 +869,20 @@ margin-left: 100px;
 
 }}
 .container-documentation p:after {content:"...}";
-	font-family:English Gothic Bold Italic;
+font-family:English Gothic Bold Italic;
 	margin-top: 10px;
 	font-size:25px;}
 	
-.container-documentation p {font-family:LibbyHeavy;
-		font-size: 10px;
-		border-right:none;
-		margin-top: 20px;
-		margin-left:20px;
-		margin-right:20px;
-
+.container-documentation p {font-family:BitstreamIowanOldStyleBoldBT;
+font-size: 15px;
+border-right:none;
+margin-top: 20px;
+margin-left:50px;
+margin-right:50px;
+border-bottom:solid;
+padding-bottom:50px;
 }
+
 	
 #title-documentation{font-family:LibbyHeavy;
 	font-size:85px;
@@ -900,28 +903,35 @@ margin-left: 100px;
 
 @media screen and (max-width: 1200px) {#title-documentation{ font-size: 45px;
 
-	margin-left:250px;
-	margin-right:250px;
+margin-left:250px;
+  margin-right:250px;
 }}
 
 
 
 @media screen and (max-width: 1000px) {#title-documentation { font-size: 70px;
 
-	margin-left:200px;
-	margin-right:165px;
-	word-break: break-word;
+margin-left:200px;
+  margin-right:165px;
+  word-break: break-word;
 }}
 
 
 @media screen and (max-width: 700px) {#title-documentation{ font-size: 50px;
 
-	margin-left: 100px;
-	margin-right:100px;
-	word-break: break-word;
+margin-left: 100px;
+  margin-right:100px;
+  word-break: break-word;
 }}
 
+.container-documentation h3:before{content:"→";
+font-size:100px;
+font-weight:bold;}
+.container-documentation h3:after{content:"←";
+font-size:100px;
+font-weight:bold;}
 
+.container-documentation h3{font-size:100px;}
 
 /*eudirective*/
 
