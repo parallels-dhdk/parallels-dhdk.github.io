@@ -392,14 +392,8 @@ font-size: 17px;
 	padding-bottom: 150px;
 	padding-left: 140px;
 	padding-right: 110px;
-	line-height: 1;
+	line-height: 1.5;
 	text-align: justify;
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-	-moz-column-count: 2; /* Firefox */
-	column-count: 2;
-	-webkit-column-gap: 150px; /* Chrome, Safari, Opera */
-	-moz-column-gap: 150px; /* Firefox */
-	column-gap: 150px;
 }
 
 
