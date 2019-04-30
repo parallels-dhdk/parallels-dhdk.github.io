@@ -34,14 +34,31 @@
 
 
 
+
+
+/*---------INDEX----------*/
+
 body {
   background-image: url("img/wood.jpg");
   color: #241B12
 }
 
 
+.index-container p {
+  font-family: myBodoni;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1;
+}
 
 
+#title { 
+font-family: myTitle;
+font-size: 120px; 
+text-align: center; 
+text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
+letter-spacing: 7px;
+}
 
 
 section img {
@@ -56,8 +73,7 @@ padding-right: 5px;
 
 .card-img-top {
     width: 100%;
-    height: 15vw;
-    object-fit: cover;
+    height: 100%
     filter:sepia(80%) opacity(70%);
 }
 
@@ -93,12 +109,7 @@ article {
 
 
 
-.index-container p {
-  font-family: myBodoni;
-  font-size: 14px;
-  margin-top: 10px;
- line-height: 1;
-}
+
 
 section {
   font-family: myBodoni;
@@ -130,22 +141,7 @@ h1 {font-size: 10px;
 }
 
 
-#title { 
-font-family: myTitle;
-font-size: 120px; 
-text-align: center; 
-text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
-letter-spacing: 7px;
-}
 
-@media screen and (max-width: 1000px) {#title { 
-  font-size: 100px;
-} }
-
-
-@media screen and (max-width: 800px) {#title { 
-  font-size: 80px;
-} }
 
 
 h2 { 
@@ -670,6 +666,18 @@ section > span {
     font-family: myBodoniCondensed;
     font-size: 14px;}
 }
+
+
+
+@media screen and (max-width: 1000px) {#title { 
+  font-size: 100px;
+} }
+
+
+@media screen and (max-width: 800px) {#title { 
+  font-size: 80px;
+} }
+
 
 
 
