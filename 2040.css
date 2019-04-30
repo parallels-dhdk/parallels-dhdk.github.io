@@ -532,8 +532,7 @@ article span:hover {
 
 .flex-container{
     width: 100%;
-    min-height: 400px;
-    margin: 0 auto;
+    margin-top: 30px;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
     text-align:center;
@@ -720,12 +719,7 @@ article span:hover {
     overflow: hidden;
 }
 
-.card-title {
-    text-align: center;
-    color: yellowgreen;
-    font-family: comicsans;
-    text-transform: uppercase;
-}
+
 
 .card-text {
     text-align: center;
@@ -743,14 +737,12 @@ article span:hover {
      
      margin:0;
      text-align:left;
-     
-    
-
      -moz-animation: title 3s linear infinite ;
      -webkit-animation: title 3s linear infinite ;
      animation: title 3s linear infinite ;
-    }
-
+    color: #FF1177;
+      }
+      
     /* Move it (define the animation) */
     @-moz-keyframes title {
      0%   { -moz-transform: translateX(70%); }
@@ -775,6 +767,39 @@ article span:hover {
      }
     }
 
+    .card-img-top {
+            animation: pulse 3s infinite;
+            margin: 0 auto;
+            display: table;
+            animation-direction: alternate;
+            -webkit-animation-name: pulse;
+            animation-name: pulse;
+          }
+          
+          @-webkit-keyframes pulse {
+            0% {
+              -webkit-transform: scale(1);
+            }
+            50% {
+              -webkit-transform: scale(1.1);
+            }
+            100% {
+              -webkit-transform: scale(1);
+            }
+          }
+          
+          @keyframes pulse {
+            0% {
+              transform: scale(1);
+            }
+            50% {
+              transform: scale(1.1);
+            }
+            100% {
+              transform: scale(1);
+            }
+          }
+    
 
     /*-------DOCUMENTATION--------*/
 
@@ -849,7 +874,6 @@ article span:hover {
             -webkit-hyphens: auto;
             -moz-hyphens: auto;
             hyphens: auto;
-            
         }
 
         .flex-container h2 {
