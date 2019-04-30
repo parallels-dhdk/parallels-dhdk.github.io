@@ -454,7 +454,7 @@ article span:hover {
     #mainbody th {
     font-size: 10pt;
     font-family:comicsans;
-    text-align: justify;
+    text-align: middle;
     border: 1px solid;
     width: 33.3%;
   }
@@ -462,7 +462,7 @@ article span:hover {
   #mainbody td{
     font-size: 10pt;
     font-family:comicsans;
-    text-align: justify;
+    text-align: middle;
     border: 1px solid;
     width: 33.3%;
 
