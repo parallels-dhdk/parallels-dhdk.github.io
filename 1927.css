@@ -80,7 +80,11 @@ body{background-image: url("img/metallo5.jpg");
 	max-width:100%;
 	padding-top:10%;
 }
+@media screen and (max-width: 1200px) {#title{ font-size: 70pt;
 
+margin-left:250px;
+  margin-right:250px;
+}}
 
 
 
@@ -307,6 +311,8 @@ article{
 article p{font-family:LibbyHeavy;
 	font-size: 7.5pt;
 } 
+
+
 
 article a{font-family: Futurismo; 
 	color:black;
@@ -1066,14 +1072,6 @@ article {
 
 
 
-@media screen and (max-width: 1200px) {#title{ font-size: 82.5pt;
-
-margin-left:250px;
-  margin-right:250px;
-}}
-
-
-
 @media (width: 2560px){
     #title-documentation { 
 		font-size:150pt;
@@ -1109,3 +1107,13 @@ margin-left:250px;
   column-count: 1;
 } }
 @media screen and (max-width: 1000px) { }
+
+
+/*extra*/
+
+#mainbody ol{font-family:LibbyHeavy;
+	font-size: 7.5pt;
+} 
+#mainbody ul{font-family:LibbyHeavy;
+	font-size: 7.5pt;
+} 
