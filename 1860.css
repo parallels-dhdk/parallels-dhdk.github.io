@@ -556,10 +556,19 @@ figcaption {
 
 
 .container-documentation p:first-letter {
+  font-family: myBodoni;
   font-size: 40px;
   float:left;
   height: 30px;
   padding-right: 5px;
+  line-height: 1;
+}
+
+
+.container-documentation section {
+  font-family: myBodoni;
+  font-size: 14px;
+  text-indent: 0em;
   line-height: 1;
 }
 

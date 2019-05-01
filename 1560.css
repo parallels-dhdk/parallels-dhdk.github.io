@@ -457,7 +457,14 @@ font-size: 17px;
 }
 
 
+.container-documentation a {
+  color:#4a433e;
+}
 
+.container-documentation a:hover { 
+  color: #4a433e;
+  font-family: myHultog; 
+}
 
 /*---------ABOUT----------*/
 
