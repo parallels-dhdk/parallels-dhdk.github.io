@@ -584,13 +584,13 @@ font-size:30pt;
 
 
 
- @media screen and (max-width: 1200px) {#title-documentation{ font-size: 67.5pt;
+ @media screen and (max-width: 1200px) {#title-documentation{ font-size: 60pt;
 
 }}
 
 
 
-@media screen and (max-width: 1000px) {#title-documentation { font-size: 37.5pt;
+@media screen and (max-width: 1000px) {#title-documentation { font-size: 37pt;
 letter-spacing: -1px;
 }}
 
