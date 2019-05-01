@@ -725,4 +725,20 @@ td{font-family:ITC Avant Garde Gothic LT Book Regular;
 						word-break: break-word;
 }}
 
- 
+@media (width: 2560px){
+    #title-documentation { 
+		font-size:200px;
+		margin-bottom:50px;
+    }
+	.container-documentation p{font-size:30px;
+	padding-top:20px;
+	margin-top:20px;}
+	
+	#title{font-size:300px;
+	margin-right:60%;
+	}
+	
+	 .index-container h3{font-size:50px;}
+}
+
+
