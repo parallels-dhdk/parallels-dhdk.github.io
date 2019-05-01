@@ -279,6 +279,9 @@ article span{
 
 }
 
+.item4 a{margin-left:30px;}
+
+
 
 .item5{border-top: solid;
 }
@@ -771,13 +774,6 @@ margin-left:350px;
   margin-right:350px;
 }}
 
-
-
-@media screen and (max-width: 1000px) {#title-about { font-size: 70px;
-
-margin-left:200px;
-  margin-right:165px;
-}}
 @media screen and (max-width: 1000px) {#title-about { font-size: 70px;
 
 margin-left:180px;
