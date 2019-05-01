@@ -332,7 +332,6 @@ article span {
 
 article p {
     -webkit-hyphens: auto;
-       -moz-hyphens: auto;
             hyphens: auto;
   }
 
@@ -409,7 +408,6 @@ article figcaption {
     font-size: 10pt;
     margin-bottom: 20px;
     -webkit-hyphens: auto;
-       -moz-hyphens: auto;
             hyphens: auto;
 }
 
@@ -532,7 +530,6 @@ article a {
     padding-left:20px;
     padding-right:20px;
     -webkit-hyphens: auto;
-       -moz-hyphens: auto;
             hyphens: auto;
   }
 
@@ -660,7 +657,6 @@ article a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     -webkit-hyphens: auto;
-       -moz-hyphens: auto;
             hyphens: auto;
 }
 
@@ -737,7 +733,6 @@ article a {
 
 .container-documentation p{
     -webkit-hyphens: auto;
-       -moz-hyphens: auto;
             hyphens: auto;
 }
 
