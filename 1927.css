@@ -740,13 +740,13 @@ font-family:English Gothic Bold Italic;
 	font-size:25px;}
 	
 .container-about p {font-family:LibbyHeavy;
-					font-size: 10px;
-					border-right:none;
-					margin-top: 20px;
-					margin-left:20px;
-					margin-right:20px;}
+font-size: 10px;
+border-right:none;
+margin-top: 20px;
+margin-left:20px;
+margin-right:20px;}
 
-@media screen and (max-width: 1000px) { .container-about p { font-size: 7px;
+@media screen and (max-width: 1000px) { .container-about p { font-size: 10px;
 
 }}	
 	
@@ -761,7 +761,9 @@ font-family:English Gothic Bold Italic;
 	-moz-transform: none;
 	margin-top:10%;
 	word-break: break-word;
-	text-align:center
+	margin-left:380px;
+	margin-right:380px;
+	vertical-align: center;
 	text-decoration:underline;
 	border-bottom:7px solid;
 	border-color:red;
@@ -769,20 +771,22 @@ font-family:English Gothic Bold Italic;
 	
 
 
-@media screen and (max-width: 1200px) {#title-about{ font-size: 80px;
+@media screen and (max-width: 1200px) {#title-about{ font-size: 150px;
 
-margin-left:350px;
-  margin-right:350px;
-}}
-
-@media screen and (max-width: 1000px) {#title-about { font-size: 70px;
-
-margin-left:180px;
-  margin-right:165px;
+margin-left:200px;
+  margin-right:200px;
 }}
 
 
-@media screen and (max-width: 700px) {#title-about{ font-size: 50px;
+
+@media screen and (max-width: 1000px) {#title-about { font-size: 150px;
+
+margin-left:100px;
+  margin-right:100px;
+}}
+
+
+@media screen and (max-width: 700px) {#title-about{ font-size: 100px;
 
 margin-left: 100px;
   margin-right:100px;
@@ -802,7 +806,7 @@ margin-left: 100px;
 	margin-bottom:10%;
 	margin-left:10%;
 }
-@media screen and (max-width: 1200px) {#team{ font-size: 60px;
+@media screen and (max-width: 1200px) {#team{ font-size: 100px;
 
 margin-left:500px;
 
@@ -810,14 +814,14 @@ margin-left:500px;
 
 
 
-@media screen and (max-width: 1000px) {#team { font-size: 45px;
+@media screen and (max-width: 1000px) {#team { font-size: 100px;
 
 margin-left:165px;
   margin-right:165px;
 }}
 
 
-@media screen and (max-width: 700px) {#team{ font-size: 45px;
+@media screen and (max-width: 700px) {#team{ font-size: 100px;
 
 margin-left: 100px;
   margin-right:100px;
