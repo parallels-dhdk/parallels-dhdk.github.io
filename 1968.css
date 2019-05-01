@@ -239,8 +239,7 @@ article{
 			font-size:15px;
 			padding-bottom:10px;
 			margin-left: 30px;
-			display: block;
-			text-align: left;
+			text-align:inline;
 }
 article a:active {
 color: black;}
@@ -693,8 +692,8 @@ color: black;}
 	font-size:15px;
 	padding-bottom:10px;
 	margin-left: 30px;
-	display: block;
-	text-align: left;
+
+	text-align: inline;
 }
 .container-eu  a:active {
 color: black;}
