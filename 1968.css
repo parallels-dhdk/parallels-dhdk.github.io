@@ -558,6 +558,8 @@ h6{font-family:Koch Regular;
 
 }		
 
+.container-documentation li{font-family: Book Antiqua;}
+
 .container-documentation p:nth-of-type(1)::first-letter {
 
 	float: left;
@@ -566,7 +568,12 @@ h6{font-family:Koch Regular;
 	font-family: VikingStencil;
 	color:  #003366;
 }
-
+.container-documentation h4{font-family: Windsor-Bold;
+	margin-left:20px;
+	margin-right: 20px;
+	font-size:15px;
+}
+}
 
 #title-documentation{font-family:VikingStencil;
 	font-size: 100px;
@@ -602,9 +609,27 @@ h6{font-family:Koch Regular;
 border-width: thin;
 font-weight: bold;
 }
+.container-documentation span{font-family: Book Antiqua;
+  font-style: oblique;}
 
 
+ .container-documentation a{font-family: Futura Book font; 
+			color:black;
+			font-size:15px;
+			padding-bottom:10px;
+			margin-left: 30px;
+			display: block;
+			text-align: left;
+}
+ .container-documentation a:active {
+color: black;}
 
+ .container-documentation a:visited {
+color: black;}
+    
+  
+  
+  
 /*eudirective*/
 .flex-container{
     width: 100%;
