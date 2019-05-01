@@ -46,7 +46,7 @@ body {
 
 .index-container p {
   font-family: myBodoni;
-  font-size: 14px;
+  font-size: 11pt;
   margin-top: 10px;
   line-height: 1;
 }
@@ -54,17 +54,18 @@ body {
 
 #title { 
   font-family: myTitle;
-  font-size: 120px; 
+  font-size: 90pt; 
   text-align: center; 
   text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
   letter-spacing: 7px;
 }
 
 
-.index-container a { margin-right: 5px;
-    font-family: myBodoni;
+.index-container a { 
+  margin-right: 5px;
+  font-family: myBodoni;
   font-style: italic;
-    font-size: 14px;
+  font-size: 11pt;
 }
 
 
@@ -136,7 +137,7 @@ body {
 
 .grid-container p {
   font-family: myBodoni;
-  font-size: 14px;
+  font-size: 11pt;
   margin-top: 10px;
 }
 
@@ -162,7 +163,7 @@ body {
 
 
 .item1 p:first-letter {
-  font-size: 40px;
+  font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
@@ -184,7 +185,7 @@ body {
 
 
 .item2 p:first-letter {
-  font-size: 40px;
+  font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
@@ -205,7 +206,7 @@ body {
 
 
 .item3 p:first-letter {
-  font-size: 40px;
+  font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
@@ -223,7 +224,7 @@ border-color: #241B12;}
 
 
 .item4 p:first-letter {
-  font-size: 40px;
+  font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
@@ -243,7 +244,7 @@ border-color: #241B12;}
 
 
 .item5 p:first-letter {
-  font-size: 40px;
+  font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
@@ -262,7 +263,7 @@ border-color: #241B12;}
 
 
 .item6 p:first-letter {
-  font-size: 40px;
+  font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
@@ -270,7 +271,7 @@ border-color: #241B12;}
 
 
 h1 {
-  font-size: 20px;
+  font-size: 15pt;
 }
 
 
@@ -286,7 +287,7 @@ h3 {
   font-family: myClaredonBold;
   text-align: center;
   font-style: italic;
-  font-size: 20px;
+  font-size: 15pt;
   border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: #241B12;
@@ -301,7 +302,7 @@ h3 {
 h4{
   font-family: myClaredonBold;
   text-align: left;
-  font-size: 15px;
+  font-size: 11pt;
 }
 
 
@@ -359,7 +360,7 @@ article {
 
 article section {
   font-family: myBodoni;
-  font-size: 14px;
+  font-size: 11pt;
   text-indent: 1em;
   line-height: 1;
 }
@@ -376,7 +377,7 @@ article section:nth-of-type(2) > p:nth-of-type(1){
 
 
 article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
-  font-size: 40px;
+  font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
@@ -388,7 +389,7 @@ article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 section > span {
     margin-right: 5px;
     font-family: myBodoniCondensed;
-    font-size: 14px;
+    font-size: 11pt;
   }
 
 
@@ -396,7 +397,7 @@ section a {
   margin-right: 5px;
   color: #241B12;
   font-family: myBodoni;
-  font-size: 14px;
+  font-size: 11pt;
 }
 
 
@@ -423,7 +424,7 @@ table {
 th {
   border: 1px solid;
   border-color: #241B12;
-  font-size: 20px;
+  font-size: 15pt;
   text-transform: uppercase;
   padding: 5px;
 }
@@ -433,7 +434,7 @@ td {
   border-color: #241B12;
   padding: 5px; 
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 8pt;
   text-align: left;
   letter-spacing: 3px;
 }
@@ -441,7 +442,7 @@ td {
 
 figcaption {
   font-family: myBodoniCondensed;
-  font-size: 14px;
+  font-size: 11pt;
   border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: #241B12;
@@ -457,7 +458,7 @@ figcaption {
 
 
 .container-eu {
-  font-size: 15px;
+  font-size: 11pt;
   font-family: myBodoni;
   margin-left: 70px; 
   margin-right: 70px;
@@ -550,7 +551,7 @@ figcaption {
 
 .container-documentation p:first-letter {
   font-family: myBodoni;
-  font-size: 40px;
+  font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
@@ -560,7 +561,7 @@ figcaption {
 
 .container-documentation section {
   font-family: myBodoni;
-  font-size: 14px;
+  font-size: 11pt;
   text-indent: 0em;
   line-height: 1;
 }
@@ -627,7 +628,7 @@ figcaption {
   text-align: center;
   padding-top: 50px;
   font-family: Wanted;
-  font-size: 150px;
+  font-size: 113pt;
   text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
   letter-spacing: 10px;
 }
@@ -638,7 +639,7 @@ figcaption {
   text-align: center;
   padding-top: 30px;
   font-family: Wanted; 
-  font-size: 120px;
+  font-size: 90pt;
   text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
   letter-spacing: 10px;
   margin-bottom: 30px;
@@ -658,7 +659,7 @@ figcaption {
   font-family: Western;
   padding-left: 50px;
   padding-right: 50px;
-  font-size: 30px;
+  font-size: 23pt;
   word-spacing: 3px;
   letter-spacing: 2px;
   text-align: center; 
@@ -687,13 +688,13 @@ figcaption {
   font-family: Manero;
   text-transform: uppercase;
   text-align: center;
-  font-size: 25px;
+  font-size: 19pt;
 }
 
 
 .card-text {
   font-family: Manero;
-  font-size: 20px;
+  font-size: 15pt;
   text-indent: 0em;
   word-spacing: 3px;
   letter-spacing: 2px;
@@ -725,17 +726,17 @@ hr {
 
 @media screen and (max-width: 1000px) {
   #title { 
-  font-size: 100px;
+  font-size: 75pt;
 } 
 }
 
 
 @media screen and (max-width: 800px) {
   #title { 
-  font-size: 80px;
+  font-size: 60pt;
 }
 p {
-  font-size: 12px;
+  font-size: 9pt;
 }
 
  }
@@ -749,7 +750,7 @@ p {
   column-count: 2;
 }
 p {
-  font-size: 10px;
+  font-size: 8pt;
 }
 }
 
