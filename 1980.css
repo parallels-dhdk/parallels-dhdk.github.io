@@ -706,8 +706,7 @@ article a {
     text-align: center;
 }
 .container-documentation h3 {
-    padding-top: 5px;
-    padding-right: 5px;
+    padding-top: 70px;
     font-family: futuramedium;
     font-style: italic;
     font-size: 60pt;
@@ -718,17 +717,10 @@ article a {
 }
 
 .container-documentation h4 {
-    padding-bottom: 20px;
     padding-top: 20px;
     font-family: futuramedium;
     font-style: italic;
-    font-size: 20pt;
-    text-align: center;
-    border-top: solid black;
-    border-bottom:solid black; 
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
+    font-size: 18pt;
 }
 
 
