@@ -64,7 +64,11 @@ body {
 
 
 .grid-container a {
-	display: none;
+	color: transparent;
+}
+
+.grid-container a:hover {
+	color: #4a433e;
 }
 
 
@@ -603,6 +607,25 @@ font-size: 13pt;
 }
 
 
+/*---------EXTRA----------*/
+
+li {
+	font-family: myHultogCoursive;
+	color: #4a433e;
+	font-size: 13pt;
+}
+
+
+ol {
+	list-style-type: upper-roman;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+/*---------MEDIA----------*/
 
 @media screen and (min-width: 1400px) {
 	section{
