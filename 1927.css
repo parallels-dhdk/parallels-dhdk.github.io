@@ -1061,3 +1061,27 @@ overflow: hidden;}
 
 .container-eu h2{margin-top:20px;
 	font-size:60px;}
+	
+	
+	@media (width: 2560px){
+    #title-documentation { 
+		font-size:200px;
+        margin-left:580px;
+		margin-right:580px;
+	
+    }
+	.container-documentation p{font-size:30px;}
+	#milleottocolfagotto p{font-size:40px;}
+	
+	#title{font-size:240px;
+        margin-left:740px;
+		margin-right:740px;}
+		
+	#table-home-page p{font-size:40px;}
+	.container-about p {font-size:20px;}
+	.container-about {padding-left:30px;
+	padding-right:30px;}
+	.container-about h5{font-size:40px;}
+	
+	
+}
