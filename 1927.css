@@ -988,6 +988,17 @@ font-weight:bold;}
 	
 .container-documentation h4{text-align:center;}
 
+.container-documentation a{font-family: Futurismo; 
+color:black;
+font-size:15px;
+}
+
+.container-documentation a:active {
+color: black;}
+
+
+.container-documentation a:visited {
+color: red;}
 
 
 /*eudirective*/
