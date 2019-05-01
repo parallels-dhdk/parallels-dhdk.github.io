@@ -217,10 +217,8 @@ article{
 		padding-top: 100px;
 		text-align:justify;
 		-webkit-column-count: 3; /* Chrome, Safari, Opera */
-		-moz-column-count: 3; /* Firefox */
 		column-count: 3;
 		-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-		-moz-column-gap: 20px; /* Firefox */
 		column-gap: 20px;
 		height:auto;
 		
@@ -241,15 +239,13 @@ color: black;}
 
 
 @media screen and (max-width: 700px) {article { 
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
+  -webkit-column-count: 2; /* Chrome, Safari */
   column-count: 2;}}
 
 
 
 @media screen and (max-width: 600px) {article { 
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
+  -webkit-column-count: 1; /* Chrome, Safari*/
   column-count: 1;
 } }
 
@@ -413,24 +409,20 @@ h6{font-family:Koch Regular;
 	column-count:3;
 	margin-left:60px;
 	margin-right:60px;
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-	-moz-column-count: 3; /* Firefox */
+	-webkit-column-count: 3; /* Chrome, Safari */
 	column-count: 3;
-	-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-	-moz-column-gap: 20px; /* Firefox */
+	-webkit-column-gap: 20px; /* Chrome, Safari */
 	column-gap: 20px;	
 	}
 	
 @media screen and (max-width: 700px) {.description { 
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
+  -webkit-column-count: 2; /* Chrome, Safari */
   column-count: 2;}}
 
 
 
 @media screen and (max-width: 600px) {.description { 
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
+  -webkit-column-count: 1; /* Chrome, Safari */
   column-count: 1;
 } }
 
@@ -518,11 +510,9 @@ h6{font-family:Koch Regular;
 		font-size: 11.25pt;
 		margin-left:90px;
 		margin-right:90px;
-		-webkit-column-count: 3; /* Chrome, Safari, Opera */
-		-moz-column-count: 3; /* Firefox */
+		-webkit-column-count: 3; /* Chrome, Safari */
 		column-count: 3;
-		-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-		-moz-column-gap: 20px; /* Firefox */
+		-webkit-column-gap: 20px; /* Chrome, Safari*/
 		column-gap: 10px;
 		height:auto;
 		padding-right:50px;
@@ -534,15 +524,13 @@ h6{font-family:Koch Regular;
 
 	
 @media screen and (max-width: 700px) {.container-documentation { 
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
+  -webkit-column-count: 1; /* Chrome, Safari */
   column-count: 1;}}
 
 
 
 @media screen and (max-width: 600px) {.container-documentation { 
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
+  -webkit-column-count: 1; /* Chrome, Safari */
   column-count: 1;
 } }
 .container-documentation li{font-family: Book Antiqua;
@@ -652,7 +640,6 @@ color: black;}
 	padding-left:30px;
 	padding-right:30px;
     -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 	
 
@@ -664,7 +651,6 @@ color: black;}
 	padding-left:30px;
 	padding-right:30px;
     -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 	
 

@@ -488,11 +488,9 @@ font-size: 17px;
 	background-position: center;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-	-moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 2; /* Chrome, Safari */
 	column-count: 2;
-	-webkit-column-gap: 150px; /* Chrome, Safari, Opera */
-	-moz-column-gap: 150px; /* Firefox */
+	-webkit-column-gap: 150px; /* Chrome, Safari */
 	column-gap: 150px;	
 	padding-top: 140px;
 	padding-bottom: 140px;
@@ -508,8 +506,7 @@ font-size: 17px;
 	background-position: center;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-	-moz-column-count: 1; /* Firefox */
+	-webkit-column-count: 1; /* Chrome, Safari */
 	column-count: 1;
 	padding-left: 55%;
 	padding-right: 5%;
@@ -648,8 +645,7 @@ font-size: 17px;
 	padding-bottom: 130px;
 	padding-left: 120px;
 	padding-right: 90px;
-	-webkit-column-gap: 130px; /* Chrome, Safari, Opera */
-  	-moz-column-gap: 130px; /* Firefox */
+	-webkit-column-gap: 130px; /* Chrome, Safari */
   	column-gap: 130px;}
 	.container-documentation p:first-letter {
 	font-size: 80px;
@@ -682,8 +678,7 @@ font-size: 17px;
 	padding-right: 100px;
 	padding-left: 140px;
 	font-size: 15px;
-	-webkit-column-gap: 130px; /* Chrome, Safari, Opera */
-	-moz-column-gap: 130px; /* Firefox */
+	-webkit-column-gap: 130px; /* Chrome, Safari */
 	column-gap: 130px;	}
 	h3{
 	padding-top: 5px;
@@ -786,8 +781,7 @@ font-size: 17px;
 	padding-bottom: 110px;
 	padding-left: 100px;
 	padding-right: 70px;
-	-webkit-column-gap: 110px; /* Chrome, Safari, Opera */
-  	-moz-column-gap: 110px; /* Firefox */
+	-webkit-column-gap: 110px; /* Chrome, Safari */
   	column-gap: 110px;}
 	.container-documentation p:first-letter {
 	font-size: 60px;
