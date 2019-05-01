@@ -99,20 +99,24 @@ body{background-image: url("img/cassette3.jpg");
 
 
 @media screen and (max-width: 1200px) {#title{ font-size:100px;
-
+letter-spacing:-15px;
+margin-left: 30px;
+margin-right:520px;
 }}
 
 
 
-@media screen and (max-width: 1000px) {#title { font-size: 80px;
-letter-spacing:-30px;
+@media screen and (max-width: 1000px) {#title { font-size: 100px;
+letter-spacing:-15px;
+margin-left: 20px;
+margin-right:520px;
+
 }}
 
 
 @media screen and (max-width: 700px) {#title{ font-size:97.5pt;
 margin-right:20%;
 }}
-
 tr{border-top:solid;
 border-width: thin;}
 }
@@ -319,7 +323,7 @@ h4{font-family: Windsor-Bold;
 article p{	margin-top: 30px;
 			font-family: Book Antiqua;
 	}
-	
+
 
 section {margin-top: 30px;
 		font-family: Book Antiqua;}
@@ -770,3 +774,10 @@ color: black;}
 	 .index-container h3{font-size:37.5pt;}
 	 
 }
+
+/*extra*/
+#mainbody ol{margin-top: 30px;
+			font-family: Book Antiqua;}	
+
+#mainbody ul{margin-top: 30px;
+			font-family: Book Antiqua;}	
