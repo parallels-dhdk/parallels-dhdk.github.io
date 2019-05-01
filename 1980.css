@@ -715,7 +715,6 @@ article a {
     text-align: center;
 }
 .container-documentation h3 {
-    column-span: all;
     padding-top: 5px;
     padding-right: 5px;
     font-family: futuramedium;
@@ -727,12 +726,48 @@ article a {
     border-bottom: solid black;  
 }
 
+.container-documentation h4 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: futuramedium;
+    font-style: italic;
+    font-size: 20pt;
+    text-align: center;
+    border-top: solid black;
+    border-bottom:solid black; 
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+}
+
+
 .container-documentation p{
-    
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
             hyphens: auto;
 }
+
+.container-documentation section p:nth-of-type(1)::first-letter {
+    float: left;
+    font-size: 75pt;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-right: 8px;
+    font-family: futura;
+}
+
+.container-documentation span {
+    border-top: solid black;
+    border-bottom: solid black;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+
 
 
 
