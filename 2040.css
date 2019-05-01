@@ -333,6 +333,20 @@ article h4 {
     color: red;
 }
 
+article h5 {
+    font-family: comicsans;
+    text-align: left;
+    font-size: 18pt;
+    color: red;
+}
+
+article h4 {
+    font-family: comicsans;
+    text-align: left;
+    font-size: 16pt;
+    color: red;
+}
+
 article section{
 font-family: comicsans;
 line-height: 5em;
