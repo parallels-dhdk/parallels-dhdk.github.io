@@ -339,14 +339,11 @@ article {
   padding: 30px; 
   background-image: url("img/newspaper1.png");
   text-align: justify;
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
+  -webkit-column-count: 3; /* Chrome, Safari */
   column-count: 3;
-  -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 20px; /* Firefox */
+  -webkit-column-gap: 20px; /* Chrome, Safari */
   column-gap: 20px;
-  -webkit-column-rule: 1px solid; /* Chrome, Safari, Opera */
-  -moz-column-rule: 1px solid; /* Firefox */
+  -webkit-column-rule: 1px solid; /* Chrome, Safari */
   column-rule: 1px solid;
   border-top-left-radius: 5px; 
   border-top-right-radius: 5px;
@@ -510,7 +507,6 @@ figcaption {
   border-color: #241B12;
   padding: 30px;
   -webkit-flex: 1; /* Safari */
-  -ms-flex: 1; /* IE 10 */
   flex: 1; /* Standard syntax */
 }
 
@@ -518,7 +514,6 @@ figcaption {
 .col-ita{
   padding: 30px;
   -webkit-flex: 1; /* Safari */
-  -ms-flex: 1; /* IE 10 */
   flex: 1; /* Standard syntax */
 }
 
@@ -543,14 +538,11 @@ figcaption {
   border-bottom-color: #52402d; 
   border-top-style: dotted;
   border-bottom-style: dotted;
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
+  -webkit-column-count: 3; /* Chrome, Safari */
   column-count: 3;
-  -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 20px; /* Firefox */
+  -webkit-column-gap: 20px; /* Chrome, Safari */
   column-gap: 20px;
-  -webkit-column-rule: 1px solid; /* Chrome, Safari, Opera */
-  -moz-column-rule: 1px solid; /* Firefox */
+  -webkit-column-rule: 1px solid; /* Chrome, Safari */
   column-rule: 1px solid;
   text-align: justify;
   }
@@ -731,28 +723,40 @@ hr {
 
 
 
-@media screen and (max-width: 1000px) {#title { 
+@media screen and (max-width: 1000px) {
+  #title { 
   font-size: 100px;
-} }
+} 
+}
 
 
-@media screen and (max-width: 800px) {#title { 
+@media screen and (max-width: 800px) {
+  #title { 
   font-size: 80px;
-} }
+}
+p {
+  font-size: 12px;
+}
+
+ }
 
 
 
 
-@media screen and (max-width: 700px) {article { 
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
-  column-count: 2;}}
+@media screen and (max-width: 700px) {
+  article { 
+  -webkit-column-count: 2; /* Chrome, Safari */
+  column-count: 2;
+}
+p {
+  font-size: 10px;
+}
+}
 
 
 
 @media screen and (max-width: 600px) {article { 
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
+  -webkit-column-count: 1; /* Chrome, Safari */
   column-count: 1;
 } }
 

@@ -85,14 +85,9 @@ font-size: 50pt;
 
 
  /* Apply animation to this element */	
- -moz-animation: title 1s linear infinite ;
+
  -webkit-animation: title 1s linear infinite ;
  animation: title 1s linear infinite ;
-}
-/* Move it (define the animation) */
-@-moz-keyframes title {
- 0%   { -moz-transform: translateX(70%); }
- 100% { -moz-transform: translateX(0%); }
 }
 
 @-webkit-keyframes title {
@@ -102,12 +97,10 @@ font-size: 50pt;
 
 @keyframes title {
  0%   { 
- -moz-transform: translateX(70%); /* Firefox bug fix */
  -webkit-transform: translateX(70%); /* Firefox bug fix */
  transform: translateX(70%); 		
  }
  100% { 
- -moz-transform: translateX(0%); /* Firefox bug fix */
  -webkit-transform: translateX(0%); /* Firefox bug fix */
  transform: translateX(0%); 
  }
@@ -298,7 +291,6 @@ article {
     background-size: 800% 800%;
     
     -webkit-animation: transition 8s ease infinite;
-    -moz-animation: transition 8s ease infinite;
     animation: transition 8s ease infinite;
 }
     
@@ -307,11 +299,7 @@ article {
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
     }
-    @-moz-keyframes transition {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-    }
+    
     @keyframes transition { 
         0%{background-position:0% 50%}
         50%{background-position:100% 50%}
@@ -431,7 +419,6 @@ article span:hover {
     margin-bottom: 15px;
     margin-right: 10px;
     -webkit-hyphens: auto;
-       -moz-hyphens: auto;
             hyphens: auto;
     }
 
@@ -517,7 +504,6 @@ article span:hover {
     background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
     background-size: 800% 800%;
     -webkit-animation: transition 8s ease infinite;
-    -moz-animation: transition 8s ease infinite;
     animation: transition 8s ease infinite;
 }
     
@@ -526,11 +512,7 @@ article span:hover {
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
     }
-    @-moz-keyframes transition {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-    }
+    
     @keyframes transition { 
         0%{background-position:0% 50%}
         50%{background-position:100% 50%}
@@ -613,29 +595,20 @@ article span:hover {
     font-family:comicsans;
     text-transform: uppercase;
     -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
     transition: all 0.5s;
     color: #fff;
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
     animation: neon1 1.5s ease-in-out infinite alternate;
   }
   
 .flex-container span:hover {
     color: #FF1177;
     -webkit-animation: none;
-    -moz-animation: none;
     animation: none;
   }
   
   /*glow for webkit*/
   @-webkit-keyframes neon1 {
-    from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;}
-    to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
-  }
-    
-  /*glow for mozilla*/
-  @-moz-keyframes neon1 {
     from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;}
     to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
   }
@@ -667,7 +640,6 @@ article span:hover {
         background-size: 800% 800%;
         
         -webkit-animation: transition 8s ease infinite;
-        -moz-animation: transition 8s ease infinite;
         animation: transition 8s ease infinite;
     }
         
@@ -676,11 +648,7 @@ article span:hover {
             50%{background-position:100% 50%}
             100%{background-position:0% 50%}
         }
-        @-moz-keyframes transition {
-            0%{background-position:0% 50%}
-            50%{background-position:100% 50%}
-            100%{background-position:0% 50%}
-        }
+        
         @keyframes transition { 
             0%{background-position:0% 50%}
             50%{background-position:100% 50%}
@@ -741,17 +709,13 @@ article span:hover {
      
      margin:0;
      text-align:left;
-     -moz-animation: title 3s linear infinite ;
      -webkit-animation: title 3s linear infinite ;
      animation: title 3s linear infinite ;
     color: #FF1177;
       }
       
     /* Move it (define the animation) */
-    @-moz-keyframes title {
-     0%   { -moz-transform: translateX(70%); }
-     100% { -moz-transform: translateX(0%); }
-    }
+  
     
     @-webkit-keyframes title {
         0%   { -webkit-transform: translateX(70%); }
@@ -760,12 +724,10 @@ article span:hover {
     
     @keyframes title {
      0%   { 
-     -moz-transform: translateX(70%); /* Firefox bug fix */
      -webkit-transform: translateX(70%); /* Firefox bug fix */
      transform: translateX(70%); 		
      }
      100% { 
-     -moz-transform: translateX(0%); /* Firefox bug fix */
      -webkit-transform: translateX(0%); /* Firefox bug fix */
      transform: translateX(0%); 
      }
@@ -825,7 +787,6 @@ article span:hover {
         background-size: 800% 800%;
         
         -webkit-animation: transition 8s ease infinite;
-        -moz-animation: transition 8s ease infinite;
         animation: transition 8s ease infinite;
     }
         
@@ -834,11 +795,7 @@ article span:hover {
             50%{background-position:100% 50%}
             100%{background-position:0% 50%}
         }
-        @-moz-keyframes transition {
-            0%{background-position:0% 50%}
-            50%{background-position:100% 50%}
-            100%{background-position:0% 50%}
-        }
+        
         @keyframes transition { 
             0%{background-position:0% 50%}
             50%{background-position:100% 50%}
@@ -921,7 +878,6 @@ article span:hover {
         #mainbody tr, th, td{
             font-size: 8pt;
             -webkit-hyphens: auto;
-            -moz-hyphens: auto;
             hyphens: auto;
         }
 
