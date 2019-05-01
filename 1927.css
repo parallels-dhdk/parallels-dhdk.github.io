@@ -69,7 +69,7 @@ body{background-image: url("img/metallo5.jpg");
 #title{
 
 	font-family:LibbyHeavy;
-	font-size:120px;
+	font-size:90pt;
 	text-align:justify;
 	word-break: break-word;
 	margin-left:420px;
@@ -83,7 +83,7 @@ body{background-image: url("img/metallo5.jpg");
 
 
 
-@media screen and (max-width: 1200px) {#title{ font-size: 110px;
+@media screen and (max-width: 1200px) {#title{ font-size: 82.5pt;
 
 margin-left:250px;
   margin-right:250px;
@@ -91,14 +91,14 @@ margin-left:250px;
 
 
 
-@media screen and (max-width: 1000px) {#title { font-size: 80px;
+@media screen and (max-width: 1000px) {#title { font-size: 60pt;
 
 margin-left:220px;
   margin-right:250px;
 }}
 
 
-@media screen and (max-width: 700px) {#title{ font-size: 100px;
+@media screen and (max-width: 700px) {#title{ font-size: 75pt;
 
 margin-left: 80px;
   margin-right:80px;
@@ -107,18 +107,18 @@ margin-left: 80px;
 				margin-left:25px;
 			}
 #subright{font-family:futurismo;
-			font-size:20px;
+			font-size:15pt;
 			display:inline-block;
 			margin:0;
 }
 
 #subcenter{font-family:futurismo;
-			font-size:20px;
+			font-size:15pt;
 			display:inline-block;
 			margin:0;}
 
 #subleft{font-family:futurismo;
-		font-size:20px;
+		font-size:15pt;
 		display:inline-block;
 		margin:0;
 		color: red;
@@ -133,7 +133,7 @@ margin-left: 80px;
 		margin-bottom: 70px;
 		border: 20px outset black;
 		text-align:justify;
-		font-size: 15px;
+		font-size: 11.25pt;
 		background-image:url("img/sfondo puntini.png");
 		padding-top:0px;
 		padding-left:0px;
@@ -161,7 +161,7 @@ margin-left: 80px;
 }
 
 .index-container p {font-family:LibbyHeavy;
-					font-size: 10px;
+					font-size: 7.5pt;
 					border-right:none;
 					margin-top: 20px;
 					margin-left:20px;
@@ -171,29 +171,29 @@ margin-left: 80px;
 .index-container p:after {content:"...}";
 	font-family:English Gothic Bold Italic;
 	margin-top: 10px;
-	font-size:35px;}
+	font-size:26.25pt;}
 
 
 section{font-family:LibbyHeavy;
-font-size: 10px;
+font-size: 7.5pt;
 }
 
 
 li{font-family: hasta grotesk;}
 
 
-@media screen and (max-width: 1000px) { .index-container p { font-size: 7px;
+@media screen and (max-width: 1000px) { .index-container p { font-size: 5.25pt;
 
 
 }}
 
-@media screen and (max-width: 1000px) { section { font-size: 7px;
+@media screen and (max-width: 1000px) { section { font-size: 5.25pt;
 
 
 }}
 h1{
 	font-family:LibbyHeavy;
-	font-size:100px;
+	font-size:75pt;
 	text-align:justify;
 	margin-right:400px;
 	vertical-align: center;
@@ -203,16 +203,16 @@ h1{
 	padding-top:10%;}
 
 h3{font-family:English Gothic Bold Italic;
-	font-size: 25px;}
+	font-size: 18.75pt;}
 	
-@media screen and (max-width: 1000px) { h3 { font-size: 20px;
+@media screen and (max-width: 1000px) { h3 { font-size: 15pt;
 
 
 }}
 
 .index-container a{font-family: Futurismo; 
 					color:black;
-					font-size:15px;
+					font-size:11.25pt;
 }
 
 .index-container a:active {
@@ -230,7 +230,7 @@ article span{
 	border-bottom: solid;
 	font-family: English Gothic Bold Italic;
 	text-align:center; 
-	font-size:15px;
+	font-size:11.25pt;
 	margin-left:10px;
 	} 
 	
@@ -389,7 +389,7 @@ div.item6{
 }
 
 @media screen and (min-width: 320px) {
-  div.item6 a{ font-size:12px;}
+  div.item6 a{ font-size:9pt;}
 
 @media screen and (max-width: 700px) {
   div.item6 {
@@ -403,7 +403,7 @@ div.item6{
 	
 	h2{ font-family:Typo Grotesk Black;
 	text-transform: uppercase;
-	font-size: 70px;
+	font-size: 52.5pt;
 	border-bottom:7px solid;
 	border-color:red;
 	transform:rotate(180deg);
@@ -425,7 +425,7 @@ article{
 		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
-		font-size: 15px;
+		font-size: 11.25pt;
 		margin-left: 100px;
 		margin-right:100px;
 		background-image:url("img/sfondo puntini.png");
@@ -466,12 +466,12 @@ article{
 } }
 
 article p{font-family:LibbyHeavy;
-	font-size: 10px;
+	font-size: 7.5pt;
 } 
 
 article a{font-family: Futurismo; 
 	color:black;
-	font-size:15px;
+	font-size:11.25pt;
 }
 
 article a:active {
@@ -483,25 +483,25 @@ color: red;}
 
 h3{
 	font-family: FatCow-Italic;
-	font-size:40px;
+	font-size:30pt;
 	margin-top:5%;
 	margin-left: 10%;}
 
 
 
-@media screen and (max-width: 1200px) {h2{ font-size: 50px;
+@media screen and (max-width: 1200px) {h2{ font-size: 37.5pt;
 
 margin-left:20px;
 
 }}
 
 
-@media screen and (max-width: 1000px) {h2 { font-size: 40px;
+@media screen and (max-width: 1000px) {h2 { font-size: 30pt;
 margin-left:20px;
 }}
 
 
-@media screen and (max-width: 700px) {h2{ font-size: 40px;
+@media screen and (max-width: 700px) {h2{ font-size: 30pt;
 
 margin-left:20px
 }}
@@ -509,19 +509,19 @@ margin-left:20px
 
 
 
-@media screen and (max-width: 1200px) {h3{ font-size: 30px;
+@media screen and (max-width: 1200px) {h3{ font-size: 22.5pt;
 
 margin-left:50px;
 
 
 }}
 
-@media screen and (max-width: 1000px) {h3 { font-size: 30px;
+@media screen and (max-width: 1000px) {h3 { font-size: 22.5pt;
 
 margin-left:50px;
 }}
 
-@media screen and (max-width: 700px) {h3{ font-size: 30px;
+@media screen and (max-width: 700px) {h3{ font-size: 22.5pt;
 
 margin-left:50px
 }}
@@ -533,7 +533,7 @@ h4{ font-family:Bernhard Antique;
 	font-size: 30px;
 	text-transform:uppercase;
 }
-@media screen and (max-width: 1000px) { h4 { font-size: 15px;
+@media screen and (max-width: 1000px) { h4 { font-size: 11.25pt;
 
 
 }}
@@ -542,7 +542,7 @@ h4{ font-family:Bernhard Antique;
   
 }
 
-@media screen and (max-width: 1000px) { h5 { font-size: 10px;
+@media screen and (max-width: 1000px) { h5 { font-size: 7.5pt;
 
 
 }}
@@ -551,12 +551,12 @@ h6{ font-family:hasta grotesk;
 font-style: bold;
 	
 }
-@media screen and (max-width: 1000px) { h6 { font-size: 8px;
+@media screen and (max-width: 1000px) { h6 { font-size: 6pt;
 
 
 }}
 
-@media screen and (max-width: 1000px) { article p { font-size: 7px;
+@media screen and (max-width: 1000px) { article p { font-size: 5.25pt;
 
 }}
 
@@ -598,7 +598,7 @@ margin-right:10%;
 article p:after{content:"...}";
 	font-family:English Gothic Bold Italic;
 	margin-top: 10px;
-	font-size:25px;}
+	font-size:18.75pt;}
 
 /*table*/
 table {
@@ -626,15 +626,15 @@ th{font-family:Normande regular;
 	transform: rotate(180deg);
 	text-transform: uppercase;
 	color:#ff471a;
-	font-size:15px;
+	font-size:11.25pt;
 	}
 
 td{ font-family:BitstreamIowanOldStyleBoldBT;
-	font-size: 13px;  
+	font-size: 9.75pt;  
 }
 
 @media screen and (max-width: 700px) {table{ 
-	font-size: 9px;
+	font-size: 6.75pt;
 	margin-right: 10px;}}
 
 
@@ -647,21 +647,20 @@ td{ font-family:BitstreamIowanOldStyleBoldBT;
 
 
 @media screen and (max-width: 300px) {table th{ 
-	font-size: 15px;
+	font-size: 11.25pt;
 	word-break: break-word;
 }}
 
 
 @media screen and (min-width: 300px) {table th{
 	word-break: break-word;
-	font-size:15px;
+	font-size:11.25pt;
 
 }}
 figcaption {font-family: hasta grotesk; 
 			text-orientation: upright;
 			writing-mode: vertical-lr; 
-
-			font-size:8px;
+			font-size:6pt;
 			margin-right:90px;
 			column-count:3;
 			margin-top:-40px;
@@ -676,14 +675,14 @@ figcaption:before {
 
 
 /* smaller phone viewpoints */
-@media (min-width: 320px) {figcaption { font-size:10px;
+@media (min-width: 320px) {figcaption { font-size:7.5pt;
 		margin-right:70px;
 		column-count:1;
 		margin-left:20px;
 }}
 
 /* mall devices and most phones */
-@media (min-width: 480px) {figcaption { font-size:11px;
+@media (min-width: 480px) {figcaption { font-size:8.25pt;
 		margin-right:70px;
 		column-count:3;
 		margin-left:20px;
@@ -692,14 +691,14 @@ figcaption:before {
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {figcaption { font-size:10px;
+@media (min-width: 768px) {figcaption { font-size:7.5pt;
 		margin-right:70px;
 		column-count:3;
 		margin-left:20px;
 }}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {figcaption { font-size: 10px;
+@media (min-width: 992px) {figcaption { font-size: 7.5pt;
 		margin-right:90px;
 		column-count:3;
 }}
@@ -707,7 +706,7 @@ figcaption:before {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {figcaption{ 
 		overflow:hidden;
-		font-size: 11px;
+		font-size: 8.25pt;
 		margin-right:90px;
 
 }}
@@ -723,7 +722,7 @@ hr{border: solid black;}
 		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
-		font-size: 15px;
+		font-size: 11.25pt;
 		margin-left: 100px;
 		margin-right:100px;
 		background-image:url("img/sfondo puntini.png");
@@ -737,23 +736,23 @@ padding-right:10px;
 .container-about p:after {content:"...}";
 font-family:English Gothic Bold Italic;
 	margin-top: 10px;
-	font-size:25px;}
+	font-size:18.75pt;}
 	
 .container-about p {font-family:LibbyHeavy;
-font-size: 10px;
+font-size: 7.5pt;
 border-right:none;
 margin-top: 20px;
 margin-left:20px;
 margin-right:20px;}
 
-@media screen and (max-width: 1000px) { .container-about p { font-size: 10px;
+@media screen and (max-width: 1000px) { .container-about p { font-size: 7.5pt;
 
 }}	
 	
 .description{margin-top:30px;}
 	
 #title-about{font-family:FatCow-Italic;
-	font-size: 260px;
+	font-size: 195pt;
 	color:black;
 	transform:none;
 	-webkit-transform: none;
@@ -765,13 +764,13 @@ margin-right:20px;}
 	margin-right:380px;
 	vertical-align: center;
 	text-decoration:underline;
-	border-bottom:7px solid;
+	border-bottom:5.25pt solid;
 	border-color:red;
 }
 	
 
 
-@media screen and (max-width: 1200px) {#title-about{ font-size: 150px;
+@media screen and (max-width: 1200px) {#title-about{ font-size: 112.5pt;
 
 margin-left:200px;
   margin-right:200px;
@@ -779,14 +778,14 @@ margin-left:200px;
 
 
 
-@media screen and (max-width: 1000px) {#title-about { font-size: 150px;
+@media screen and (max-width: 1000px) {#title-about { font-size: 112.5pt;
 
 margin-left:100px;
   margin-right:100px;
 }}
 
 
-@media screen and (max-width: 700px) {#title-about{ font-size: 100px;
+@media screen and (max-width: 700px) {#title-about{ font-size: 75pt;
 
 margin-left: 100px;
   margin-right:100px;
@@ -795,7 +794,7 @@ margin-left: 100px;
 
 
 #team{font-family:FatCow-Italic;
-	font-size: 150px;
+	font-size: 112.5pt;
 	color:black;
 	text-decoration:underline;
 	transform:none;
@@ -806,7 +805,7 @@ margin-left: 100px;
 	margin-bottom:10%;
 	margin-left:10%;
 }
-@media screen and (max-width: 1200px) {#team{ font-size: 100px;
+@media screen and (max-width: 1200px) {#team{ font-size: 75pt;
 
 margin-left:500px;
 
@@ -814,14 +813,14 @@ margin-left:500px;
 
 
 
-@media screen and (max-width: 1000px) {#team { font-size: 100px;
+@media screen and (max-width: 1000px) {#team { font-size: 75pt;
 
 margin-left:165px;
   margin-right:165px;
 }}
 
 
-@media screen and (max-width: 700px) {#team{ font-size: 100px;
+@media screen and (max-width: 700px) {#team{ font-size: 75pt;
 
 margin-left: 100px;
   margin-right:100px;
@@ -862,7 +861,7 @@ margin-left: 100px;
 		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
-		font-size: 15px;
+		font-size: 11.25pt;
 		margin-left: 100px;
 		margin-right:100px;
 		background-image:url("img/sfondo puntini.png");
@@ -872,7 +871,7 @@ margin-left: 100px;
 #millecinque p{font-family:Futura Book font;}
 
 #milleottocolfagotto p{font-family:English Gothic Bold Italic;
-font-size:15px; }
+font-size:11.25pt; }
 #ventisettetrecivette p{font-family:BitstreamIowanOldStyleBoldBT;}
 #sessantottoadirotto p{font-family: Normande Regular;}
 #ottantalasaracanta p{font-family:hasta grotesk;}
@@ -891,7 +890,7 @@ font-size:30px;}
 
 #sessantottoadirotto{margin-left: 270px;
 margin-right:40px;
-font-size:40px;}
+font-size:30pt;}
 
 #ottantalasaracanta{margin-left: 370px;
 margin-right:50px;
@@ -900,7 +899,7 @@ font-size:50px;}
 #duemilaquaranta{margin-left: 470px;
 margin-right:60px;
 font-size:60px;}
-@media screen and (max-width: 1000px)  {.container-documentation p { font-size: 7px;
+@media screen and (max-width: 1000px)  {.container-documentation p { font-size: 5.25pt;
 
 }}
 
@@ -915,10 +914,10 @@ font-size:60px;}
 .container-documentation p:after {content:"...}";
 font-family:English Gothic Bold Italic;
 	margin-top: 10px;
-	font-size:25px;}
+	font-size:18.75pt;}
 	
 .container-documentation p {font-family:BitstreamIowanOldStyleBoldBT;
-font-size: 15px;
+font-size: 11.25pt;
 border-right:none;
 margin-top: 20px;
 margin-left:50px;
@@ -929,7 +928,7 @@ padding-bottom:50px;
 
 	
 .container-documentation h2{font-family:LibbyHeavy;
-	font-size:85px;
+	font-size:63.75pt;
 	color:	#006400;
 	transform:none;
 	-webkit-transform: none;
@@ -945,7 +944,7 @@ padding-bottom:50px;
 	font-style: bold;
 }
 
-@media screen and (max-width: 1200px) {#title-documentation{ font-size: 45px;
+@media screen and (max-width: 1200px) {#title-documentation{ font-size: 33.75pt;
 
 margin-left:250px;
   margin-right:250px;
@@ -953,7 +952,7 @@ margin-left:250px;
 
 
 
-@media screen and (max-width: 1000px) {#title-documentation { font-size: 70px;
+@media screen and (max-width: 1000px) {#title-documentation { font-size: 52.5pt;
 
 margin-left:200px;
   margin-right:165px;
@@ -961,7 +960,7 @@ margin-left:200px;
 }}
 
 
-@media screen and (max-width: 700px) {#title-documentation{ font-size: 50px;
+@media screen and (max-width: 700px) {#title-documentation{ font-size: 37.5pt;
 
 margin-left: 100px;
   margin-right:100px;
@@ -972,10 +971,10 @@ margin-left: 100px;
 font-size:100px;
 font-weight:bold;}
 .container-documentation h3:after{content:"←";
-font-size:100px;
+font-size:75pt;
 font-weight:bold;}
 
-.container-documentation h3{font-size:100px;
+.container-documentation h3{font-size:75pt;
 border-top:solid;}
 
 .container-documentation span {
@@ -983,7 +982,7 @@ border-top:solid;}
 	border-bottom: solid;
 	font-family: English Gothic Bold Italic;
 	text-align:center; 
-	font-size:25px;
+	font-size:18.75pt;
 	margin-left:10px;
 	}
 	
@@ -991,7 +990,7 @@ border-top:solid;}
 
 .container-documentation a{font-family: Futurismo; 
 color:black;
-font-size:15px;
+font-size:11.25pt;
 }
 
 .container-documentation a:active {
@@ -1032,37 +1031,37 @@ color: red;}
 		background-image:url("img/sfondo puntini.png");
 		border: 20px outset black;
 		text-align:justify;
-		font-size: 15px;
+		font-size: 11.25pt;
 		margin-left:90px;
 		margin-right:90px;
 		 padding-top:20px;
 		padding-left:0px;
 		padding-right: 0px;
 		height:auto;
-overflow: hidden;}
+		overflow: hidden;}
 
 		
 .container-eu p:after{content:"...}";
 	font-family:English Gothic Bold Italic;
 	margin-top: 10px;
-	font-size:20px;}
+	font-size:15pt;}
 	
 	
 .container-eu p {font-family:LibbyHeavy;
-				font-size: 10px;
+				font-size: 7.5pt;
 				border-right:none;
 				margin-top: 20px;
 				margin-left:20px;
 				margin-right:20px;
 }
 
-@media screen and (max-width: 1000px) { .container-eu p { font-size: 7px;
+@media screen and (max-width: 1000px) { .container-eu p { font-size: 5.25pt;
 
 }}
 
 .container-eu a{font-family: Futurismo; 
 				color:black;
-				font-size:15px;
+				font-size:11.25pt;
 				}
 
 .container-eu a:active {
@@ -1076,33 +1075,33 @@ overflow: hidden;}
 	border-bottom: solid;
 	font-family: English Gothic Bold Italic;
 	text-align:center; 
-	font-size:15px;
+	font-size:11.25pt;
 	margin-left:10px;
 	}
 
 .container-eu h2{margin-top:20px;
-	font-size:60px;}
+	font-size:45pt;}
 	
 	
 	@media (width: 2560px){
     #title-documentation { 
-		font-size:200px;
+		font-size:150pt;
         margin-left:580px;
 		margin-right:580px;
 	
     }
-	.container-documentation p{font-size:30px;}
-	#milleottocolfagotto p{font-size:40px;}
+	.container-documentation p{font-size:22.5pt;}
+	#milleottocolfagotto p{font-size:30pt;}
 	
-	#title{font-size:240px;
+	#title{font-size:180pt;
         margin-left:740px;
 		margin-right:740px;}
 		
-	#table-home-page p{font-size:40px;}
-	.container-about p {font-size:20px;}
+	#table-home-page p{font-size:30pt;}
+	.container-about p {font-size:15pt;}
 	.container-about {padding-left:30px;
 	padding-right:30px;}
-	.container-about h5{font-size:40px;}
+	.container-about h5{font-size:30pt;}
 	
 	
 }
