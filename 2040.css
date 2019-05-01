@@ -306,6 +306,16 @@ article {
         100%{background-position:0% 50%}
     }
 
+article h1 {
+        text-transform: uppercase;
+        font-size: 100pt;
+        width:100%;
+        text-align: center;
+        color: yellowgreen;
+        background-color: black;
+        font-family: techmono;
+        font-weight: bold;
+    }
 
 article h2 {
 	text-transform: uppercase;

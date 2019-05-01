@@ -270,6 +270,17 @@ article {
     background-color: white;
   }
 
+article h1 {
+    column-span: all;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: futura ;
+    color: black;
+    text-transform: uppercase;
+    font-size: 100pt;
+    text-align: right;
+    line-height: 90%;
+}  
 
 article h2 {
     column-span: all;
