@@ -748,10 +748,7 @@ article span:hover {
       }
       
     /* Move it (define the animation) */
-    @-moz-keyframes title {
-     0%   { -moz-transform: translateX(70%); }
-     100% { -moz-transform: translateX(0%); }
-    }
+  
     
     @-webkit-keyframes title {
         0%   { -webkit-transform: translateX(70%); }
@@ -760,12 +757,10 @@ article span:hover {
     
     @keyframes title {
      0%   { 
-     -moz-transform: translateX(70%); /* Firefox bug fix */
      -webkit-transform: translateX(70%); /* Firefox bug fix */
      transform: translateX(70%); 		
      }
      100% { 
-     -moz-transform: translateX(0%); /* Firefox bug fix */
      -webkit-transform: translateX(0%); /* Firefox bug fix */
      transform: translateX(0%); 
      }
