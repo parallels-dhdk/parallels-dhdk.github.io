@@ -722,8 +722,27 @@ hr {
 }
 
 
+/*---------EXTRA----------*/
 
 
+li {
+  font-family: myBodoni;
+  color:  #241B12;
+  font-size: 13pt;
+}
+
+
+ol {
+  list-style-type: upper-roman;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+/*---------MEDIA----------*/
 
 @media screen and (max-width: 1000px) {
   #title { 
