@@ -474,7 +474,14 @@ article span:hover {
   }
 
 
-#mainbody ol,ul {
+#mainbody ol{
+    font-family: comicsans;
+    font-size: 14pt;
+    text-align: left;
+    color: yellow; 
+}
+
+#mainbody ul{
     font-family: comicsans;
     font-size: 14pt;
     text-align: left;
