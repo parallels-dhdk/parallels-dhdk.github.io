@@ -527,7 +527,7 @@ h6{font-family:Koch Regular;
 		font-size: 15px;
 		margin-left:90px;
 		margin-right:90px;
-		column-count:2;
+		column-count:3;
 		-webkit-column-count: 2; /* Chrome, Safari, Opera */
 		-moz-column-count: 2; /* Firefox */
 		column-count: 2;
