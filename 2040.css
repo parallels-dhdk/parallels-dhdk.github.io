@@ -822,7 +822,7 @@ article span:hover {
         .container-documentation h3 {
             font-family: techmono;
             text-align: center;
-            font-size:30pt;
+            font-size:50pt;
             color: #FFF;
             background-color: black;
             margin-top: 70px;
@@ -831,6 +831,8 @@ article span:hover {
         .container-documentation h4 {
             text-align: center;
                 font-family:comicsans;
+                font-size:16pt;
+                margin-top:50px;
                 text-transform: uppercase;
                 -webkit-transition: all 0.5s;
                 transition: all 0.5s;
