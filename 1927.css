@@ -977,7 +977,16 @@ font-weight:bold;}
 
 .container-documentation h3{font-size:100px;}
 
-
+.container-documentation span {
+	border-top:solid;
+	border-bottom: solid;
+	font-family: English Gothic Bold Italic;
+	text-align:center; 
+	font-size:25px;
+	margin-left:10px;
+	}
+	
+.container-documentation h4{text-align:center;}
 
 
 
