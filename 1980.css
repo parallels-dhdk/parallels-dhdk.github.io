@@ -689,6 +689,7 @@ article a {
     background: white;
 }
 
+
 .container-documentation div {
     margin-top:10px;
     margin-bottom:10px;
@@ -769,11 +770,9 @@ article a {
     #title { 
         font-size: 70pt;
     }
-
     .flex-container h2 {
         font-size: 50pt;
     }
-
     .container-documentation h2 {
         font-size: 70pt;
     }
