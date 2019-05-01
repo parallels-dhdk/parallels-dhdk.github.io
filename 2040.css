@@ -572,7 +572,6 @@ article span:hover {
     padding-left: 10px;
     padding-right:10px;
        -webkit-flex: 1; /* Safari */
-       -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
    }
 
@@ -583,7 +582,6 @@ article span:hover {
     padding-left: 10px;
     padding-right:10px;
        -webkit-flex: 1; /* Safari */
-       -ms-flex: 1; /* IE 10 */
        flex: 1; /* Standard syntax */
     overflow-x:auto;
    }
@@ -918,7 +916,7 @@ article span:hover {
 
 
 
-        /*phones*/
+        /*mobile*/
     @media (min-width: 576px) {
         #mainbody tr, th, td{
             font-size: 8pt;
