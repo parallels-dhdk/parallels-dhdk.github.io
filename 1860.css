@@ -552,6 +552,7 @@ figcaption {
   -webkit-column-rule: 1px solid; /* Chrome, Safari, Opera */
   -moz-column-rule: 1px solid; /* Firefox */
   column-rule: 1px solid;
+  text-align: justify;
   }
 
 
