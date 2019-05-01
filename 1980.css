@@ -308,6 +308,30 @@ article h4 {
     width: 100%;
 }
 
+article h5 {
+    padding-bottom: 15px;
+    padding-top: 5px;
+    font-family: futuramedium;
+    font-style: italic;
+    font-size: 18pt;
+    text-align: left;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+}
+
+article h6 {
+    padding-bottom: 15px;
+    padding-top: 5px;
+    font-family: futuramedium;
+    font-style: italic;
+    font-size: 16pt;
+    text-align: left;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+}
+
 
 article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
     float: left;
