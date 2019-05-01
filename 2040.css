@@ -825,7 +825,36 @@ article span:hover {
             font-size:30pt;
             color: #FFF;
             background-color: black;
+            margin-top: 70px;
         }
+
+        .container-documentation h4 {
+            text-align: center;
+                font-family:comicsans;
+                text-transform: uppercase;
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
+                color: #fff;
+                -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+                animation: neon1 1.5s ease-in-out infinite alternate;
+              }
+              
+              .container-documentation h4:hover {
+                color: #FF1177;
+                -webkit-animation: none;
+                animation: none;
+              }
+              
+              @-webkit-keyframes neon1 {
+                from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;}
+                to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
+              }
+              
+              /*glow*/
+              @keyframes neon1 {
+                from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;}
+                to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
+              }
 
         .container-documentation p{
             font-family: comicsans;
