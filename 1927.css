@@ -856,7 +856,8 @@ margin-left: 100px;
 
 /*documentation*/
 
-  .container-documentation{margin-top: 100px;
+
+ .container-documentation{margin-top: 100px;
 		margin-bottom: 65px;
 		background-color: #FFFAFA;
 		border: 20px outset black;
@@ -899,29 +900,35 @@ font-size:50px;}
 #duemilaquaranta{margin-left: 470px;
 margin-right:60px;
 font-size:60px;}
-
 @media screen and (max-width: 1000px)  {.container-documentation p { font-size: 7px;
 
 }}
 
-.documentation-container p {font-family:LibbyHeavy;
-					font-size: 10px;
-					border-right:none;
-					margin-top: 20px;
-					margin-left:20px;
-					margin-right:20px;
-					
-					
+
 /* mall devices and most phones */
 @media (min-width: 480px) {#duemilaquaranta { margin-left:360px;
 }}
+
+
+
+
 .container-documentation p:after {content:"...}";
 font-family:English Gothic Bold Italic;
 	margin-top: 10px;
 	font-size:25px;}
 	
+.container-documentation p {font-family:BitstreamIowanOldStyleBoldBT;
+font-size: 15px;
+border-right:none;
+margin-top: 20px;
+margin-left:50px;
+margin-right:50px;
+border-bottom:solid;
+padding-bottom:50px;
+}
+
 	
-#title-documentation{font-family:LibbyHeavy;
+.container-documentation h2{font-family:LibbyHeavy;
 	font-size:85px;
 	color:	#006400;
 	transform:none;
@@ -969,6 +976,8 @@ font-size:100px;
 font-weight:bold;}
 
 .container-documentation h3{font-size:100px;}
+
+
 
 
 
