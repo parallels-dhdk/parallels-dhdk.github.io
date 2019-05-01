@@ -487,6 +487,13 @@ article span:hover {
   }
 
 
+#mainbody ol,ul {
+    font-family: comicsans;
+    font-size: 14pt;
+    text-align: left;
+}
+
+
 
 
 
@@ -640,9 +647,7 @@ article span:hover {
     to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
   }
 
- .flex-container ol,ul p {
-     text-align:left !important;
- }
+ 
 
  
 
@@ -865,6 +870,22 @@ article span:hover {
             margin: 10px;
             font-size: 14pt;
         }
+
+        .container-documentation a {
+            max-height: 6em;
+            margin: 0 auto;
+            max-width: 100%;
+            position:relative;
+            color: blue;
+            display: inline-block;  
+        }
+        
+        .container-documentation a:hover {
+            transform: scale(3.5);
+            cursor: url("img/arrow-cursor.png"), auto;
+        }
+
+
 
 
         /*phones*/
