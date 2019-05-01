@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: Wanted;
-  src: url(font/HellsRiderDecay.ttf);
+  src: url(font/docktrin.ttf);
 }
 
 @font-face{
@@ -599,39 +599,24 @@ figcaption {
   }
 
 
-#team:before { 
-  content: ""; 
-  background-image: url("star.png"); 
-  background-size: 100% 100%;
-  display:inline-block;
-  height: 50px;
-  width: 50px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
 
 
 #team:after { 
-  content: ""; 
-  background-image: url("star.png"); 
-  background-size: 100% 100%;
+  visibility: visible;
+  content: "WANTED"; 
+  font-family: Wanted; 
   display:inline-block;
-  height: 50px;
-  width: 50px;
+ font-size: 120px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  letter-spacing: 10px;
+  margin-right: 10%;
 }
 
 
 #team {
-  font-style:normal;  
-  text-align: center;
-  padding-top: 50px;
-  font-family: Wanted;
-  font-size: 113pt;
-  text-shadow: 2px 2px #f5e1bf, 3px 3px #000000;
-  letter-spacing: 10px;
+  visibility: hidden;
 }
+
 
 
 #title-about {
@@ -683,7 +668,23 @@ figcaption {
 }
 
 
-.card-title {
+.card-title-sara{
+  padding-top: 20px;
+  font-family: Manero;
+  text-transform: uppercase;
+  text-align: justify;
+  font-size: 19pt;
+}
+
+.card-title-sara{
+  padding-top: 20px;
+  font-family: Manero;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 19pt;
+}
+
+.card-title-lucia{
   padding-top: 20px;
   font-family: Manero;
   text-transform: uppercase;
@@ -693,7 +694,7 @@ figcaption {
 
 
 .card-text {
-  font-family: Manero;
+  font-family: myBodoniCondensed;
   font-size: 15pt;
   text-indent: 0em;
   word-spacing: 3px;
