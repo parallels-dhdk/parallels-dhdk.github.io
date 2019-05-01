@@ -860,7 +860,7 @@ article span:hover {
 
         .container-documentation p{
             font-family: comicsans;
-            line-height: 5em;
+            line-height: 3em;
             text-align: center;
             color: yellow;
             margin: 10px;
@@ -881,33 +881,6 @@ article span:hover {
             cursor: url("img/arrow-cursor.png"), auto;
         }
 
-        .container-documentation span {
-            width: 100%;
-            white-space: nowrap;
-            display: inline-block;
-            padding-left: 100%;
-            padding-right: 100%;
-            /* show the marquee just outside the paragraph */
-            animation: span 20s linear infinite ;
-            font-family:comicsans;
-            text-transform: uppercase;  
-          }
-          
-        .container-documentation span:hover {
-            animation-play-state: paused;
-            color:yellowgreen;
-            display:inline-block;
-          }
-          
-          /* Make it move */
-          @keyframes span {
-            0% {
-              transform: translate(0, 0);
-            }
-            100% {
-              transform: translate(-100%, 0);
-            }
-          }
 
 
 
