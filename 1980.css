@@ -767,6 +767,10 @@ article a {
     font-style: italic;
 }
 
+.container-documentation a {
+    color: black;
+    text-decoration: underline;
+}
 
 
 
