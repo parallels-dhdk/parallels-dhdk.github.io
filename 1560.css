@@ -378,7 +378,13 @@ table {border: 4px solid;
 font-size: 17px;
 }
 
+.container-eu a {
+  color:#4a433e;
+}
 
+.container-eu a:hover { 
+  color: #b39c89;
+}
 
 /*---------DOCUMENTATION----------*/
 
