@@ -787,18 +787,18 @@ padding-bottom:50px;
 	font-style: bold;
 }
 
-@media screen and (max-width: 1200px) {#title-documentation{ font-size: 33.75pt;
+@media screen and (max-width: 1200px) {#title-documentation{ font-size: 35pt;
 
 margin-left:250px;
-  margin-right:250px;
+  margin-right:350px;
 }}
 
 
 
-@media screen and (max-width: 1000px) {#title-documentation { font-size: 52.5pt;
+@media screen and (max-width: 1000px) {#title-documentation { font-size: 53pt;
 
 margin-left:200px;
-  margin-right:165px;
+  margin-right:200px;
   word-break: break-word;
 }}
 
