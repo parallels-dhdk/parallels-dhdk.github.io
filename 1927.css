@@ -83,26 +83,7 @@ body{background-image: url("img/metallo5.jpg");
 
 
 
-@media screen and (max-width: 1200px) {#title{ font-size: 82.5pt;
 
-margin-left:250px;
-  margin-right:250px;
-}}
-
-
-
-@media screen and (max-width: 1000px) {#title { font-size: 60pt;
-
-margin-left:220px;
-  margin-right:250px;
-}}
-
-
-@media screen and (max-width: 700px) {#title{ font-size: 75pt;
-
-margin-left: 80px;
-  margin-right:80px;
-}}
 #table-home-page{display: inline-block;
 				margin-left:25px;
 			}
@@ -182,15 +163,7 @@ font-size: 7.5pt;
 li{font-family: hasta grotesk;}
 
 
-@media screen and (max-width: 1000px) { .index-container p { font-size: 5.25pt;
 
-
-}}
-
-@media screen and (max-width: 1000px) { section { font-size: 5.25pt;
-
-
-}}
 h1{
 	font-family:LibbyHeavy;
 	font-size:75pt;
@@ -205,10 +178,7 @@ h1{
 h3{font-family:English Gothic Bold Italic;
 	font-size: 18.75pt;}
 	
-@media screen and (max-width: 1000px) { h3 { font-size: 15pt;
 
-
-}}
 
 .index-container a{font-family: Futurismo; 
 					color:black;
@@ -408,8 +378,6 @@ div.item6{
 	border-color:red;
 	transform:rotate(180deg);
 	-webkit-transform: rotate(180deg); /* Safari and Chrome */
-	-o-transform: rotate(180deg); /* Opera */
-	-moz-transform: rotate(180deg); /* Firefox */
 	-ms-transform: rotate(180deg);
 	margin-top: -100px;
 	margin-left: 10px;
@@ -430,17 +398,14 @@ article{
 		margin-right:100px;
 		background-image:url("img/sfondo puntini.png");
 		column-count: 2;
-		-webkit-column-count: 2; /* Chrome, Safari, Opera */
-		-moz-column-count: 2; /* Firefox */
-		-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-		-moz-column-gap: 20px; /* Firefox */
+		-webkit-column-count: 2; /* Chrome, Safari*/
+		-webkit-column-gap: 20px; /* Chrome, Safari */
 		column-gap: 20px;
 }
 
 
 @media screen and (max-width: 800px) {article { 
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
+  -webkit-column-count: 1; /* Chrome, Safari */
   column-count: 1;
   margin-left:40px; 
   margin-right:40px;}}
@@ -448,16 +413,14 @@ article{
 
 
 @media screen and (max-width: 600px) {article { 
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
+  -webkit-column-count: 1; /* Chrome, Safari */
   column-count: 1;
 } }
 
 
 
 @media screen and (max-width: 100px) {article { 
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
+  -webkit-column-count: 1; /* Chrome, Safari */
   column-count: 1;
 } }
 @media screen and (max-width: 1000px) {article { 
@@ -565,8 +528,6 @@ article img{
 	filter: grayscale(100%);
 	transform:rotate(20deg);
 	-webkit-transform: rotate(20deg); /* Safari and Chrome */
-	-o-transform: rotate(20deg); /* Opera */
-	-moz-transform: rotate(20deg); /* Firefox */
 	-ms-transform: rotate(20deg);
 	margin-top:150px;
 	margin-bottom: 140px;
@@ -842,8 +803,6 @@ margin-left: 100px;
 				filter: grayscale(100%);
 				transform:rotate(20deg);
 				-webkit-transform: rotate(20deg); /* Safari and Chrome */
-				-o-transform: rotate(20deg); /* Opera */
-				-moz-transform: rotate(20deg); /* Firefox */
 				-ms-transform: rotate(20deg);
 				border: 5px solid;}
 
@@ -1014,7 +973,6 @@ color: red;}
 .flex-container .col-ing{
 	margin-top: 30px;
     -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 }
 
@@ -1022,7 +980,6 @@ color: red;}
 .flex-container .col-ita{
 	margin-top: 30px;
    -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 }
 
@@ -1082,8 +1039,38 @@ color: red;}
 .container-eu h2{margin-top:20px;
 	font-size:45pt;}
 	
+
+/*media query*/
+@media screen and (max-width: 1200px) {#title{ font-size: 82.5pt;
+
+margin-left:250px;
+  margin-right:250px;
+}}
+
+
+
+@media screen and (max-width: 1000px) {#title { font-size: 60pt;
+
+margin-left:220px;
+  margin-right:250px;
+}
+.index-container p { font-size: 5.25pt;
+}
+section { font-size: 5.25pt;
+}
+h3 { font-size: 15pt;
+}
+
+}
+
+@media screen and (max-width: 700px) {#title{ font-size: 75pt;
+
+margin-left: 80px;
+  margin-right:80px;
+}}
+
 	
-	@media (width: 2560px){
+@media (width: 2560px){
     #title-documentation { 
 		font-size:150pt;
         margin-left:580px;
