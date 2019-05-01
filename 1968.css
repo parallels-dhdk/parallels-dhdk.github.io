@@ -98,13 +98,13 @@ body{background-image: url("img/cassette3.jpg");
  }
 
 
-@media screen and (max-width: 1200px) {#title{ font-size:150pt;
+@media screen and (max-width: 1200px) {#title{ font-size:100px;
 
 }}
 
 
 
-@media screen and (max-width: 1000px) {#title { font-size: 112.5pt;
+@media screen and (max-width: 1000px) {#title { font-size: 80px;
 letter-spacing:-30px;
 }}
 
