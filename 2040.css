@@ -774,6 +774,8 @@ article span:hover {
     }
 
     .card-img-top {
+            -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+            filter: blur(3px);
             animation: pulse 3s infinite;
             margin: 0 auto;
             display: table;
