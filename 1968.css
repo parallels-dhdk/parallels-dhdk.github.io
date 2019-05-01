@@ -514,14 +514,13 @@ h6{font-family:Koch Regular;
 
 
 /*documentation*/
+/*documentation*/
 
 .container-documentation p{margin-top: 30px;
 	font-family: Book Antiqua;}
 
 .container-documentation{margin-top: 100px;
-		padding-right:30px;
-		padding-left:30p;
-		padding-bottom: 50px;
+		padding-bottom: 100px;
 		padding-top: 50px;
 		margin-bottom:100px;
 		background-image:url("img/sfondo2.png");
@@ -551,16 +550,15 @@ h6{font-family:Koch Regular;
   -moz-column-count: 1; /* Firefox */
   column-count: 1;
 } }
+.container-documentation li{font-family: Book Antiqua;
+margin-right:30px;}
 
-.container-documentation p{ padding: 30px;
-							border-top: 10%;
-							margin-top: 5%;
-							margin-left:40px;
-							margin-right: 40px;
-
+.container-documentation p{ padding: 10px;
+	border-top: 10%;
+	margin-top: 5%;
+	margin-left:40px;
+	margin-right: 40px;
 }		
-
-.container-documentation li{font-family: Book Antiqua;}
 
 .container-documentation p:nth-of-type(1)::first-letter {
 
@@ -570,25 +568,36 @@ h6{font-family:Koch Regular;
 	font-family: VikingStencil;
 	color:  #003366;
 }
+
+
 .container-documentation h4{font-family: Windsor-Bold;
 	margin-left:20px;
 	margin-right: 20px;
 	font-size:30px;
+	text-align:center;
 }
-}
+
+
+
 
 #title-documentation{font-family:VikingStencil;
 	font-size: 100px;
 	  column-span: all;
 	text-align: center;
 	margin-left:15px;
-	margin-right:15px;
-	margin-bottom:20px;
-	line-height: -100;
-	margin-top:50px;
-	margin-bottom:50px;
+	margin-top:30px;
+	margin-bottom:30px;
 	color: #003366;}
 	   
+
+.container-documentation h3{	border-top:solid;
+border-width: thin;
+font-weight: bold;
+padding-top:5px;
+
+}
+
+
 
  @media screen and (max-width: 1200px) {#title-documentation{ font-size: 90px;
 
@@ -597,42 +606,33 @@ h6{font-family:Koch Regular;
 
 
 @media screen and (max-width: 1000px) {#title-documentation { font-size: 50px;
-
+letter-spacing: -1px;
 }}
 
 
 @media screen and (max-width: 700px) {#title-documentation{ font-size:30px;
-
+letter-spacing: -1px;
 }}
 
-.container-documentation h3{	border-top:solid;
-border-width: thin;
-font-weight: bold;
-}
 .container-documentation span{font-family: Book Antiqua;
   font-style: oblique;
   font-size:20px;
-  }
+margin-left:50px;}
 
-
- .container-documentation a{font-family: Futura Book font; 
+.container-documentation a{font-family: Futura Book font; 
 			color:black;
 			font-size:15px;
 			padding-bottom:10px;
 			margin-left: 30px;
-			display: block;
-			text-align: left;
+
 }
  .container-documentation a:active {
 color: black;}
 
  .container-documentation a:visited {
 color: black;}
-    
-  
-  
-  
-/*eudirective*/
+
+
 .flex-container{
     width: 100%;
     margin-top:50px;
