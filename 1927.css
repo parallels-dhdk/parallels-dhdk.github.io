@@ -923,7 +923,7 @@ border-right:none;
 margin-top: 20px;
 margin-left:50px;
 margin-right:50px;
-border-bottom:solid;
+
 padding-bottom:50px;
 }
 
@@ -975,7 +975,8 @@ font-weight:bold;}
 font-size:100px;
 font-weight:bold;}
 
-.container-documentation h3{font-size:100px;}
+.container-documentation h3{font-size:100px;
+border-top:solid;}
 
 .container-documentation span {
 	border-top:solid;
