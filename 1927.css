@@ -159,6 +159,7 @@ margin-left:250px;
 	font-size:26.25pt;}
 
 
+
 section{font-family:LibbyHeavy;
 font-size: 7.5pt;
 }
@@ -511,7 +512,10 @@ figcaption {font-family: hasta grotesk;
 
 }
 figcaption:before {
-    content: url('img/uguale.jpg');	
+    content:"=";
+font-family:English Gothic Bold Italic;
+	font-size:60pt;	
+
 } 
 
 
