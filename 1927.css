@@ -69,7 +69,7 @@ body{background-image: url("img/metallo5.jpg");
 #title{
 
 	font-family:LibbyHeavy;
-	font-size:90pt;
+	font-size:80pt;
 	text-align:justify;
 	word-break: break-word;
 	margin-left:420px;
@@ -690,6 +690,7 @@ margin-left: 100px;
 
 /*documentation*/
 
+
  .container-documentation{margin-top: 100px;
 		margin-bottom: 65px;
 		background-color: #FFFAFA;
@@ -700,7 +701,9 @@ margin-left: 100px;
 		margin-right:100px;
 		background-image:url("img/sfondo puntini.png");
 		padding-bottom:20px;
-		margin-bottom: 100%;
+		margin:0 auto;
+		
+
 }
 #millecinque p{font-family:Futura Book font;}
 
@@ -917,10 +920,6 @@ color: red;}
 
 /*media query*/
 
-
-
-
-	
 
 
 @media screen and (min-width: 100px) {
