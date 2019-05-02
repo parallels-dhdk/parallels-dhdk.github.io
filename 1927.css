@@ -983,6 +983,7 @@ margin-left: 100px;
 	margin-top: 30px;
     -webkit-flex: 1; /* Safari */
     flex: 1; /* Standard syntax */
+	margin-right:20px;
 }
 
 
@@ -990,6 +991,7 @@ margin-left: 100px;
 	margin-top: 30px;
    -webkit-flex: 1; /* Safari */
     flex: 1; /* Standard syntax */
+	margin-left:20px;
 }
 
 .container-eu{margin-top: 50px;
