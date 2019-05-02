@@ -64,13 +64,11 @@ body {
 
 
 .grid-container a {
-	visibility: hidden;
+	background: inherit;
+  background-clip: text;
+  color: transparent;
 }
 
-.grid-container a:hover {
-	color: #4a433e;
-	visibility: visible;
-}
 
 
 #title {
