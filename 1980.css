@@ -842,8 +842,8 @@ article a {
     #title-documentation {
         font-size: 60pt;
     }
+}
 
-    @page {
-        border: double 25px ; 
-    }
+@page {
+    border: double 25px ; 
 }
