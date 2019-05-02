@@ -792,9 +792,28 @@ article a {
         display:none;
     }
 
-    .index-container {
-        width: 21cm;
-        height:29.7cm;
-        
+    body {
+        background-image: none;
     }
+
+    .index-container {
+    zoom:75%;
+    }
+
+    .container-about{
+        zoom:72%;
+    }
+
+    article {
+        page-break-after: auto;
+    }
+
+    .container-eu {
+        page-break-after: auto;
+    }
+
+    .container-documentation {
+        page-break-after: auto;
+    }
+
 }
