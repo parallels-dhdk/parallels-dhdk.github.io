@@ -167,7 +167,9 @@ body{background-image: url("img/metallo5.jpg");
 font-size: 7.5pt;
 }
 
-
+section p {font-family:LibbyHeavy;
+font-size: 7.5pt;
+}
 #mainbody li{font-family: hasta grotesk;}
 
 
@@ -955,7 +957,7 @@ margin-left: 100px;
   word-break: break-word;
 }}
 
-@media screen and (max-width: 1000px)  {.container-documentation p { font-size: 25.25pt;
+@media screen and (max-width: 1000px)  {.container-documentation p { font-size: 15pt;
 
 }}
 
