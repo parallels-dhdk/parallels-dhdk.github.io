@@ -264,7 +264,7 @@ article {
     column-count: 2;
     -webkit-column-gap: 50px; /* Chrome, Safari */
     column-gap: 50px;
-    border: double 7px ; 
+    border: double 25px ; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     background-color: white;
@@ -505,7 +505,7 @@ article a {
     padding-bottom: 20px;
     font-weight: 100;
     text-align: justify;
-    border: double 7px ; 
+    border: double 25px ; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     background-color: white;
@@ -602,7 +602,7 @@ article a {
     padding-bottom: 20px;
     font-weight: 100;
     text-align: justify;
-    border: double 7px ; 
+    border: double 25px ; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     background: white;
@@ -716,7 +716,7 @@ article a {
     padding-bottom: 20px;
     font-weight: 100;
     text-align: justify;
-    border: double 7px ; 
+    border: double 25px ; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     background: white;
