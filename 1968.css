@@ -554,7 +554,7 @@ margin-right:30px;}
 	border-width: thin;
 	font-weight: bold;
 	padding-top:5px;
-	font-size:50pt;
+	font-size:40pt;
 
 }
 
@@ -566,16 +566,21 @@ margin-right:30px;}
 
 
 
-@media screen and (max-width: 1000px) {#title-documentation { font-size: 38pt;
+@media screen and (max-width: 1000px) {#title-documentation {  font-size: 50pt;
 letter-spacing: -1px;
-}}
+}
 
+
+}
+
+@media screen and (max-width: 768px){.container-documentation h3{font-size:10pt;
+}}
 
 
 .container-documentation h4{font-family: Koch Regular;
   text-transform: uppercase;
-  letter-spacing:-10px;
-  font-size:43pt;
+  letter-spacing:-5px;
+  font-size:30pt;
 text-align:center;
 
 }
