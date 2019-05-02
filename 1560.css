@@ -437,7 +437,7 @@ font-size: 13pt;
 }
 
 
-.container-documentation p:first-letter {
+.container-documentation section > p:first-letter {
 	font-family: myCaps;
 	float: left;
     font-size: 90pt;
@@ -676,7 +676,7 @@ section ul {
 	padding-right: 100px;
 	-webkit-column-gap: 130px; /* Chrome, Safari */
   	column-gap: 130px;}
-	.container-documentation p:first-letter {
+	.container-documentation section > p:first-letter {
 	font-size: 60pt;
 	height: 60px;} 
 	.container-documentation p {
@@ -815,7 +815,7 @@ section ul {
 	padding-right: 70px;
 	-webkit-column-gap: 110px; /* Chrome, Safari */
   	column-gap: 110px;}
-	.container-documentation p:first-letter {
+	.container-documentation section > p:first-letter {
 	font-size: 45pt;
 	height: 40px;}
 	#text-about p {
@@ -908,7 +908,7 @@ section ul {
 	padding-right: 50px;
 	-webkit-column-gap: 90px; /* Chrome, Safari */
   	column-gap: 90px;}
-	.container-documentation p:first-letter {
+	.container-documentation section > p:first-letter {
 	font-size: 30pt;
 	height: 20px;}
 	.container-documentation p {
@@ -990,7 +990,7 @@ section ul {
 	font-size: 6pt;}
 	.container-about h2{
 	font-size: 11pt;}
-	.container-documentation p:first-letter {
+	.container-documentation section > p:first-letter {
 	font-size: 15pt;
 	height: 10px;}
 	.container-documentation section{
