@@ -864,7 +864,7 @@ article span:hover {
         }
 
         .container-documentation h4 {
-            text-align: center;
+                text-align: center;
                 font-family:comicsans;
                 font-size:16pt;
                 margin-top:50px;
@@ -968,6 +968,15 @@ article span:hover {
         .flex-container h3{
             font-size:20pt;
         }
+
+        .container-documentation h2 {
+            font-size: 60pt;
+            
+    }
+
+
+
+
     }
 
 
