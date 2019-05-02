@@ -69,13 +69,8 @@ body {
 }
 
 
-.item5 > a {
-	color: 	#E9DABD;
-}
-
-
-.index-container a:hover {
-	color: #4a433e;
+.grid-container a {
+	display:none;
 }
 
 
