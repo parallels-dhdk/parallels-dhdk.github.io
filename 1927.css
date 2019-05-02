@@ -825,8 +825,14 @@ font-family:English Gothic Bold Italic;
 	font-weight:bold;}
 
 .container-documentation h3{font-size:75pt;
-	border-top:solid;}
+	border-top:solid;
+	font-family: FatCow-Italic;
+	font-size:30pt;
+	margin-top:5%;
+	margin-left: 10%;}
 
+
+	
 .container-documentation span {
 	border-top:solid;
 	border-bottom: solid;
