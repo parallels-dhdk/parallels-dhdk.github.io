@@ -614,19 +614,19 @@ letter-spacing: 2px;
 
 /*---------EXTRA----------*/
 
-li {
+section li {
 	font-family: myHultogCoursive;
 	color: #4a433e;
 	font-size: 13pt;
 }
 
 
-ol {
+section ol {
 	list-style-type: upper-roman;
 }
 
 
-ul {
+section ul {
 	list-style-type: none;
 }
 
