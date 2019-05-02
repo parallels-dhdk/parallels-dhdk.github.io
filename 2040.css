@@ -342,20 +342,21 @@ article h4 {
     text-align: center;
     font-size: 20pt;
     color: red;
+    text-align: center;
 }
 
 article h5 {
     font-family: comicsans;
     text-align: left;
     font-size: 18pt;
-    color: red;
+    color: green;
 }
 
 article h4 {
     font-family: comicsans;
     text-align: left;
     font-size: 16pt;
-    color: red;
+    color: green;
 }
 
 article section{
