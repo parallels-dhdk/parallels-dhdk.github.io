@@ -808,8 +808,18 @@ article a {
         page-break-after: auto;
     }
 
+    /*EU DIRECTIVE PRINT*/
     .container-eu {
         page-break-after: auto;
+    }
+
+    .flex-container h2 {
+        font-size: 50pt;
+    }
+
+        /*PRINT DOCUMENTATION*/
+    #millecinque{
+        page-break-after:always;
     }
 
     #milleottocolfagotto {
@@ -826,6 +836,10 @@ article a {
 
     #ottantalasaracanta{
         page-break-after:always;
+    }
+
+    #title-documentation {
+        font-size: 70pt;
     }
 
 }
