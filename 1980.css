@@ -766,7 +766,7 @@ article a {
 
 
 
-@media (max-width: 1024px){
+@media only screen and (max-width: 1024px){
     #title { 
         font-size: 70pt;
     }
