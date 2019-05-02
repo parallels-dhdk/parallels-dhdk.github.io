@@ -796,19 +796,26 @@ article a {
         background-image: none;
     }
 
+
+    /*PRINT: INDEX*/
     .index-container {
         zoom:75%;
     }
 
+
+    /*PRINT: ABOUT*/
     .container-about{
         zoom:70%;
     }
 
+
+    /*PRINT: ARTICLES*/
     article section{
         page-break-after: auto;
     }
 
-    /*EU DIRECTIVE PRINT*/
+
+    /*PRINT: EU DIRECTIVE */
     .container-eu {
         page-break-after: auto;
     }
@@ -817,7 +824,9 @@ article a {
         font-size: 50pt;
     }
 
-        /*PRINT DOCUMENTATION*/
+
+    
+    /*PRINT: DOCUMENTATION*/
     #millecinque{
         page-break-after:always;
     }
