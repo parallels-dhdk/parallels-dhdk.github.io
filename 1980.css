@@ -805,11 +805,16 @@ article a {
     }
 
     article section{
-        page-break-after: auto;
+        page-break-after: always;
     }
 
     .container-eu {
         page-break-after: auto;
+    }
+
+        /*PRINT DOCUMENTATION*/
+    #millecinque{
+        page-break-after:always;
     }
 
     #milleottocolfagotto {
