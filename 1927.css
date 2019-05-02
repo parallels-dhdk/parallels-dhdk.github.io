@@ -868,6 +868,35 @@ margin-right:60px;
 
 
 
+@media screen and  (max-width: 800px){#millecinque{margin-left: auto;
+margin-right:auto;}
+
+#milleottocolfagotto{margin-left: auto;
+margin-right:auto;
+}
+
+#ventisettetrecivette{margin-left: auto;
+margin-right:auto;
+}
+
+#sessantottoadirotto{margin-left: auto;
+margin-right:auto;
+}
+
+#ottantalasaracanta{margin-left: auto;
+margin-right:auto;
+}
+
+#duemilaquaranta{margin-left: auto;
+margin-right:auto;
+}
+.container-documentation h3{margin-left: auto;
+margin-right:auto;}
+}
+
+
+
+
 /* mall devices and most phones */
 @media (min-width: 480px) {#duemilaquaranta { margin-left:360px;
 }}
