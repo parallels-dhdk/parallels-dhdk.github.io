@@ -626,11 +626,13 @@ section li {
 
 section ol {
 	list-style-type: upper-roman;
+	color: #4a433e;
 }
 
 
 section ul {
 	list-style-type: square;
+	color: #4a433e;
 }
 
 /*---------MEDIA----------*/
