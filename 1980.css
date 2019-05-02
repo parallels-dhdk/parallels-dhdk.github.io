@@ -833,4 +833,8 @@ article a {
         page-break-after:always;
     }
 
+    #title-documentation {
+        font-size: 70pt;
+    }
+
 }
