@@ -772,7 +772,7 @@ article a {
 
 
 /*------------MEDIA QUERY--------------------*/
-@media only screen and (max-width: 10240px){
+@media only screen and (max-width: 1024px){
     #title { 
         font-size: 70pt;
     }
