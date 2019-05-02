@@ -792,12 +792,12 @@ article a {
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .flex-container h2 {
         font-size: 30pt;
     }
     .container-documentation h2 {
-        font-size: 40pt;
+        font-size: 30pt;
     }
 }
 
