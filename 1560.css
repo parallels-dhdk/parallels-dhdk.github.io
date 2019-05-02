@@ -46,11 +46,6 @@ body {
 }
 
 
-.index-container p {font-family: myHultog;
-	padding-top: 5px;
-	line-height: 1;
-}
-
 
 .grid-container h3 {
 	padding-top: 5px;
@@ -149,7 +144,7 @@ h2 {
 }
 
 
-h3 {
+h3 {font-family:  myHultog;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 10px;
@@ -181,7 +176,7 @@ h5 {
 
 
 h6 {	
-	font-family:  myHultogCoursive;
+	font-family:  myHultog;
 	text-align: center;
 	padding: 15px;
 }
@@ -251,7 +246,7 @@ article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 
 
 figcaption {
-	font-family: myHultogCoursive;
+	font-family: myHultog;
 	font-size: 11pt;
 	text-align: center;
 	line-height: 1.5;
