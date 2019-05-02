@@ -947,7 +947,7 @@ article span:hover {
         }
 
         .index-container {
-            zoom:58%;
+            zoom:70%;
         }
 
         /*PRINT: ABOUT*/
@@ -958,7 +958,7 @@ article span:hover {
 
         .container-about {
                 background: none;
-                zoom:58%
+                zoom:60%
             }
 
         .description{
