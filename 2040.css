@@ -318,6 +318,7 @@ article h1 {
     }
 
 article h2 {
+    margin-top:30px;
 	text-transform: uppercase;
 	font-size: 80pt;
     width:100%;
@@ -553,7 +554,6 @@ article span:hover {
 
 .flex-container{
     width: 100%;
-    margin-top: 30px;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
     text-align:center;
@@ -568,6 +568,7 @@ article span:hover {
 	background-color: black;
     font-family: techmono;
     font-weight: bold;
+    margin-top:15px;
 }
 
 .flex-container h3{
@@ -697,6 +698,7 @@ article span:hover {
 }
 
 #title-about {  
+    margin-top:20px;
     text-transform: uppercase;
 	font-size: 80pt;
     width:100%;
