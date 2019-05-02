@@ -60,48 +60,37 @@
             letter-spacing: 2.5px;
           }
 
-#article-button {
-  background-color: #000000; font-family: Helvetica, Arial, sans-serif; letter-spacing: 2.5px; font-size: 8pt; border: none; color: #808080; padding-left: 0px; padding-right: 0px; margin: 0px;
-}
+          #article-button {
+            background-color: #000000; 
+            font-family: Helvetica, Arial, sans-serif; 
+            letter-spacing: 2.5px; 
+            font-size: 8pt; 
+            border: none; 
+            color: #808080; 
+            padding-left: 0px; 
+            padding-right: 0px; 
+            margin: 0px;
+          }
 
 /* -------------------DISCLAIMER––––––––––––––––––––––––*/
-        .modal-fade {
+        .modal-content {
             font-family: Helvetica, Arial, sans-serif;
         }
         
-        .modal-footer{
-            background-color: transparent;
-        }
 
         .button { 
-            font-family: Helvetica, Arial, sans-serif;
-            background-color:transparent;
-            color: black;
             outline: none;
-              border: none;
+            border: none;
         }
         
-        .button:hover{color: #aeb0c8;
-            outline:0 !important;
+        .button:hover {
+          color: #aeb0c8;
         } /*modifica del bottone quando passa il mouse*/
         
-        .button:active {
-            color: #aeb0c8;
-            border: transparent;
-            outline: none;
-        } 
-        
-        #close-button{ /*non prende più questi comandi...anche per quanto riguarda quello del disclaimer... in rete non li vedo come voglioo*/
-            font-family: Helvetica, Arial, sans-serif;
-            background-color:transparent;
-            color: black; 
-              border: none;
-            font-size:6pt;
-        } /*modifica del bottone quando si clicca il bottone*/
 
-
-
-.modal-body {font-size: 8pt;}
+.modal-body {
+  font-size: 8pt;
+}
 
 
 
