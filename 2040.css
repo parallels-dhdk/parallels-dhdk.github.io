@@ -910,8 +910,7 @@ article span:hover {
 
 
 
-
-        /*mobile*/
+        /*MEDIA QUERY*/
     @media (min-width: 576px) {
         #mainbody tr, th, td{
             font-size: 8pt;
@@ -928,7 +927,7 @@ article span:hover {
         }
     }
 
-
+    /*PRINT*/
     @media only print {
         .nav {
             display: none;
@@ -1040,6 +1039,7 @@ article span:hover {
         /*PRINT: ARTICLES*/
         article section{
             page-break-after: auto;
+            line-height: 3em;
         }     
         
         article { 
@@ -1070,7 +1070,7 @@ article span:hover {
         }
         
         article span {
-            animation: none 
+            animation: none; 
           }
 
 
@@ -1103,6 +1103,7 @@ article span:hover {
         
         .flex-container p {
         color: black;
+        line-height: 2em;
         }   
 
         .flex-container a {
