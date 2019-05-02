@@ -61,11 +61,16 @@ body {
 }
 
 
-.index-container a { 
+.grid-container a { 
   margin-right: 5px;
   font-family: myBodoni;
-  font-style: italic;
   font-size: 11pt;
+}
+
+
+.grid-container a:hover {
+  color: #241B12;
+  font-style: italic;
 }
 
 
@@ -108,7 +113,7 @@ body {
 .index-container {
   padding-top: 70px;
   padding-bottom: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   margin-right: 100px;
   margin-left: 100px;
   background-image: url("img/newspaper1.png");
