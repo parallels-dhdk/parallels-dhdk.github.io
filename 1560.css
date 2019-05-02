@@ -481,7 +481,8 @@ letter-spacing: 2px;
 	margin-left: 30px;
 	margin-right: 30px;
 	margin-top: 170px;
-	margin-bottom: 100px;}
+	margin-bottom: 100px;
+	color:#4a433e;}
 
 .container-about h2{
 	font-size: 38pt;
@@ -550,6 +551,7 @@ letter-spacing: 2px;
 
 .container-fluid {
 	margin-right: 5px;
+	padding: 5px;
 }
 
 .card-body {
