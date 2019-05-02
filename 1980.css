@@ -808,8 +808,13 @@ article a {
         page-break-after: auto;
     }
 
-    .container-eu {
-        page-break-after: auto;
+    /*EU DIRECTIVE PRINT*/
+    .flex-container {
+        page-break-after: always;
+    }
+
+    .flex-container h2 {
+        font-size: 50pt;
     }
 
         /*PRINT DOCUMENTATION*/
