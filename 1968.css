@@ -504,6 +504,12 @@ margin-left:10px;
 
 .container-documentation p{margin-top: 30px;
 	font-family: Book Antiqua;}
+	
+.container-documentation section { padding: 5px;
+	border-top: 10%;
+	margin-top: 5px;
+
+}
 
 .container-documentation{margin-top: 100px;
 		padding-bottom: 100px;
