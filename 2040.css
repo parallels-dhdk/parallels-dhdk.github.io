@@ -516,6 +516,12 @@ article span:hover {
     color: yellow; 
 }
 
+#mainbody li{
+    font-family: comicsans;
+    font-size: 14pt;
+    text-align: left;
+    color: yellow; 
+}
 
 
 
@@ -1039,6 +1045,18 @@ article span:hover {
     
         #title-documentation {
             font-size: 60pt;
+        }
+
+        #mainbody ol{
+            color: black; 
+        }
+        
+        #mainbody ul{
+            color: black; 
+        }
+        
+        #mainbody li{
+            color: black; 
         }
 
 
