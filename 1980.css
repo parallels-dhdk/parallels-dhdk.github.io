@@ -811,6 +811,7 @@ article a {
     /*EU DIRECTIVE PRINT*/
     .container-eu {
         page-break-after: auto;
+        border: none;
     }
 
     .flex-container h2 {
@@ -842,4 +843,7 @@ article a {
         font-size: 60pt;
     }
 
+    @page {
+        border: double 25px ; 
+    }
 }
