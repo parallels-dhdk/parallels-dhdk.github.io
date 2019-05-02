@@ -92,8 +92,7 @@ margin-left:250px;
 }
 
 
-@media screen and (max-width: 700px) {
-#title{ font-size: 75pt;
+@media screen and (max-width: 700px) {#title{ font-size: 75pt;
 
 margin-left: 80px;
   margin-right:80px;
@@ -104,6 +103,8 @@ margin-left: 80px;
 margin-left:220px;
   margin-right:250px;
 }}
+
+
 
 #table-home-page{display: inline-block;
 				margin-left:25px;
@@ -989,7 +990,7 @@ margin-left: 100px;
   word-break: break-word;
 }}
 
-@media screen and (max-width: 1000px)  {.container-documentation p { font-size: 5.25pt;
+@media screen and (max-width: 1000px)  {.container-documentation p { font-size: 25.25pt;
 
 }}
 
