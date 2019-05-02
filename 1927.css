@@ -80,18 +80,6 @@ body{background-image: url("img/metallo5.jpg");
 	max-width:100%;
 	padding-top:10%;
 }
-@media screen and (max-width: 1200px) {#title{ font-size: 70pt;
-
-	margin-left:250px;
-	margin-right:250px;
-}}
-
-@media (width: 2560px){#title{font-size:180pt;
-        margin-left:740px;
-		margin-right:740px;}
-}
-
-
 
 
 #table-home-page{display: inline-block;
@@ -275,6 +263,7 @@ article span{
 		transform: rotate(-40deg);
 }
 
+/*media query home*/
 
 @media screen and (min-width: 100px) {
 	div.item1 {
@@ -367,6 +356,21 @@ div.item3 {
 	margin-bottom:10px;
 	margin-top: 600px;
 }}
+
+
+@media screen and (max-width: 1200px) {#title{ font-size: 70pt;
+
+	margin-left:250px;
+	margin-right:250px;
+}}
+
+@media (width: 2560px){#title{font-size:180pt;
+        margin-left:740px;
+		margin-right:740px;}
+}
+
+@media (width: 2560px){#table-home-page p{font-size:30pt;}}
+
 /*stile articoli*/
 	
 	 h2{ font-family:Typo Grotesk Black;
@@ -403,10 +407,6 @@ article{
 }
 
 
-@media screen and (max-width: 100px) {article { 
-  -webkit-column-count: 1; /* Chrome, Safari */
-  column-count: 1;
-} }
 
 
 article p{font-family:LibbyHeavy;
@@ -473,12 +473,70 @@ article p:after{content:"...}";
 	margin-top: 10px;
 	font-size:18.75pt;}
 
+	
+
+figcaption {font-family: hasta grotesk; 
+			text-orientation: upright;
+			writing-mode: vertical-lr; 
+			font-size:6pt;
+			margin-right:90px;
+			column-count:3;
+			margin-top:-40px;
+			margin-left:10px;
+
+}
+ figcaption:before {
+    content:"=";
+font-family:English Gothic Bold Italic;
+	font-size:60pt;	
+
+} 
+ hr{border: solid black;}
+ 
+ 
+/*media query article*/
+/* smaller phone viewpoints */
+@media (min-width: 320px) { figcaption { font-size:7.5pt;
+		margin-right:70px;
+		column-count:1;
+		margin-left:20px;
+}}
+
+/* mall devices and most phones */
+@media (min-width: 480px) { figcaption { font-size:8.25pt;
+		margin-right:70px;
+		column-count:3;
+		margin-left:20px;
+}}
+ 
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { figcaption { font-size:7.5pt;
+		margin-right:70px;
+		column-count:3;
+		margin-left:20px;
+}}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { figcaption { font-size: 7.5pt;
+		margin-right:90px;
+		column-count:3;
+}}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { figcaption{ 
+		overflow:hidden;
+		font-size: 8.25pt;
+		margin-right:90px;
+
+}}
+
+
 
 @media screen and (max-width: 1000px) {
  h3 { font-size: 15pt;
 }}
-
-
 
 
 @media screen and (max-width: 1200px) {article img{ 
@@ -487,8 +545,6 @@ width: 300px;
 margin-right:10%;
 
 }}
-
-
 
 
 @media screen and (max-width: 700px) {article img{ width:100px;
@@ -551,6 +607,12 @@ margin-left:50px;
 margin-left:50px
 }}
 
+@media screen and (max-width: 100px) {article { 
+  -webkit-column-count: 1; /* Chrome, Safari */
+  column-count: 1;
+} }
+
+
 /*table*/
  table {
   border:solid;
@@ -583,6 +645,8 @@ border-color:transparent;}
  td{ font-family:BitstreamIowanOldStyleBoldBT;
 	font-size: 9.75pt;  
 }
+
+/*media query table*/
 @media screen and (max-width: 700px) { table{ 
 	font-size: 6.75pt;
 	margin-right: 10px;}}
@@ -608,62 +672,7 @@ table th{
 }}
 
 
- figcaption {font-family: hasta grotesk; 
-			text-orientation: upright;
-			writing-mode: vertical-lr; 
-			font-size:6pt;
-			margin-right:90px;
-			column-count:3;
-			margin-top:-40px;
-			margin-left:10px;
-
-}
- figcaption:before {
-    content:"=";
-font-family:English Gothic Bold Italic;
-	font-size:60pt;	
-
-} 
- hr{border: solid black;}
-
-/* smaller phone viewpoints */
-@media (min-width: 320px) { figcaption { font-size:7.5pt;
-		margin-right:70px;
-		column-count:1;
-		margin-left:20px;
-}}
-
-/* mall devices and most phones */
-@media (min-width: 480px) { figcaption { font-size:8.25pt;
-		margin-right:70px;
-		column-count:3;
-		margin-left:20px;
-}}
  
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { figcaption { font-size:7.5pt;
-		margin-right:70px;
-		column-count:3;
-		margin-left:20px;
-}}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { figcaption { font-size: 7.5pt;
-		margin-right:90px;
-		column-count:3;
-}}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { figcaption{ 
-		overflow:hidden;
-		font-size: 8.25pt;
-		margin-right:90px;
-
-}}
-
-
 
 
 /*about*/
@@ -754,6 +763,8 @@ font-family:English Gothic Bold Italic;
 
 .card-text{margin-top:20px;}
 
+/*media query about*/
+
 @media screen and (max-width: 1200px) {#team{ font-size: 75pt;
 
 margin-left:500px;
@@ -801,6 +812,14 @@ margin-left: 100px;
 @media screen and (max-width: 1000px) { .container-about p { font-size: 7.5pt;
 
 }}
+
+
+
+@media (width: 2560px){
+	.container-about p {font-size:15pt;}
+	.container-about {padding-left:30px;
+	padding-right:30px;}
+	.container-about h5{font-size:30pt;}}
 /*documentation*/
 
 
@@ -865,44 +884,6 @@ margin-right:50px;
 #duemilaquaranta{margin-left: 470px;
 margin-right:60px;
 }
-
-
-
-@media screen and  (max-width: 800px){#millecinque{margin-left: auto;
-margin-right:auto;}
-
-#milleottocolfagotto{margin-left: auto;
-margin-right:auto;
-}
-
-#ventisettetrecivette{margin-left: auto;
-margin-right:auto;
-}
-
-#sessantottoadirotto{margin-left: auto;
-margin-right:auto;
-}
-
-#ottantalasaracanta{margin-left: auto;
-margin-right:auto;
-}
-
-#duemilaquaranta{margin-left: auto;
-margin-right:auto;
-}
-.container-documentation h3{margin-left: auto;
-margin-right:auto;}
-}
-
-
-
-
-/* mall devices and most phones */
-@media (min-width: 480px) {#duemilaquaranta { margin-left:360px;
-}}
-
-
-
 .container-documentation p:after {content:"...}";
 font-family:English Gothic Bold Italic;
 	margin-top: 10px;
@@ -979,6 +960,42 @@ margin-left:200px;
 
 
 
+/*media query documentation*/
+@media screen and  (max-width: 800px){#millecinque{margin-left: auto;
+margin-right:auto;}
+
+#milleottocolfagotto{margin-left: auto;
+margin-right:auto;
+}
+
+#ventisettetrecivette{margin-left: auto;
+margin-right:auto;
+}
+
+#sessantottoadirotto{margin-left: auto;
+margin-right:auto;
+}
+
+#ottantalasaracanta{margin-left: auto;
+margin-right:auto;
+}
+
+#duemilaquaranta{margin-left: auto;
+margin-right:auto;
+}
+.container-documentation h3{margin-left: auto;
+margin-right:auto;}
+}
+
+
+
+
+/* mall devices and most phones */
+@media (min-width: 480px) {#duemilaquaranta { margin-left:360px;
+}}
+
+
+
 @media screen and (max-width: 700px) {#title-documentation{ font-size: 37.5pt;
 
 margin-left: 100px;
@@ -996,7 +1013,18 @@ margin-left: 100px;
 }}
 
 
+@media (width: 2560px){
+    #title-documentation { 
+		font-size:150pt;
+        margin-left:580px;
+		margin-right:580px;
+	
+    }
+	.container-documentation p{font-size:22.5pt;}
+	#milleottocolfagotto p{font-size:30pt;}
 
+	
+}
 
 /*eudirective*/
 
@@ -1076,7 +1104,8 @@ margin-left: 100px;
 .container-eu h2{margin-top:20px;
 	font-size:45pt;}
 	
-@media screen and (max-width: 1000px) { .container-eu p { font-size: 5.25pt;
+
+	@media screen and (max-width: 1000px) { .container-eu p { font-size: 5.25pt;
 
 }}
 
@@ -1084,25 +1113,9 @@ margin-left: 100px;
 
 
 
-@media (width: 2560px){#table-home-page p{font-size:30pt;}}
-@media (width: 2560px){
-	.container-about p {font-size:15pt;}
-	.container-about {padding-left:30px;
-	padding-right:30px;}
-	.container-about h5{font-size:30pt;}}
 
-@media (width: 2560px){
-    #title-documentation { 
-		font-size:150pt;
-        margin-left:580px;
-		margin-right:580px;
-	
-    }
-	.container-documentation p{font-size:22.5pt;}
-	#milleottocolfagotto p{font-size:30pt;}
 
-	
-}
+
 
 
 
