@@ -1052,6 +1052,10 @@ article span:hover {
             color: black;    
         }
 
+        article section{
+            color: black;
+            }
+
         figcaption{
             background: none;
            color: black;
@@ -1078,5 +1082,38 @@ article span:hover {
             background: none;
             color: black;
           }
+
+
+
+        /*PRINT: EU DIRECTIVE */
+        .container-eu {
+        page-break-after: auto;
+        background: none;
+        }
+
+        .flex-container h3{
+        color: black;
+        background: none;
+        }
+        
+        .flex-container p {
+        color: black;
+        }   
+
+        .flex-container a {
+        color: black;
+        }
+
+        .flex-container span {
+            color: black;
+            -webkit-animation: none;
+            animation: none; 
+        }
+  
+        .flex-container span:hover {
+            color: black;
+            -webkit-animation: none;
+            animation: none;
+        }
           
     }
