@@ -948,7 +948,6 @@ article span:hover {
 
         .index-container {
             zoom:70%;
-            border: none;
         }
 
         /*PRINT: ABOUT*/
@@ -959,7 +958,8 @@ article span:hover {
 
         .container-about {
                 background: none;
-                zoom:60%
+                zoom:60%;
+                border: none;
             }
 
         .description{
@@ -989,6 +989,7 @@ article span:hover {
         /*PRINT: DOCUMENTATION*/
         .container-documentation { 
             background: none;
+            border: none;
         }
 
         .container-documentation h3 {
@@ -1043,6 +1044,7 @@ article span:hover {
         
         article { 
             background: none;
+            border: none;
         }
 
         article h3 {
@@ -1091,6 +1093,7 @@ article span:hover {
         .container-eu {
         page-break-after: auto;
         background: none;
+        border: none;
         }
 
         .flex-container h3{
