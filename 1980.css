@@ -809,8 +809,8 @@ article a {
     }
 
     /*EU DIRECTIVE PRINT*/
-    .flex-container {
-        page-break-after: always;
+    .container-eu {
+        page-break-after: auto;
     }
 
     .flex-container h2 {
