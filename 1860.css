@@ -368,6 +368,7 @@ article section {
 
 section > p{
   margin-top: 10px;
+
 }
 
 
@@ -772,6 +773,9 @@ section p {
   column-count: 2;
 }
 section p {
+  font-size: 8pt;
+}
+section a { 
   font-size: 8pt;
 }
 .index-container p {font-size: 8pt;}
