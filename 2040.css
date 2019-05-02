@@ -967,11 +967,11 @@ article span:hover {
             
             #team {
                 color: black;
-                background-color: none;
+                background: none;
             }
             
             .card {
-                background-color:none;
+                background:none;
             }
             
            .card-text {
@@ -992,7 +992,7 @@ article span:hover {
 
         .container-documentation h3 {
             color: black;
-            background-color: none;
+            background: none;
         }
 
         .container-documentation h4 {
@@ -1045,7 +1045,7 @@ article span:hover {
 
         article h3 {
             color: black;
-            background-color: none;
+            background: none;
         }
         
         article h4 {
@@ -1053,7 +1053,7 @@ article span:hover {
         }
 
         figcaption{
-            background-color: none;
+            background: none;
            color: black;
         }
         
@@ -1070,12 +1070,12 @@ article span:hover {
 
         /*PRINT: TABLE*/  
         #mainbody tr:nth-of-type(odd) {
-            background-color: none;
+            background: none;
             color:black;
           }
           
           #mainbody tr:nth-of-type(even) {
-            background-color: none;
+            background: none;
             color: black;
           }
           
