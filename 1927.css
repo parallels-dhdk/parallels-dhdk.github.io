@@ -438,13 +438,7 @@ color: black;}
 
 article a:visited {
 color: red;}
-  @media screen and (max-width: 600px) {
-  article { 
-  -webkit-column-count: 1; /* Chrome, Safari */
-  column-count: 1;
-} 
-	}
-
+  
 	
 	
 #mainbody h3{
@@ -453,6 +447,106 @@ color: red;}
 	margin-top:5%;
 	margin-left: 10%;}
 
+#mainbody h4{ font-family:Bernhard Antique;
+	color:red;
+	font-size: 30px;
+	text-transform:uppercase;
+}
+
+
+
+#mainbody  #mainbody h5 {  font-family:SchmalfetteCPt;
+  
+}
+
+
+#mainbody h6{ font-family:hasta grotesk;
+font-style: bold;
+	
+}
+
+
+article img{
+	height: auto;
+	filter: grayscale(100%);
+	transform:rotate(20deg);
+	-webkit-transform: rotate(20deg); /* Safari and Chrome */
+	-ms-transform: rotate(20deg);
+	margin-top:150px;
+	margin-bottom: 140px;
+	margin-right:20%;
+	margin-left: 10%;
+	max-width: 70%;	
+	border: 5px solid;
+
+}
+
+article p:after{content:"...}";
+	font-family:English Gothic Bold Italic;
+	margin-top: 10px;
+	font-size:18.75pt;}
+
+	@media screen and (max-width: 1000px) {
+#mainbody section { font-size: 5.25pt;
+}}
+
+
+@media screen and (max-width: 1000px) {
+#mainbody h3 { font-size: 15pt;
+}}
+
+
+@media screen and (max-width: 800px) {article { 
+  -webkit-column-count: 1; /* Chrome, Safari */
+  column-count: 1;
+  margin-left:40px; 
+  margin-right:40px;}
+  }
+
+@media screen and (max-width: 1000px) {
+article { 
+  margin-left:50px; 
+  margin-right:50px;
+}
+}
+
+@media screen and (max-width: 1200px) {article img{ 
+
+width: 300px;
+margin-right:10%;
+
+}}
+
+
+@media screen and (max-width: 1000px) {article img{ 
+	width:330px;
+	margin-left: 10%
+}}
+
+
+@media screen and (max-width: 700px) {article img{ width:100px;
+	transform:none;
+	width: 300px;
+
+}}
+
+
+
+@media screen and (max-width: 1000px) {#mainbody h6 { font-size: 6pt;
+
+
+}}
+
+@media screen and (max-width: 1000px) { article p { font-size: 5.25pt;
+
+}}	
+
+@media screen and (max-width: 600px) {
+  article { 
+  -webkit-column-count: 1; /* Chrome, Safari */
+  column-count: 1;
+} 
+	}
 
 
 @media screen and (max-width: 1200px) {#mainbody h2{ font-size: 37.5pt;
@@ -482,6 +576,20 @@ margin-left:50px;
 
 }}
 
+
+
+
+
+@media screen and (max-width: 1000px) { #mainbody h4 { font-size: 11.25pt;
+
+
+}}
+
+@media screen and (max-width: 1000px) {#mainbody h5 { font-size: 7.5pt;
+
+
+}}
+
 @media screen and (max-width: 1000px) {#mainbody h3 { font-size: 22.5pt;
 
 margin-left:50px;
@@ -492,100 +600,6 @@ margin-left:50px;
 margin-left:50px
 }}
 
-
-
-#mainbody h4{ font-family:Bernhard Antique;
-	color:red;
-	font-size: 30px;
-	text-transform:uppercase;
-}
-@media screen and (max-width: 1000px) { #mainbody h4 { font-size: 11.25pt;
-
-
-}}
-
-#mainbody  #mainbody h5 {  font-family:SchmalfetteCPt;
-  
-}
-
-@media screen and (max-width: 1000px) {#mainbody h5 { font-size: 7.5pt;
-
-
-}}
-
-#mainbody h6{ font-family:hasta grotesk;
-font-style: bold;
-	
-}
-@media screen and (max-width: 1000px) {#mainbody h6 { font-size: 6pt;
-
-
-}}
-
-@media screen and (max-width: 1000px) { article p { font-size: 5.25pt;
-
-}}
-
-article img{
-	height: auto;
-	filter: grayscale(100%);
-	transform:rotate(20deg);
-	-webkit-transform: rotate(20deg); /* Safari and Chrome */
-	-ms-transform: rotate(20deg);
-	margin-top:150px;
-	margin-bottom: 140px;
-	margin-right:20%;
-	margin-left: 10%;
-	max-width: 70%;	
-	border: 5px solid;
-
-}
-@media screen and (max-width: 1200px) {article img{ 
-
-width: 300px;
-margin-right:10%;
-
-}}
-
-
-@media screen and (max-width: 1000px) {article img{ 
-	width:330px;
-	margin-left: 10%
-}}
-
-
-@media screen and (max-width: 700px) {article img{ width:100px;
-	transform:none;
-	width: 300px;
-
-}}
-article p:after{content:"...}";
-	font-family:English Gothic Bold Italic;
-	margin-top: 10px;
-	font-size:18.75pt;}
-
-	@media screen and (max-width: 1000px) {
-#mainbody section { font-size: 5.25pt;
-}}
-@media screen and (max-width: 1000px) {
-#mainbody h3 { font-size: 15pt;
-}}
-
-@media screen and (max-width: 800px) {article { 
-  -webkit-column-count: 1; /* Chrome, Safari */
-  column-count: 1;
-  margin-left:40px; 
-  margin-right:40px;}
-  }
-
-@media screen and (max-width: 1000px) {
-article { 
-  margin-left:50px; 
-  margin-right:50px;
-}
-}
-
-	
 /*table*/
 #mainbody table {
   border:solid;
@@ -619,30 +633,7 @@ border-color:transparent;}
 	font-size: 9.75pt;  
 }
 
-@media screen and (max-width: 700px) {#mainbody table{ 
-	font-size: 6.75pt;
-	margin-right: 10px;}}
 
-
-@media screen and (max-width: 300px) {#mainbody table{
-	margin-left:1px;
-	margin-right:-200px;
-	word-break: break-word;
-}}
-
-
-
-@media screen and (max-width: 300px) {#mainbody table th{ 
-	font-size: 11.25pt;
-	word-break: break-word;
-}}
-
-
-@media screen and (min-width: 300px) {#mainbody table th{
-	word-break: break-word;
-	font-size:11.25pt;
-
-}}
 #mainbody figcaption {font-family: hasta grotesk; 
 			text-orientation: upright;
 			writing-mode: vertical-lr; 
@@ -659,9 +650,7 @@ font-family:English Gothic Bold Italic;
 	font-size:60pt;	
 
 } 
-
-
-
+#mainbody hr{border: solid black;}
 
 /* smaller phone viewpoints */
 @media (min-width: 320px) {#mainbody figcaption { font-size:7.5pt;
@@ -700,9 +689,32 @@ font-family:English Gothic Bold Italic;
 
 }}
 
-#mainbody hr{border: solid black;}
 
 
+@media screen and (max-width: 700px) {#mainbody table{ 
+	font-size: 6.75pt;
+	margin-right: 10px;}}
+
+
+@media screen and (max-width: 300px) {#mainbody table{
+	margin-left:1px;
+	margin-right:-200px;
+	word-break: break-word;
+}}
+
+
+
+@media screen and (max-width: 300px) {#mainbody table th{ 
+	font-size: 11.25pt;
+	word-break: break-word;
+}}
+
+
+@media screen and (min-width: 300px) {#mainbody table th{
+	word-break: break-word;
+	font-size:11.25pt;
+
+}}
 
 /*about*/
 .container-about{margin-top: 100px;
@@ -734,9 +746,7 @@ margin-top: 20px;
 margin-left:20px;
 margin-right:20px;}
 
-@media screen and (max-width: 1000px) { .container-about p { font-size: 7.5pt;
-
-}}	
+	
 	
 .description{margin-top:30px;}
 	
@@ -758,6 +768,61 @@ margin-right:20px;}
 }
 	
 
+#team{font-family:FatCow-Italic;
+	font-size: 112.5pt;
+	color:black;
+	text-decoration:underline;
+	transform:none;
+	-webkit-transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+	margin-top:10px;
+	margin-bottom:10%;
+	margin-left:10%;
+}
+
+
+.card-deck{margin-bottom:30px;
+			margin-top:30px;}
+
+.card{border-color:transparent;
+		background-image:url("img/sfondo puntini.png");
+		margin-top:30px;
+}
+
+.card-img-top{ display: block;
+				margin-left: auto; 
+				margin-right: auto; 
+				width: 50%; 
+				border-radius: 70%;
+				filter: grayscale(100%);
+				transform:rotate(20deg);
+				-webkit-transform: rotate(20deg); /* Safari and Chrome */
+				-ms-transform: rotate(20deg);
+				border: 5px solid;}
+
+.card-text{margin-top:20px;}
+
+@media screen and (max-width: 1200px) {#team{ font-size: 75pt;
+
+margin-left:500px;
+
+}}
+
+
+
+@media screen and (max-width: 1000px) {#team { font-size: 75pt;
+
+margin-left:165px;
+  margin-right:165px;
+}}
+
+
+@media screen and (max-width: 700px) {#team{ font-size: 75pt;
+
+margin-left: 100px;
+  margin-right:100px;
+}}
 
 @media screen and (max-width: 1200px) {#title-about{ font-size: 112.5pt;
 
@@ -782,64 +847,9 @@ margin-left: 100px;
 }}
 
 
-#team{font-family:FatCow-Italic;
-	font-size: 112.5pt;
-	color:black;
-	text-decoration:underline;
-	transform:none;
-	-webkit-transform: none;
-	-o-transform: none;
-	-moz-transform: none;
-	margin-top:10px;
-	margin-bottom:10%;
-	margin-left:10%;
-}
-@media screen and (max-width: 1200px) {#team{ font-size: 75pt;
-
-margin-left:500px;
+@media screen and (max-width: 1000px) { .container-about p { font-size: 7.5pt;
 
 }}
-
-
-
-@media screen and (max-width: 1000px) {#team { font-size: 75pt;
-
-margin-left:165px;
-  margin-right:165px;
-}}
-
-
-@media screen and (max-width: 700px) {#team{ font-size: 75pt;
-
-margin-left: 100px;
-  margin-right:100px;
-}}
-
-.card-deck{margin-bottom:30px;
-			margin-top:30px;}
-
-.card{border-color:transparent;
-		background-image:url("img/sfondo puntini.png");
-		margin-top:30px;
-}
-
-.card-img-top{ display: block;
-				margin-left: auto; 
-				margin-right: auto; 
-				width: 50%; 
-				border-radius: 70%;
-				filter: grayscale(100%);
-				transform:rotate(20deg);
-				-webkit-transform: rotate(20deg); /* Safari and Chrome */
-				-ms-transform: rotate(20deg);
-				border: 5px solid;}
-
-.card-text{margin-top:20px;}
-
-
-
-
-
 /*documentation*/
 
 
@@ -888,16 +898,6 @@ font-size:50px;}
 #duemilaquaranta{margin-left: 470px;
 margin-right:60px;
 font-size:60px;}
-@media screen and (max-width: 1000px)  {.container-documentation p { font-size: 5.25pt;
-
-}}
-
-
-/* mall devices and most phones */
-@media (min-width: 480px) {#duemilaquaranta { margin-left:360px;
-}}
-
-
 
 
 .container-documentation p:after {content:"...}";
@@ -933,28 +933,6 @@ padding-bottom:50px;
 	font-style: bold;
 }
 
-@media screen and (max-width: 1200px) {#title-documentation{ font-size: 35pt;
-
-margin-left:250px;
-  margin-right:350px;
-}}
-
-
-
-@media screen and (max-width: 1000px) {#title-documentation { font-size: 53pt;
-
-margin-left:200px;
-  margin-right:200px;
-  word-break: break-word;
-}}
-
-
-@media screen and (max-width: 700px) {#title-documentation{ font-size: 37.5pt;
-
-margin-left: 100px;
-  margin-right:100px;
-  word-break: break-word;
-}}
 
 .container-documentation h3:before{content:"→";
 font-size:100px;
@@ -988,6 +966,39 @@ color: black;}
 
 .container-documentation a:visited {
 color: red;}
+@media screen and (max-width: 1200px) {#title-documentation{ font-size: 35pt;
+
+margin-left:250px;
+  margin-right:350px;
+}}
+
+
+
+@media screen and (max-width: 1000px) {#title-documentation { font-size: 53pt;
+
+margin-left:200px;
+  margin-right:200px;
+  word-break: break-word;
+}}
+
+
+@media screen and (max-width: 700px) {#title-documentation{ font-size: 37.5pt;
+
+margin-left: 100px;
+  margin-right:100px;
+  word-break: break-word;
+}}
+
+@media screen and (max-width: 1000px)  {.container-documentation p { font-size: 5.25pt;
+
+}}
+
+
+/* mall devices and most phones */
+@media (min-width: 480px) {#duemilaquaranta { margin-left:360px;
+}}
+
+
 
 
 /*eudirective*/
@@ -1042,9 +1053,6 @@ color: red;}
 				margin-right:20px;
 }
 
-@media screen and (max-width: 1000px) { .container-eu p { font-size: 5.25pt;
-
-}}
 
 .container-eu a{font-family: Futurismo; 
 				color:black;
@@ -1069,7 +1077,9 @@ color: red;}
 .container-eu h2{margin-top:20px;
 	font-size:45pt;}
 	
+@media screen and (max-width: 1000px) { .container-eu p { font-size: 5.25pt;
 
+}}
 
 
 
@@ -1081,7 +1091,6 @@ color: red;}
 	.container-about {padding-left:30px;
 	padding-right:30px;}
 	.container-about h5{font-size:30pt;}}
-
 
 @media (width: 2560px){
     #title-documentation { 
@@ -1095,6 +1104,13 @@ color: red;}
 
 	
 }
+
+
+
+
+
+
+
 
 
 
