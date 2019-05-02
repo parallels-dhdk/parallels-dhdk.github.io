@@ -64,11 +64,12 @@ body {
 
 
 .grid-container a {
-	color: transparent;
+	visibility: hidden;
 }
 
 .grid-container a:hover {
 	color: #4a433e;
+	visibility: visible;
 }
 
 
