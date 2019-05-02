@@ -974,6 +974,16 @@ article span:hover {
         }
     }
 
+    @media (max-width: 375px){
+        .flex-container h2 {
+            font-size: 20pt;
+        }
+
+        .container-documentation h2 {
+            font-size: 40pt;
+        }
+    }
+
 
 
 
