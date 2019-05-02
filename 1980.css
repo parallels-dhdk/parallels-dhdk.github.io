@@ -776,6 +776,24 @@ article a {
     .container-documentation h2 {
         font-size: 60pt;
     }
+}
 
 
+@media only print {
+    .nav {
+        display: none;
+    }
+
+    #timeline-wrap {
+        display:none;
+    }
+
+    .footer {
+        display:none;
+    }
+
+    .grid-container {
+        display: block; 
+        page-break-before: always;
+    }
 }
