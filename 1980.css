@@ -793,7 +793,7 @@ article a {
     }
 
     .grid-container {
-        height:100%;
-        width:100%;
+        display: block; 
+        page-break-before: always;
     }
 }
