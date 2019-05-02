@@ -805,7 +805,7 @@ article a {
     }
 
     article section{
-        page-break-after: always;
+        page-break-after: auto;
     }
 
     .container-eu {
