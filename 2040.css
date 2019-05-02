@@ -900,6 +900,8 @@ article span:hover {
             color: #B6FF00;
             font-family: comicsans;
             text-align:center;
+            font-size: 16pt;
+            line-height: 3em;
         }
         
         .container-documentation span:hover {
