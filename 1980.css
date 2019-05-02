@@ -797,14 +797,14 @@ article a {
     }
 
     .index-container {
-    zoom:75%;
+        zoom:75%;
     }
 
     .container-about{
         zoom:70%;
     }
 
-    article {
+    article section{
         page-break-after: auto;
     }
 
@@ -812,8 +812,8 @@ article a {
         page-break-after: auto;
     }
 
-    .container-documentation {
-        page-break-after: auto;
+    #milleottocolfagotto {
+        page-break-after:always;
     }
 
 }
