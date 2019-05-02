@@ -306,8 +306,9 @@ article p{	margin-top: 30px;
 
 section {margin-top: 30px;
 		font-family: Book Antiqua;}
-	
-	
+section p {margin-top: 30px;
+		font-family: Book Antiqua;}
+
  li{font-family: Book Antiqua;}
 
 article span{font-family: Book Antiqua;
