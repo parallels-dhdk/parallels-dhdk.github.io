@@ -664,12 +664,12 @@ ul {
 	width: 100px;}
 	.card-text {
 	font-size: 9pt;}
-	.container-documentation {
+	.container-documentation section{
 	margin: 25px;
-	padding-top: 120px;
-	padding-bottom: 120px;
-	padding-left: 90px;
-	padding-right: 70px;
+	padding-top: 130px;
+	padding-bottom: 130px;
+	padding-left: 120px;
+	padding-right: 100px;
 	-webkit-column-gap: 130px; /* Chrome, Safari */
   	column-gap: 130px;}
 	.container-documentation p:first-letter {
@@ -803,7 +803,7 @@ ul {
 @media screen and (max-width: 950px) {
 	.container-about h2{
 	font-size: 26pt;}
-	.container-documentation {
+	.container-documentation section{
 	margin: 20px;
 	padding-top: 110px;
 	padding-bottom: 110px;
@@ -896,7 +896,7 @@ ul {
 	.card-title-sara:before {
 	height: 100px;
 	width: 80px;}
-	.container-documentation {
+	.container-documentation section{
 	margin: 15px;
 	padding-top: 90px;
 	padding-bottom: 90px;
@@ -989,7 +989,7 @@ ul {
 	.container-documentation p:first-letter {
 	font-size: 15pt;
 	height: 10px;}
-	.container-documentation {
+	.container-documentation section{
 	font-size: 6pt;
 	margin: 5px;
 	padding-left: 60px;
