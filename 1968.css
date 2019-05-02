@@ -83,6 +83,7 @@ body{background-image: url("img/cassette3.jpg");
 }
 
 	
+
 #title{ font-family:  ITC Avant Garde Gothic LT Book Regular;
 		font-size: 140pt;
 		text-align:left;
@@ -97,7 +98,6 @@ body{background-image: url("img/cassette3.jpg");
  }
 
 
-
 @media screen and (max-width: 1000px) {#title{ font-size:85pt;
 letter-spacing:-20px;
 margin-left: 30px;
@@ -110,10 +110,11 @@ margin-right:510px;
 
 
 
-tr{border-top:solid;
+
+tr{border-top:solid;@media screen and (max-width: 1000px)
+
 border-width: thin;}
 }
-
 #table-home-page  { display: inline-block;
 
 }
@@ -207,7 +208,7 @@ article{
 		margin-right:90px;
 		background-image:url("img/sfondo2.png");
 		text-align:justify;
-		font-size: 11.25pt;
+		font-size: 11pt;
 		padding-right:50px;
 		padding-left: 50px;
 		padding-bottom: 50px;
@@ -247,7 +248,7 @@ color: black;}
 } }
 
 
- h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
+h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
 	font-size: 80pt;
 	text-align:left;
 	margin-top: 10%;
@@ -257,14 +258,10 @@ color: black;}
 	font-weight: bold;
 	font-style:italic;}
 
-section {font-family:LibbyHeavy;
-font-size: 7.5pt;
-}	
 
 @media screen and (max-width: 1000px) {  h1{ font-size: 22.5pt;
 letter-spacing:2px;
 }}
-
 
 h2{ font-family:Windsor-Bold;
 	font-size: 15pt;
@@ -279,21 +276,15 @@ h2{ font-family:Windsor-Bold;
 
 
 @media screen and (max-width: 1200px) { h2{ font-size: 37.5pt;
-	margin-left:20px;
-	margin-right: 20px;
+margin-left:20px;
+margin-right: 20px;
 }}
 
-
-
-@media screen and (max-width: 1000px) { h2 { font-size:22.5pt;
-
-
-}}
 
 
 @media screen and (max-width: 700px) { h2{ font-size:15pt;
-	margin-right:10px;
-	margin-left:10px;
+margin-right:10px;
+margin-left:10px;
 }}	
 
 /* smaller phone viewpoints */
@@ -313,7 +304,7 @@ article p{	margin-top: 30px;
 	}
 	
 
- section {margin-top: 30px;
+section {margin-top: 30px;
 		font-family: Book Antiqua;}
 	
 	
@@ -377,9 +368,10 @@ text-transform:uppercase;}
 	-webkit-filter: blur(0px) brightness(1.1) contrast(1.4) grayscale(0.39) hue-rotate(250deg) invert(0.1) opacity(100%) saturate(8.8) sepia(0.5) drop-shadow(0px 0px 5px #000);
 }
 
-.container-about span{font-family: Book Antiqua;
+article span{font-family: Book Antiqua;
 			font-style: oblique;} 
 		
+ 
 #title-about{font-family:Cooper Std Black;
 
 	font-size: 97.5pt;
@@ -549,7 +541,7 @@ margin-right:30px;}
 
 #title-documentation{font-family:VikingStencil;
 	font-size: 75pt;
-	 column-span: all;
+	column-span: all;
 	text-align: center;
 	margin-left:11.25pt;
 	margin-top:30px;
@@ -557,21 +549,12 @@ margin-right:30px;}
 	color: #003366;}
 	   
 
-
 .container-documentation h3{	border-top:solid;
 	border-width: thin;
 	font-weight: bold;
 	padding-top:5px;
-	font-size:70pt;
-	font-family:ITC Avant Garde Gothic LT Book Regular;
-	text-transform: uppercase;
-	letter-spacing:-2px;
-	text-align:left;
-	font-size:15pt;
-	margin-right:40%;
-	margin-left:30px;
-	margin-top:20px;
-	margin-bottom:20px;
+	font-size:50pt;
+
 }
 
 
@@ -583,18 +566,21 @@ margin-right:30px;}
 
 
 @media screen and (max-width: 1000px) {#title-documentation { font-size: 38pt;
-	letter-spacing: -1px;
+letter-spacing: -1px;
 }}
 
 
 
 .container-documentation h4{font-family: Koch Regular;
-	text-transform: uppercase;
-	letter-spacing:-12px;
-	font-size:43pt;
-	text-align:center;
+  text-transform: uppercase;
+  letter-spacing:-12px;
+  font-size:43pt;
+text-align:center;
 
 }
+
+
+
 .container-documentation a{font-family: Futura Book font; 
 			color:black;
 			font-size:11.25pt;
@@ -603,10 +589,10 @@ margin-right:30px;}
 
 }
  .container-documentation a:active {
-	color: black;}
+color: black;}
 
  .container-documentation a:visited {
-	color: black;}
+color: black;}
 
 
 
@@ -618,7 +604,7 @@ margin-right:30px;}
     margin: 0 auto;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
-	text-align:justify;
+	 text-align:justify;
 
 	}
 
@@ -671,10 +657,10 @@ margin-right:30px;}
 	margin-left: 30px;
 }
 .container-eu  a:active {
-	color: black;}
+color: black;}
 
 .container-eu  a:visited {
-	color: black;}
+color: black;}
 
 .container-eu span{font-family: Book Antiqua;
   font-style: oblique;}
@@ -691,23 +677,10 @@ margin-right:30px;}
 	font-size:11.25pt;
 }
 .container-eu td{font-family:ITC Avant Garde Gothic LT Book Regular;
-	  text-transform: uppercase;
-	  font-size: 9.75pt;
-	  color: #2E8B57;
-	  text-align:left;}
-
-	.contanier-eu h3{font-family:ITC Avant Garde Gothic LT Book Regular;
-	text-transform: uppercase;
-	letter-spacing:-2px;
-	text-align:left;
-	font-size:15pt;
-	border-top:solid;
-	margin-right:40%;
-	margin-left:30px;
-	margin-top:20px;
-	margin-bottom:20px;
-}
-
+  text-transform: uppercase;
+  font-size: 9.75pt;
+  color: 	#2E8B57;
+	text-align:left;}
 /*table*/
    table{margin-left:auto;
 	margin-right:auto;
@@ -740,8 +713,21 @@ margin-right:30px;}
 	word-break: break-word;
 }}
 
+/*devo inserirli??*/
+#mainbody a{font-family: Futura Book Regular; 
+			color:black;
+			font-size:11.25pt;
+			padding-bottom:10px;
+			margin-left: 30px;
+			text-align: left;
+}
 
 
+#mainbody a:active {
+color: black;}
+
+#mainbody a:visited {
+color: black;}
 
 @media (width: 2560px){
     #title-documentation { 
@@ -752,8 +738,10 @@ margin-right:30px;}
 	padding-top:20px;
 	margin-top:20px;}
 	
-
+	
 	
 	 .index-container h3{font-size:37.5pt;}
 	 
 }
+
+

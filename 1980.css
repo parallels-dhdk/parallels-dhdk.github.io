@@ -793,7 +793,8 @@ article a {
     }
 
     .index-container {
-        display: block; 
-        page-break-before: always;
+        width: 21cm;
+        height:29.7cm;
+        
     }
 }
