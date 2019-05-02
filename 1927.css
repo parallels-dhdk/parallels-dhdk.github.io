@@ -354,8 +354,6 @@ div.item3 {
 /*stile articoli*/
 	
 	 h2{ font-family:Typo Grotesk Black;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	text-transform: uppercase;
 	font-size: 52.5pt;
 	border-bottom:7px solid;
@@ -369,10 +367,6 @@ div.item3 {
 
 
 article h2{ font-family:Typo Grotesk Black;
-=======
->>>>>>> parent of ffb5b7f... pulizia
-=======
->>>>>>> parent of ffb5b7f... pulizia
 	text-transform: uppercase;
 	font-size: 52.5pt;
 	border-bottom:7px solid;
@@ -426,10 +420,8 @@ article a:active {
 
 article a:visited {
 	color: red;}
-  
+
 	
-<<<<<<< HEAD
-<<<<<<< HEAD
 article section {font-family:LibbyHeavy;
 font-size: 7.5pt;
 }	
@@ -439,14 +431,6 @@ font-size: 7.5pt;
 }
  
 article	h3{
-=======
-	
- h3{
->>>>>>> parent of ffb5b7f... pulizia
-=======
-	
- h3{
->>>>>>> parent of ffb5b7f... pulizia
 	font-family: FatCow-Italic;
 	font-size:30pt;
 	margin-top:5%;
@@ -600,13 +584,7 @@ border-color:transparent;}
 @media screen and (max-width: 700px) { table{ 
 	font-size: 6.75pt;
 	margin-right: 10px;}}
-<<<<<<< HEAD
 
-
-=======
-
-
->>>>>>> parent of ffb5b7f... pulizia
 @media screen and (max-width: 300px) { table{
 	margin-left:1px;
 	margin-right:-200px;
@@ -1091,17 +1069,11 @@ font-family:English Gothic Bold Italic;
 
 /*extra*/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 hr{border:2px solid black;}
 
  li{font-family: hasta grotesk;}
 	
-	
-=======
->>>>>>> parent of ffb5b7f... pulizia
-=======
->>>>>>> parent of ffb5b7f... pulizia
 #mainbody ol{font-family:LibbyHeavy;
 	font-size: 7.5pt;
 } 
