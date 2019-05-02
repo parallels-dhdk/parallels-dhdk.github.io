@@ -748,10 +748,12 @@ ul  {list-style-type: disc;}
   #title { 
   font-size: 60pt;
 }
-p {
+section p {
   font-size: 9pt;
 }
-
+.index-container p {font-size: 9pt;}
+.eu-container p {font-size: 9pt;}
+.documentation-container p {font-size: 9pt;}
  }
 
 
@@ -762,15 +764,23 @@ p {
   -webkit-column-count: 2; /* Chrome, Safari */
   column-count: 2;
 }
-p {
+section p {
   font-size: 8pt;
 }
+.index-container p {font-size: 8pt;}
+.eu-container p {font-size: 8pt;}
+.documentation-container p {font-size: 8pt;}
 }
 
 
 
-@media screen and (max-width: 600px) {article { 
+@media screen and (max-width: 600px) {
+  article { 
   -webkit-column-count: 1; /* Chrome, Safari */
   column-count: 1;
-} }
+} 
+  #title { 
+  font-size: 40pt;
+}
+}
 
