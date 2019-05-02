@@ -114,6 +114,7 @@
           }
 
           .marker{
+            top:-25px;
             line-height: 50px;
             font-size: 12pt;
             text-align: center;
@@ -121,36 +122,27 @@
             margin-left: -20px;
           }
 
-          .mfirst{
-              top:-25px;
-          }
+        
 
           .m2{
-              top:-25px;
                 left:20%
           }
 
           .m3{
-              top:-25px;
               left:40%
           }
 
           .m4{
-              top:-25px;
               left:60%
           }
 
           .m5{
-            top:-25px;
               left:80%
             }
 
           .mlast{
-              top:-25px;
               left:100%
           }
-
-
 
           .year {margin-top: -60%;}
 
