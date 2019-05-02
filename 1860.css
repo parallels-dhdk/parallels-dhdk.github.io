@@ -276,7 +276,7 @@ h1 {
 
 
 h2 { 
-  font-size: 17pt;
+  font-size: 18pt;
   font-family: myBodoniCondensed;
   text-align: center;
   letter-spacing: 1.5px;
@@ -295,7 +295,7 @@ h3 {
   padding-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 10px
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 
@@ -368,6 +368,7 @@ article section {
 
 section > p{
   margin-top: 10px;
+
 }
 
 
@@ -577,6 +578,12 @@ figcaption {
 }
 
 
+#title-documentation {
+  font-size: 22pt;
+}
+
+
+
 /*---------ABOUT----------*/
 
 
@@ -740,12 +747,22 @@ section ul  {list-style-type: disc;}
   #title { 
   font-size: 75pt;
 } 
+#title-documentation {
+  font-size: 20pt;
+}
+
  h2 {
   font-size: 15pt;
  }
  h3 {
   font-size: 12pt;
  }
+  #title-about { 
+  font-size: 75pt;
+} 
+#team:after{ 
+  font-size: 75pt;
+} 
 }
 
 
@@ -754,6 +771,9 @@ section ul  {list-style-type: disc;}
   font-size: 60pt;
 }
 section p {
+  font-size: 9pt;
+}
+section a {
   font-size: 9pt;
 }
 .index-container p {font-size: 9pt;}
@@ -774,9 +794,15 @@ section p {
 section p {
   font-size: 8pt;
 }
+section a { 
+  font-size: 8pt;
+}
 .index-container p {font-size: 8pt;}
 .eu-container p {font-size: 8pt;}
 .documentation-container p {font-size: 8pt;
+}
+#title-documentation {
+  font-size: 18pt;
 }
 h2 {
   font-size: 12pt;
@@ -796,5 +822,11 @@ h2 {
   #title { 
   font-size: 40pt;
 }
+#title-about { 
+  font-size: 40pt;
+} 
+#team:after{ 
+  font-size: 40pt;
+} 
 }
 
