@@ -720,19 +720,18 @@ hr {
 /*---------EXTRA----------*/
 
 
-li {
+section li {
   font-family: myBodoni;
   color:  #241B12;
   font-size: 11pt;
 }
 
-
-ol {
+section ol {
   list-style-type: upper-roman;
 }
 
 
-ul  {list-style-type: disc;}
+section ul  {list-style-type: disc;}
 
 
 /*---------MEDIA----------*/
