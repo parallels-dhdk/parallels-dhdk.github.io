@@ -747,7 +747,7 @@ article a {
     padding-top: 20px;
     font-family: futuramedium;
     font-style: italic;
-    font-size: 20pt;
+    font-size: 16pt;
 }
 
 .container-documentation p{
@@ -760,6 +760,11 @@ article a {
     text-decoration: underline;
 }
 
+.container-documenation span {
+    font-style: italic;
+    font-family: futuramedium;
+    font-size: 20pt;
+}
 
 
 
