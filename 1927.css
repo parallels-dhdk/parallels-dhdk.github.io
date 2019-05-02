@@ -81,6 +81,7 @@ body{background-image: url("img/metallo5.jpg");
 	padding-top:10%;
 }
 @media screen and (max-width: 1200px) {#title{ font-size: 70pt;
+
 	margin-left:250px;
 	margin-right:250px;
 }}
@@ -89,6 +90,8 @@ body{background-image: url("img/metallo5.jpg");
         margin-left:740px;
 		margin-right:740px;}
 }
+
+
 
 
 #table-home-page{display: inline-block;
@@ -137,6 +140,9 @@ body{background-image: url("img/metallo5.jpg");
 
   }
 
+
+
+
 .grid-container > div{
 	text-align: justify;
 	float: left;
@@ -157,12 +163,12 @@ body{background-image: url("img/metallo5.jpg");
 	font-size:26.25pt;}
 
 
-
-section {font-family:LibbyHeavy;
+ section{font-family:LibbyHeavy;
 font-size: 7.5pt;
 }
 
- li{font-family: hasta grotesk;}
+
+#mainbody li{font-family: hasta grotesk;}
 
 
 
@@ -188,15 +194,23 @@ font-size: 7.5pt;
 }
 
 .index-container a:active {
-	color: black;}
+color: black;}
 
 
 .index-container a:visited {
-	color: red;}
+color: red;}
 
 
-hr{border:5px solid black;}
+ hr{border:5px solid black;}
 
+article span{
+	border-top:solid;
+	border-bottom: solid;
+	font-family: English Gothic Bold Italic;
+	text-align:center; 
+	font-size:11.25pt;
+	margin-left:10px;
+	} 
 	
 
 .item1{ 
@@ -244,6 +258,7 @@ hr{border:5px solid black;}
 }
 
 .item4 a{margin-left:30px;}
+
 
 
 .item5{border-top: solid;
@@ -350,29 +365,9 @@ div.item3 {
 	margin-bottom:10px;
 	margin-top: 600px;
 }}
-
 /*stile articoli*/
 	
 	 h2{ font-family:Typo Grotesk Black;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	text-transform: uppercase;
-	font-size: 52.5pt;
-	border-bottom:7px solid;
-	border-color:red;
-	transform:rotate(180deg);
-	-webkit-transform: rotate(180deg); /* Safari and Chrome */
-	-ms-transform: rotate(180deg);
-	margin-top: -100px;
-	margin-left: 10px;
-}
-
-
-article h2{ font-family:Typo Grotesk Black;
-=======
->>>>>>> parent of ffb5b7f... pulizia
-=======
->>>>>>> parent of ffb5b7f... pulizia
 	text-transform: uppercase;
 	font-size: 52.5pt;
 	border-bottom:7px solid;
@@ -395,6 +390,7 @@ article{
 		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
+		
 		margin-left: 100px;
 		margin-right:100px;
 		background-image:url("img/sfondo puntini.png");
@@ -416,37 +412,21 @@ article p{font-family:LibbyHeavy;
 } 
 
 
+
 article a{font-family: Futurismo; 
 	color:black;
 	font-size:11.25pt;
 }
 
 article a:active {
-	color: black;}
+color: black;}
 
 article a:visited {
-	color: red;}
+color: red;}
   
 	
-<<<<<<< HEAD
-<<<<<<< HEAD
-article section {font-family:LibbyHeavy;
-font-size: 7.5pt;
-}	
-
- section{font-family:LibbyHeavy;
-font-size: 7.5pt;
-}
- 
-article	h3{
-=======
 	
  h3{
->>>>>>> parent of ffb5b7f... pulizia
-=======
-	
- h3{
->>>>>>> parent of ffb5b7f... pulizia
 	font-family: FatCow-Italic;
 	font-size:30pt;
 	margin-top:5%;
@@ -459,13 +439,14 @@ article	h3{
 }
 
 
- h5 {  font-family:SchmalfetteCPt;
+
+   h5 {  font-family:SchmalfetteCPt;
   
 }
 
 
  h6{ font-family:hasta grotesk;
-	font-style: bold;
+font-style: bold;
 	
 }
 
@@ -484,38 +465,18 @@ article img{
 	border: 5px solid;
 
 }
-article span{
-	border-top:solid;
-	border-bottom: solid;
-	font-family: English Gothic Bold Italic;
-	text-align:center; 
-	font-size:11.25pt;
-	margin-left:10px;
-	} 
-
 
 article p:after{content:"...}";
 	font-family:English Gothic Bold Italic;
 	margin-top: 10px;
 	font-size:18.75pt;}
 
-	
+
 @media screen and (max-width: 1000px) {
  h3 { font-size: 15pt;
-}
-article { 
-  margin-left:50px; 
-  margin-right:50px;
-  -webkit-column-count: 1; /* Chrome, Safari */
-  column-count: 1;
-}
-article p { font-size: 5.25pt;
+}}
 
-}
-h6 { font-size: 6pt;
 
-}
-}
 
 
 @media screen and (max-width: 1200px) {article img{ 
@@ -523,18 +484,8 @@ h6 { font-size: 6pt;
 width: 300px;
 margin-right:10%;
 
-}
-h2{ font-size: 37.5pt;
+}}
 
-margin-left:20px;
-
-}
- h3{ font-size: 22.5pt;
-
-margin-left:50px;
-}
-
-}
 
 
 
@@ -542,21 +493,18 @@ margin-left:50px;
 	transform:none;
 	width: 300px;
 
-}
-
-h2{ font-size: 30pt;
-
-margin-left:20px
-}
-
- h3{ font-size: 22.5pt;
-
-margin-left:50px
-}
+}}
 
 
-}
 
+@media screen and (max-width: 1000px) { h6 { font-size: 6pt;
+
+
+}}
+
+@media screen and (max-width: 1000px) { article p { font-size: 5.25pt;
+
+}}	
 
 @media screen and (max-width: 600px) {
   article { 
@@ -565,7 +513,43 @@ margin-left:50px
 } 
 	}
 
-//*table*/
+
+@media screen and (max-width: 1200px) { h2{ font-size: 37.5pt;
+
+margin-left:20px;
+
+}}
+
+
+
+
+@media screen and (max-width: 700px) { h2{ font-size: 30pt;
+
+margin-left:20px
+}}
+
+
+
+
+@media screen and (max-width: 1200px) { h3{ font-size: 22.5pt;
+
+margin-left:50px;
+
+
+}}
+
+
+@media screen and (max-width: 1000px) { h3 { font-size: 22.5pt;
+
+margin-left:50px;
+}}
+
+@media screen and (max-width: 700px) { h3{ font-size: 22.5pt;
+
+margin-left:50px
+}}
+
+/*table*/
  table {
   border:solid;
    margin-top:15%;
@@ -600,13 +584,8 @@ border-color:transparent;}
 @media screen and (max-width: 700px) { table{ 
 	font-size: 6.75pt;
 	margin-right: 10px;}}
-<<<<<<< HEAD
 
 
-=======
-
-
->>>>>>> parent of ffb5b7f... pulizia
 @media screen and (max-width: 300px) { table{
 	margin-left:1px;
 	margin-right:-200px;
@@ -684,7 +663,6 @@ font-family:English Gothic Bold Italic;
 
 
 
-@media (width: 2560px){#table-home-page p{font-size:30pt;}}
 
 /*about*/
 .container-about{margin-top: 100px;
@@ -754,7 +732,7 @@ font-family:English Gothic Bold Italic;
 
 .card-deck{margin-bottom:30px;
 			margin-top:30px;
-			margin-top:100px;}
+			margin-top:100px;}}
 
 .card{border-color:transparent;
 		background-image:url("img/sfondo puntini.png");
@@ -776,55 +754,51 @@ font-family:English Gothic Bold Italic;
 
 @media screen and (max-width: 1200px) {#team{ font-size: 75pt;
 
-	margin-left:500px;
+margin-left:500px;
 
-}
-#title-about{ font-size: 112.5pt;
-
-	margin-left:200px;
-	margin-right:200px;
-}
-}
+}}
 
 
 
 @media screen and (max-width: 1000px) {#team { font-size: 75pt;
 
-	margin-left:165px;
-	margin-right:165px;
-}
-#title-about { font-size: 112.5pt;
-
-	margin-left:100px;
-	margin-right:100px;
-}
-.container-about p { font-size: 7.5pt;
-
-}
-
-}
+margin-left:165px;
+  margin-right:165px;
+}}
 
 
 @media screen and (max-width: 700px) {#team{ font-size: 75pt;
 
-	margin-left: 100px;
-	margin-right:100px;
-}
-#title-about{ font-size: 75pt;
+margin-left: 100px;
+  margin-right:100px;
+}}
 
-	margin-left: 100px;
-	margin-right:100px;
-	word-break: break-word;
-}
+@media screen and (max-width: 1200px) {#title-about{ font-size: 112.5pt;
 
-}
+margin-left:200px;
+  margin-right:200px;
+}}
 
-@media (width: 2560px){
-	.container-about p {font-size:15pt;}
-	.container-about {padding-left:30px;
-	padding-right:30px;}
-	.container-about h5{font-size:30pt;}}
 
+
+@media screen and (max-width: 1000px) {#title-about { font-size: 112.5pt;
+
+margin-left:100px;
+  margin-right:100px;
+}}
+
+
+@media screen and (max-width: 700px) {#title-about{ font-size: 75pt;
+
+margin-left: 100px;
+  margin-right:100px;
+  word-break: break-word;
+}}
+
+
+@media screen and (max-width: 1000px) { .container-about p { font-size: 7.5pt;
+
+}}
 /*documentation*/
 
 
@@ -833,10 +807,13 @@ font-family:English Gothic Bold Italic;
 		background-color: #FFFAFA;
 		border: 20px outset black;
 		text-align:justify;
+		font-size: 11.25pt;
 		margin-left: 100px;
 		margin-right:100px;
 		background-image:url("img/sfondo puntini.png");
 		padding-bottom:20px;
+
+		
 
 }
 #millecinque p{font-family:Futura Book font;
@@ -887,9 +864,18 @@ margin-right:50px;
 margin-right:60px;
 }
 
+
+
 /* mall devices and most phones */
 @media (min-width: 480px) {#duemilaquaranta { margin-left:360px;
 }}
+
+
+
+.container-documentation p:after {content:"...}";
+font-family:English Gothic Bold Italic;
+	margin-top: 10px;
+	font-size:18.75pt;}
 	
 .container-documentation p {font-family:BitstreamIowanOldStyleBoldBT;
 font-size: 12pt;
@@ -900,10 +886,6 @@ margin-right:50px;
 padding-bottom:5px;
 }
 
-.container-documentation p:after {content:"...}";
-font-family:English Gothic Bold Italic;
-	margin-top: 10px;
-	font-size:18.75pt;}
 	
 .container-documentation h2{font-family:LibbyHeavy;
 	font-size:63.75pt;
@@ -924,22 +906,15 @@ font-family:English Gothic Bold Italic;
 
 
 .container-documentation h3:before{content:"→";
-	font-size:100px;
-	font-weight:bold;}
-
+font-size:100px;
+font-weight:bold;}
 .container-documentation h3:after{content:"←";
-	font-size:75pt;
-	font-weight:bold;}
+font-size:75pt;
+font-weight:bold;}
 
 .container-documentation h3{font-size:75pt;
-	border-top:solid;
-	font-family: FatCow-Italic;
-	font-size:75pt;
-	margin-top:5%;
-	margin-left: 10%;}
+border-top:solid;}
 
-
-	
 .container-documentation span {
 	border-top:solid;
 	border-bottom: solid;
@@ -949,40 +924,35 @@ font-family:English Gothic Bold Italic;
 	margin-left:10px;
 	}
 	
-.container-documentation h4{text-align:center;
- font-family:Bernhard Antique;
-	color:red;
-	font-size: 30px;
-	text-transform:uppercase;
-}
+.container-documentation h4{text-align:center;}
+
 
 .container-documentation a{font-family: Futurismo; 
-	color:black;
-	font-size:11.25pt;
+color:black;
+font-size:11.25pt;
 }
 
 .container-documentation a:active {
-	color: black;}
+color: black;}
 
 
 .container-documentation a:visited {
-	color: red;}
-	
-	
+color: red;}
 @media screen and (max-width: 1200px) {#title-documentation{ font-size: 53pt;
 
-	margin-left:200px;
-	margin-right:200px;
-	word-break: break-word;
+margin-left:200px;
+  margin-right:200px;
+  word-break: break-word;
 
 }}
 
 
+
 @media screen and (max-width: 700px) {#title-documentation{ font-size: 37.5pt;
 
-	margin-left: 100px;
-	margin-right:100px;
-	word-break: break-word;
+margin-left: 100px;
+  margin-right:100px;
+  word-break: break-word;
 }}
 
 @media screen and (max-width: 1000px)  {.container-documentation p { font-size: 25.25pt;
@@ -990,19 +960,12 @@ font-family:English Gothic Bold Italic;
 }}
 
 
+/* mall devices and most phones */
+@media (min-width: 480px) {#duemilaquaranta { margin-left:360px;
+}}
 
-@media (width: 2560px){
-    #title-documentation { 
-		font-size:150pt;
-        margin-left:580px;
-		margin-right:580px;
-	
-    }
-	.container-documentation p{font-size:22.5pt;}
-	#milleottocolfagotto p{font-size:30pt;}
 
-	
-}
+
 
 /*eudirective*/
 
@@ -1017,14 +980,14 @@ font-family:English Gothic Bold Italic;
 .flex-container .col-ing{
 	margin-top: 30px;
     -webkit-flex: 1; /* Safari */
-    flex: 1; /* Standard syntax-auto */
+    flex: 1; /* Standard syntax */
 }
 
 
 .flex-container .col-ita{
 	margin-top: 30px;
    -webkit-flex: 1; /* Safari */
-    flex: 1; /* Standard syntax-auto */
+    flex: 1; /* Standard syntax */
 }
 
 .container-eu{margin-top: 50px;
@@ -1088,20 +1051,44 @@ font-family:English Gothic Bold Italic;
 
 
 
+@media (width: 2560px){#table-home-page p{font-size:30pt;}}
+@media (width: 2560px){
+	.container-about p {font-size:15pt;}
+	.container-about {padding-left:30px;
+	padding-right:30px;}
+	.container-about h5{font-size:30pt;}}
+
+@media (width: 2560px){
+    #title-documentation { 
+		font-size:150pt;
+        margin-left:580px;
+		margin-right:580px;
+	
+    }
+	.container-documentation p{font-size:22.5pt;}
+	#milleottocolfagotto p{font-size:30pt;}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*extra*/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-hr{border:2px solid black;}
-
- li{font-family: hasta grotesk;}
-	
-	
-=======
->>>>>>> parent of ffb5b7f... pulizia
-=======
->>>>>>> parent of ffb5b7f... pulizia
 #mainbody ol{font-family:LibbyHeavy;
 	font-size: 7.5pt;
 } 
