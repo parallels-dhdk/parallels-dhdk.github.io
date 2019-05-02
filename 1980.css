@@ -629,9 +629,7 @@ article a {
 }
 
 #title-about {
-    margin-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    margin-top:20px;
     font-family: Akilines;
     color: red;
     text-transform: uppercase;
@@ -724,9 +722,7 @@ article a {
 
 
 .container-documentation h2 {
-    margin-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    margin-top: 20px;
     font-family: Akilines;
     color: red;
     text-transform: uppercase;
