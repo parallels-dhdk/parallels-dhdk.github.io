@@ -52,6 +52,12 @@ body {
 }
 
 
+.grid-container h3 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
 .grid-container {
 	padding-left: 80px;
 	margin-left: 50%;
@@ -65,13 +71,11 @@ body {
 
 .grid-container a {
 	color: 	#E9DABD;
-	text-align: center;
 }
 
 
 .grid-container a:hover {
 	color: #4a433e;
-	text-align: center;
 }
 
 
