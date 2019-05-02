@@ -630,7 +630,7 @@ section ol {
 
 
 section ul {
-	list-style-type: none;
+	list-style-type: square;
 }
 
 /*---------MEDIA----------*/
