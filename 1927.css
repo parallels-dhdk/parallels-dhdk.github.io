@@ -178,16 +178,16 @@ margin-left:220px;
 
 
 
-section{font-family:LibbyHeavy;
+#mainbody section{font-family:LibbyHeavy;
 font-size: 7.5pt;
 }
 
 
-li{font-family: hasta grotesk;}
+#mainbody li{font-family: hasta grotesk;}
 
 
 
-h1{
+#mainbody h1{
 	font-family:LibbyHeavy;
 	font-size:75pt;
 	text-align:justify;
@@ -198,7 +198,7 @@ h1{
 	max-width:100%;
 	padding-top:10%;}
 
-h3{font-family:English Gothic Bold Italic;
+#mainbody h3{font-family:English Gothic Bold Italic;
 	font-size: 18.75pt;}
 	
 
@@ -216,7 +216,7 @@ color: black;}
 color: red;}
 
 
-hr{border:5px solid black;}
+#mainbody hr{border:5px solid black;}
 
 article span{
 	border-top:solid;
@@ -382,7 +382,7 @@ div.item3 {
 }}
 /*stile articoli*/
 	
-	h2{ font-family:Typo Grotesk Black;
+	#mainbody h2{ font-family:Typo Grotesk Black;
 	text-transform: uppercase;
 	font-size: 52.5pt;
 	border-bottom:7px solid;
@@ -447,7 +447,7 @@ color: red;}
 
 	
 	
-h3{
+#mainbody h3{
 	font-family: FatCow-Italic;
 	font-size:30pt;
 	margin-top:5%;
@@ -455,19 +455,19 @@ h3{
 
 
 
-@media screen and (max-width: 1200px) {h2{ font-size: 37.5pt;
+@media screen and (max-width: 1200px) {#mainbody h2{ font-size: 37.5pt;
 
 margin-left:20px;
 
 }}
 
 
-@media screen and (max-width: 1000px) {h2 { font-size: 30pt;
+@media screen and (max-width: 1000px) { #mainbody h2 { font-size: 30pt;
 margin-left:20px;
 }}
 
 
-@media screen and (max-width: 700px) {h2{ font-size: 30pt;
+@media screen and (max-width: 700px) {#mainbody h2{ font-size: 30pt;
 
 margin-left:20px
 }}
@@ -475,49 +475,49 @@ margin-left:20px
 
 
 
-@media screen and (max-width: 1200px) {h3{ font-size: 22.5pt;
+@media screen and (max-width: 1200px) {#mainbody h3{ font-size: 22.5pt;
 
 margin-left:50px;
 
 
 }}
 
-@media screen and (max-width: 1000px) {h3 { font-size: 22.5pt;
+@media screen and (max-width: 1000px) {#mainbody h3 { font-size: 22.5pt;
 
 margin-left:50px;
 }}
 
-@media screen and (max-width: 700px) {h3{ font-size: 22.5pt;
+@media screen and (max-width: 700px) {#mainbody h3{ font-size: 22.5pt;
 
 margin-left:50px
 }}
 
 
 
-h4{ font-family:Bernhard Antique;
+#mainbody h4{ font-family:Bernhard Antique;
 	color:red;
 	font-size: 30px;
 	text-transform:uppercase;
 }
-@media screen and (max-width: 1000px) { h4 { font-size: 11.25pt;
+@media screen and (max-width: 1000px) { #mainbody h4 { font-size: 11.25pt;
 
 
 }}
 
-#mainbody  h5 {  font-family:SchmalfetteCPt;
+#mainbody  #mainbody h5 {  font-family:SchmalfetteCPt;
   
 }
 
-@media screen and (max-width: 1000px) { h5 { font-size: 7.5pt;
+@media screen and (max-width: 1000px) {#mainbody h5 { font-size: 7.5pt;
 
 
 }}
 
-h6{ font-family:hasta grotesk;
+#mainbody h6{ font-family:hasta grotesk;
 font-style: bold;
 	
 }
-@media screen and (max-width: 1000px) { h6 { font-size: 6pt;
+@media screen and (max-width: 1000px) {#mainbody h6 { font-size: 6pt;
 
 
 }}
@@ -565,10 +565,10 @@ article p:after{content:"...}";
 	font-size:18.75pt;}
 
 	@media screen and (max-width: 1000px) {
-section { font-size: 5.25pt;
+#mainbody section { font-size: 5.25pt;
 }}
 @media screen and (max-width: 1000px) {
-h3 { font-size: 15pt;
+#mainbody h3 { font-size: 15pt;
 }}
 
 @media screen and (max-width: 800px) {article { 
@@ -587,7 +587,7 @@ article {
 
 	
 /*table*/
-table {
+#mainbody table {
   border:solid;
    margin-top:15%;
    margin-bottom: 15%;
@@ -599,15 +599,15 @@ table {
 	margin-left:auto;
 	margin-right:auto;
   } 
-  tr{
+ #mainbody tr{
 border-color:transparent;}
 
-  td, th{ padding: 15px;
+ #mainbody td, th{ padding: 15px;
  text-align: center;
 }
 
 
-th{font-family:Normande regular;
+#mainbody th{font-family:Normande regular;
 	text-decoration: overline;
 	transform: rotate(180deg);
 	text-transform: uppercase;
@@ -615,16 +615,16 @@ th{font-family:Normande regular;
 	font-size:11.25pt;
 	}
 
-td{ font-family:BitstreamIowanOldStyleBoldBT;
+#mainbody td{ font-family:BitstreamIowanOldStyleBoldBT;
 	font-size: 9.75pt;  
 }
 
-@media screen and (max-width: 700px) {table{ 
+@media screen and (max-width: 700px) {#mainbody table{ 
 	font-size: 6.75pt;
 	margin-right: 10px;}}
 
 
-@media screen and (max-width: 300px) {table{
+@media screen and (max-width: 300px) {#mainbody table{
 	margin-left:1px;
 	margin-right:-200px;
 	word-break: break-word;
@@ -632,18 +632,18 @@ td{ font-family:BitstreamIowanOldStyleBoldBT;
 
 
 
-@media screen and (max-width: 300px) {table th{ 
+@media screen and (max-width: 300px) {#mainbody table th{ 
 	font-size: 11.25pt;
 	word-break: break-word;
 }}
 
 
-@media screen and (min-width: 300px) {table th{
+@media screen and (min-width: 300px) {#mainbody table th{
 	word-break: break-word;
 	font-size:11.25pt;
 
 }}
-figcaption {font-family: hasta grotesk; 
+#mainbody figcaption {font-family: hasta grotesk; 
 			text-orientation: upright;
 			writing-mode: vertical-lr; 
 			font-size:6pt;
@@ -653,7 +653,7 @@ figcaption {font-family: hasta grotesk;
 			margin-left:10px;
 
 }
-figcaption:before {
+#mainbody figcaption:before {
     content:"=";
 font-family:English Gothic Bold Italic;
 	font-size:60pt;	
@@ -664,14 +664,14 @@ font-family:English Gothic Bold Italic;
 
 
 /* smaller phone viewpoints */
-@media (min-width: 320px) {figcaption { font-size:7.5pt;
+@media (min-width: 320px) {#mainbody figcaption { font-size:7.5pt;
 		margin-right:70px;
 		column-count:1;
 		margin-left:20px;
 }}
 
 /* mall devices and most phones */
-@media (min-width: 480px) {figcaption { font-size:8.25pt;
+@media (min-width: 480px) {#mainbody figcaption { font-size:8.25pt;
 		margin-right:70px;
 		column-count:3;
 		margin-left:20px;
@@ -680,27 +680,27 @@ font-family:English Gothic Bold Italic;
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {figcaption { font-size:7.5pt;
+@media (min-width: 768px) {#mainbody figcaption { font-size:7.5pt;
 		margin-right:70px;
 		column-count:3;
 		margin-left:20px;
 }}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {figcaption { font-size: 7.5pt;
+@media (min-width: 992px) {#mainbody figcaption { font-size: 7.5pt;
 		margin-right:90px;
 		column-count:3;
 }}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {figcaption{ 
+@media (min-width: 1200px) {#mainbody figcaption{ 
 		overflow:hidden;
 		font-size: 8.25pt;
 		margin-right:90px;
 
 }}
 
-hr{border: solid black;}
+#mainbody hr{border: solid black;}
 
 
 
