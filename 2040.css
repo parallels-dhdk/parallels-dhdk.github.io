@@ -352,7 +352,7 @@ article h5 {
     color: green;
 }
 
-article h4 {
+article h6 {
     font-family: comicsans;
     text-align: left;
     font-size: 16pt;
@@ -947,7 +947,7 @@ article span:hover {
         }
 
         .index-container {
-            zoom:58%;
+            zoom:65%;
         }
 
         /*PRINT: ABOUT*/
@@ -958,7 +958,8 @@ article span:hover {
 
         .container-about {
                 background: none;
-                zoom:58%
+                zoom:60%;
+                border: none;
             }
 
         .description{
@@ -988,6 +989,7 @@ article span:hover {
         /*PRINT: DOCUMENTATION*/
         .container-documentation { 
             background: none;
+            border: none;
         }
 
         .container-documentation h3 {
@@ -1003,6 +1005,7 @@ article span:hover {
               
         .container-documentation p{
             color: black;
+            line-height: 2em;
         }
 
         .container-documentation a {
@@ -1041,6 +1044,7 @@ article span:hover {
         
         article { 
             background: none;
+            border: none;
         }
 
         article h3 {
@@ -1051,6 +1055,10 @@ article span:hover {
         article h4 {
             color: black;    
         }
+
+        article section{
+            color: black;
+            }
 
         figcaption{
             background: none;
@@ -1078,5 +1086,39 @@ article span:hover {
             background: none;
             color: black;
           }
+
+
+
+        /*PRINT: EU DIRECTIVE */
+        .container-eu {
+        page-break-after: auto;
+        background: none;
+        border: none;
+        }
+
+        .flex-container h3{
+        color: black;
+        background: none;
+        }
+        
+        .flex-container p {
+        color: black;
+        }   
+
+        .flex-container a {
+        color: black;
+        }
+
+        .flex-container span {
+            color: black;
+            -webkit-animation: none;
+            animation: none; 
+        }
+  
+        .flex-container span:hover {
+            color: black;
+            -webkit-animation: none;
+            animation: none;
+        }
           
     }
