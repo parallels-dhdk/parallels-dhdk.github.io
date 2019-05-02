@@ -834,9 +834,16 @@ margin-left: 100px;
 		background-image:url("img/sfondo puntini.png");
 		padding-bottom:20px;
 
-		
+
 
 }
+
+
+.container-documentation section {font-family:BitstreamIowanOldStyleBoldBT;
+font-size:15pt;
+}
+
+
 #millecinque p{font-family:Futura Book font;
 font-size:13pt;}
 
@@ -862,8 +869,8 @@ font-size:12pt;}
 
 
 
-#millecinque{margin-left: 5px;
-margin-right:10px;}
+#millecinque{margin-left: 30px;
+margin-right:20px;}
 
 #milleottocolfagotto{margin-left: 70px;
 margin-right:20px;
@@ -891,13 +898,7 @@ font-family:English Gothic Bold Italic;
 	
 .container-documentation p {font-family:BitstreamIowanOldStyleBoldBT;
 font-size: 12pt;
-border-right:none;
-margin-top: 20px;
-margin-left:50px;
-margin-right:50px;
-padding-bottom:5px;
 }
-
 	
 .container-documentation h2{font-family:LibbyHeavy;
 	font-size:63.75pt;
