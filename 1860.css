@@ -528,7 +528,8 @@ figcaption {
   margin-right: 70px;
   margin-top: 100px; 
   margin-bottom: 100px;  
-  padding: 30px; 
+  padding: 30px;
+  padding-top: 50px; 
   background-image: url("img/newspaper1.png");
   border-top-width: 2px;
   border-top-left-radius: 5px; 
@@ -549,8 +550,7 @@ figcaption {
   }
 
 
-.container-documentation p:first-letter {
-  font-family: myBodoni;
+.container-documentation section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
   font-size: 30pt;
   float:left;
   height: 30px;
@@ -562,7 +562,7 @@ figcaption {
 .container-documentation section {
   font-family: myBodoni;
   font-size: 11pt;
-  text-indent: 0em;
+  text-indent: 1em;
   line-height: 1;
 }
 
@@ -723,7 +723,7 @@ hr {
 li {
   font-family: myBodoni;
   color:  #241B12;
-  font-size: 13pt;
+  font-size: 11pt;
 }
 
 

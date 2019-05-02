@@ -1,6 +1,7 @@
-
+ 
 $(document).ready(function () 
     { 
+        //index button in navbar
         $(".index-button").click(function() {
         $("#mainbody").html("")
         $("#mainbody").load('index-text.html', function(){ //callback function
@@ -62,17 +63,20 @@ $(document).ready(function ()
         })
 })
 
+    //about button in nav
     $(".about-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('about.html')
     })
 
+    //documentation button in nav
     $(".documentation-button").click(function() {
     $("#mainbody").html("")
     $("#mainbody").load('documentation.html')
     })
 
 
+    //year buttons in timeline
     var quaranta= false
     $("#css").load('1560.css')
     $("#1560").click(function() {
@@ -81,7 +85,6 @@ $(document).ready(function ()
         $("#css").load('1560.css')
     })
       
-    
     $("#1860").click(function() {
         quaranta=false
         $("#css").html("")
@@ -112,12 +115,12 @@ $(document).ready(function ()
         $("#css").html("")
         $("#css").load('2040.css')
     })    
+    //
 
 
 
 
-
-
+    //Animated link in 2040 homepage
     var item1 = $(".item1 a");
     var container1 = $(".item1");
 
@@ -142,7 +145,6 @@ $(document).ready(function ()
       var randY = Math.floor(Math.random() * -(container[0].offsetHeight - 100));
       item.stop().animate({"left": randX + "px", "top": randY + "px"});
   }
-  
   
       
     item1.on('mouseenter', function(){ 
