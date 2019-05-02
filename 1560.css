@@ -259,7 +259,7 @@ figcaption {
 }
 
 
-article span {
+section span {
 	font-family: myHultogCoursive;
 	letter-spacing: 2px;
 	text-align: center;
@@ -724,7 +724,7 @@ section ul {
 	font-size: 11pt;}
 	figcaption {
 	font-size: 8pt;}
-	span {
+	section span {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 11pt;}
@@ -853,7 +853,7 @@ section ul {
 	font-size: 6pt;}
 	figcaption {
 	font-size: 6pt;}
-	article span {
+	section span {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	font-size: 10pt;}
