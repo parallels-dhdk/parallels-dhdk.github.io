@@ -772,15 +772,15 @@ article a {
 
 
 /*------------MEDIA QUERY--------------------*/
-@media only screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     #title { 
-        font-size: 70pt;
+        font-size: 50pt;
     }
     .flex-container h2 {
         font-size: 40pt;
     }
     .container-documentation h2 {
-        font-size: 60pt;
+        font-size: 50pt;
     }
 }
 
