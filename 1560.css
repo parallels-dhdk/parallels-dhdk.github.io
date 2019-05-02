@@ -989,8 +989,6 @@ section ul {
 
 
 @media screen and (max-width: 650px) {
-	#text-about p {
-	font-size: 6pt;}
 	.container-about h2{
 	font-size: 11pt;}
 	.container-documentation section > p:first-letter {
@@ -1077,7 +1075,11 @@ section ul {
 	height: 15px;
 	width: 130px;}
 	.container-about h5{
-	font-size: 8pt;}	
+	font-size: 8pt;}
+		.container-about > section:nth-of-type(2) {
+	padding-left: 45%;
+	padding-right: 5%;
+}	
 }
 
 
