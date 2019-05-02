@@ -1,4 +1,5 @@
 @font-face 
+
 {font-family: ITCAvantGardeStd-BkObl;
 src: url("ITCAvantGardeStd-BkObl.eot") ;
 src: url('font/ITCAvantGardeStd-BkObl.otf') format('truetype');}
@@ -117,6 +118,7 @@ margin-right:520px;
 @media screen and (max-width: 700px) {#title{ font-size:97.5pt;
 margin-right:20%;
 }}
+
 tr{border-top:solid;
 border-width: thin;}
 }
@@ -177,7 +179,7 @@ border-width: thin;}
 }
   
 
- h3{font-family:ITC Avant Garde Gothic LT Book Regular;
+#mainbody h3{font-family:ITC Avant Garde Gothic LT Book Regular;
 	text-transform: uppercase;
 	letter-spacing:-2px;
 	text-align:left;
@@ -254,7 +256,7 @@ color: black;}
 } }
 
 
-h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
+#mainbody h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
 	font-size: 67.5pt;
 	text-align:left;
 	margin-top: 10%;
@@ -264,21 +266,21 @@ h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
 	font-weight: bold;
 	font-style:italic;}
 
-@media screen and (max-width: 1200px) {h1{ font-size: 52.5pt;
+@media screen and (max-width: 1200px) {#mainbody  h1{ font-size: 52.5pt;
 
 }}
 
 
-@media screen and (max-width: 1000px) {h1{ font-size: 22.5pt;
+@media screen and (max-width: 1000px) {#mainbody  h1{ font-size: 22.5pt;
 letter-spacing:2px;
 }}
 
 
-@media screen and (max-width: 700px) {h1{ font-size:15pt;
+@media screen and (max-width: 700px) {#mainbody  h1{ font-size:15pt;
 margin-right:50%;
 }}
 
-h2{ font-family:Windsor-Bold;
+#mainbody  h2{ font-family:Windsor-Bold;
 	font-size: 15pt;
 	letter-spacing: -5px;
 	word-break: break-word;
@@ -290,30 +292,30 @@ h2{ font-family:Windsor-Bold;
 }
 
 
-@media screen and (max-width: 1200px) {h2{ font-size: 37.5pt;
+@media screen and (max-width: 1200px) {#mainbody  h2{ font-size: 37.5pt;
 margin-left:20px;
 margin-right: 20px;
 }}
 
 
 
-@media screen and (max-width: 1000px) {h2 { font-size:22.5pt;
+@media screen and (max-width: 1000px) {#mainbody  h2 { font-size:22.5pt;
 
 
 }}
 
 
-@media screen and (max-width: 700px) {h2{ font-size:15pt;
+@media screen and (max-width: 700px) {#mainbody h2{ font-size:15pt;
 margin-right:10px;
 margin-left:10px;
 }}	
 
 /* smaller phone viewpoints */
-@media (min-width: 320px) {h2 { font-size:30pt;
+@media (min-width: 320px) {#mainbody h2 { font-size:30pt;
 
 }}
 
-h4{font-family: Windsor-Bold;
+#mainbody  h4{font-family: Windsor-Bold;
 	margin-left:20px;
 	margin-right: 20px;
 	font-size:11.25pt;
@@ -323,13 +325,13 @@ h4{font-family: Windsor-Bold;
 article p{	margin-top: 30px;
 			font-family: Book Antiqua;
 	}
+	
 
-
-section {margin-top: 30px;
+#mainbody section {margin-top: 30px;
 		font-family: Book Antiqua;}
 	
 	
-li{font-family: Book Antiqua;}
+#mainbody li{font-family: Book Antiqua;}
 
 article span{font-family: Book Antiqua;
 			font-style: oblique;} 
@@ -352,7 +354,7 @@ article img{
 }
 
 
-figcaption{font-family: geometric 231 bt;
+#mainbody figcaption{font-family: geometric 231 bt;
 	font-size: 7.5pt;
 	border-bottom: solid;
 	border-width: thin;
@@ -366,7 +368,7 @@ text-transform:uppercase;}
 #mainbody h5{font-family:Koch Regular;
 text-transform:uppercase;}
 
-h6{font-family:Koch Regular;
+#mainbody h6{font-family:Koch Regular;
 }
 
 /*about*/
@@ -502,7 +504,8 @@ h6{font-family:Koch Regular;
 
 /*documentation*/
 
-
+.container-documentation p{margin-top: 30px;
+	font-family: Book Antiqua;}
 
 .container-documentation{margin-top: 100px;
 		padding-bottom: 100px;
@@ -539,7 +542,7 @@ margin-right:30px;}
 	border-top: 10%;
 	margin-top: 5px;
 
-}	
+}		
 
 .container-documentation p:nth-of-type(1)::first-letter {
 
@@ -706,32 +709,32 @@ color: black;}
   color: 	#2E8B57;
 	text-align:left;}
 /*table*/
-table{margin-left:auto;
+#mainbody  table{margin-left:auto;
 	margin-right:auto;
 	word-break: break-word;
 }
 
-td, th{ padding: 10px;
+#mainbody td, th{ padding: 10px;
 	text-align: center;
 
 }
-th{font-family:ITC Avant Garde Gothic LT Book Regular;
+#mainbody th{font-family:ITC Avant Garde Gothic LT Book Regular;
 	color: 	#2E8B57;
 	text-align: center;
 	font-size:11.25pt;
 }
-td{font-family:ITC Avant Garde Gothic LT Book Regular;
+#mainbody td{font-family:ITC Avant Garde Gothic LT Book Regular;
   text-transform: uppercase;
   font-size: 9.75pt;
   color: 	#2E8B57;
 	text-align:center;}
 
-@media screen and (max-width: 700px) {table{ width:20%;
+@media screen and (max-width: 700px) {#mainbody table{ width:20%;
 	margin-right: 50px;
 	margin-left: -20px;
 }}
 
-@media screen and (max-width: 300px) {table{ width:10%;
+@media screen and (max-width: 300px) {#mainbody table{ width:10%;
 	margin-right: 50px;
 	margin-left: -10px;
 	word-break: break-word;
@@ -769,10 +772,3 @@ color: black;}
 	 .index-container h3{font-size:37.5pt;}
 	 
 }
-
-/*extra*/
-#mainbody ol{margin-top: 30px;
-			font-family: Book Antiqua;}	
-
-#mainbody ul{margin-top: 30px;
-			font-family: Book Antiqua;}	
