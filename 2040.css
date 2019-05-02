@@ -954,7 +954,7 @@ article span:hover {
 
 
 /*---------MEDIA QUERY-------------*/
-    @media (max-width: 576px) {
+    @media (min-width: 576px) {
         #mainbody tr, th, td{
             font-size: 8pt;
             -webkit-hyphens: auto;
@@ -971,16 +971,6 @@ article span:hover {
 
         .container-documentation h2 {
             font-size: 60pt;
-        }
-    }
-
-    @media (max-width: 375px){
-        .flex-container h2 {
-            font-size: 20pt;
-        }
-
-        .container-documentation h2 {
-            font-size: 40pt;
         }
     }
 
