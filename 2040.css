@@ -948,6 +948,7 @@ article span:hover {
 
         .index-container {
             zoom:70%;
+            border: none;
         }
 
         /*PRINT: ABOUT*/
