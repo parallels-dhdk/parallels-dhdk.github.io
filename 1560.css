@@ -64,11 +64,15 @@ body {
 
 
 .grid-container a {
-	background: inherit;
-  background-clip: text;
-  color: transparent;
+	color: 	#E9DABD;
+	text-align: center;
 }
 
+
+.grid-container a:hover {
+	color: #4a433e;
+	text-align: center;
+}
 
 
 #title {
