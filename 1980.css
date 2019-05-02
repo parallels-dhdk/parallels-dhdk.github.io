@@ -513,6 +513,7 @@ article a {
 
 .flex-container{
     width: 100%;
+    margin-top: 30px;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
     text-align:justify;
@@ -527,7 +528,6 @@ article a {
     font-size: 60pt;
     text-align: center;
     line-height: 80%;
-    margin-top:10px;
     padding-right:20px;
     padding-left:20px;
     padding-bottom: 20px;
@@ -629,7 +629,9 @@ article a {
 }
 
 #title-about {
-    margin-top:20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
     font-family: Akilines;
     color: red;
     text-transform: uppercase;
@@ -722,7 +724,9 @@ article a {
 
 
 .container-documentation h2 {
-    margin-top: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
     font-family: Akilines;
     color: red;
     text-transform: uppercase;
