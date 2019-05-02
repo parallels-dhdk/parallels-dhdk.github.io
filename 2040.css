@@ -45,9 +45,14 @@
     src:url('font/Share-TechMono.ttf');
 }
 
+
+
+
+
 body {
     background-image: url("img/pixel.gif");    
 }
+
 
 
 /*----------HOMAPGE-------------*/
@@ -82,11 +87,7 @@ font-size: 50pt;
  text-align:left;
  padding-top: 10px;
  padding-bottom:10px;
-
-
- /* Apply animation to this element */	
-
- -webkit-animation: title 1s linear infinite ;
+-webkit-animation: title 1s linear infinite ;
  animation: title 1s linear infinite ;
 }
 
@@ -137,7 +138,6 @@ font-size: 50pt;
     padding-bottom: 20px;
 }
 
-
 .item2 {
     
     background-color:#00b3b3;
@@ -166,7 +166,6 @@ font-size: 50pt;
 }
 
 .item3 {
-    
     background-color:#ff6666;
     text-align: left;
     height: 100%;
@@ -177,11 +176,11 @@ font-size: 50pt;
     font-family: blueberry;
     font-size: 75pt;
     color: green;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  text-shadow: 2px 2px yellow;
-  text-align:center;
-  text-transform: uppercase;
-  padding-top: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px yellow;
+    text-align:center;
+    text-transform: uppercase;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -194,7 +193,6 @@ font-size: 50pt;
 }
 
 .item4 {
-    
     background-color:#cc66cc;
     text-align: left;
     height: 100%;
@@ -273,6 +271,10 @@ font-size: 50pt;
 
 
 
+
+
+
+
 /*-----------------ARTICLES--------------*/
 article { 
     margin-top: 50px;  
@@ -289,7 +291,6 @@ article {
     overflow: hidden;
     background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
     background-size: 800% 800%;
-    
     -webkit-animation: transition 8s ease infinite;
     animation: transition 8s ease infinite;
 }
@@ -305,6 +306,8 @@ article {
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
     }
+
+
 
 article h1 {
         text-transform: uppercase;
@@ -360,11 +363,11 @@ article h6 {
 }
 
 article section{
-font-family: comicsans;
-line-height: 5em;
-text-align: center;
-color: yellow;
-margin: 10px;
+    font-family: comicsans;
+    line-height: 5em;
+    text-align: center;
+    color: yellow;
+    margin: 10px;
 }
 
 article img {
@@ -378,7 +381,6 @@ article img {
 article img:hover {
     transform: scale(3.5);
 }
-
 
 figcaption{
     background-color:pink;
@@ -464,7 +466,7 @@ article span:hover {
     font-size:14pt;
     }
   
-    #mainbody th {
+#mainbody th {
     font-size: 10pt;
     font-family:comicsans;
     text-align: middle;
@@ -472,7 +474,7 @@ article span:hover {
     width: 33.3%;
   }
   
-  #mainbody td{
+#mainbody td{
     font-size: 10pt;
     font-family:comicsans;
     text-align: middle;
@@ -481,21 +483,21 @@ article span:hover {
 
   }
   
-  #mainbody tr:nth-of-type(odd) {
+#mainbody tr:nth-of-type(odd) {
     background-color:blue;
     color:red;
   }
   
-  #mainbody tr:nth-of-type(even) {
+#mainbody tr:nth-of-type(even) {
     background-color:red;
     color:blue;
   }
   
-  #mainbody th:hover {
+#mainbody th:hover {
     background-color: #00ff00;
   }
 
-  #mainbody td:hover {
+#mainbody td:hover {
     background-color: #00ff00;
   }
 
@@ -519,6 +521,7 @@ article span:hover {
 
 
 
+
 /*----------EU-DIRECTIVE------------*/  
   .container-eu {
     margin-top: 50px;  
@@ -533,7 +536,6 @@ article span:hover {
     font-size: 14pt;
     cursor: url("img/hand-cursor.png"), auto;
     overflow: hidden;
-
     background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
     background-size: 800% 800%;
     -webkit-animation: transition 8s ease infinite;
@@ -586,8 +588,8 @@ article span:hover {
     padding-bottom:15px;
     padding-left: 10px;
     padding-right:10px;
-       -webkit-flex: 1; /* Safari */
-       flex: 1; /* Standard syntax */
+    -webkit-flex: 1; /* Safari */
+    flex: 1; /* Standard syntax */
    }
 
 .flex-container .col-ita{
@@ -596,8 +598,8 @@ article span:hover {
     padding-bottom:15px;
     padding-left: 10px;
     padding-right:10px;
-       -webkit-flex: 1; /* Safari */
-       flex: 1; /* Standard syntax */
+    -webkit-flex: 1; /* Safari */
+    flex: 1; /* Standard syntax */
     overflow-x:auto;
    }
 
@@ -654,6 +656,9 @@ article span:hover {
 
  
 
+
+
+
  
 
   /*--------------ABOUT-------------*/
@@ -707,8 +712,7 @@ article span:hover {
 	background-color: black;
     font-family: techmono;
     font-weight: bold;
-}
-        
+}  
 
 #team {
     font-family: techmono;
@@ -718,13 +722,10 @@ article span:hover {
     background-color: black;
 }
 
-
 .card {
     background-color:blue;
     overflow: hidden;
 }
-
-
 
 .card-text {
     text-align: center;
@@ -737,18 +738,14 @@ article span:hover {
     font-family: comicsans;
     text-transform: uppercase;
     font-size: 15pt;
-     position: relative;
-     width: 100%;
-     
-     margin:0;
-     text-align:left;
-     -webkit-animation: title 3s linear infinite ;
-     animation: title 3s linear infinite ;
+    position: relative;
+    width: 100%; 
+    margin:0;
+    text-align:left;
+    -webkit-animation: title 3s linear infinite ;
+    animation: title 3s linear infinite ;
     color: #FF1177;
-      }
-      
-    /* Move it (define the animation) */
-  
+    }
     
     @-webkit-keyframes title {
         0%   { -webkit-transform: translateX(70%); }
@@ -802,6 +799,11 @@ article span:hover {
           }
     
 
+
+
+
+
+
     /*-------DOCUMENTATION--------*/
 
     .container-documentation { 
@@ -818,7 +820,6 @@ article span:hover {
         overflow: hidden;
         background: linear-gradient(92deg, #122cdc, #79208f, #b62735, #ed2dd0);
         background-size: 800% 800%;
-        
         -webkit-animation: transition 8s ease infinite;
         animation: transition 8s ease infinite;
     }
@@ -846,6 +847,7 @@ article span:hover {
                 font-weight: bold;
                 margin-top:20px;
         }
+
         .container-documentation h3 {
             font-family: techmono;
             text-align: center;
@@ -910,7 +912,7 @@ article span:hover {
 
 
 
-        /*MEDIA QUERY*/
+/*---------MEDIA QUERY-------------*/
     @media (min-width: 576px) {
         #mainbody tr, th, td{
             font-size: 8pt;
@@ -927,7 +929,10 @@ article span:hover {
         }
     }
 
-    /*PRINT*/
+
+
+
+/*--------------PRINT-------------------*/
     @media only print {
         .nav {
             display: none;
@@ -948,6 +953,7 @@ article span:hover {
         .index-container {
             zoom:65%;
         }
+
 
         /*PRINT: ABOUT*/
         #title {
@@ -1036,6 +1042,7 @@ article span:hover {
         }
 
 
+
         /*PRINT: ARTICLES*/
         article section{
             page-break-after: auto;
@@ -1080,34 +1087,34 @@ article span:hover {
         #mainbody tr:nth-of-type(odd) {
             background: none;
             color:black;
-          }
+        }
           
-          #mainbody tr:nth-of-type(even) {
+        #mainbody tr:nth-of-type(even) {
             background: none;
             color: black;
-          }
+        }
 
 
 
         /*PRINT: EU DIRECTIVE */
         .container-eu {
-        page-break-after: auto;
-        background: none;
-        border: none;
+            page-break-after: auto;
+            background: none;
+            border: none;
         }
 
         .flex-container h3{
-        color: black;
-        background: none;
+            color: black;
+            background: none;
         }
         
         .flex-container p {
-        color: black;
-        line-height: 2em;
+            color: black;
+            line-height: 2em;
         }   
 
         .flex-container a {
-        color: black;
+            color: black;
         }
 
         .flex-container span {
