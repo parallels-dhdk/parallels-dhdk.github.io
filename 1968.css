@@ -170,9 +170,17 @@ border-width: thin;}
 					margin-bottom:5px;
 }
   
-
-
- 
+ h3{font-family:ITC Avant Garde Gothic LT Book Regular;
+	text-transform: uppercase;
+	letter-spacing:-2px;
+	text-align:left;
+	font-size:15pt;
+	border-top:solid;
+	margin-right:40%;
+	margin-left:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
 .index-container a{font-family: ITC Avant Garde Gothic LT Book Regular;
 				color:black;
 				font-size:11.25pt;
@@ -213,7 +221,7 @@ article{
 		
 
   }		
-article a{font-family: Futura Book Regular; 
+  article a{font-family: Futura Book Regular; 
 			color:black;
 			font-size:11.25pt;
 			padding-bottom:10px;
@@ -239,7 +247,7 @@ color: black;}
 } }
 
 
-article h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
+ h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
 	font-size: 80pt;
 	text-align:left;
 	margin-top: 10%;
@@ -253,20 +261,14 @@ section {font-family:LibbyHeavy;
 font-size: 7.5pt;
 }	
 
-@media screen and (max-width: 1000px) { article h1{ font-size: 22.5pt;
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of ffb5b7f... pulizia
+@media screen and (max-width: 1000px) {  h1{ font-size: 22.5pt;
 letter-spacing:2px;
 }}
- article h3{font-family:ITC Avant Garde Gothic LT Book Regular;
-	text-transform: uppercase;
-	letter-spacing:-2px;
-	text-align:left;
-	font-size:15pt;
-	border-top:solid;
-	margin-right:40%;
-	margin-left:30px;
-	margin-top:20px;
-	margin-bottom:20px;
-}
+
 
 h2{ font-family:Windsor-Bold;
 	font-size: 15pt;
@@ -303,7 +305,7 @@ h2{ font-family:Windsor-Bold;
 
 }}
 
- article h4{font-family: Windsor-Bold;
+  h4{font-family: Windsor-Bold;
 	margin-left:20px;
 	margin-right: 20px;
 	font-size:11.25pt;
@@ -315,7 +317,7 @@ article p{	margin-top: 30px;
 	}
 	
 
- article section {margin-top: 30px;
+ section {margin-top: 30px;
 		font-family: Book Antiqua;}
 	
 	
@@ -342,7 +344,7 @@ article img{
 }
 
 
-article figcaption{font-family: geometric 231 bt;
+figcaption{font-family: geometric 231 bt;
 	font-size: 7.5pt;
 	border-bottom: solid;
 	border-width: thin;
@@ -353,8 +355,10 @@ article figcaption{font-family: geometric 231 bt;
 article h5{font-family:Koch Regular;
 text-transform:uppercase;}
 
+ h5{font-family:Koch Regular;
+text-transform:uppercase;}
 
- article h6{font-family:Koch Regular;
+ h6{font-family:Koch Regular;
 }
 
 /*about*/
@@ -696,6 +700,8 @@ margin-right:30px;}
 	  color: #2E8B57;
 	  text-align:left;}
 	
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 	.contanier-eu h3{font-family:ITC Avant Garde Gothic LT Book Regular;
 	text-transform: uppercase;
@@ -710,6 +716,10 @@ margin-right:30px;}
 }
 
 
+=======
+>>>>>>> parent of ffb5b7f... pulizia
+=======
+>>>>>>> parent of ffb5b7f... pulizia
 	
 /*table*/
    table{margin-left:auto;
