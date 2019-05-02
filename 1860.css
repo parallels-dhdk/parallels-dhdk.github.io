@@ -643,7 +643,6 @@ figcaption {
 
 
 #text-about p {
-  text-indent: 0em;
   font-family: Western;
   padding-left: 50px;
   padding-right: 50px;
@@ -768,6 +767,8 @@ section ul  {list-style-type: disc;}
 #team:after{ 
   font-size: 75pt;
 } 
+#text-about p {
+  font-size: 21pt;}
 }
 
 
@@ -815,6 +816,8 @@ h2 {
  h3 {
   font-size: 10pt;
  }
+ #text-about p {
+  font-size: 19pt;}
 }
 
 
@@ -832,6 +835,7 @@ h2 {
 } 
 #team:after{ 
   font-size: 40pt;
+  padding-left: 5%;
 } 
 }
 
