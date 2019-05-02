@@ -792,7 +792,7 @@ article a {
         display:none;
     }
 
-    .grid-container {
+    .index-container {
         display: block; 
         page-break-before: always;
     }
