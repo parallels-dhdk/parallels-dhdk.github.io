@@ -249,7 +249,9 @@ article h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
 	font-weight: bold;
 	font-style:italic;}
 
-
+section {font-family:LibbyHeavy;
+font-size: 7.5pt;
+}	
 
 @media screen and (max-width: 1000px) { article h1{ font-size: 22.5pt;
 letter-spacing:2px;
@@ -560,7 +562,7 @@ margin-right:30px;}
 	border-width: thin;
 	font-weight: bold;
 	padding-top:5px;
-	font-size:50pt;
+	font-size:70pt;
 	font-family:ITC Avant Garde Gothic LT Book Regular;
 	text-transform: uppercase;
 	letter-spacing:-2px;
@@ -706,6 +708,8 @@ margin-right:30px;}
 	margin-top:20px;
 	margin-bottom:20px;
 }
+
+
 	
 /*table*/
    table{margin-left:auto;
