@@ -46,11 +46,6 @@ body {
 }
 
 
-.index-container p {font-family: myHultog;
-	padding-top: 5px;
-	line-height: 1;
-}
-
 
 .grid-container h3 {
 	padding-top: 5px;
@@ -144,12 +139,12 @@ h2 {
 	text-transform: uppercase;
 	line-height: 1.5;
 	font-size: 23pt;
-	font-family:  myHultogCoursive;
+	font-family:  myHultog;
 	padding-bottom: 20px;
 }
 
 
-h3 {
+h3 {font-family:  myHultog;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 10px;
@@ -181,7 +176,7 @@ h5 {
 
 
 h6 {	
-	font-family:  myHultogCoursive;
+	font-family:  myHultog;
 	text-align: center;
 	padding: 15px;
 }
@@ -251,8 +246,8 @@ article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
 
 
 figcaption {
-	font-family: myHultogCoursive;
-	font-size: 11pt;
+	font-family: myHultog;
+	font-size: 10pt;
 	text-align: center;
 	line-height: 1.5;
 	padding: 5px;
@@ -459,7 +454,7 @@ letter-spacing: 2px;
 
 #title-documentation:before {
 	content:"";
-	background-image: url("img/fregio.jpeg"); 
+	background-image: url("img/fregio2.png"); 
 	background-size: 100% 100%;
 	border: double;
 	border-color: #4a433e;
@@ -486,7 +481,8 @@ letter-spacing: 2px;
 	margin-left: 30px;
 	margin-right: 30px;
 	margin-top: 170px;
-	margin-bottom: 100px;}
+	margin-bottom: 100px;
+	color:#4a433e;}
 
 .container-about h2{
 	font-size: 38pt;
@@ -555,6 +551,7 @@ letter-spacing: 2px;
 
 .container-fluid {
 	margin-right: 5px;
+	padding: 5px;
 }
 
 .card-body {
@@ -626,11 +623,13 @@ section li {
 
 section ol {
 	list-style-type: upper-roman;
+	color: #4a433e;
 }
 
 
 section ul {
-	list-style-type: none;
+	list-style-type: square;
+	color: #4a433e;
 }
 
 /*---------MEDIA----------*/
@@ -760,9 +759,9 @@ section ul {
 	margin-left: 10%;
 	}
 	article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
-	font-size: 83pt;
-	line-height: 55px;
-	padding-top: 15px;
+	font-size: 60pt;
+	height: 50px;
+	padding-top: 5px;
 	}
 	.container-about h5{
 	font-size: 9pt;}
@@ -881,8 +880,9 @@ section ul {
 	font-size: 30pt;
 	letter-spacing: 5px;}
 	article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
-    line-height: 65px;
-    padding-top: 15px;}
+    font-size: 45pt;
+	height: 40px;
+	padding-top: 0px;}
 	.container-eu {
 	font-size: 8pt;}
 	.container-about h5{
@@ -1007,9 +1007,9 @@ section ul {
 	.container-about h5{
 	font-size: 11pt;}
 		article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
-    font-size: 60pt;
-    line-height: 55px;
-    padding-top: 10px;}
+    font-size: 35pt;
+	line-height: 1;
+	padding-top: 0px;}
 	
 }
 

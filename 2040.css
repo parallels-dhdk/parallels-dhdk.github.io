@@ -864,7 +864,7 @@ article span:hover {
         }
 
         .container-documentation h4 {
-            text-align: center;
+                text-align: center;
                 font-family:comicsans;
                 font-size:16pt;
                 margin-top:50px;
@@ -892,6 +892,41 @@ article span:hover {
                 from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;}
                 to {text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;}
               }
+
+
+        .container-documentation span {
+            color: #B6FF00;
+            font-family: comicsans;
+            text-align:center;
+            font-size: 16pt;
+            line-height: 3em;
+            margin: 10px;
+        }
+        
+        .container-documentation span:hover {
+            -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+            -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+            animation: neon4 1.5s ease-in-out infinite alternate;
+        }
+
+
+        @-webkit-keyframes neon4 {
+            from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
+            }
+            to {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+            }
+        }
+
+        @keyframes neon4 {
+            from {
+              text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
+            }
+            to {
+              text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+            }
+          }
 
         .container-documentation p{
             font-family: comicsans;
@@ -932,6 +967,10 @@ article span:hover {
         
         .flex-container h3{
             font-size:20pt;
+        }
+
+        .container-documentation h2 {
+            font-size: 60pt;
         }
     }
 
