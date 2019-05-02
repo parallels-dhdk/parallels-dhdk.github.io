@@ -412,9 +412,9 @@ font-size: 13pt;
 	background-repeat: no-repeat;
 	-webkit-column-count: 1; /* Chrome, Safari */
 	column-count: 1;
-	padding-left: 60%;
-	padding-top: 20%;
-	padding-bottom: 20%;
+	padding-left: 55%;
+	padding-top: 30%;
+	padding-bottom: 30%;
 }
 
 
@@ -450,12 +450,13 @@ font-size: 13pt;
     padding-right: 6px;
 }
 
-.container-documetatiom h3 {
+.container-documetation h3 {
 	font-size: 17pt;
+
 }
 
 #title-documentation {
-	margin-right: 15%;
+	margin-right: 20%;
 }
 
 
@@ -466,8 +467,8 @@ font-size: 13pt;
 	border: double;
 	border-color: #4a433e;
 	display:inline-block;
-	height: 15px;
-	width: 250px;
+	height: 20px;
+	width: 300px;
 	margin-bottom: 10%;
 }
 
