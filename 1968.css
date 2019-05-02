@@ -83,9 +83,8 @@ body{background-image: url("img/cassette3.jpg");
 }
 
 	
-
 #title{ font-family:  ITC Avant Garde Gothic LT Book Regular;
-		font-size: 150pt;
+		font-size: 140pt;
 		text-align:left;
 		margin-top: 10%;
 		letter-spacing:-40px;
@@ -98,28 +97,18 @@ body{background-image: url("img/cassette3.jpg");
  }
 
 
-@media screen and (max-width: 1200px) {#title{ font-size:100px;
-letter-spacing:-15px;
+@media screen and (max-width: 1200px) {#title{ font-size:90pt;
+letter-spacing:-20px;
 margin-left: 30px;
 margin-right:520px;
 }}
 
 
 
-@media screen and (max-width: 1000px) {#title { font-size: 100px;
-letter-spacing:-15px;
-margin-left: 20px;
-margin-right:520px;
-
-}}
-
-
-@media screen and (max-width: 700px) {#title{ font-size:97.5pt;
-margin-right:20%;
-}}
 tr{border-top:solid;
 border-width: thin;}
 }
+
 #table-home-page  { display: inline-block;
 
 }
@@ -130,7 +119,7 @@ border-width: thin;}
 		font-style: oblique;
 		display:inline-block;
 		color: #2E8B57;
-		margin-left:30px;
+		margin-left:0;
 }
 
 #subcenter{font-family:ITC Avant Garde Gothic LT Book Regular;
@@ -144,7 +133,7 @@ border-width: thin;}
 		font-style: oblique;
 		display:inline-block;
 		color:#2E8B57;
-		margin:0;
+		margin-left:30px;
 }
 
 
@@ -176,7 +165,6 @@ border-width: thin;}
 					margin-bottom:5px;
 }
   
-
  h3{font-family:ITC Avant Garde Gothic LT Book Regular;
 	text-transform: uppercase;
 	letter-spacing:-2px;
@@ -254,8 +242,8 @@ color: black;}
 } }
 
 
-h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
-	font-size: 67.5pt;
+ h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
+	font-size: 80pt;
 	text-align:left;
 	margin-top: 10%;
 	letter-spacing:-10px;
@@ -269,12 +257,12 @@ h1{font-family:  ITC Avant Garde Gothic LT Book Regular;
 }}
 
 
-@media screen and (max-width: 1000px) {h1{ font-size: 22.5pt;
+@media screen and (max-width: 1000px) {  h1{ font-size: 22.5pt;
 letter-spacing:2px;
 }}
 
 
-@media screen and (max-width: 700px) {h1{ font-size:15pt;
+@media screen and (max-width: 700px) {  h1{ font-size:15pt;
 margin-right:50%;
 }}
 
@@ -290,30 +278,30 @@ h2{ font-family:Windsor-Bold;
 }
 
 
-@media screen and (max-width: 1200px) {h2{ font-size: 37.5pt;
-margin-left:20px;
-margin-right: 20px;
+@media screen and (max-width: 1200px) { h2{ font-size: 37.5pt;
+	margin-left:20px;
+	margin-right: 20px;
 }}
 
 
 
-@media screen and (max-width: 1000px) {h2 { font-size:22.5pt;
+@media screen and (max-width: 1000px) { h2 { font-size:22.5pt;
 
 
 }}
 
 
-@media screen and (max-width: 700px) {h2{ font-size:15pt;
-margin-right:10px;
-margin-left:10px;
+@media screen and (max-width: 700px) { h2{ font-size:15pt;
+	margin-right:10px;
+	margin-left:10px;
 }}	
 
 /* smaller phone viewpoints */
-@media (min-width: 320px) {h2 { font-size:30pt;
+@media (min-width: 320px) { h2 { font-size:30pt;
 
 }}
 
-h4{font-family: Windsor-Bold;
+  h4{font-family: Windsor-Bold;
 	margin-left:20px;
 	margin-right: 20px;
 	font-size:11.25pt;
@@ -323,13 +311,13 @@ h4{font-family: Windsor-Bold;
 article p{	margin-top: 30px;
 			font-family: Book Antiqua;
 	}
+	
 
-
-section {margin-top: 30px;
+ section {margin-top: 30px;
 		font-family: Book Antiqua;}
 	
 	
-li{font-family: Book Antiqua;}
+ li{font-family: Book Antiqua;}
 
 article span{font-family: Book Antiqua;
 			font-style: oblique;} 
@@ -363,10 +351,10 @@ figcaption{font-family: geometric 231 bt;
 article h5{font-family:Koch Regular;
 text-transform:uppercase;}
 
-#mainbody h5{font-family:Koch Regular;
+ h5{font-family:Koch Regular;
 text-transform:uppercase;}
 
-h6{font-family:Koch Regular;
+ h6{font-family:Koch Regular;
 }
 
 /*about*/
@@ -388,7 +376,10 @@ h6{font-family:Koch Regular;
 	max-width: 100%;
 	-webkit-filter: blur(0px) brightness(1.1) contrast(1.4) grayscale(0.39) hue-rotate(250deg) invert(0.1) opacity(100%) saturate(8.8) sepia(0.5) drop-shadow(0px 0px 5px #000);
 }
- 
+
+.container-about span{font-family: Book Antiqua;
+			font-style: oblique;} 
+		
 #title-about{font-family:Cooper Std Black;
 
 	font-size: 97.5pt;
@@ -502,7 +493,8 @@ h6{font-family:Koch Regular;
 
 /*documentation*/
 
-
+.container-documentation p{margin-top: 30px;
+	font-family: Book Antiqua;}
 
 .container-documentation{margin-top: 100px;
 		padding-bottom: 100px;
@@ -539,7 +531,7 @@ margin-right:30px;}
 	border-top: 10%;
 	margin-top: 5px;
 
-}	
+}		
 
 .container-documentation p:nth-of-type(1)::first-letter {
 
@@ -554,19 +546,10 @@ margin-right:30px;}
 }
 
 
-.container-documentation h4{font-family: Windsor-Bold;
-	margin-left:20px;
-	margin-right: 20px;
-	font-size:26.25pt;
-	text-align:center;
-}
-
-
-
 
 #title-documentation{font-family:VikingStencil;
 	font-size: 75pt;
-	  column-span: all;
+	 column-span: all;
 	text-align: center;
 	margin-left:11.25pt;
 	margin-top:30px;
@@ -574,11 +557,12 @@ margin-right:30px;}
 	color: #003366;}
 	   
 
+
 .container-documentation h3{	border-top:solid;
-border-width: thin;
-font-weight: bold;
-padding-top:5px;
-font-size:30pt;
+	border-width: thin;
+	font-weight: bold;
+	padding-top:5px;
+	font-size:50pt;
 
 }
 
@@ -590,21 +574,19 @@ font-size:30pt;
 
 
 
-@media screen and (max-width: 1000px) {#title-documentation { font-size: 37pt;
-letter-spacing: -1px;
+@media screen and (max-width: 1000px) {#title-documentation { font-size: 38pt;
+	letter-spacing: -1px;
 }}
 
 
-@media screen and (max-width: 700px) {#title-documentation{ font-size:22.5pt;
-letter-spacing: -1px;
-}}
 
-.container-documentation span{font-family: Koch Regular;
-  text-transform: uppercase;
-  letter-spacing:-2px;
-  font-size:18.75pt;
-margin-left:50px;}
+.container-documentation h4{font-family: Koch Regular;
+	text-transform: uppercase;
+	letter-spacing:-12px;
+	font-size:43pt;
+	text-align:center;
 
+}
 .container-documentation a{font-family: Futura Book font; 
 			color:black;
 			font-size:11.25pt;
@@ -613,10 +595,10 @@ margin-left:50px;}
 
 }
  .container-documentation a:active {
-color: black;}
+	color: black;}
 
  .container-documentation a:visited {
-color: black;}
+	color: black;}
 
 
 
@@ -628,7 +610,7 @@ color: black;}
     margin: 0 auto;
     display: -webkit-flex; /* Safari */     
     display: flex; /* Standard syntax */
-	 text-align:justify;
+	text-align:justify;
 
 	}
 
@@ -681,10 +663,10 @@ color: black;}
 	margin-left: 30px;
 }
 .container-eu  a:active {
-color: black;}
+	color: black;}
 
 .container-eu  a:visited {
-color: black;}
+	color: black;}
 
 .container-eu span{font-family: Book Antiqua;
   font-style: oblique;}
@@ -701,57 +683,46 @@ color: black;}
 	font-size:11.25pt;
 }
 .container-eu td{font-family:ITC Avant Garde Gothic LT Book Regular;
-  text-transform: uppercase;
-  font-size: 9.75pt;
-  color: 	#2E8B57;
-	text-align:left;}
+	  text-transform: uppercase;
+	  font-size: 9.75pt;
+	  color: #2E8B57;
+	  text-align:left;}
+	
+	
 /*table*/
-table{margin-left:auto;
+   table{margin-left:auto;
 	margin-right:auto;
 	word-break: break-word;
 }
 
-td, th{ padding: 10px;
+  td, th{ padding: 10px;
 	text-align: center;
 
 }
-th{font-family:ITC Avant Garde Gothic LT Book Regular;
+  th{font-family:ITC Avant Garde Gothic LT Book Regular;
 	color: 	#2E8B57;
 	text-align: center;
 	font-size:11.25pt;
 }
-td{font-family:ITC Avant Garde Gothic LT Book Regular;
+  td{font-family:ITC Avant Garde Gothic LT Book Regular;
   text-transform: uppercase;
   font-size: 9.75pt;
   color: 	#2E8B57;
 	text-align:center;}
 
-@media screen and (max-width: 700px) {table{ width:20%;
+@media screen and (max-width: 700px) {  table{ width:20%;
 	margin-right: 50px;
 	margin-left: -20px;
 }}
 
-@media screen and (max-width: 300px) {table{ width:10%;
+@media screen and (max-width: 300px) {  table{ width:10%;
 	margin-right: 50px;
 	margin-left: -10px;
 	word-break: break-word;
 }}
 
-/*devo inserirli??*/
-#mainbody a{font-family: Futura Book Regular; 
-			color:black;
-			font-size:11.25pt;
-			padding-bottom:10px;
-			margin-left: 30px;
-			text-align: left;
-}
 
 
-#mainbody a:active {
-color: black;}
-
-#mainbody a:visited {
-color: black;}
 
 @media (width: 2560px){
     #title-documentation { 
@@ -769,10 +740,3 @@ color: black;}
 	 .index-container h3{font-size:37.5pt;}
 	 
 }
-
-/*extra*/
-#mainbody ol{margin-top: 30px;
-			font-family: Book Antiqua;}	
-
-#mainbody ul{margin-top: 30px;
-			font-family: Book Antiqua;}	
