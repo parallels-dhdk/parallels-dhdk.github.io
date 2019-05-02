@@ -335,7 +335,18 @@ div.item3 {
 
 /*stile articoli*/
 	
-	
+	 h2{ font-family:Typo Grotesk Black;
+	text-transform: uppercase;
+	font-size: 52.5pt;
+	border-bottom:7px solid;
+	border-color:red;
+	transform:rotate(180deg);
+	-webkit-transform: rotate(180deg); /* Safari and Chrome */
+	-ms-transform: rotate(180deg);
+	margin-top: -100px;
+	margin-left: 10px;
+}
+
 
 article h2{ font-family:Typo Grotesk Black;
 	text-transform: uppercase;
