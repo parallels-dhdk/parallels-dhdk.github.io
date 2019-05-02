@@ -678,7 +678,8 @@ section ul {
   	column-gap: 130px;}
 	.container-documentation section > p:first-letter {
 	font-size: 60pt;
-	height: 60px;} 
+	height: 60px;
+	padding-top: 15px;} 
 	.container-documentation p {
 	font-size: 11pt;}
 	section li {
@@ -979,6 +980,10 @@ section ul {
 	font-size: 6pt;}
 	.container-about h5{
 	font-size: 11pt;}
+		article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
+    font-size: 60pt;
+    line-height: 55px;
+    padding-top: 10px;}
 	
 }
 
@@ -991,9 +996,6 @@ section ul {
 @media screen and (max-width: 650px) {
 	.container-about h2{
 	font-size: 11pt;}
-	.container-documentation section > p:first-letter {
-	font-size: 15pt;
-	height: 10px;}
 	.container-documentation section{
 	font-size: 6pt;
 	margin: 5px;
@@ -1066,10 +1068,7 @@ section ul {
 	padding-left: 63%;
 	font-size: 8pt;
 	}
-	article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
-    font-size: 60pt;
-    line-height: 55px;
-    padding-top: 10px;}
+
 	.container-eu h2:before {
 	margin-bottom: 30px;
 	height: 15px;
@@ -1080,6 +1079,7 @@ section ul {
 	padding-left: 45%;
 	padding-right: 5%;
 }	
+	
 }
 
 
