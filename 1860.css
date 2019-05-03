@@ -307,7 +307,7 @@ h4{
   font-family: myClaredonBold;
   text-align: left;
   font-size: 11pt;
-  padding: 5px;
+  padding-top: 10px;
 }
 
 
@@ -377,7 +377,7 @@ section p{
 
 
 article section:nth-of-type(2) > p:nth-of-type(1){
-}
+text-indent: 0em;}
 
 
 article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
