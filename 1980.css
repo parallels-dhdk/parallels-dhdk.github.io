@@ -739,8 +739,8 @@ article a {
     font-size: 60pt;
     text-align: center;
     color:red;
-    border-top: black ; 
-    border-bottom:black; 
+    border-top: solid black ; 
+    border-bottom:solid black; 
 }
 
 .container-documentation h4 {
