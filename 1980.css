@@ -708,8 +708,8 @@ article a {
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
     padding-top: 0px;
     padding-bottom: 20px;
     font-weight: 100;
@@ -739,8 +739,8 @@ article a {
     font-size: 60pt;
     text-align: center;
     color:red;
-    border-top: double 7px ; 
-    border-bottom:double 7px ; 
+    border-top: solid black ; 
+    border-bottom:solid black; 
 }
 
 .container-documentation h4 {

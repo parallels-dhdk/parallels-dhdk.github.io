@@ -120,7 +120,7 @@ body {
 	width: 220px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	margin-left: 20%;
+	margin-left: 22%;
 }
 
 
@@ -449,7 +449,7 @@ font-size: 13pt;
 }
 
 #title-documentation {
-	margin-right: 10%;
+	margin-right: 5%;
 letter-spacing: 2px;
 }
 
@@ -461,7 +461,7 @@ letter-spacing: 2px;
 	display:inline-block;
 	height: 30px;
 	width: 300px;
-	padding-left: 30%;
+	padding-left: 25%;
 	margin-bottom: 10%;
 }
 
@@ -685,8 +685,8 @@ section ul {
 	font-size: 11pt;	
 	}
 	#title-documentation:before {
-	height: 20px;
-	width: 300px;
+	height: 25px;
+	width: 200px;
 	margin-bottom:20px;}
 	#text-about p {
 	font-size: 14pt;}
@@ -766,10 +766,12 @@ section ul {
 	.container-about h5{
 	font-size: 9pt;}
 	#table-home-page {
-	padding-left: 67%;
+	padding-left: 65%;
 	}
 	#title-documentation {
 	font-size: 15pt;
+	margin-right: 5%
+
 }
  }
 
@@ -792,6 +794,7 @@ section ul {
 	}
 	#table-home-page {
 	font-size: 19pt;
+	padding-left: 62%;
 	}
 	#subright {
 	font-size: 14pt;}
@@ -847,7 +850,7 @@ section ul {
 	}
 	#title-documentation:before {
 	height: 15px;
-	width: 200px;
+	width: 150px;
 	margin-bottom:15px;}
 	article section{
 	padding-top: 100px;
@@ -1016,6 +1019,13 @@ section ul {
 @media screen and (max-width: 750px) {
 .container-eu h2:before {
 	margin-left: 10%;}
+	#title-documentation {
+	font-size: 10pt;}
+#table-home-page {
+	padding-left: 63%}
+	.item1:before {
+	margin-left: 25%;
+	}
 }
 
 
@@ -1090,11 +1100,11 @@ section ul {
 	h1{font-size: 15pt;
 	letter-spacing: 1px;}
 	#subright {
-	font-size: 8pt;}
+	font-size: 6pt;}
 	#subleft {
-	font-size: 8pt;}
+	font-size: 6pt;}
 	#subcenter {
-	font-size: 8pt;}
+	font-size: 6pt;}
 	.index-container{
 	padding-top: 50px;
 	padding-bottom: 30px;
@@ -1104,7 +1114,7 @@ section ul {
 	padding-left: 20px;}
 	#title{
 	font-size: 15pt;
-	padding-left: 50%;
+	padding-left: 55%;
 	 }
 	#table-home-page {
 	padding-left: 63%;

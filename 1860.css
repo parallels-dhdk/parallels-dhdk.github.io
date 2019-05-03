@@ -111,6 +111,7 @@ body {
 
 
 .index-container {
+  margin-top: 100px;
   padding-top: 70px;
   padding-bottom: 70px;
   margin-bottom: 100px;
@@ -307,6 +308,7 @@ h4{
   font-family: myClaredonBold;
   text-align: left;
   font-size: 11pt;
+  padding-top: 10px;
 }
 
 
@@ -328,11 +330,10 @@ h6 {
 
 article img {
 filter:sepia(90%) opacity(70%);
-margin-top:5px;
+margin-top: 10px;
 margin-bottom:5px;
 width: 100%;
 height: 100%;
-padding-right: 10px;
 }
 
 
@@ -369,13 +370,14 @@ article section {
 }
 
 
-section > p{
+section p{
   margin: 0px !important;
+  text-indent: 1em;
 }
 
 
 article section:nth-of-type(2) > p:nth-of-type(1){
-}
+text-indent: 0em;}
 
 
 article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
@@ -551,13 +553,69 @@ figcaption {
   }
 
 
-.container-documentation section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+#millecinque  section:nth-of-type(1) p:nth-of-type(1)::first-letter {
   font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
   line-height: 1;
+  text-indent: 0em;
 }
+
+
+
+#milleotto  section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+
+#ventisette  section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+
+#sessantotto  section:nth-of-type(1) p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+
+
+#ottanta section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+#duemilaquaranta  section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+
+
+
 
 
 .container-documentation section {
@@ -738,7 +796,7 @@ section ol {
 }
 
 
-section ul  {list-style-type: disc;}
+section ul  {list-style-type: square;}
 
 
 /*---------MEDIA----------*/
@@ -749,6 +807,7 @@ section ul  {list-style-type: disc;}
 } 
 #title-documentation {
   font-size: 20pt;
+
 }
 
  h2 {
@@ -772,6 +831,9 @@ section ul  {list-style-type: disc;}
   #title { 
   font-size: 60pt;
 }
+figcaption {
+  font-size: 9pt;
+}
 section p {
   font-size: 9pt;
 }
@@ -781,6 +843,9 @@ section a {
 .index-container p {font-size: 9pt;}
 .eu-container p {font-size: 9pt;}
 .documentation-container p {font-size: 9pt;}
+#title-documentation {
+  column-span: all;
+}
 
 
 }
@@ -799,12 +864,12 @@ section p {
 section a { 
   font-size: 8pt;
 }
+figcaption {
+  font-size: 8pt;
+}
 .index-container p {font-size: 8pt;}
 .eu-container p {font-size: 8pt;}
 .documentation-container p {font-size: 8pt;
-}
-#title-documentation {
-  font-size: 18pt;
 }
 h2 {
   font-size: 12pt;
@@ -823,6 +888,7 @@ h2 {
   -webkit-column-count: 1; /* Chrome, Safari */
   column-count: 1;
 } 
+
   #title { 
   font-size: 40pt;
 }
