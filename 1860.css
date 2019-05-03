@@ -552,7 +552,7 @@ figcaption {
   }
 
 
-#milleqcinque  section:nth-of-type(1) p:nth-of-type(1)::first-letter {
+#millecinque  section:nth-of-type(1) p:nth-of-type(1)::first-letter {
   font-size: 30pt;
   float:left;
   height: 30px;
