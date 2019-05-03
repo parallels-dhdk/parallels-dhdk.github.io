@@ -286,7 +286,16 @@
       
 
 
-
+#historical {
+   margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: Helvetica, Arial, sans-serif; 
+  font-size: 15pt;
+  letter-spacing: 2.5px;
+  text-align: center
+}
 
 
 
