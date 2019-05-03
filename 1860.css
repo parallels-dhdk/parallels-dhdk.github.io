@@ -369,8 +369,9 @@ article section {
 }
 
 
-section > p{
+section p{
   margin: 0px !important;
+  text-indent: 1em;
 }
 
 
