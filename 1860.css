@@ -307,7 +307,7 @@ h4{
   font-family: myClaredonBold;
   text-align: left;
   font-size: 11pt;
-  padding: 5px;
+  padding-top: 10px;
 }
 
 
@@ -333,7 +333,6 @@ margin-top:5px;
 margin-bottom:5px;
 width: 100%;
 height: 100%;
-padding-right: 10px;
 }
 
 
@@ -377,7 +376,7 @@ section p{
 
 
 article section:nth-of-type(2) > p:nth-of-type(1){
-}
+text-indent: 0em;}
 
 
 article section:nth-of-type(2) > p:nth-of-type(1)::first-letter {
@@ -553,13 +552,69 @@ figcaption {
   }
 
 
-.container-documentation section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+#milleqcinque section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
   font-size: 30pt;
   float:left;
   height: 30px;
   padding-right: 5px;
   line-height: 1;
+  text-indent: 0em;
 }
+
+
+
+#milleotto section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+
+#ventisette  section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+
+#sessantotto  section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+
+
+#ottanta section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+#duemilaquaranta section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+  font-size: 30pt;
+  float:left;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 1;
+  text-indent: 0em;
+}
+
+
+
+
 
 
 .container-documentation section {
@@ -740,7 +795,7 @@ section ol {
 }
 
 
-section ul  {list-style-type: disc;}
+section ul  {list-style-type: square;}
 
 
 /*---------MEDIA----------*/
