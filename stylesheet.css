@@ -286,7 +286,8 @@
       
 
 
-#historical p{
+#historical {
+  width: 100%;
   margin: 10% !important;
   font-family: Helvetica, Arial, sans-serif; 
   font-size: 15pt;
