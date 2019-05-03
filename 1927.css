@@ -407,10 +407,6 @@ article{
 
 
 
-article p{font-family:LibbyHeavy;
-	font-size: 7.5pt;
-} 
-
 
 
 article a{font-family: Futurismo; 
@@ -844,24 +840,24 @@ font-size:13pt;
 margin-left: 30px;
 margin-right:20px;}
 
-#milleottocolfagotto section{font-family:English Gothic Bold Italic;
+#milleotto section{font-family:English Gothic Bold Italic;
 font-size:13pt; 
 margin-left: 70px;
 margin-right:20px;}
 
-#ventisettetrecivette section{font-family:BitstreamIowanOldStyleBoldBT;
+#ventisette section{font-family:BitstreamIowanOldStyleBoldBT;
 font-size:15pt; 
 margin-left: 170px;
 margin-right:30px;}
 
-#sessantottoadirotto section{font-family: Normande Regular;
+#sessantotto section{font-family: Normande Regular;
 font-size:13pt;
 font-size:12pt;
 margin-left: 270px;
 margin-right:40px;
 }
 
-#ottantalasaracanta section{font-family:hasta grotesk;
+#ottanta section{font-family:hasta grotesk;
 font-size:12pt;
 margin-left: 370px;
 margin-right:50px;}
