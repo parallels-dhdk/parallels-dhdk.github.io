@@ -766,7 +766,7 @@ section ul {
 	.container-about h5{
 	font-size: 9pt;}
 	#table-home-page {
-	padding-left: 67%;
+	padding-left: 65%;
 	}
 	#title-documentation {
 	font-size: 15pt;
@@ -1019,6 +1019,10 @@ section ul {
 @media screen and (max-width: 750px) {
 .container-eu h2:before {
 	margin-left: 10%;}
+	#title-documentation {
+	font-size: 10pt;
+
+}
 }
 
 
