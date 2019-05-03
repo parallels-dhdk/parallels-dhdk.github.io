@@ -5,15 +5,11 @@
 /*------------NAVBAR STYLE------------------------*/
         .nav-link { 
           margin-right: 15px;
-          font-family: Helvetica, Arial, sans-serif;
-          font-size: 8pt;
-          letter-spacing: 2.5px;
           color: white;
           margin-top: 0px;
           margin-left:0px;
           margin-right:0px;
-          margin-bottom: 5px;
-          padding-bottom:0px;
+          margin-bottom: 0px;
           text-align: left;
           }
 
@@ -37,13 +33,14 @@
           margin-left:15px; 
           margin-right:15px; 
           font-size:8pt; 
-          margin-top:3px;
         }
+        
         .navbar {
             background-color: #000000; 
             padding: 5px; 
-            font-family: Helvetica, Arial, sans-serif; 
-            letter-spacing: 2.5px;
+            font-family: Helvetica, Arial, sans-serif;
+          font-size: 8pt;
+          letter-spacing: 2.5px;
           }
 
           #article-button {
