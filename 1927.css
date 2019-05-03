@@ -841,6 +841,8 @@ margin-left: 100px;
 
 .container-documentation section {font-family:BitstreamIowanOldStyleBoldBT;
 font-size:15pt;
+margin-left: 170px;
+margin-right:30px;
 }
 
 
@@ -896,9 +898,7 @@ font-family:English Gothic Bold Italic;
 	margin-top: 10px;
 	font-size:18.75pt;}
 	
-.container-documentation p {font-family:BitstreamIowanOldStyleBoldBT;
-font-size: 12pt;
-}
+
 	
 .container-documentation h2{font-family:LibbyHeavy;
 	font-size:63.75pt;
@@ -909,8 +909,8 @@ font-size: 12pt;
 	-moz-transform: none;
 	margin-top:10%;
 	word-break: break-word;
-	margin-left:400px;
-	margin-right:400px;
+	margin-left:250px;
+	margin-right:250px;
 	vertical-align: center;
 	border-bottom:none;
 	border-color:none;
