@@ -552,7 +552,7 @@ figcaption {
   }
 
 
-#milleqcinque section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+#milleqcinque  section:nth-of-type(1) p:nth-of-type(1)::first-letter {
   font-size: 30pt;
   float:left;
   height: 30px;
@@ -563,7 +563,7 @@ figcaption {
 
 
 
-#milleotto section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+#milleotto  section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
   font-size: 30pt;
   float:left;
   height: 30px;
@@ -583,7 +583,7 @@ figcaption {
 }
 
 
-#sessantotto  section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+#sessantotto  section:nth-of-type(1) p:nth-of-type(1)::first-letter {
   font-size: 30pt;
   float:left;
   height: 30px;
@@ -603,7 +603,7 @@ figcaption {
   text-indent: 0em;
 }
 
-#duemilaquaranta section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
+#duemilaquaranta  section:nth-of-type(1) > p:nth-of-type(1)::first-letter {
   font-size: 30pt;
   float:left;
   height: 30px;
