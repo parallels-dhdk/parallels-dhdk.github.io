@@ -842,52 +842,43 @@ margin-left: 100px;
 
 
 #millecinque section{font-family:Futura Book font;
-font-size:13pt;}
+font-size:13pt;
+margin-left: 30px;
+margin-right:20px;}
 
 #milleottocolfagotto section{font-family:English Gothic Bold Italic;
-font-size:13pt; }
+font-size:13pt; 
+margin-left: 70px;
+margin-right:20px;}
 
 #ventisettetrecivette section{font-family:BitstreamIowanOldStyleBoldBT;
-font-size:15pt;}
+font-size:15pt; 
+margin-left: 170px;
+margin-right:30px;}
 
 #sessantottoadirotto section{font-family: Normande Regular;
 font-size:13pt;
-font-size:12pt;}
-
-#ottantalasaracanta section{font-family:hasta grotesk;
-font-size:12pt;}
-
-#duemilaquaranta section{font-family:Modesto Bold;
-font-size:13pt;
-font-size:12pt;}
-
-
-
-
-
-
-#millecinque{margin-left: 30px;
-margin-right:20px;}
-
-#milleottocolfagotto{margin-left: 70px;
-margin-right:20px;
-}
-
-#ventisettetrecivette{margin-left: 170px;
-margin-right:30px;
-}
-
-#sessantottoadirotto{margin-left: 270px;
+font-size:12pt;
+margin-left: 270px;
 margin-right:40px;
 }
 
-#ottantalasaracanta{margin-left: 370px;
-margin-right:50px;
-}
+#ottantalasaracanta section{font-family:hasta grotesk;
+font-size:12pt;
+margin-left: 370px;
+margin-right:50px;}
 
-#duemilaquaranta{margin-left: 470px;
-margin-right:60px;
-}
+#duemilaquaranta section{font-family:Modesto Bold;
+font-size:13pt;
+font-size:12pt;
+margin-left: 470px;
+margin-right:60px;}
+
+
+
+
+
+
 .container-documentation p:after {content:"...}";
 font-family:English Gothic Bold Italic;
 	margin-top: 10px;
