@@ -1020,8 +1020,7 @@ section ul {
 .container-eu h2:before {
 	margin-left: 10%;}
 	#title-documentation {
-	font-size: 10pt;
-}
+	font-size: 10pt;}
 #table-home-page {
 	padding-left: 63%}
 	.item1:before {
@@ -1115,10 +1114,10 @@ section ul {
 	padding-left: 20px;}
 	#title{
 	font-size: 15pt;
-	padding-left: 60%;
+	padding-left: 55%;
 	 }
 	#table-home-page {
-	padding-left: 55%;
+	padding-left: 63%;
 	font-size: 8pt;
 	}
 
