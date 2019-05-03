@@ -926,7 +926,7 @@ article span:hover {
             }
           }
 
-        .container-documentation p{
+        .container-documentation section p{
             font-family: comicsans;
             line-height: 3em;
             text-align: center;
