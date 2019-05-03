@@ -286,7 +286,15 @@
       
 
 
-
+#historical {
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif; 
+  font-size: 15pt;
+  letter-spacing: 2.5px;
+  text-align: center !important;
+  color: white !important;
+  margin-top: -20%;
+}
 
 
 
