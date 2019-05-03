@@ -285,7 +285,7 @@ section p {
 		margin-top: 30px;
 		font-family: Book Antiqua;}
 
- li{font-family: Book Antiqua;}
+#mainbody li{font-family: Book Antiqua;}
 
  
 article span{font-family: Book Antiqua;
@@ -311,7 +311,7 @@ article img{
 }
 
 
-figcaption{font-family: geometric 231 bt;
+#mainbody figcaption{font-family: geometric 231 bt;
 	font-size: 7.5pt;
 	border-bottom: solid;
 	border-width: thin;
@@ -322,10 +322,10 @@ figcaption{font-family: geometric 231 bt;
 article h5{font-family:Koch Regular;
 	text-transform:uppercase;}
 
- h5{font-family:Koch Regular;
+ #mainbody h5{font-family:Koch Regular;
 	text-transform:uppercase;}
 
- h6{font-family:Koch Regular;
+ #mainbody h6{font-family:Koch Regular;
 }
 
 /*media query article*/
@@ -725,21 +725,21 @@ letter-spacing: -1px;
 	text-align:left;}
 	
 /*table*/
-   table{margin-left:auto;
+ #mainbody  table{margin-left:auto;
 	margin-right:auto;
 	word-break: break-word;
 }
 
-  td, th{ padding: 10px;
+#mainbody  td, th{ padding: 10px;
 	text-align: center;
 
 }
-  th{font-family:ITC Avant Garde Gothic LT Book Regular;
+#mainbody  th{font-family:ITC Avant Garde Gothic LT Book Regular;
 	color: 	#2E8B57;
 	text-align: center;
 	font-size:11.25pt;
 }
-  td{font-family:ITC Avant Garde Gothic LT Book Regular;
+#mainbody  td{font-family:ITC Avant Garde Gothic LT Book Regular;
   text-transform: uppercase;
   font-size: 9.75pt;
   color: 	#2E8B57;
@@ -747,7 +747,7 @@ letter-spacing: -1px;
 	
 	
 /*media query table*/
-@media screen and (max-width: 700px) {  table{ width:20%;
+@media screen and (max-width: 700px) {table{ width:20%;
 	margin-right: 50px;
 	margin-left: -20px;
 }}
