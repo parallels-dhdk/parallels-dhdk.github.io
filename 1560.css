@@ -1022,6 +1022,11 @@ section ul {
 	#title-documentation {
 	font-size: 10pt;
 }
+#table-home-page {
+	padding-left: 63%}
+	.item1:before {
+	margin-left: 25%;
+	}
 }
 
 
@@ -1096,11 +1101,11 @@ section ul {
 	h1{font-size: 15pt;
 	letter-spacing: 1px;}
 	#subright {
-	font-size: 8pt;}
+	font-size: 6pt;}
 	#subleft {
-	font-size: 8pt;}
+	font-size: 6pt;}
 	#subcenter {
-	font-size: 8pt;}
+	font-size: 6pt;}
 	.index-container{
 	padding-top: 50px;
 	padding-bottom: 30px;
@@ -1110,7 +1115,7 @@ section ul {
 	padding-left: 20px;}
 	#title{
 	font-size: 15pt;
-	padding-left: 50%;
+	padding-left: 60%;
 	 }
 	#table-home-page {
 	padding-left: 55%;
