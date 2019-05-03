@@ -846,23 +846,23 @@ margin-right:30px;
 }
 
 
-#millecinque p{font-family:Futura Book font;
+#millecinque section{font-family:Futura Book font;
 font-size:13pt;}
 
-#milleottocolfagotto p{font-family:English Gothic Bold Italic;
+#milleottocolfagotto section{font-family:English Gothic Bold Italic;
 font-size:13pt; }
 
-#ventisettetrecivette p{font-family:BitstreamIowanOldStyleBoldBT;
+#ventisettetrecivette section{font-family:BitstreamIowanOldStyleBoldBT;
 font-size:15pt;}
 
-#sessantottoadirotto p{font-family: Normande Regular;
+#sessantottoadirotto section{font-family: Normande Regular;
 font-size:13pt;
 font-size:12pt;}
 
-#ottantalasaracanta p{font-family:hasta grotesk;
+#ottantalasaracanta section{font-family:hasta grotesk;
 font-size:12pt;}
 
-#duemilaquaranta p{font-family:Modesto Bold;
+#duemilaquaranta section{font-family:Modesto Bold;
 font-size:13pt;
 font-size:12pt;}
 
