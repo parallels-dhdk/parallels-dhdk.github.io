@@ -56,6 +56,38 @@ $(document).ready(function ()
 })
 
 
+//Articles 
+function art1(){
+    $("#mainbody").html("") //returns the content (innerHTML) of the mainbody and empty it.
+    $("#mainbody").load('japan.html') //loads data from a document and puts the returned data into mainbody.
+}
+
+function art2(){
+    $("#mainbody").html("")
+    $("#mainbody").load('alabama.html')
+}
+
+function art3(){
+    $("#mainbody").html("")
+    $("#mainbody").load('lottery.html')
+}
+
+function art4(){
+    $("#mainbody").html("")
+    $("#mainbody").load('delvey.html')
+}
+
+function art5(){
+    $("#mainbody").html("")
+    $("#mainbody").load('machine.html')
+}
+
+function art6(){
+    $("#mainbody").html("")
+    $("#mainbody").load('eudirective.html')
+}
+
+
 
     
   
